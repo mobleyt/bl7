@@ -12,7 +12,7 @@
     <div id="animatedModal" style="background-color:#660000;">
         <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID  class="close-animatedModal" -->
         <div class="close-animatedModal">
-            &nbsp;&nbsp;&nbsp;&nbsp;Close Viewer
+            &nbsp;&nbsp;&nbsp;Close Viewer
         </div>
         <div class="modal-content" id="tify">
         </div>
@@ -25,10 +25,10 @@
 
 <script>
 tifyOptions = {
-		container: '#tify',
-		init: true,
-		manifest: 'http://153.9.88.80:3000/collections/compound?identifier=<%= document['iiif'] %>&amp;collidentifier=<%= document['collectionidentifier'] %>'
-	}
+                container: '#tify',
+                init: true,
+                manifest: 'http://153.9.88.80:3000/collections/multi?iiifidentifier=<%= document['iiif'] %>&amp;rspaceid=<%= document['rspace-id'] %>'
+        }
 </script>
 <script src="http://153.9.88.80/manifests/tify.js"></script>
 

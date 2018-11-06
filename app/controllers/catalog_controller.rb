@@ -4,6 +4,7 @@ class CatalogController < ApplicationController
   include Blacklight::Catalog
 
   configure_blacklight do |config|
+
     ## Class for sending and receiving requests from a search index
     # config.repository_class = Blacklight::Solr::Repository
     #
@@ -16,7 +17,7 @@ class CatalogController < ApplicationController
     ## Default parameters to send to solr for all search-like requests. See also SearchBuilder#processed_parameters
     config.default_solr_params = {
       rows: 10,
-      fq: 'resourcetype:5'
+      fq: "-resourcetype:6"
     }
 
     # solr path which will be added to solr base url before the other solr params.
@@ -30,7 +31,7 @@ class CatalogController < ApplicationController
     config.index.title_field = 'title'
     config.index.display_type_field = 'resourcetype'
     config.show.display_type_field = 'resourcetype'
-    #config.index.thumbnail_field = 'thumbnail_path_ss'
+    config.index.thumbnail_field = 'thumbnail'
 
 #    config.add_results_document_tool(:bookmark, partial: 'bookmark_control', if: :render_bookmarks_control?)
 
@@ -42,6 +43,7 @@ class CatalogController < ApplicationController
     config.add_show_tools_partial(:email, callback: :email_action, validator: :validate_email_params)
 #    config.add_show_tools_partial(:sms, if: :render_sms_action?, callback: :sms_action, validator: :validate_sms_params)
 #    config.add_show_tools_partial(:citation)
+#    config.add_show_tools_partial(:moreLikeThis)
 
 #    config.add_nav_action(:bookmark, partial: 'blacklight/nav/bookmark', if: :render_bookmarks_control?)
     config.add_nav_action(:search_history, partial: 'blacklight/nav/search_history')
@@ -75,7 +77,12 @@ class CatalogController < ApplicationController
     #  (useful when user clicks "more" on a large facet and wants to navigate alphabetically across a large set of results)
     # :index_range can be an array or range of prefixes that will be used to create the navigation (note: It is case sensitive when searching values)
 
-    config.add_facet_field 'contribinst-facet', label: 'Contributing Institution'
+    config.add_facet_field 'collection_titleInfo_title_facet', label: 'Collection'
+    config.add_facet_field 'contribinst_facet', label: 'Contributing Institution'
+    config.add_facet_field 'mediatype_facet', label: 'Media Type'
+    config.add_facet_field 'subject_topic_facet', label: 'Subject (Topic)'
+    config.add_facet_field 'subject_geographic_facet', label: 'Subject (Geographic)'
+    config.add_facet_field 'date_facet_facet', label: 'Date'
 #    config.add_facet_field 'pub_date_ssim', label: 'Publication Year', single: true
 #    config.add_facet_field 'subject_ssim', label: 'Topic', limit: 20, index_range: 'A'..'Z'
 #    config.add_facet_field 'language_ssim', label: 'Language', limit: true
@@ -101,7 +108,9 @@ class CatalogController < ApplicationController
     #   The ordering of the field names is the order of the display
     config.add_index_field 'title', label: 'Title'
     config.add_index_field 'date', label: 'Date'
-
+    config.add_index_field 'description', label: 'Description'
+    config.add_index_field 'allText', label: 'Keywords', highlight: true
+ 
     # solr fields to be displayed in the show (single result) view
     #   The ordering of the field names is the order of the display
     config.add_show_field 'title', label: 'Title'
@@ -156,11 +165,11 @@ class CatalogController < ApplicationController
       }
     end
 
-    config.add_search_field('author') do |field|
+    config.add_search_field('creator') do |field|
       field.solr_parameters = {
         'spellcheck.dictionary': 'author',
-        qf: '${author_qf}',
-        pf: '${author_pf}'
+        qf: '${creator_qf}',
+        pf: '${creator_pf}'
       }
     end
 
@@ -180,10 +189,9 @@ class CatalogController < ApplicationController
     # label in pulldown is followed by the name of the SOLR field to sort by and
     # whether the sort is ascending or descending (it must be asc or desc
     # except in the relevancy case).
-#    config.add_sort_field 'score desc, pub_date_si desc, title_si asc', label: 'relevance'
-#    config.add_sort_field 'pub_date_si desc, title_si asc', label: 'year'
-#    config.add_sort_field 'author_si asc, title_si asc', label: 'author'
-#    config.add_sort_field 'title_si asc, pub_date_si desc', label: 'title'
+    config.add_sort_field 'score desc, description asc, title asc', label: 'Relevance'
+    config.add_sort_field 'title asc', label: 'Title'
+    config.add_sort_field 'date desc', label: 'Date'
 
     # If there are more than this many search results, no spelling ("did you
     # mean") suggestion is offered.

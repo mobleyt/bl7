@@ -24,5 +24,9 @@ Rails.application.routes.draw do
 
   get 'collections/compound', to: 'collections#compound_manifest'
   get 'collections/multi', to: 'collections#multi_manifest'
+  get 'collections/fulltext', to: 'collections#iiif_fulltext'
+  get 'collections/annotation', to: 'collections#other_manifest'
+
+  get 'viewer', to: 'viewer#index'
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end

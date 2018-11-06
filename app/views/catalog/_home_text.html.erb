@@ -1,0 +1,13 @@
+<div id="getting-started">
+  <h3>Welcome:</h3>
+  <p>The Lowcountry Digital Library produces digital collections and projects that strengthen the College of Charleston's instructional programs and support research about the region. LCDL is committed to a multifaceted approach that incorporates historical and anthropological scholarship, oral history, integrative archival practices, digital librarianship, and spatial, temporal, and environmental information. Together with its partners, it helps students, scholars, and the larger community develop a better understanding of the history and culture of the South Carolina Lowcountry relative to the nation and the world.</p>
+</div>
+
+
+<script>
+  Blacklight.onLoad(function() {
+    $('#about .card-header').one('click', function() {
+      $($(this).data('target')).load($(this).find('a').attr('href'));
+    });
+  });
+</script>
