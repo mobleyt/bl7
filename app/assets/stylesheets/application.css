@@ -12,6 +12,7 @@
  *
  *= require_tree .
  *= require_self
+ *= require mediaelement_rails
  */
 
 @import "tify.css";
@@ -60,7 +61,7 @@ nav ul a{font-family: 'Playfair Display', serif; font-size:18px; color:black;}
     padding-right: 0;
     text-indent: 100%;
     white-space: nowrap;
-    max-width: 100%;
+    max-width: 90%;
 }
 
 .border-success, .facet-limit-active {
@@ -79,3 +80,30 @@ nav ul a{font-family: 'Playfair Display', serif; font-size:18px; color:black;}
 #document.blacklight-5 #tify > div > header > div.tify-header_column.-views > div.tify-header_button-group.-view > button.tify-header_button.-help{display:none;}
 
 .document-thumbnail img{max-width:200px !important;}
+
+a.facet-select{font-size:0.9rem !important;}
+span.facet-label span.selected{font-size:0.9rem !important;}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #f58c5e;
+    border-color: #dc7e54;
+}
+
+.page-link {
+    position: relative;
+    display: block;
+    padding: 0.5rem 0.75rem;
+    margin-left: -1px;
+    line-height: 1.25;
+    color: #660000;
+    background-color: #fff;
+    border: 1px solid #660000;
+}
+
+.page-item.active .page-link {
+    z-index: 1;
+    color: #fff;
+    background-color: #660000;
+    border-color: #660000;
+}

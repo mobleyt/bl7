@@ -1,13 +1,24 @@
 <% doc_presenter = show_presenter(document) %>
 <%# default partial to display solr document fields in catalog show view -%>
 
-<img src="<%= document['thumbnail'] %>" style="max-width:800px;" class="shadow-sm"/>
-<br /><br />
-<audio controls>
+<audio id="audio_player" controls style="width:100%;height:100%;"  width="100%" height="100%">
   <source src="<%= document['filepath'] %>" type="audio/mp3">
   <p>Your browser doesn't support HTML5 audio. Here is
      a <a href="myAudio.mp4">link to the audio</a> instead.</p>
 </audio>
+<script>
+	$('#audio_player').mediaelementplayer({
+		success: function(mediaElement, originalNode, instance) {
+		}
+	});
+</script>
+
+<br />
+
+<% pdf = document['alternative-files'].select{|s| s.include?(".pdf")}.join %>
+<embed src="<%= pdf %>" type="application/pdf" width="100%" height="800px" /><br />
+
+<br />
 
 <dl class="row dl-invert document-metadata">
   <% document_show_fields(document).each do |field_name, field| -%>

@@ -23,5 +23,6 @@
 //= require blacklight/blacklight
 
 //= require_tree .
-//= require diva.js
 //= require tify.js
+//= require mediaelement_rails
+

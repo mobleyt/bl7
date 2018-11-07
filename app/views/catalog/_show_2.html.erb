@@ -1,7 +1,7 @@
 <% doc_presenter = show_presenter(document) %>
 <%# default partial to display solr document fields in catalog show view -%>
 
-<embed src="<%= document['filepath'] %>" type="application/pdf" width="100%" height="800px" />
+<embed src="<%= document['filepath'] %>" type="application/pdf" width="100%" height="800px" /><br /><br />
 
 <dl class="row dl-invert document-metadata">
   <% document_show_fields(document).each do |field_name, field| -%>

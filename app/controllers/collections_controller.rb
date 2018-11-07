@@ -118,7 +118,7 @@ base_canvas = multi["sequences"][0]["canvases"][0]
 altFiles.each.with_index(1) do |canvas,i|
 c = Marshal.load(Marshal.dump(base_canvas))
 
-canvas = canvas[39..-1].tr('\\','').chomp("\"")
+canvas = canvas[33..-1]
 canvas = CGI.escape(canvas)
 
 altInfo = "http://10.7.130.241:8080/cantaloupe-4.0.1/iiif/2/#{canvas}/info.json"

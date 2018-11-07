@@ -43,7 +43,7 @@ class CatalogController < ApplicationController
     config.add_show_tools_partial(:email, callback: :email_action, validator: :validate_email_params)
 #    config.add_show_tools_partial(:sms, if: :render_sms_action?, callback: :sms_action, validator: :validate_sms_params)
 #    config.add_show_tools_partial(:citation)
-#    config.add_show_tools_partial(:moreLikeThis)
+#    config.add_show_tools_partial(:more_like_this_document)
 
 #    config.add_nav_action(:bookmark, partial: 'blacklight/nav/bookmark', if: :render_bookmarks_control?)
     config.add_nav_action(:search_history, partial: 'blacklight/nav/search_history')
@@ -106,15 +106,16 @@ class CatalogController < ApplicationController
 
     # solr fields to be displayed in the index (search results) view
     #   The ordering of the field names is the order of the display
-    config.add_index_field 'title', label: 'Title'
+#    config.add_index_field 'title', label: 'Title'
     config.add_index_field 'date', label: 'Date'
     config.add_index_field 'description', label: 'Description'
-    config.add_index_field 'allText', label: 'Keywords', highlight: true
  
     # solr fields to be displayed in the show (single result) view
     #   The ordering of the field names is the order of the display
     config.add_show_field 'title', label: 'Title'
+    config.add_show_field 'date', label: 'Date', link_to_facet: 'date_facet_facet'
     config.add_show_field 'contribinst', link_to_facet: 'contribinst-facet', label: 'Contributing Institution'
+    config.add_show_field 'collectiontitle', label: 'Collection Title', link_to_facet: 'collection_titleInfo_title_facet'
     config.add_show_field 'creatornamecorporate', label: 'Creator (Corporate)'
     config.add_show_field 'creatornamepersonal', label: 'Creator (Personal)'
     config.add_show_field 'description', label: 'Description'
@@ -122,13 +123,11 @@ class CatalogController < ApplicationController
     config.add_show_field 'digispec', label: 'Digitization Specifications'
     config.add_show_field 'format', label: 'Format'
     config.add_show_field 'language', label: 'Language'
-    config.add_show_field 'mediatype', label: 'Media Type'
+    config.add_show_field 'mediatype', label: 'Media Type', link_to_facet: 'mediatype_facet'
     config.add_show_field 'subject-name', label: 'Subject (Name)', helper_method: 'line_break_multi'
-    config.add_show_field 'subject-topical', label: 'Subject (Topical)', helper_method: 'line_break_multi'
+    config.add_show_field 'subject-topical', label: 'Subject (Topical)', link_to_facet: 'subject_topic_facet'
     config.add_show_field 'resourcelocator', label: 'Resource Locator'
     config.add_show_field 'type', label: 'Type'
-    config.add_show_field 'collectiontitle', label: 'Collection Title'
-    config.add_show_field 'date', label: 'Date'
     config.add_show_field 'alternative-files', label: 'Alt Files'
 
     # "fielded" search configuration. Used by pulldown among other places.
