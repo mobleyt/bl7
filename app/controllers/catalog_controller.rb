@@ -17,7 +17,7 @@ class CatalogController < ApplicationController
     ## Default parameters to send to solr for all search-like requests. See also SearchBuilder#processed_parameters
     config.default_solr_params = {
       rows: 10,
-      fq: "-resourcetype:6"
+#      fq: "{!tag=exclude}exclude-pages:Yes"
     }
 
     # solr path which will be added to solr base url before the other solr params.
@@ -77,6 +77,7 @@ class CatalogController < ApplicationController
     #  (useful when user clicks "more" on a large facet and wants to navigate alphabetically across a large set of results)
     # :index_range can be an array or range of prefixes that will be used to create the navigation (note: It is case sensitive when searching values)
 
+    config.add_facet_field 'exclude-pages', label: 'Exclude Page Results'
     config.add_facet_field 'collection_titleInfo_title_facet', label: 'Collection'
     config.add_facet_field 'contribinst_facet', label: 'Contributing Institution'
     config.add_facet_field 'mediatype_facet', label: 'Media Type'

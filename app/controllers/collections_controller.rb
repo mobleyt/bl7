@@ -174,15 +174,16 @@ def iiif_fulltext
 
 iiif_identifier = params[:iiif_identifier]
 
-page_metadata = "http://10.7.130.237:8983/solr/rspace/select?fl=transcript,title,description&q=iiif:#{iiif_identifier}&wt=json"
+page_metadata = "http://10.7.130.237:8983/solr/rspace/select?fl=transcript,title,description,pageorder&q=iiif:#{iiif_identifier}&wt=json"
 page = open(page_metadata).read
 page = JSON.parse(page)
 
 title = page["response"]["docs"][0]["title"]
 description = page["response"]["docs"][0]["description"]
 transcript = page["response"]["docs"][0]["transcript"]
+pageorder = page["response"]["docs"][0]["pageorder"]
 
-render html: "<div class='metadata'><h4>Title:</h4><p>#{title}</p><h4>Description:</h4><p>#{description}</p><h4>Transcript:</h4><p>#{transcript}</p></div>'".html_safe
+render html: "<div class='metadata'><h4>Title:</h4><p>#{title}</p><h4>Description:</h4><p>#{description}</p><h4>Transcript:</h4><p>#{transcript}</p><h4>Page Number:</h4><p>#{pageorder}</p></div>'".html_safe
 
 end
 

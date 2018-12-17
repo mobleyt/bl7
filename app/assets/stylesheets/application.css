@@ -65,11 +65,11 @@ nav ul a{font-family: 'Playfair Display', serif; font-size:18px; color:black;}
 }
 
 .border-success, .facet-limit-active {
-    border-color: #f58c5e !important;
+    border-color: #f26522 !important;
 }
 
 .facet-values li .selected {
-    color: #f58c5e !important;
+    color: #f26522 !important;
 }
 
 
@@ -86,7 +86,7 @@ span.facet-label span.selected{font-size:0.9rem !important;}
 
 .btn-primary:hover {
     color: #fff;
-    background-color: #f58c5e;
+    background-color: #f26522;
     border-color: #dc7e54;
 }
 
@@ -107,3 +107,7 @@ span.facet-label span.selected{font-size:0.9rem !important;}
     background-color: #660000;
     border-color: #660000;
 }
+
+li.more_like_this_document{list-style-type:none;}
+
+#facet-exclude-pages > div > ul > li > span.facet-count{display:none;}

@@ -1,0 +1,19 @@
+<ul class="navbar-nav">
+  <%= render_nav_actions do |config, action|%>
+    <li class="nav-item"><%= action %></li>
+  <% end %>
+
+  <% if has_user_authentication_provider? %>
+    <% if current_user %>
+    <li class="nav-item">
+      <%= link_to t('blacklight.header_links.logout'), destroy_user_session_path, class: 'nav-link' %>
+    </li>
+    <% unless current_user.to_s.blank? -%>
+    <li class="nav-item">
+      <%= link_to current_user, edit_user_registration_path, class: 'nav-link' %>
+    </li>
+    <% end %>
+    <% else %>
+    <% end %>
+  <% end %>
+</ul>
