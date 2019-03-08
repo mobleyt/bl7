@@ -15,7 +15,23 @@
  *= require mediaelement_rails
  */
 
-@import "tify.css";
+.applied-filter .filter-name:after {
+    color: #6c757d;
+    content: "❯";
+    font-size: 90%;
+    padding-left: 0.3em;
+}
+
+.applied-filter .filter-name:hover:after {
+    color: #f8f9fa;
+    content: "❯";
+    font-size: 90%;
+    padding-left: 0.3em;
+}
+
+a:hover{color:black;text-decoration: underline;}
+img{max-width:100%;}
+body.blacklight-catalog-show #appliedParams{display:none;}
 
 .bg-cofc{background-color:white;}
 .bg-accent{background-color:#dcdcdc;}
@@ -51,7 +67,7 @@ nav ul a{font-family: 'Playfair Display', serif; font-size:18px; color:black;}
 .cofcRedBg{background-color:#660000;}
 
 .navbar-brand {
-    background: transparent url(new-lcdl.png) no-repeat top left;
+    background: transparent url("new-lcdl.png") no-repeat top left;
     flex: 0 0 100%;
     height: 50px;
     margin-right: 20px;
@@ -62,6 +78,9 @@ nav ul a{font-family: 'Playfair Display', serif; font-size:18px; color:black;}
     text-indent: 100%;
     white-space: nowrap;
     max-width: 90%;
+background-repeat:no-repeat;
+background-size:contain;
+background-position:center;
 }
 
 .border-success, .facet-limit-active {

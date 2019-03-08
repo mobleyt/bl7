@@ -22,6 +22,7 @@
 //= require bootstrap
 //= require blacklight/blacklight
 
+
 //= require_tree .
 //= require tify.js
 //= require mediaelement_rails

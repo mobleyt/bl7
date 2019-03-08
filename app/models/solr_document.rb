@@ -11,7 +11,7 @@ class SolrDocument
     end
 
     solr = RSolr.connect :url => 'http://10.7.130.237:8983/solr/rspace/'
-    solrMLTResponse = solr.get 'mlt', :params => {:q => 'id:'+id, :'mlt.fl' => 'subject-topical,title', :rows => 5}
+    solrMLTResponse = solr.get 'mlt', :params => {:q => 'id:'+id, :'mlt.fl' => 'subject-topical,title,collectiontitle', :rows => 5}
     
     unless solrMLTResponse.empty?
     list=[]

@@ -78,12 +78,12 @@ class CatalogController < ApplicationController
     # :index_range can be an array or range of prefixes that will be used to create the navigation (note: It is case sensitive when searching values)
 
     config.add_facet_field 'exclude-pages', label: 'Exclude Page Results'
-    config.add_facet_field 'collection_titleInfo_title_facet', label: 'Collection'
-    config.add_facet_field 'contribinst_facet', label: 'Contributing Institution'
-    config.add_facet_field 'mediatype_facet', label: 'Media Type'
-    config.add_facet_field 'subject_topic_facet', label: 'Subject (Topic)'
-    config.add_facet_field 'subject_geographic_facet', label: 'Subject (Geographic)'
-    config.add_facet_field 'date_facet_facet', label: 'Date'
+    config.add_facet_field 'collection_titleInfo_title_facet', label: 'Collection', limit: 10
+    config.add_facet_field 'contribinst_facet', label: 'Contributing Institution', limit: 10
+    config.add_facet_field 'mediatype_facet', label: 'Media Type', limit: 10
+    config.add_facet_field 'subject_topic_facet', label: 'Subject (Topic)', limit: 10
+    config.add_facet_field 'subject_geographic_facet', label: 'Subject (Geographic)', limit: 10
+    config.add_facet_field 'date_facet_facet', label: 'Date', limit: 10
 #    config.add_facet_field 'pub_date_ssim', label: 'Publication Year', single: true
 #    config.add_facet_field 'subject_ssim', label: 'Topic', limit: 20, index_range: 'A'..'Z'
 #    config.add_facet_field 'language_ssim', label: 'Language', limit: true
@@ -114,22 +114,28 @@ class CatalogController < ApplicationController
     # solr fields to be displayed in the show (single result) view
     #   The ordering of the field names is the order of the display
     config.add_show_field 'title', label: 'Title'
-    config.add_show_field 'date', label: 'Date', link_to_facet: 'date_facet_facet'
-    config.add_show_field 'contribinst', link_to_facet: 'contribinst-facet', label: 'Contributing Institution'
-    config.add_show_field 'collectiontitle', label: 'Collection Title', link_to_facet: 'collection_titleInfo_title_facet'
+    config.add_show_field 'interviewer', label: 'Interviewer'
+    config.add_show_field 'interviewee', label: 'Interviewee'
     config.add_show_field 'creatornamecorporate', label: 'Creator (Corporate)'
     config.add_show_field 'creatornamepersonal', label: 'Creator (Personal)'
+    config.add_show_field 'date', label: 'Date', link_to_facet: 'date_facet_facet'
     config.add_show_field 'description', label: 'Description'
+    config.add_show_field 'collectiontitle', label: 'Collection Title', link_to_facet: 'collection_titleInfo_title_facet'
+    config.add_show_field 'contribinst', link_to_facet: 'contribinst-facet', label: 'Contributing Institution'
+    config.add_show_field 'mediatype', label: 'Media Type', link_to_facet: 'mediatype_facet'
+    config.add_show_field 'subject-name', label: 'Personal or Corporate Subject', helper_method: 'line_break_multi'
+    config.add_show_field 'subject-topical', label: 'Topical Subject', link_to_facet: 'subject_topic_facet'
+    config.add_show_field 'subject-geographic', label: 'Geographic Subject', link_to_facet: 'subject_geographic_facet'
+    config.add_show_field 'subject-county', label: 'S.C. County'
+    config.add_show_field 'language', label: 'Language'
+    config.add_show_field 'resourcelocator', label: 'Resource Locator'
     config.add_show_field 'datedigital', label: 'Date Digital'
     config.add_show_field 'digispec', label: 'Digitization Specifications'
+    config.add_show_field 'typeimt', label: 'Internet Media Type'
     config.add_show_field 'format', label: 'Format'
-    config.add_show_field 'language', label: 'Language'
-    config.add_show_field 'mediatype', label: 'Media Type', link_to_facet: 'mediatype_facet'
-    config.add_show_field 'subject-name', label: 'Subject (Name)', helper_method: 'line_break_multi'
-    config.add_show_field 'subject-topical', label: 'Subject (Topical)', link_to_facet: 'subject_topic_facet'
-    config.add_show_field 'resourcelocator', label: 'Resource Locator'
-    config.add_show_field 'type', label: 'Type'
-    config.add_show_field 'alternative-files', label: 'Alt Files'
+    config.add_show_field 'rights', label: 'Copyright Status Statement'
+    config.add_show_field 'accessstatement', label: 'Access Statement'
+    config.add_show_field 'accessnote', label: 'Access Information'
 
     # "fielded" search configuration. Used by pulldown among other places.
     # For supported keys in hash, see rdoc for Blacklight::SearchFields

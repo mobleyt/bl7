@@ -8,7 +8,7 @@
 #launch-tify img{margin-bottom:15px;}
 </style>
 
-    <a id="launch-tify" href="#animatedModal"><img src="http://10.7.130.241/resourcespace/iiif/image/<%= document['rspace-id'] %>/full/800,/0/default.jpg" class="shadow-sm" /></a>
+    <a id="launch-tify" href="#animatedModal"><img src="http://rspace.library.cofc.edu/iiif/image/<%= document['rspace-id'] %>/full/800,/0/default.jpg" class="shadow-sm" /></a>
     <div id="animatedModal" style="background-color:#660000;">
         <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID  class="close-animatedModal" -->
         <div class="close-animatedModal">
@@ -17,7 +17,7 @@
         <div class="modal-content" id="tify">
         </div>
     </div>
-<script src="http://153.9.88.80/manifests/animatedModal.min.js"></script>
+<script src="http://153.9.109.69/tify/animatedModal.min.js"></script>
 
 <script>
   jQuery("#launch-tify").animatedModal({color:'#383838'});
@@ -27,10 +27,10 @@
 tifyOptions = {
                 container: '#tify',
                 init: true,
-                manifest: 'http://153.9.88.80:3000/collections/multi?iiifidentifier=<%= document['iiif'] %>&amp;rspaceid=<%= document['rspace-id'] %>'
+                manifest: 'http://beta.lcdl.library.cofc.edu/lcdl/collections/multi?iiifidentifier=<%= document['iiif'] %>&amp;rspaceid=<%= document['rspace-id'] %>'
         }
 </script>
-<script src="http://153.9.88.80/manifests/tify.js"></script>
+<script src="http://153.9.109.69/tify/tify.js"></script>
 
 <dl class="row dl-invert document-metadata">
   <% document_show_fields(document).each do |field_name, field| -%>

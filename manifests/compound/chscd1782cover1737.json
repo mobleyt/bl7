@@ -1,10 +1,14 @@
 {
   "@context": "http://iiif.io/api/presentation/2/context.json",
-  "@id": "http://10.7.130.241/resourcespace/iiif/chscd1782cover1737/manifest",
+  "@id": "http://rspace.library.cofc.edu/iiif/chscd1782cover1737/manifest",
   "@type": "sc:Manifest",
   "label": "Charleston City Directory 1782",
   "description": "Published in 1782, the Tobler almanac for South Carolina and Georgia contains a Charleston City Directory and listing of the Charleston Board of Police in addition to weather forecasts, planting information, tide table, household remedies, and other folklore.  The almanac is 32 pages long and contains one illustration concerning the anatomy of a man's body goverened by the twelve constellations.",
   "metadata": [
+    {
+      "label": "Description",
+      "value": "Published in 1782, the Tobler almanac for South Carolina and Georgia contains a Charleston City Directory and listing of the Charleston Board of Police in addition to weather forecasts, planting information, tide table, household remedies, and other folklore.  The almanac is 32 pages long and contains one illustration concerning the anatomy of a man's body goverened by the twelve constellations."
+    },
     {
       "label": "Access Note",
       "value": ""
@@ -15,27 +19,20 @@
     },
     {
       "label": "Contributing Institution",
-      "value": "Charleston Library Society"
+      "value": [
+        {
+          "@value": "Charleston Library Society",
+          "@language": "en"
+        }
+      ]
     },
     {
       "label": "Copyright Status Statement",
       "value": ""
     },
     {
-      "label": "Creator Name (Corporate)",
-      "value": "R. Wells & Son"
-    },
-    {
-      "label": "Creator Name (Personal)",
-      "value": "Tobler, John, esq.;Zubly, David, -1792"
-    },
-    {
       "label": "Date Digital",
       "value": "2013-10"
-    },
-    {
-      "label": "Description",
-      "value": "Published in 1782, the Tobler almanac for South Carolina and Georgia contains a Charleston City Directory and listing of the Charleston Board of Police in addition to weather forecasts, planting information, tide table, household remedies, and other folklore.  The almanac is 32 pages long and contains one illustration concerning the anatomy of a man's body goverened by the twelve constellations."
     },
     {
       "label": "Digitization Specifications",
@@ -50,12 +47,13 @@
       "value": "image/jpeg"
     },
     {
-      "label": "Language",
-      "value": "English"
-    },
-    {
       "label": "Media Type",
-      "value": "Pamphlets"
+      "value": [
+        {
+          "@value": "Pamphlets",
+          "@language": "en"
+        }
+      ]
     },
     {
       "label": "S.C. County",
@@ -64,32 +62,8 @@
       ]
     },
     {
-      "label": "Subject - Geographic",
-      "value": [
-
-      ]
-    },
-    {
-      "label": "Subject - Name",
-      "value": [
-        {
-          "@value": "Tobler,John,David,esq.;Zubly,-1792;R. Wells & Son",
-          "@language": "en"
-        }
-      ]
-    },
-    {
-      "label": "Subject - Topical",
-      "value": [
-        {
-          "@value": "Charleston (S.C.) -- Directories;South Carolina -- History; Directories;Almanacs,American--Southern States;Weather -- Folklore",
-          "@language": "en"
-        }
-      ]
-    },
-    {
       "label": "Resource Locator",
-      "value": "H.C.\nAA\nSo8.1\n[1766-1785]"
+      "value": "H.C.AASo8.1[1766-1785]"
     },
     {
       "label": "Type",
@@ -102,7 +76,7 @@
     },
     {
       "label": "PID",
-      "value": ""
+      "value": "lcdl:7"
     },
     {
       "label": "Collection Identifier",
@@ -115,10 +89,6 @@
     {
       "label": "Collection Title",
       "value": "Charleston City Directories"
-    },
-    {
-      "label": "Date",
-      "value": "1782"
     },
     {
       "label": "Location",
@@ -186,11 +156,18 @@
     },
     {
       "label": "Series Title",
-      "value": ""
+      "value": [
+
+      ]
     },
     {
       "label": "Subseries Title",
-      "value": ""
+      "value": [
+        {
+          "@value": "Tobler,John,David,Text,Charleston (S.C.) -- Directories;South Carolina -- History; Directories;Almanacs,American--Southern States;Weather -- Folklore,esq.;Zubly,-1792;R. Wells & Son,English,Charleston Library Society,R. Wells & Son,Tobler,John,esq.;Zubly,David,-1792,1782,Pamphlets",
+          "@language": "en"
+        }
+      ]
     },
     {
       "label": "Locator",
@@ -249,8 +226,77 @@
       "value": "chscd1782cover1737"
     },
     {
+      "label": "Compound Identifier",
+      "value": ""
+    },
+    {
+      "label": "Subject - Temporal",
+      "value": [
+        {
+          "@value": "Tobler,John,David,Text,Charleston (S.C.) -- Directories;South Carolina -- History; Directories;Almanacs,American--Southern States;Weather -- Folklore,esq.;Zubly,-1792;R. Wells & Son,English,Charleston Library Society,R. Wells & Son,Tobler,John,esq.;Zubly,David,-1792,1782,Pamphlets",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Shelving Locator",
+      "value": ""
+    },
+    {
+      "label": "Subject - Geographic Region",
+      "value": ""
+    },
+    {
+      "label": "Subject - Geographic County",
+      "value": [
+
+      ]
+    },
+    {
       "label": "Title",
       "value": "Charleston City Directory 1782"
+    },
+    {
+      "label": "Subject - Geographic",
+      "value": [
+
+      ]
+    },
+    {
+      "label": "Subject - Topical",
+      "value": [
+
+      ]
+    },
+    {
+      "label": "Subject - Name",
+      "value": [
+
+      ]
+    },
+    {
+      "label": "Creator Name (Corporate)",
+      "value": [
+
+      ]
+    },
+    {
+      "label": "Creator Name (Personal)",
+      "value": [
+
+      ]
+    },
+    {
+      "label": "Date",
+      "value": [
+
+      ]
+    },
+    {
+      "label": "Language",
+      "value": [
+
+      ]
     },
     {
       "label": "Notes",
@@ -259,58 +305,58 @@
   ],
   "license": "",
   "thumbnail": {
-    "@id": "http://10.7.130.241:8080/cantaloupe-4.0.1/iiif/2/18295/full/thm/0/default.jpg",
+    "@id": "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/18295/full/thm/0/default.jpg",
     "@type": "dctypes:Image",
     "height": 150,
     "width": 103,
     "format": "image/jpeg",
     "service": {
       "@context": "http://iiif.io/api/image/2/context.json",
-      "@id": "http://10.7.130.241:8080/cantaloupe-4.0.1/iiif/2/18295",
+      "@id": "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/18295",
       "profile": "http://iiif.io/api/image/2/level1.json"
     }
   },
   "sequences": [
     {
-      "@id": "http://10.7.130.241/resourcespace/iiif/cd1782/sequence/normal",
+      "@id": "http://rspace.library.cofc.edu/iiif/cd1782/sequence/normal",
       "@type": "sc:Sequence",
       "label": "Default order",
       "canvases": [
         {
-          "@id": "http://10.7.130.241/resourcespace/iiif/chscd1782cover1737/canvas/0",
+          "@id": "http://rspace.library.cofc.edu/iiif/chscd17820017461/canvas/0",
           "@type": "sc:Canvas",
           "label": "0",
           "height": 4204,
           "width": 2895,
           "thumbnail": {
-            "@id": "http://10.7.130.241:8080/cantaloupe-4.0.1/iiif/2/18295/full/thm/0/default.jpg",
+            "@id": "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/18296/full/thm/0/default.jpg",
             "@type": "dctypes:Image",
             "height": 150,
             "width": 103,
             "format": "image/jpeg",
             "service": {
               "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "http://10.7.130.241:8080/cantaloupe-4.0.1/iiif/2/18295",
+              "@id": "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/18296",
               "profile": "http://iiif.io/api/image/2/level1.json"
             }
           },
           "images": [
             {
               "@context": "http://iiif.io/api/presentation/2/context.json",
-              "@id": "http://10.7.130.241/resourcespace/iiif/chscd1782cover1737/annotation/0",
+              "@id": "http://rspace.library.cofc.edu/iiif/chscd17820017461/annotation/0",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
-                "@id": "http://10.7.130.241:8080/cantaloupe-4.0.1/iiif/2/18295/full/full/0/default.jpg",
+                "@id": "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/18296/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "http://10.7.130.241:8080/cantaloupe-4.0.1/iiif/2/18295",
+                  "@id": "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/18296",
                   "profile": "http://iiif.io/api/image/2/level1.json"
                 }
               },
-              "on": "http://10.7.130.241/resourcespace/iiif/chscd1782cover1737/canvas/0",
+              "on": "http://rspace.library.cofc.edu/iiif/chscd17820017461/canvas/0",
               "height": 4204,
               "width": 2895
             }
@@ -318,1409 +364,46 @@
           "otherContent": [
             {
               "@context": "http://iiif.io/api/presentation/2/context.json",
-              "@id": "http://153.9.88.80:3000/collections/annotation?iiif_identifier=chscd1782cover1737",
+              "@id": "http://beta.lcdl.library.cofc.edu/lcdl/collections/annotation?iiif_identifier=chscd17820017461",
               "@type": "sc:AnnotationList"
             }
           ]
         },
         {
-          "@id": "http://10.7.130.241/resourcespace/iiif/chscd17820017461/canvas/0",
-          "@type": "sc:Canvas",
-          "label": "0",
-          "height": 4204,
-          "width": 2895,
-          "thumbnail": {
-            "@id": "http://10.7.130.241:8080/cantaloupe-4.0.1/iiif/2/18296/full/thm/0/default.jpg",
-            "@type": "dctypes:Image",
-            "height": 150,
-            "width": 103,
-            "format": "image/jpeg",
-            "service": {
-              "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "http://10.7.130.241:8080/cantaloupe-4.0.1/iiif/2/18296",
-              "profile": "http://iiif.io/api/image/2/level1.json"
-            }
-          },
-          "images": [
-            {
-              "@context": "http://iiif.io/api/presentation/2/context.json",
-              "@id": "http://10.7.130.241/resourcespace/iiif/chscd17820017461/annotation/0",
-              "@type": "oa:Annotation",
-              "motivation": "sc:painting",
-              "resource": {
-                "@id": "http://10.7.130.241:8080/cantaloupe-4.0.1/iiif/2/18296/full/full/0/default.jpg",
-                "@type": "dctypes:Image",
-                "format": "image/jpeg",
-                "service": {
-                  "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "http://10.7.130.241:8080/cantaloupe-4.0.1/iiif/2/18296",
-                  "profile": "http://iiif.io/api/image/2/level1.json"
-                }
-              },
-              "on": "http://10.7.130.241/resourcespace/iiif/chscd17820017461/canvas/0",
-              "height": 4204,
-              "width": 2895
-            }
-          ],
-          "otherContent": [
-            {
-              "@context": "http://iiif.io/api/presentation/2/context.json",
-              "@id": "http://153.9.88.80:3000/collections/annotation?iiif_identifier=chscd17820017461",
-              "@type": "sc:AnnotationList"
-            }
-          ]
-        },
-        {
-          "@id": "http://10.7.130.241/resourcespace/iiif/chscd17820319882/canvas/0",
-          "@type": "sc:Canvas",
-          "label": "0",
-          "height": 4054,
-          "width": 2737,
-          "thumbnail": {
-            "@id": "http://10.7.130.241:8080/cantaloupe-4.0.1/iiif/2/18326/full/thm/0/default.jpg",
-            "@type": "dctypes:Image",
-            "height": 150,
-            "width": 101,
-            "format": "image/jpeg",
-            "service": {
-              "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "http://10.7.130.241:8080/cantaloupe-4.0.1/iiif/2/18326",
-              "profile": "http://iiif.io/api/image/2/level1.json"
-            }
-          },
-          "images": [
-            {
-              "@context": "http://iiif.io/api/presentation/2/context.json",
-              "@id": "http://10.7.130.241/resourcespace/iiif/chscd17820319882/annotation/0",
-              "@type": "oa:Annotation",
-              "motivation": "sc:painting",
-              "resource": {
-                "@id": "http://10.7.130.241:8080/cantaloupe-4.0.1/iiif/2/18326/full/full/0/default.jpg",
-                "@type": "dctypes:Image",
-                "format": "image/jpeg",
-                "service": {
-                  "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "http://10.7.130.241:8080/cantaloupe-4.0.1/iiif/2/18326",
-                  "profile": "http://iiif.io/api/image/2/level1.json"
-                }
-              },
-              "on": "http://10.7.130.241/resourcespace/iiif/chscd17820319882/canvas/0",
-              "height": 4054,
-              "width": 2737
-            }
-          ],
-          "otherContent": [
-            {
-              "@context": "http://iiif.io/api/presentation/2/context.json",
-              "@id": "http://153.9.88.80:3000/collections/annotation?iiif_identifier=chscd17820319882",
-              "@type": "sc:AnnotationList"
-            }
-          ]
-        },
-        {
-          "@id": "http://10.7.130.241/resourcespace/iiif/chscd17820305304/canvas/0",
-          "@type": "sc:Canvas",
-          "label": "0",
-          "height": 4130,
-          "width": 2802,
-          "thumbnail": {
-            "@id": "http://10.7.130.241:8080/cantaloupe-4.0.1/iiif/2/18325/full/thm/0/default.jpg",
-            "@type": "dctypes:Image",
-            "height": 150,
-            "width": 102,
-            "format": "image/jpeg",
-            "service": {
-              "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "http://10.7.130.241:8080/cantaloupe-4.0.1/iiif/2/18325",
-              "profile": "http://iiif.io/api/image/2/level1.json"
-            }
-          },
-          "images": [
-            {
-              "@context": "http://iiif.io/api/presentation/2/context.json",
-              "@id": "http://10.7.130.241/resourcespace/iiif/chscd17820305304/annotation/0",
-              "@type": "oa:Annotation",
-              "motivation": "sc:painting",
-              "resource": {
-                "@id": "http://10.7.130.241:8080/cantaloupe-4.0.1/iiif/2/18325/full/full/0/default.jpg",
-                "@type": "dctypes:Image",
-                "format": "image/jpeg",
-                "service": {
-                  "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "http://10.7.130.241:8080/cantaloupe-4.0.1/iiif/2/18325",
-                  "profile": "http://iiif.io/api/image/2/level1.json"
-                }
-              },
-              "on": "http://10.7.130.241/resourcespace/iiif/chscd17820305304/canvas/0",
-              "height": 4130,
-              "width": 2802
-            }
-          ],
-          "otherContent": [
-            {
-              "@context": "http://iiif.io/api/presentation/2/context.json",
-              "@id": "http://153.9.88.80:3000/collections/annotation?iiif_identifier=chscd17820305304",
-              "@type": "sc:AnnotationList"
-            }
-          ]
-        },
-        {
-          "@id": "http://10.7.130.241/resourcespace/iiif/chscd17820287518/canvas/0",
-          "@type": "sc:Canvas",
-          "label": "0",
-          "height": 4191,
-          "width": 2791,
-          "thumbnail": {
-            "@id": "http://10.7.130.241:8080/cantaloupe-4.0.1/iiif/2/18323/full/thm/0/default.jpg",
-            "@type": "dctypes:Image",
-            "height": 150,
-            "width": 100,
-            "format": "image/jpeg",
-            "service": {
-              "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "http://10.7.130.241:8080/cantaloupe-4.0.1/iiif/2/18323",
-              "profile": "http://iiif.io/api/image/2/level1.json"
-            }
-          },
-          "images": [
-            {
-              "@context": "http://iiif.io/api/presentation/2/context.json",
-              "@id": "http://10.7.130.241/resourcespace/iiif/chscd17820287518/annotation/0",
-              "@type": "oa:Annotation",
-              "motivation": "sc:painting",
-              "resource": {
-                "@id": "http://10.7.130.241:8080/cantaloupe-4.0.1/iiif/2/18323/full/full/0/default.jpg",
-                "@type": "dctypes:Image",
-                "format": "image/jpeg",
-                "service": {
-                  "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "http://10.7.130.241:8080/cantaloupe-4.0.1/iiif/2/18323",
-                  "profile": "http://iiif.io/api/image/2/level1.json"
-                }
-              },
-              "on": "http://10.7.130.241/resourcespace/iiif/chscd17820287518/canvas/0",
-              "height": 4191,
-              "width": 2791
-            }
-          ],
-          "otherContent": [
-            {
-              "@context": "http://iiif.io/api/presentation/2/context.json",
-              "@id": "http://153.9.88.80:3000/collections/annotation?iiif_identifier=chscd17820287518",
-              "@type": "sc:AnnotationList"
-            }
-          ]
-        },
-        {
-          "@id": "http://10.7.130.241/resourcespace/iiif/chscd17820275658/canvas/0",
-          "@type": "sc:Canvas",
-          "label": "0",
-          "height": 4200,
-          "width": 2965,
-          "thumbnail": {
-            "@id": "http://10.7.130.241:8080/cantaloupe-4.0.1/iiif/2/18322/full/thm/0/default.jpg",
-            "@type": "dctypes:Image",
-            "height": 150,
-            "width": 106,
-            "format": "image/jpeg",
-            "service": {
-              "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "http://10.7.130.241:8080/cantaloupe-4.0.1/iiif/2/18322",
-              "profile": "http://iiif.io/api/image/2/level1.json"
-            }
-          },
-          "images": [
-            {
-              "@context": "http://iiif.io/api/presentation/2/context.json",
-              "@id": "http://10.7.130.241/resourcespace/iiif/chscd17820275658/annotation/0",
-              "@type": "oa:Annotation",
-              "motivation": "sc:painting",
-              "resource": {
-                "@id": "http://10.7.130.241:8080/cantaloupe-4.0.1/iiif/2/18322/full/full/0/default.jpg",
-                "@type": "dctypes:Image",
-                "format": "image/jpeg",
-                "service": {
-                  "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "http://10.7.130.241:8080/cantaloupe-4.0.1/iiif/2/18322",
-                  "profile": "http://iiif.io/api/image/2/level1.json"
-                }
-              },
-              "on": "http://10.7.130.241/resourcespace/iiif/chscd17820275658/canvas/0",
-              "height": 4200,
-              "width": 2965
-            }
-          ],
-          "otherContent": [
-            {
-              "@context": "http://iiif.io/api/presentation/2/context.json",
-              "@id": "http://153.9.88.80:3000/collections/annotation?iiif_identifier=chscd17820275658",
-              "@type": "sc:AnnotationList"
-            }
-          ]
-        },
-        {
-          "@id": "http://10.7.130.241/resourcespace/iiif/chscd17820269689/canvas/0",
-          "@type": "sc:Canvas",
-          "label": "0",
-          "height": 4152,
-          "width": 2917,
-          "thumbnail": {
-            "@id": "http://10.7.130.241:8080/cantaloupe-4.0.1/iiif/2/18321/full/thm/0/default.jpg",
-            "@type": "dctypes:Image",
-            "height": 150,
-            "width": 105,
-            "format": "image/jpeg",
-            "service": {
-              "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "http://10.7.130.241:8080/cantaloupe-4.0.1/iiif/2/18321",
-              "profile": "http://iiif.io/api/image/2/level1.json"
-            }
-          },
-          "images": [
-            {
-              "@context": "http://iiif.io/api/presentation/2/context.json",
-              "@id": "http://10.7.130.241/resourcespace/iiif/chscd17820269689/annotation/0",
-              "@type": "oa:Annotation",
-              "motivation": "sc:painting",
-              "resource": {
-                "@id": "http://10.7.130.241:8080/cantaloupe-4.0.1/iiif/2/18321/full/full/0/default.jpg",
-                "@type": "dctypes:Image",
-                "format": "image/jpeg",
-                "service": {
-                  "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "http://10.7.130.241:8080/cantaloupe-4.0.1/iiif/2/18321",
-                  "profile": "http://iiif.io/api/image/2/level1.json"
-                }
-              },
-              "on": "http://10.7.130.241/resourcespace/iiif/chscd17820269689/canvas/0",
-              "height": 4152,
-              "width": 2917
-            }
-          ],
-          "otherContent": [
-            {
-              "@context": "http://iiif.io/api/presentation/2/context.json",
-              "@id": "http://153.9.88.80:3000/collections/annotation?iiif_identifier=chscd17820269689",
-              "@type": "sc:AnnotationList"
-            }
-          ]
-        },
-        {
-          "@id": "http://10.7.130.241/resourcespace/iiif/chscd17820259414/canvas/0",
-          "@type": "sc:Canvas",
-          "label": "0",
-          "height": 4200,
-          "width": 2965,
-          "thumbnail": {
-            "@id": "http://10.7.130.241:8080/cantaloupe-4.0.1/iiif/2/18320/full/thm/0/default.jpg",
-            "@type": "dctypes:Image",
-            "height": 150,
-            "width": 106,
-            "format": "image/jpeg",
-            "service": {
-              "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "http://10.7.130.241:8080/cantaloupe-4.0.1/iiif/2/18320",
-              "profile": "http://iiif.io/api/image/2/level1.json"
-            }
-          },
-          "images": [
-            {
-              "@context": "http://iiif.io/api/presentation/2/context.json",
-              "@id": "http://10.7.130.241/resourcespace/iiif/chscd17820259414/annotation/0",
-              "@type": "oa:Annotation",
-              "motivation": "sc:painting",
-              "resource": {
-                "@id": "http://10.7.130.241:8080/cantaloupe-4.0.1/iiif/2/18320/full/full/0/default.jpg",
-                "@type": "dctypes:Image",
-                "format": "image/jpeg",
-                "service": {
-                  "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "http://10.7.130.241:8080/cantaloupe-4.0.1/iiif/2/18320",
-                  "profile": "http://iiif.io/api/image/2/level1.json"
-                }
-              },
-              "on": "http://10.7.130.241/resourcespace/iiif/chscd17820259414/canvas/0",
-              "height": 4200,
-              "width": 2965
-            }
-          ],
-          "otherContent": [
-            {
-              "@context": "http://iiif.io/api/presentation/2/context.json",
-              "@id": "http://153.9.88.80:3000/collections/annotation?iiif_identifier=chscd17820259414",
-              "@type": "sc:AnnotationList"
-            }
-          ]
-        },
-        {
-          "@id": "http://10.7.130.241/resourcespace/iiif/chscd17820243122/canvas/0",
-          "@type": "sc:Canvas",
-          "label": "0",
-          "height": 4131,
-          "width": 2832,
-          "thumbnail": {
-            "@id": "http://10.7.130.241:8080/cantaloupe-4.0.1/iiif/2/18319/full/thm/0/default.jpg",
-            "@type": "dctypes:Image",
-            "height": 150,
-            "width": 103,
-            "format": "image/jpeg",
-            "service": {
-              "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "http://10.7.130.241:8080/cantaloupe-4.0.1/iiif/2/18319",
-              "profile": "http://iiif.io/api/image/2/level1.json"
-            }
-          },
-          "images": [
-            {
-              "@context": "http://iiif.io/api/presentation/2/context.json",
-              "@id": "http://10.7.130.241/resourcespace/iiif/chscd17820243122/annotation/0",
-              "@type": "oa:Annotation",
-              "motivation": "sc:painting",
-              "resource": {
-                "@id": "http://10.7.130.241:8080/cantaloupe-4.0.1/iiif/2/18319/full/full/0/default.jpg",
-                "@type": "dctypes:Image",
-                "format": "image/jpeg",
-                "service": {
-                  "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "http://10.7.130.241:8080/cantaloupe-4.0.1/iiif/2/18319",
-                  "profile": "http://iiif.io/api/image/2/level1.json"
-                }
-              },
-              "on": "http://10.7.130.241/resourcespace/iiif/chscd17820243122/canvas/0",
-              "height": 4131,
-              "width": 2832
-            }
-          ],
-          "otherContent": [
-            {
-              "@context": "http://iiif.io/api/presentation/2/context.json",
-              "@id": "http://153.9.88.80:3000/collections/annotation?iiif_identifier=chscd17820243122",
-              "@type": "sc:AnnotationList"
-            }
-          ]
-        },
-        {
-          "@id": "http://10.7.130.241/resourcespace/iiif/chscd17820239350/canvas/0",
-          "@type": "sc:Canvas",
-          "label": "0",
-          "height": 4200,
-          "width": 2965,
-          "thumbnail": {
-            "@id": "http://10.7.130.241:8080/cantaloupe-4.0.1/iiif/2/18318/full/thm/0/default.jpg",
-            "@type": "dctypes:Image",
-            "height": 150,
-            "width": 106,
-            "format": "image/jpeg",
-            "service": {
-              "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "http://10.7.130.241:8080/cantaloupe-4.0.1/iiif/2/18318",
-              "profile": "http://iiif.io/api/image/2/level1.json"
-            }
-          },
-          "images": [
-            {
-              "@context": "http://iiif.io/api/presentation/2/context.json",
-              "@id": "http://10.7.130.241/resourcespace/iiif/chscd17820239350/annotation/0",
-              "@type": "oa:Annotation",
-              "motivation": "sc:painting",
-              "resource": {
-                "@id": "http://10.7.130.241:8080/cantaloupe-4.0.1/iiif/2/18318/full/full/0/default.jpg",
-                "@type": "dctypes:Image",
-                "format": "image/jpeg",
-                "service": {
-                  "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "http://10.7.130.241:8080/cantaloupe-4.0.1/iiif/2/18318",
-                  "profile": "http://iiif.io/api/image/2/level1.json"
-                }
-              },
-              "on": "http://10.7.130.241/resourcespace/iiif/chscd17820239350/canvas/0",
-              "height": 4200,
-              "width": 2965
-            }
-          ],
-          "otherContent": [
-            {
-              "@context": "http://iiif.io/api/presentation/2/context.json",
-              "@id": "http://153.9.88.80:3000/collections/annotation?iiif_identifier=chscd17820239350",
-              "@type": "sc:AnnotationList"
-            }
-          ]
-        },
-        {
-          "@id": "http://10.7.130.241/resourcespace/iiif/chscd17820222548/canvas/0",
-          "@type": "sc:Canvas",
-          "label": "0",
-          "height": 4168,
-          "width": 2891,
-          "thumbnail": {
-            "@id": "http://10.7.130.241:8080/cantaloupe-4.0.1/iiif/2/18317/full/thm/0/default.jpg",
-            "@type": "dctypes:Image",
-            "height": 150,
-            "width": 104,
-            "format": "image/jpeg",
-            "service": {
-              "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "http://10.7.130.241:8080/cantaloupe-4.0.1/iiif/2/18317",
-              "profile": "http://iiif.io/api/image/2/level1.json"
-            }
-          },
-          "images": [
-            {
-              "@context": "http://iiif.io/api/presentation/2/context.json",
-              "@id": "http://10.7.130.241/resourcespace/iiif/chscd17820222548/annotation/0",
-              "@type": "oa:Annotation",
-              "motivation": "sc:painting",
-              "resource": {
-                "@id": "http://10.7.130.241:8080/cantaloupe-4.0.1/iiif/2/18317/full/full/0/default.jpg",
-                "@type": "dctypes:Image",
-                "format": "image/jpeg",
-                "service": {
-                  "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "http://10.7.130.241:8080/cantaloupe-4.0.1/iiif/2/18317",
-                  "profile": "http://iiif.io/api/image/2/level1.json"
-                }
-              },
-              "on": "http://10.7.130.241/resourcespace/iiif/chscd17820222548/canvas/0",
-              "height": 4168,
-              "width": 2891
-            }
-          ],
-          "otherContent": [
-            {
-              "@context": "http://iiif.io/api/presentation/2/context.json",
-              "@id": "http://153.9.88.80:3000/collections/annotation?iiif_identifier=chscd17820222548",
-              "@type": "sc:AnnotationList"
-            }
-          ]
-        },
-        {
-          "@id": "http://10.7.130.241/resourcespace/iiif/chscd17820214528/canvas/0",
-          "@type": "sc:Canvas",
-          "label": "0",
-          "height": 4200,
-          "width": 2965,
-          "thumbnail": {
-            "@id": "http://10.7.130.241:8080/cantaloupe-4.0.1/iiif/2/18316/full/thm/0/default.jpg",
-            "@type": "dctypes:Image",
-            "height": 150,
-            "width": 106,
-            "format": "image/jpeg",
-            "service": {
-              "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "http://10.7.130.241:8080/cantaloupe-4.0.1/iiif/2/18316",
-              "profile": "http://iiif.io/api/image/2/level1.json"
-            }
-          },
-          "images": [
-            {
-              "@context": "http://iiif.io/api/presentation/2/context.json",
-              "@id": "http://10.7.130.241/resourcespace/iiif/chscd17820214528/annotation/0",
-              "@type": "oa:Annotation",
-              "motivation": "sc:painting",
-              "resource": {
-                "@id": "http://10.7.130.241:8080/cantaloupe-4.0.1/iiif/2/18316/full/full/0/default.jpg",
-                "@type": "dctypes:Image",
-                "format": "image/jpeg",
-                "service": {
-                  "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "http://10.7.130.241:8080/cantaloupe-4.0.1/iiif/2/18316",
-                  "profile": "http://iiif.io/api/image/2/level1.json"
-                }
-              },
-              "on": "http://10.7.130.241/resourcespace/iiif/chscd17820214528/canvas/0",
-              "height": 4200,
-              "width": 2965
-            }
-          ],
-          "otherContent": [
-            {
-              "@context": "http://iiif.io/api/presentation/2/context.json",
-              "@id": "http://153.9.88.80:3000/collections/annotation?iiif_identifier=chscd17820214528",
-              "@type": "sc:AnnotationList"
-            }
-          ]
-        },
-        {
-          "@id": "http://10.7.130.241/resourcespace/iiif/chscd17820202174/canvas/0",
-          "@type": "sc:Canvas",
-          "label": "0",
-          "height": 4193,
-          "width": 2901,
-          "thumbnail": {
-            "@id": "http://10.7.130.241:8080/cantaloupe-4.0.1/iiif/2/18315/full/thm/0/default.jpg",
-            "@type": "dctypes:Image",
-            "height": 150,
-            "width": 104,
-            "format": "image/jpeg",
-            "service": {
-              "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "http://10.7.130.241:8080/cantaloupe-4.0.1/iiif/2/18315",
-              "profile": "http://iiif.io/api/image/2/level1.json"
-            }
-          },
-          "images": [
-            {
-              "@context": "http://iiif.io/api/presentation/2/context.json",
-              "@id": "http://10.7.130.241/resourcespace/iiif/chscd17820202174/annotation/0",
-              "@type": "oa:Annotation",
-              "motivation": "sc:painting",
-              "resource": {
-                "@id": "http://10.7.130.241:8080/cantaloupe-4.0.1/iiif/2/18315/full/full/0/default.jpg",
-                "@type": "dctypes:Image",
-                "format": "image/jpeg",
-                "service": {
-                  "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "http://10.7.130.241:8080/cantaloupe-4.0.1/iiif/2/18315",
-                  "profile": "http://iiif.io/api/image/2/level1.json"
-                }
-              },
-              "on": "http://10.7.130.241/resourcespace/iiif/chscd17820202174/canvas/0",
-              "height": 4193,
-              "width": 2901
-            }
-          ],
-          "otherContent": [
-            {
-              "@context": "http://iiif.io/api/presentation/2/context.json",
-              "@id": "http://153.9.88.80:3000/collections/annotation?iiif_identifier=chscd17820202174",
-              "@type": "sc:AnnotationList"
-            }
-          ]
-        },
-        {
-          "@id": "http://10.7.130.241/resourcespace/iiif/chscd17820197604/canvas/0",
-          "@type": "sc:Canvas",
-          "label": "0",
-          "height": 4166,
-          "width": 2968,
-          "thumbnail": {
-            "@id": "http://10.7.130.241:8080/cantaloupe-4.0.1/iiif/2/18314/full/thm/0/default.jpg",
-            "@type": "dctypes:Image",
-            "height": 150,
-            "width": 107,
-            "format": "image/jpeg",
-            "service": {
-              "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "http://10.7.130.241:8080/cantaloupe-4.0.1/iiif/2/18314",
-              "profile": "http://iiif.io/api/image/2/level1.json"
-            }
-          },
-          "images": [
-            {
-              "@context": "http://iiif.io/api/presentation/2/context.json",
-              "@id": "http://10.7.130.241/resourcespace/iiif/chscd17820197604/annotation/0",
-              "@type": "oa:Annotation",
-              "motivation": "sc:painting",
-              "resource": {
-                "@id": "http://10.7.130.241:8080/cantaloupe-4.0.1/iiif/2/18314/full/full/0/default.jpg",
-                "@type": "dctypes:Image",
-                "format": "image/jpeg",
-                "service": {
-                  "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "http://10.7.130.241:8080/cantaloupe-4.0.1/iiif/2/18314",
-                  "profile": "http://iiif.io/api/image/2/level1.json"
-                }
-              },
-              "on": "http://10.7.130.241/resourcespace/iiif/chscd17820197604/canvas/0",
-              "height": 4166,
-              "width": 2968
-            }
-          ],
-          "otherContent": [
-            {
-              "@context": "http://iiif.io/api/presentation/2/context.json",
-              "@id": "http://153.9.88.80:3000/collections/annotation?iiif_identifier=chscd17820197604",
-              "@type": "sc:AnnotationList"
-            }
-          ]
-        },
-        {
-          "@id": "http://10.7.130.241/resourcespace/iiif/chscd17820189129/canvas/0",
-          "@type": "sc:Canvas",
-          "label": "0",
-          "height": 4163,
-          "width": 2898,
-          "thumbnail": {
-            "@id": "http://10.7.130.241:8080/cantaloupe-4.0.1/iiif/2/18313/full/thm/0/default.jpg",
-            "@type": "dctypes:Image",
-            "height": 150,
-            "width": 104,
-            "format": "image/jpeg",
-            "service": {
-              "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "http://10.7.130.241:8080/cantaloupe-4.0.1/iiif/2/18313",
-              "profile": "http://iiif.io/api/image/2/level1.json"
-            }
-          },
-          "images": [
-            {
-              "@context": "http://iiif.io/api/presentation/2/context.json",
-              "@id": "http://10.7.130.241/resourcespace/iiif/chscd17820189129/annotation/0",
-              "@type": "oa:Annotation",
-              "motivation": "sc:painting",
-              "resource": {
-                "@id": "http://10.7.130.241:8080/cantaloupe-4.0.1/iiif/2/18313/full/full/0/default.jpg",
-                "@type": "dctypes:Image",
-                "format": "image/jpeg",
-                "service": {
-                  "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "http://10.7.130.241:8080/cantaloupe-4.0.1/iiif/2/18313",
-                  "profile": "http://iiif.io/api/image/2/level1.json"
-                }
-              },
-              "on": "http://10.7.130.241/resourcespace/iiif/chscd17820189129/canvas/0",
-              "height": 4163,
-              "width": 2898
-            }
-          ],
-          "otherContent": [
-            {
-              "@context": "http://iiif.io/api/presentation/2/context.json",
-              "@id": "http://153.9.88.80:3000/collections/annotation?iiif_identifier=chscd17820189129",
-              "@type": "sc:AnnotationList"
-            }
-          ]
-        },
-        {
-          "@id": "http://10.7.130.241/resourcespace/iiif/chscd17820175124/canvas/0",
-          "@type": "sc:Canvas",
-          "label": "0",
-          "height": 4226,
-          "width": 2945,
-          "thumbnail": {
-            "@id": "http://10.7.130.241:8080/cantaloupe-4.0.1/iiif/2/18312/full/thm/0/default.jpg",
-            "@type": "dctypes:Image",
-            "height": 150,
-            "width": 105,
-            "format": "image/jpeg",
-            "service": {
-              "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "http://10.7.130.241:8080/cantaloupe-4.0.1/iiif/2/18312",
-              "profile": "http://iiif.io/api/image/2/level1.json"
-            }
-          },
-          "images": [
-            {
-              "@context": "http://iiif.io/api/presentation/2/context.json",
-              "@id": "http://10.7.130.241/resourcespace/iiif/chscd17820175124/annotation/0",
-              "@type": "oa:Annotation",
-              "motivation": "sc:painting",
-              "resource": {
-                "@id": "http://10.7.130.241:8080/cantaloupe-4.0.1/iiif/2/18312/full/full/0/default.jpg",
-                "@type": "dctypes:Image",
-                "format": "image/jpeg",
-                "service": {
-                  "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "http://10.7.130.241:8080/cantaloupe-4.0.1/iiif/2/18312",
-                  "profile": "http://iiif.io/api/image/2/level1.json"
-                }
-              },
-              "on": "http://10.7.130.241/resourcespace/iiif/chscd17820175124/canvas/0",
-              "height": 4226,
-              "width": 2945
-            }
-          ],
-          "otherContent": [
-            {
-              "@context": "http://iiif.io/api/presentation/2/context.json",
-              "@id": "http://153.9.88.80:3000/collections/annotation?iiif_identifier=chscd17820175124",
-              "@type": "sc:AnnotationList"
-            }
-          ]
-        },
-        {
-          "@id": "http://10.7.130.241/resourcespace/iiif/chscd17820168869/canvas/0",
-          "@type": "sc:Canvas",
-          "label": "0",
-          "height": 4138,
-          "width": 2882,
-          "thumbnail": {
-            "@id": "http://10.7.130.241:8080/cantaloupe-4.0.1/iiif/2/18311/full/thm/0/default.jpg",
-            "@type": "dctypes:Image",
-            "height": 150,
-            "width": 104,
-            "format": "image/jpeg",
-            "service": {
-              "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "http://10.7.130.241:8080/cantaloupe-4.0.1/iiif/2/18311",
-              "profile": "http://iiif.io/api/image/2/level1.json"
-            }
-          },
-          "images": [
-            {
-              "@context": "http://iiif.io/api/presentation/2/context.json",
-              "@id": "http://10.7.130.241/resourcespace/iiif/chscd17820168869/annotation/0",
-              "@type": "oa:Annotation",
-              "motivation": "sc:painting",
-              "resource": {
-                "@id": "http://10.7.130.241:8080/cantaloupe-4.0.1/iiif/2/18311/full/full/0/default.jpg",
-                "@type": "dctypes:Image",
-                "format": "image/jpeg",
-                "service": {
-                  "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "http://10.7.130.241:8080/cantaloupe-4.0.1/iiif/2/18311",
-                  "profile": "http://iiif.io/api/image/2/level1.json"
-                }
-              },
-              "on": "http://10.7.130.241/resourcespace/iiif/chscd17820168869/canvas/0",
-              "height": 4138,
-              "width": 2882
-            }
-          ],
-          "otherContent": [
-            {
-              "@context": "http://iiif.io/api/presentation/2/context.json",
-              "@id": "http://153.9.88.80:3000/collections/annotation?iiif_identifier=chscd17820168869",
-              "@type": "sc:AnnotationList"
-            }
-          ]
-        },
-        {
-          "@id": "http://10.7.130.241/resourcespace/iiif/chscd17820154627/canvas/0",
-          "@type": "sc:Canvas",
-          "label": "0",
-          "height": 4191,
-          "width": 2978,
-          "thumbnail": {
-            "@id": "http://10.7.130.241:8080/cantaloupe-4.0.1/iiif/2/18310/full/thm/0/default.jpg",
-            "@type": "dctypes:Image",
-            "height": 150,
-            "width": 107,
-            "format": "image/jpeg",
-            "service": {
-              "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "http://10.7.130.241:8080/cantaloupe-4.0.1/iiif/2/18310",
-              "profile": "http://iiif.io/api/image/2/level1.json"
-            }
-          },
-          "images": [
-            {
-              "@context": "http://iiif.io/api/presentation/2/context.json",
-              "@id": "http://10.7.130.241/resourcespace/iiif/chscd17820154627/annotation/0",
-              "@type": "oa:Annotation",
-              "motivation": "sc:painting",
-              "resource": {
-                "@id": "http://10.7.130.241:8080/cantaloupe-4.0.1/iiif/2/18310/full/full/0/default.jpg",
-                "@type": "dctypes:Image",
-                "format": "image/jpeg",
-                "service": {
-                  "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "http://10.7.130.241:8080/cantaloupe-4.0.1/iiif/2/18310",
-                  "profile": "http://iiif.io/api/image/2/level1.json"
-                }
-              },
-              "on": "http://10.7.130.241/resourcespace/iiif/chscd17820154627/canvas/0",
-              "height": 4191,
-              "width": 2978
-            }
-          ],
-          "otherContent": [
-            {
-              "@context": "http://iiif.io/api/presentation/2/context.json",
-              "@id": "http://153.9.88.80:3000/collections/annotation?iiif_identifier=chscd17820154627",
-              "@type": "sc:AnnotationList"
-            }
-          ]
-        },
-        {
-          "@id": "http://10.7.130.241/resourcespace/iiif/chscd17820146509/canvas/0",
-          "@type": "sc:Canvas",
-          "label": "0",
-          "height": 4228,
-          "width": 2832,
-          "thumbnail": {
-            "@id": "http://10.7.130.241:8080/cantaloupe-4.0.1/iiif/2/18309/full/thm/0/default.jpg",
-            "@type": "dctypes:Image",
-            "height": 150,
-            "width": 101,
-            "format": "image/jpeg",
-            "service": {
-              "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "http://10.7.130.241:8080/cantaloupe-4.0.1/iiif/2/18309",
-              "profile": "http://iiif.io/api/image/2/level1.json"
-            }
-          },
-          "images": [
-            {
-              "@context": "http://iiif.io/api/presentation/2/context.json",
-              "@id": "http://10.7.130.241/resourcespace/iiif/chscd17820146509/annotation/0",
-              "@type": "oa:Annotation",
-              "motivation": "sc:painting",
-              "resource": {
-                "@id": "http://10.7.130.241:8080/cantaloupe-4.0.1/iiif/2/18309/full/full/0/default.jpg",
-                "@type": "dctypes:Image",
-                "format": "image/jpeg",
-                "service": {
-                  "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "http://10.7.130.241:8080/cantaloupe-4.0.1/iiif/2/18309",
-                  "profile": "http://iiif.io/api/image/2/level1.json"
-                }
-              },
-              "on": "http://10.7.130.241/resourcespace/iiif/chscd17820146509/canvas/0",
-              "height": 4228,
-              "width": 2832
-            }
-          ],
-          "otherContent": [
-            {
-              "@context": "http://iiif.io/api/presentation/2/context.json",
-              "@id": "http://153.9.88.80:3000/collections/annotation?iiif_identifier=chscd17820146509",
-              "@type": "sc:AnnotationList"
-            }
-          ]
-        },
-        {
-          "@id": "http://10.7.130.241/resourcespace/iiif/chscd17820138550/canvas/0",
-          "@type": "sc:Canvas",
-          "label": "0",
-          "height": 4239,
-          "width": 3043,
-          "thumbnail": {
-            "@id": "http://10.7.130.241:8080/cantaloupe-4.0.1/iiif/2/18308/full/thm/0/default.jpg",
-            "@type": "dctypes:Image",
-            "height": 150,
-            "width": 108,
-            "format": "image/jpeg",
-            "service": {
-              "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "http://10.7.130.241:8080/cantaloupe-4.0.1/iiif/2/18308",
-              "profile": "http://iiif.io/api/image/2/level1.json"
-            }
-          },
-          "images": [
-            {
-              "@context": "http://iiif.io/api/presentation/2/context.json",
-              "@id": "http://10.7.130.241/resourcespace/iiif/chscd17820138550/annotation/0",
-              "@type": "oa:Annotation",
-              "motivation": "sc:painting",
-              "resource": {
-                "@id": "http://10.7.130.241:8080/cantaloupe-4.0.1/iiif/2/18308/full/full/0/default.jpg",
-                "@type": "dctypes:Image",
-                "format": "image/jpeg",
-                "service": {
-                  "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "http://10.7.130.241:8080/cantaloupe-4.0.1/iiif/2/18308",
-                  "profile": "http://iiif.io/api/image/2/level1.json"
-                }
-              },
-              "on": "http://10.7.130.241/resourcespace/iiif/chscd17820138550/canvas/0",
-              "height": 4239,
-              "width": 3043
-            }
-          ],
-          "otherContent": [
-            {
-              "@context": "http://iiif.io/api/presentation/2/context.json",
-              "@id": "http://153.9.88.80:3000/collections/annotation?iiif_identifier=chscd17820138550",
-              "@type": "sc:AnnotationList"
-            }
-          ]
-        },
-        {
-          "@id": "http://10.7.130.241/resourcespace/iiif/chscd17820125640/canvas/0",
-          "@type": "sc:Canvas",
-          "label": "0",
-          "height": 4230,
-          "width": 2953,
-          "thumbnail": {
-            "@id": "http://10.7.130.241:8080/cantaloupe-4.0.1/iiif/2/18307/full/thm/0/default.jpg",
-            "@type": "dctypes:Image",
-            "height": 150,
-            "width": 105,
-            "format": "image/jpeg",
-            "service": {
-              "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "http://10.7.130.241:8080/cantaloupe-4.0.1/iiif/2/18307",
-              "profile": "http://iiif.io/api/image/2/level1.json"
-            }
-          },
-          "images": [
-            {
-              "@context": "http://iiif.io/api/presentation/2/context.json",
-              "@id": "http://10.7.130.241/resourcespace/iiif/chscd17820125640/annotation/0",
-              "@type": "oa:Annotation",
-              "motivation": "sc:painting",
-              "resource": {
-                "@id": "http://10.7.130.241:8080/cantaloupe-4.0.1/iiif/2/18307/full/full/0/default.jpg",
-                "@type": "dctypes:Image",
-                "format": "image/jpeg",
-                "service": {
-                  "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "http://10.7.130.241:8080/cantaloupe-4.0.1/iiif/2/18307",
-                  "profile": "http://iiif.io/api/image/2/level1.json"
-                }
-              },
-              "on": "http://10.7.130.241/resourcespace/iiif/chscd17820125640/canvas/0",
-              "height": 4230,
-              "width": 2953
-            }
-          ],
-          "otherContent": [
-            {
-              "@context": "http://iiif.io/api/presentation/2/context.json",
-              "@id": "http://153.9.88.80:3000/collections/annotation?iiif_identifier=chscd17820125640",
-              "@type": "sc:AnnotationList"
-            }
-          ]
-        },
-        {
-          "@id": "http://10.7.130.241/resourcespace/iiif/chscd17820118519/canvas/0",
-          "@type": "sc:Canvas",
-          "label": "0",
-          "height": 4195,
-          "width": 2952,
-          "thumbnail": {
-            "@id": "http://10.7.130.241:8080/cantaloupe-4.0.1/iiif/2/18306/full/thm/0/default.jpg",
-            "@type": "dctypes:Image",
-            "height": 150,
-            "width": 106,
-            "format": "image/jpeg",
-            "service": {
-              "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "http://10.7.130.241:8080/cantaloupe-4.0.1/iiif/2/18306",
-              "profile": "http://iiif.io/api/image/2/level1.json"
-            }
-          },
-          "images": [
-            {
-              "@context": "http://iiif.io/api/presentation/2/context.json",
-              "@id": "http://10.7.130.241/resourcespace/iiif/chscd17820118519/annotation/0",
-              "@type": "oa:Annotation",
-              "motivation": "sc:painting",
-              "resource": {
-                "@id": "http://10.7.130.241:8080/cantaloupe-4.0.1/iiif/2/18306/full/full/0/default.jpg",
-                "@type": "dctypes:Image",
-                "format": "image/jpeg",
-                "service": {
-                  "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "http://10.7.130.241:8080/cantaloupe-4.0.1/iiif/2/18306",
-                  "profile": "http://iiif.io/api/image/2/level1.json"
-                }
-              },
-              "on": "http://10.7.130.241/resourcespace/iiif/chscd17820118519/canvas/0",
-              "height": 4195,
-              "width": 2952
-            }
-          ],
-          "otherContent": [
-            {
-              "@context": "http://iiif.io/api/presentation/2/context.json",
-              "@id": "http://153.9.88.80:3000/collections/annotation?iiif_identifier=chscd17820118519",
-              "@type": "sc:AnnotationList"
-            }
-          ]
-        },
-        {
-          "@id": "http://10.7.130.241/resourcespace/iiif/chscd17820104274/canvas/0",
-          "@type": "sc:Canvas",
-          "label": "0",
-          "height": 4125,
-          "width": 2905,
-          "thumbnail": {
-            "@id": "http://10.7.130.241:8080/cantaloupe-4.0.1/iiif/2/18305/full/thm/0/default.jpg",
-            "@type": "dctypes:Image",
-            "height": 150,
-            "width": 106,
-            "format": "image/jpeg",
-            "service": {
-              "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "http://10.7.130.241:8080/cantaloupe-4.0.1/iiif/2/18305",
-              "profile": "http://iiif.io/api/image/2/level1.json"
-            }
-          },
-          "images": [
-            {
-              "@context": "http://iiif.io/api/presentation/2/context.json",
-              "@id": "http://10.7.130.241/resourcespace/iiif/chscd17820104274/annotation/0",
-              "@type": "oa:Annotation",
-              "motivation": "sc:painting",
-              "resource": {
-                "@id": "http://10.7.130.241:8080/cantaloupe-4.0.1/iiif/2/18305/full/full/0/default.jpg",
-                "@type": "dctypes:Image",
-                "format": "image/jpeg",
-                "service": {
-                  "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "http://10.7.130.241:8080/cantaloupe-4.0.1/iiif/2/18305",
-                  "profile": "http://iiif.io/api/image/2/level1.json"
-                }
-              },
-              "on": "http://10.7.130.241/resourcespace/iiif/chscd17820104274/canvas/0",
-              "height": 4125,
-              "width": 2905
-            }
-          ],
-          "otherContent": [
-            {
-              "@context": "http://iiif.io/api/presentation/2/context.json",
-              "@id": "http://153.9.88.80:3000/collections/annotation?iiif_identifier=chscd17820104274",
-              "@type": "sc:AnnotationList"
-            }
-          ]
-        },
-        {
-          "@id": "http://10.7.130.241/resourcespace/iiif/chscd17820096439/canvas/0",
-          "@type": "sc:Canvas",
-          "label": "0",
-          "height": 4242,
-          "width": 2970,
-          "thumbnail": {
-            "@id": "http://10.7.130.241:8080/cantaloupe-4.0.1/iiif/2/18304/full/thm/0/default.jpg",
-            "@type": "dctypes:Image",
-            "height": 150,
-            "width": 105,
-            "format": "image/jpeg",
-            "service": {
-              "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "http://10.7.130.241:8080/cantaloupe-4.0.1/iiif/2/18304",
-              "profile": "http://iiif.io/api/image/2/level1.json"
-            }
-          },
-          "images": [
-            {
-              "@context": "http://iiif.io/api/presentation/2/context.json",
-              "@id": "http://10.7.130.241/resourcespace/iiif/chscd17820096439/annotation/0",
-              "@type": "oa:Annotation",
-              "motivation": "sc:painting",
-              "resource": {
-                "@id": "http://10.7.130.241:8080/cantaloupe-4.0.1/iiif/2/18304/full/full/0/default.jpg",
-                "@type": "dctypes:Image",
-                "format": "image/jpeg",
-                "service": {
-                  "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "http://10.7.130.241:8080/cantaloupe-4.0.1/iiif/2/18304",
-                  "profile": "http://iiif.io/api/image/2/level1.json"
-                }
-              },
-              "on": "http://10.7.130.241/resourcespace/iiif/chscd17820096439/canvas/0",
-              "height": 4242,
-              "width": 2970
-            }
-          ],
-          "otherContent": [
-            {
-              "@context": "http://iiif.io/api/presentation/2/context.json",
-              "@id": "http://153.9.88.80:3000/collections/annotation?iiif_identifier=chscd17820096439",
-              "@type": "sc:AnnotationList"
-            }
-          ]
-        },
-        {
-          "@id": "http://10.7.130.241/resourcespace/iiif/chscd17820083709/canvas/0",
-          "@type": "sc:Canvas",
-          "label": "0",
-          "height": 4182,
-          "width": 2907,
-          "thumbnail": {
-            "@id": "http://10.7.130.241:8080/cantaloupe-4.0.1/iiif/2/18303/full/thm/0/default.jpg",
-            "@type": "dctypes:Image",
-            "height": 150,
-            "width": 104,
-            "format": "image/jpeg",
-            "service": {
-              "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "http://10.7.130.241:8080/cantaloupe-4.0.1/iiif/2/18303",
-              "profile": "http://iiif.io/api/image/2/level1.json"
-            }
-          },
-          "images": [
-            {
-              "@context": "http://iiif.io/api/presentation/2/context.json",
-              "@id": "http://10.7.130.241/resourcespace/iiif/chscd17820083709/annotation/0",
-              "@type": "oa:Annotation",
-              "motivation": "sc:painting",
-              "resource": {
-                "@id": "http://10.7.130.241:8080/cantaloupe-4.0.1/iiif/2/18303/full/full/0/default.jpg",
-                "@type": "dctypes:Image",
-                "format": "image/jpeg",
-                "service": {
-                  "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "http://10.7.130.241:8080/cantaloupe-4.0.1/iiif/2/18303",
-                  "profile": "http://iiif.io/api/image/2/level1.json"
-                }
-              },
-              "on": "http://10.7.130.241/resourcespace/iiif/chscd17820083709/canvas/0",
-              "height": 4182,
-              "width": 2907
-            }
-          ],
-          "otherContent": [
-            {
-              "@context": "http://iiif.io/api/presentation/2/context.json",
-              "@id": "http://153.9.88.80:3000/collections/annotation?iiif_identifier=chscd17820083709",
-              "@type": "sc:AnnotationList"
-            }
-          ]
-        },
-        {
-          "@id": "http://10.7.130.241/resourcespace/iiif/chscd17820072016/canvas/0",
-          "@type": "sc:Canvas",
-          "label": "0",
-          "height": 4206,
-          "width": 2840,
-          "thumbnail": {
-            "@id": "http://10.7.130.241:8080/cantaloupe-4.0.1/iiif/2/18302/full/thm/0/default.jpg",
-            "@type": "dctypes:Image",
-            "height": 150,
-            "width": 101,
-            "format": "image/jpeg",
-            "service": {
-              "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "http://10.7.130.241:8080/cantaloupe-4.0.1/iiif/2/18302",
-              "profile": "http://iiif.io/api/image/2/level1.json"
-            }
-          },
-          "images": [
-            {
-              "@context": "http://iiif.io/api/presentation/2/context.json",
-              "@id": "http://10.7.130.241/resourcespace/iiif/chscd17820072016/annotation/0",
-              "@type": "oa:Annotation",
-              "motivation": "sc:painting",
-              "resource": {
-                "@id": "http://10.7.130.241:8080/cantaloupe-4.0.1/iiif/2/18302/full/full/0/default.jpg",
-                "@type": "dctypes:Image",
-                "format": "image/jpeg",
-                "service": {
-                  "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "http://10.7.130.241:8080/cantaloupe-4.0.1/iiif/2/18302",
-                  "profile": "http://iiif.io/api/image/2/level1.json"
-                }
-              },
-              "on": "http://10.7.130.241/resourcespace/iiif/chscd17820072016/canvas/0",
-              "height": 4206,
-              "width": 2840
-            }
-          ],
-          "otherContent": [
-            {
-              "@context": "http://iiif.io/api/presentation/2/context.json",
-              "@id": "http://153.9.88.80:3000/collections/annotation?iiif_identifier=chscd17820072016",
-              "@type": "sc:AnnotationList"
-            }
-          ]
-        },
-        {
-          "@id": "http://10.7.130.241/resourcespace/iiif/chscd17820068466/canvas/0",
-          "@type": "sc:Canvas",
-          "label": "0",
-          "height": 4255,
-          "width": 2856,
-          "thumbnail": {
-            "@id": "http://10.7.130.241:8080/cantaloupe-4.0.1/iiif/2/18301/full/thm/0/default.jpg",
-            "@type": "dctypes:Image",
-            "height": 150,
-            "width": 101,
-            "format": "image/jpeg",
-            "service": {
-              "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "http://10.7.130.241:8080/cantaloupe-4.0.1/iiif/2/18301",
-              "profile": "http://iiif.io/api/image/2/level1.json"
-            }
-          },
-          "images": [
-            {
-              "@context": "http://iiif.io/api/presentation/2/context.json",
-              "@id": "http://10.7.130.241/resourcespace/iiif/chscd17820068466/annotation/0",
-              "@type": "oa:Annotation",
-              "motivation": "sc:painting",
-              "resource": {
-                "@id": "http://10.7.130.241:8080/cantaloupe-4.0.1/iiif/2/18301/full/full/0/default.jpg",
-                "@type": "dctypes:Image",
-                "format": "image/jpeg",
-                "service": {
-                  "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "http://10.7.130.241:8080/cantaloupe-4.0.1/iiif/2/18301",
-                  "profile": "http://iiif.io/api/image/2/level1.json"
-                }
-              },
-              "on": "http://10.7.130.241/resourcespace/iiif/chscd17820068466/canvas/0",
-              "height": 4255,
-              "width": 2856
-            }
-          ],
-          "otherContent": [
-            {
-              "@context": "http://iiif.io/api/presentation/2/context.json",
-              "@id": "http://153.9.88.80:3000/collections/annotation?iiif_identifier=chscd17820068466",
-              "@type": "sc:AnnotationList"
-            }
-          ]
-        },
-        {
-          "@id": "http://10.7.130.241/resourcespace/iiif/chscd17820051444/canvas/0",
-          "@type": "sc:Canvas",
-          "label": "0",
-          "height": 4200,
-          "width": 2811,
-          "thumbnail": {
-            "@id": "http://10.7.130.241:8080/cantaloupe-4.0.1/iiif/2/18300/full/thm/0/default.jpg",
-            "@type": "dctypes:Image",
-            "height": 150,
-            "width": 100,
-            "format": "image/jpeg",
-            "service": {
-              "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "http://10.7.130.241:8080/cantaloupe-4.0.1/iiif/2/18300",
-              "profile": "http://iiif.io/api/image/2/level1.json"
-            }
-          },
-          "images": [
-            {
-              "@context": "http://iiif.io/api/presentation/2/context.json",
-              "@id": "http://10.7.130.241/resourcespace/iiif/chscd17820051444/annotation/0",
-              "@type": "oa:Annotation",
-              "motivation": "sc:painting",
-              "resource": {
-                "@id": "http://10.7.130.241:8080/cantaloupe-4.0.1/iiif/2/18300/full/full/0/default.jpg",
-                "@type": "dctypes:Image",
-                "format": "image/jpeg",
-                "service": {
-                  "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "http://10.7.130.241:8080/cantaloupe-4.0.1/iiif/2/18300",
-                  "profile": "http://iiif.io/api/image/2/level1.json"
-                }
-              },
-              "on": "http://10.7.130.241/resourcespace/iiif/chscd17820051444/canvas/0",
-              "height": 4200,
-              "width": 2811
-            }
-          ],
-          "otherContent": [
-            {
-              "@context": "http://iiif.io/api/presentation/2/context.json",
-              "@id": "http://153.9.88.80:3000/collections/annotation?iiif_identifier=chscd17820051444",
-              "@type": "sc:AnnotationList"
-            }
-          ]
-        },
-        {
-          "@id": "http://10.7.130.241/resourcespace/iiif/chscd17820047396/canvas/0",
-          "@type": "sc:Canvas",
-          "label": "0",
-          "height": 4131,
-          "width": 2800,
-          "thumbnail": {
-            "@id": "http://10.7.130.241:8080/cantaloupe-4.0.1/iiif/2/18299/full/thm/0/default.jpg",
-            "@type": "dctypes:Image",
-            "height": 150,
-            "width": 102,
-            "format": "image/jpeg",
-            "service": {
-              "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "http://10.7.130.241:8080/cantaloupe-4.0.1/iiif/2/18299",
-              "profile": "http://iiif.io/api/image/2/level1.json"
-            }
-          },
-          "images": [
-            {
-              "@context": "http://iiif.io/api/presentation/2/context.json",
-              "@id": "http://10.7.130.241/resourcespace/iiif/chscd17820047396/annotation/0",
-              "@type": "oa:Annotation",
-              "motivation": "sc:painting",
-              "resource": {
-                "@id": "http://10.7.130.241:8080/cantaloupe-4.0.1/iiif/2/18299/full/full/0/default.jpg",
-                "@type": "dctypes:Image",
-                "format": "image/jpeg",
-                "service": {
-                  "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "http://10.7.130.241:8080/cantaloupe-4.0.1/iiif/2/18299",
-                  "profile": "http://iiif.io/api/image/2/level1.json"
-                }
-              },
-              "on": "http://10.7.130.241/resourcespace/iiif/chscd17820047396/canvas/0",
-              "height": 4131,
-              "width": 2800
-            }
-          ],
-          "otherContent": [
-            {
-              "@context": "http://iiif.io/api/presentation/2/context.json",
-              "@id": "http://153.9.88.80:3000/collections/annotation?iiif_identifier=chscd17820047396",
-              "@type": "sc:AnnotationList"
-            }
-          ]
-        },
-        {
-          "@id": "http://10.7.130.241/resourcespace/iiif/chscd17820032243/canvas/0",
-          "@type": "sc:Canvas",
-          "label": "0",
-          "height": 4126,
-          "width": 2799,
-          "thumbnail": {
-            "@id": "http://10.7.130.241:8080/cantaloupe-4.0.1/iiif/2/18298/full/thm/0/default.jpg",
-            "@type": "dctypes:Image",
-            "height": 150,
-            "width": 102,
-            "format": "image/jpeg",
-            "service": {
-              "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "http://10.7.130.241:8080/cantaloupe-4.0.1/iiif/2/18298",
-              "profile": "http://iiif.io/api/image/2/level1.json"
-            }
-          },
-          "images": [
-            {
-              "@context": "http://iiif.io/api/presentation/2/context.json",
-              "@id": "http://10.7.130.241/resourcespace/iiif/chscd17820032243/annotation/0",
-              "@type": "oa:Annotation",
-              "motivation": "sc:painting",
-              "resource": {
-                "@id": "http://10.7.130.241:8080/cantaloupe-4.0.1/iiif/2/18298/full/full/0/default.jpg",
-                "@type": "dctypes:Image",
-                "format": "image/jpeg",
-                "service": {
-                  "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "http://10.7.130.241:8080/cantaloupe-4.0.1/iiif/2/18298",
-                  "profile": "http://iiif.io/api/image/2/level1.json"
-                }
-              },
-              "on": "http://10.7.130.241/resourcespace/iiif/chscd17820032243/canvas/0",
-              "height": 4126,
-              "width": 2799
-            }
-          ],
-          "otherContent": [
-            {
-              "@context": "http://iiif.io/api/presentation/2/context.json",
-              "@id": "http://153.9.88.80:3000/collections/annotation?iiif_identifier=chscd17820032243",
-              "@type": "sc:AnnotationList"
-            }
-          ]
-        },
-        {
-          "@id": "http://10.7.130.241/resourcespace/iiif/chscd17820025582/canvas/0",
+          "@id": "http://rspace.library.cofc.edu/iiif/chscd17820025582/canvas/0",
           "@type": "sc:Canvas",
           "label": "0",
           "height": 4050,
           "width": 2757,
           "thumbnail": {
-            "@id": "http://10.7.130.241:8080/cantaloupe-4.0.1/iiif/2/18297/full/thm/0/default.jpg",
+            "@id": "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/18297/full/thm/0/default.jpg",
             "@type": "dctypes:Image",
             "height": 150,
             "width": 102,
             "format": "image/jpeg",
             "service": {
               "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "http://10.7.130.241:8080/cantaloupe-4.0.1/iiif/2/18297",
+              "@id": "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/18297",
               "profile": "http://iiif.io/api/image/2/level1.json"
             }
           },
           "images": [
             {
               "@context": "http://iiif.io/api/presentation/2/context.json",
-              "@id": "http://10.7.130.241/resourcespace/iiif/chscd17820025582/annotation/0",
+              "@id": "http://rspace.library.cofc.edu/iiif/chscd17820025582/annotation/0",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
-                "@id": "http://10.7.130.241:8080/cantaloupe-4.0.1/iiif/2/18297/full/full/0/default.jpg",
+                "@id": "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/18297/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "http://10.7.130.241:8080/cantaloupe-4.0.1/iiif/2/18297",
+                  "@id": "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/18297",
                   "profile": "http://iiif.io/api/image/2/level1.json"
                 }
               },
-              "on": "http://10.7.130.241/resourcespace/iiif/chscd17820025582/canvas/0",
+              "on": "http://rspace.library.cofc.edu/iiif/chscd17820025582/canvas/0",
               "height": 4050,
               "width": 2757
             }
@@ -1728,7 +411,1323 @@
           "otherContent": [
             {
               "@context": "http://iiif.io/api/presentation/2/context.json",
-              "@id": "http://153.9.88.80:3000/collections/annotation?iiif_identifier=chscd17820025582",
+              "@id": "http://beta.lcdl.library.cofc.edu/lcdl/collections/annotation?iiif_identifier=chscd17820025582",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        },
+        {
+          "@id": "http://rspace.library.cofc.edu/iiif/chscd17820032243/canvas/0",
+          "@type": "sc:Canvas",
+          "label": "0",
+          "height": 4126,
+          "width": 2799,
+          "thumbnail": {
+            "@id": "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/18298/full/thm/0/default.jpg",
+            "@type": "dctypes:Image",
+            "height": 150,
+            "width": 102,
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/18298",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            }
+          },
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://rspace.library.cofc.edu/iiif/chscd17820032243/annotation/0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/18298/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/18298",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "http://rspace.library.cofc.edu/iiif/chscd17820032243/canvas/0",
+              "height": 4126,
+              "width": 2799
+            }
+          ],
+          "otherContent": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://beta.lcdl.library.cofc.edu/lcdl/collections/annotation?iiif_identifier=chscd17820032243",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        },
+        {
+          "@id": "http://rspace.library.cofc.edu/iiif/chscd17820047396/canvas/0",
+          "@type": "sc:Canvas",
+          "label": "0",
+          "height": 4131,
+          "width": 2800,
+          "thumbnail": {
+            "@id": "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/18299/full/thm/0/default.jpg",
+            "@type": "dctypes:Image",
+            "height": 150,
+            "width": 102,
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/18299",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            }
+          },
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://rspace.library.cofc.edu/iiif/chscd17820047396/annotation/0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/18299/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/18299",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "http://rspace.library.cofc.edu/iiif/chscd17820047396/canvas/0",
+              "height": 4131,
+              "width": 2800
+            }
+          ],
+          "otherContent": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://beta.lcdl.library.cofc.edu/lcdl/collections/annotation?iiif_identifier=chscd17820047396",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        },
+        {
+          "@id": "http://rspace.library.cofc.edu/iiif/chscd17820051444/canvas/0",
+          "@type": "sc:Canvas",
+          "label": "0",
+          "height": 4200,
+          "width": 2811,
+          "thumbnail": {
+            "@id": "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/18300/full/thm/0/default.jpg",
+            "@type": "dctypes:Image",
+            "height": 150,
+            "width": 100,
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/18300",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            }
+          },
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://rspace.library.cofc.edu/iiif/chscd17820051444/annotation/0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/18300/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/18300",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "http://rspace.library.cofc.edu/iiif/chscd17820051444/canvas/0",
+              "height": 4200,
+              "width": 2811
+            }
+          ],
+          "otherContent": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://beta.lcdl.library.cofc.edu/lcdl/collections/annotation?iiif_identifier=chscd17820051444",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        },
+        {
+          "@id": "http://rspace.library.cofc.edu/iiif/chscd17820068466/canvas/0",
+          "@type": "sc:Canvas",
+          "label": "0",
+          "height": 4255,
+          "width": 2856,
+          "thumbnail": {
+            "@id": "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/18301/full/thm/0/default.jpg",
+            "@type": "dctypes:Image",
+            "height": 150,
+            "width": 101,
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/18301",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            }
+          },
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://rspace.library.cofc.edu/iiif/chscd17820068466/annotation/0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/18301/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/18301",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "http://rspace.library.cofc.edu/iiif/chscd17820068466/canvas/0",
+              "height": 4255,
+              "width": 2856
+            }
+          ],
+          "otherContent": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://beta.lcdl.library.cofc.edu/lcdl/collections/annotation?iiif_identifier=chscd17820068466",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        },
+        {
+          "@id": "http://rspace.library.cofc.edu/iiif/chscd17820072016/canvas/0",
+          "@type": "sc:Canvas",
+          "label": "0",
+          "height": 4206,
+          "width": 2840,
+          "thumbnail": {
+            "@id": "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/18302/full/thm/0/default.jpg",
+            "@type": "dctypes:Image",
+            "height": 150,
+            "width": 101,
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/18302",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            }
+          },
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://rspace.library.cofc.edu/iiif/chscd17820072016/annotation/0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/18302/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/18302",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "http://rspace.library.cofc.edu/iiif/chscd17820072016/canvas/0",
+              "height": 4206,
+              "width": 2840
+            }
+          ],
+          "otherContent": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://beta.lcdl.library.cofc.edu/lcdl/collections/annotation?iiif_identifier=chscd17820072016",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        },
+        {
+          "@id": "http://rspace.library.cofc.edu/iiif/chscd17820083709/canvas/0",
+          "@type": "sc:Canvas",
+          "label": "0",
+          "height": 4182,
+          "width": 2907,
+          "thumbnail": {
+            "@id": "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/18303/full/thm/0/default.jpg",
+            "@type": "dctypes:Image",
+            "height": 150,
+            "width": 104,
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/18303",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            }
+          },
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://rspace.library.cofc.edu/iiif/chscd17820083709/annotation/0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/18303/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/18303",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "http://rspace.library.cofc.edu/iiif/chscd17820083709/canvas/0",
+              "height": 4182,
+              "width": 2907
+            }
+          ],
+          "otherContent": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://beta.lcdl.library.cofc.edu/lcdl/collections/annotation?iiif_identifier=chscd17820083709",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        },
+        {
+          "@id": "http://rspace.library.cofc.edu/iiif/chscd17820096439/canvas/0",
+          "@type": "sc:Canvas",
+          "label": "0",
+          "height": 4242,
+          "width": 2970,
+          "thumbnail": {
+            "@id": "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/18304/full/thm/0/default.jpg",
+            "@type": "dctypes:Image",
+            "height": 150,
+            "width": 105,
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/18304",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            }
+          },
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://rspace.library.cofc.edu/iiif/chscd17820096439/annotation/0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/18304/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/18304",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "http://rspace.library.cofc.edu/iiif/chscd17820096439/canvas/0",
+              "height": 4242,
+              "width": 2970
+            }
+          ],
+          "otherContent": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://beta.lcdl.library.cofc.edu/lcdl/collections/annotation?iiif_identifier=chscd17820096439",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        },
+        {
+          "@id": "http://rspace.library.cofc.edu/iiif/chscd17820104274/canvas/0",
+          "@type": "sc:Canvas",
+          "label": "0",
+          "height": 4125,
+          "width": 2905,
+          "thumbnail": {
+            "@id": "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/18305/full/thm/0/default.jpg",
+            "@type": "dctypes:Image",
+            "height": 150,
+            "width": 106,
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/18305",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            }
+          },
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://rspace.library.cofc.edu/iiif/chscd17820104274/annotation/0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/18305/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/18305",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "http://rspace.library.cofc.edu/iiif/chscd17820104274/canvas/0",
+              "height": 4125,
+              "width": 2905
+            }
+          ],
+          "otherContent": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://beta.lcdl.library.cofc.edu/lcdl/collections/annotation?iiif_identifier=chscd17820104274",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        },
+        {
+          "@id": "http://rspace.library.cofc.edu/iiif/chscd17820118519/canvas/0",
+          "@type": "sc:Canvas",
+          "label": "0",
+          "height": 4195,
+          "width": 2952,
+          "thumbnail": {
+            "@id": "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/18306/full/thm/0/default.jpg",
+            "@type": "dctypes:Image",
+            "height": 150,
+            "width": 106,
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/18306",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            }
+          },
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://rspace.library.cofc.edu/iiif/chscd17820118519/annotation/0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/18306/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/18306",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "http://rspace.library.cofc.edu/iiif/chscd17820118519/canvas/0",
+              "height": 4195,
+              "width": 2952
+            }
+          ],
+          "otherContent": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://beta.lcdl.library.cofc.edu/lcdl/collections/annotation?iiif_identifier=chscd17820118519",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        },
+        {
+          "@id": "http://rspace.library.cofc.edu/iiif/chscd17820125640/canvas/0",
+          "@type": "sc:Canvas",
+          "label": "0",
+          "height": 4230,
+          "width": 2953,
+          "thumbnail": {
+            "@id": "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/18307/full/thm/0/default.jpg",
+            "@type": "dctypes:Image",
+            "height": 150,
+            "width": 105,
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/18307",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            }
+          },
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://rspace.library.cofc.edu/iiif/chscd17820125640/annotation/0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/18307/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/18307",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "http://rspace.library.cofc.edu/iiif/chscd17820125640/canvas/0",
+              "height": 4230,
+              "width": 2953
+            }
+          ],
+          "otherContent": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://beta.lcdl.library.cofc.edu/lcdl/collections/annotation?iiif_identifier=chscd17820125640",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        },
+        {
+          "@id": "http://rspace.library.cofc.edu/iiif/chscd17820138550/canvas/0",
+          "@type": "sc:Canvas",
+          "label": "0",
+          "height": 4239,
+          "width": 3043,
+          "thumbnail": {
+            "@id": "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/18308/full/thm/0/default.jpg",
+            "@type": "dctypes:Image",
+            "height": 150,
+            "width": 108,
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/18308",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            }
+          },
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://rspace.library.cofc.edu/iiif/chscd17820138550/annotation/0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/18308/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/18308",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "http://rspace.library.cofc.edu/iiif/chscd17820138550/canvas/0",
+              "height": 4239,
+              "width": 3043
+            }
+          ],
+          "otherContent": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://beta.lcdl.library.cofc.edu/lcdl/collections/annotation?iiif_identifier=chscd17820138550",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        },
+        {
+          "@id": "http://rspace.library.cofc.edu/iiif/chscd17820146509/canvas/0",
+          "@type": "sc:Canvas",
+          "label": "0",
+          "height": 4228,
+          "width": 2832,
+          "thumbnail": {
+            "@id": "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/18309/full/thm/0/default.jpg",
+            "@type": "dctypes:Image",
+            "height": 150,
+            "width": 101,
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/18309",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            }
+          },
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://rspace.library.cofc.edu/iiif/chscd17820146509/annotation/0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/18309/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/18309",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "http://rspace.library.cofc.edu/iiif/chscd17820146509/canvas/0",
+              "height": 4228,
+              "width": 2832
+            }
+          ],
+          "otherContent": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://beta.lcdl.library.cofc.edu/lcdl/collections/annotation?iiif_identifier=chscd17820146509",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        },
+        {
+          "@id": "http://rspace.library.cofc.edu/iiif/chscd17820154627/canvas/0",
+          "@type": "sc:Canvas",
+          "label": "0",
+          "height": 4191,
+          "width": 2978,
+          "thumbnail": {
+            "@id": "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/18310/full/thm/0/default.jpg",
+            "@type": "dctypes:Image",
+            "height": 150,
+            "width": 107,
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/18310",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            }
+          },
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://rspace.library.cofc.edu/iiif/chscd17820154627/annotation/0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/18310/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/18310",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "http://rspace.library.cofc.edu/iiif/chscd17820154627/canvas/0",
+              "height": 4191,
+              "width": 2978
+            }
+          ],
+          "otherContent": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://beta.lcdl.library.cofc.edu/lcdl/collections/annotation?iiif_identifier=chscd17820154627",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        },
+        {
+          "@id": "http://rspace.library.cofc.edu/iiif/chscd17820168869/canvas/0",
+          "@type": "sc:Canvas",
+          "label": "0",
+          "height": 4138,
+          "width": 2882,
+          "thumbnail": {
+            "@id": "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/18311/full/thm/0/default.jpg",
+            "@type": "dctypes:Image",
+            "height": 150,
+            "width": 104,
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/18311",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            }
+          },
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://rspace.library.cofc.edu/iiif/chscd17820168869/annotation/0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/18311/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/18311",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "http://rspace.library.cofc.edu/iiif/chscd17820168869/canvas/0",
+              "height": 4138,
+              "width": 2882
+            }
+          ],
+          "otherContent": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://beta.lcdl.library.cofc.edu/lcdl/collections/annotation?iiif_identifier=chscd17820168869",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        },
+        {
+          "@id": "http://rspace.library.cofc.edu/iiif/chscd17820175124/canvas/0",
+          "@type": "sc:Canvas",
+          "label": "0",
+          "height": 4226,
+          "width": 2945,
+          "thumbnail": {
+            "@id": "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/18312/full/thm/0/default.jpg",
+            "@type": "dctypes:Image",
+            "height": 150,
+            "width": 105,
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/18312",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            }
+          },
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://rspace.library.cofc.edu/iiif/chscd17820175124/annotation/0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/18312/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/18312",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "http://rspace.library.cofc.edu/iiif/chscd17820175124/canvas/0",
+              "height": 4226,
+              "width": 2945
+            }
+          ],
+          "otherContent": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://beta.lcdl.library.cofc.edu/lcdl/collections/annotation?iiif_identifier=chscd17820175124",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        },
+        {
+          "@id": "http://rspace.library.cofc.edu/iiif/chscd17820189129/canvas/0",
+          "@type": "sc:Canvas",
+          "label": "0",
+          "height": 4163,
+          "width": 2898,
+          "thumbnail": {
+            "@id": "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/18313/full/thm/0/default.jpg",
+            "@type": "dctypes:Image",
+            "height": 150,
+            "width": 104,
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/18313",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            }
+          },
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://rspace.library.cofc.edu/iiif/chscd17820189129/annotation/0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/18313/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/18313",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "http://rspace.library.cofc.edu/iiif/chscd17820189129/canvas/0",
+              "height": 4163,
+              "width": 2898
+            }
+          ],
+          "otherContent": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://beta.lcdl.library.cofc.edu/lcdl/collections/annotation?iiif_identifier=chscd17820189129",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        },
+        {
+          "@id": "http://rspace.library.cofc.edu/iiif/chscd17820197604/canvas/0",
+          "@type": "sc:Canvas",
+          "label": "0",
+          "height": 4166,
+          "width": 2968,
+          "thumbnail": {
+            "@id": "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/18314/full/thm/0/default.jpg",
+            "@type": "dctypes:Image",
+            "height": 150,
+            "width": 107,
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/18314",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            }
+          },
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://rspace.library.cofc.edu/iiif/chscd17820197604/annotation/0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/18314/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/18314",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "http://rspace.library.cofc.edu/iiif/chscd17820197604/canvas/0",
+              "height": 4166,
+              "width": 2968
+            }
+          ],
+          "otherContent": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://beta.lcdl.library.cofc.edu/lcdl/collections/annotation?iiif_identifier=chscd17820197604",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        },
+        {
+          "@id": "http://rspace.library.cofc.edu/iiif/chscd17820202174/canvas/0",
+          "@type": "sc:Canvas",
+          "label": "0",
+          "height": 4193,
+          "width": 2901,
+          "thumbnail": {
+            "@id": "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/18315/full/thm/0/default.jpg",
+            "@type": "dctypes:Image",
+            "height": 150,
+            "width": 104,
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/18315",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            }
+          },
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://rspace.library.cofc.edu/iiif/chscd17820202174/annotation/0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/18315/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/18315",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "http://rspace.library.cofc.edu/iiif/chscd17820202174/canvas/0",
+              "height": 4193,
+              "width": 2901
+            }
+          ],
+          "otherContent": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://beta.lcdl.library.cofc.edu/lcdl/collections/annotation?iiif_identifier=chscd17820202174",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        },
+        {
+          "@id": "http://rspace.library.cofc.edu/iiif/chscd17820214528/canvas/0",
+          "@type": "sc:Canvas",
+          "label": "0",
+          "height": 4200,
+          "width": 2965,
+          "thumbnail": {
+            "@id": "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/18316/full/thm/0/default.jpg",
+            "@type": "dctypes:Image",
+            "height": 150,
+            "width": 106,
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/18316",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            }
+          },
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://rspace.library.cofc.edu/iiif/chscd17820214528/annotation/0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/18316/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/18316",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "http://rspace.library.cofc.edu/iiif/chscd17820214528/canvas/0",
+              "height": 4200,
+              "width": 2965
+            }
+          ],
+          "otherContent": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://beta.lcdl.library.cofc.edu/lcdl/collections/annotation?iiif_identifier=chscd17820214528",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        },
+        {
+          "@id": "http://rspace.library.cofc.edu/iiif/chscd17820222548/canvas/0",
+          "@type": "sc:Canvas",
+          "label": "0",
+          "height": 4168,
+          "width": 2891,
+          "thumbnail": {
+            "@id": "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/18317/full/thm/0/default.jpg",
+            "@type": "dctypes:Image",
+            "height": 150,
+            "width": 104,
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/18317",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            }
+          },
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://rspace.library.cofc.edu/iiif/chscd17820222548/annotation/0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/18317/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/18317",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "http://rspace.library.cofc.edu/iiif/chscd17820222548/canvas/0",
+              "height": 4168,
+              "width": 2891
+            }
+          ],
+          "otherContent": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://beta.lcdl.library.cofc.edu/lcdl/collections/annotation?iiif_identifier=chscd17820222548",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        },
+        {
+          "@id": "http://rspace.library.cofc.edu/iiif/chscd17820239350/canvas/0",
+          "@type": "sc:Canvas",
+          "label": "0",
+          "height": 4200,
+          "width": 2965,
+          "thumbnail": {
+            "@id": "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/18318/full/thm/0/default.jpg",
+            "@type": "dctypes:Image",
+            "height": 150,
+            "width": 106,
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/18318",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            }
+          },
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://rspace.library.cofc.edu/iiif/chscd17820239350/annotation/0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/18318/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/18318",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "http://rspace.library.cofc.edu/iiif/chscd17820239350/canvas/0",
+              "height": 4200,
+              "width": 2965
+            }
+          ],
+          "otherContent": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://beta.lcdl.library.cofc.edu/lcdl/collections/annotation?iiif_identifier=chscd17820239350",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        },
+        {
+          "@id": "http://rspace.library.cofc.edu/iiif/chscd17820243122/canvas/0",
+          "@type": "sc:Canvas",
+          "label": "0",
+          "height": 4131,
+          "width": 2832,
+          "thumbnail": {
+            "@id": "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/18319/full/thm/0/default.jpg",
+            "@type": "dctypes:Image",
+            "height": 150,
+            "width": 103,
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/18319",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            }
+          },
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://rspace.library.cofc.edu/iiif/chscd17820243122/annotation/0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/18319/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/18319",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "http://rspace.library.cofc.edu/iiif/chscd17820243122/canvas/0",
+              "height": 4131,
+              "width": 2832
+            }
+          ],
+          "otherContent": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://beta.lcdl.library.cofc.edu/lcdl/collections/annotation?iiif_identifier=chscd17820243122",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        },
+        {
+          "@id": "http://rspace.library.cofc.edu/iiif/chscd17820259414/canvas/0",
+          "@type": "sc:Canvas",
+          "label": "0",
+          "height": 4200,
+          "width": 2965,
+          "thumbnail": {
+            "@id": "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/18320/full/thm/0/default.jpg",
+            "@type": "dctypes:Image",
+            "height": 150,
+            "width": 106,
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/18320",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            }
+          },
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://rspace.library.cofc.edu/iiif/chscd17820259414/annotation/0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/18320/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/18320",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "http://rspace.library.cofc.edu/iiif/chscd17820259414/canvas/0",
+              "height": 4200,
+              "width": 2965
+            }
+          ],
+          "otherContent": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://beta.lcdl.library.cofc.edu/lcdl/collections/annotation?iiif_identifier=chscd17820259414",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        },
+        {
+          "@id": "http://rspace.library.cofc.edu/iiif/chscd17820269689/canvas/0",
+          "@type": "sc:Canvas",
+          "label": "0",
+          "height": 4152,
+          "width": 2917,
+          "thumbnail": {
+            "@id": "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/18321/full/thm/0/default.jpg",
+            "@type": "dctypes:Image",
+            "height": 150,
+            "width": 105,
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/18321",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            }
+          },
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://rspace.library.cofc.edu/iiif/chscd17820269689/annotation/0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/18321/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/18321",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "http://rspace.library.cofc.edu/iiif/chscd17820269689/canvas/0",
+              "height": 4152,
+              "width": 2917
+            }
+          ],
+          "otherContent": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://beta.lcdl.library.cofc.edu/lcdl/collections/annotation?iiif_identifier=chscd17820269689",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        },
+        {
+          "@id": "http://rspace.library.cofc.edu/iiif/chscd17820275658/canvas/0",
+          "@type": "sc:Canvas",
+          "label": "0",
+          "height": 4200,
+          "width": 2965,
+          "thumbnail": {
+            "@id": "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/18322/full/thm/0/default.jpg",
+            "@type": "dctypes:Image",
+            "height": 150,
+            "width": 106,
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/18322",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            }
+          },
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://rspace.library.cofc.edu/iiif/chscd17820275658/annotation/0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/18322/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/18322",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "http://rspace.library.cofc.edu/iiif/chscd17820275658/canvas/0",
+              "height": 4200,
+              "width": 2965
+            }
+          ],
+          "otherContent": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://beta.lcdl.library.cofc.edu/lcdl/collections/annotation?iiif_identifier=chscd17820275658",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        },
+        {
+          "@id": "http://rspace.library.cofc.edu/iiif/chscd17820287518/canvas/0",
+          "@type": "sc:Canvas",
+          "label": "0",
+          "height": 4191,
+          "width": 2791,
+          "thumbnail": {
+            "@id": "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/18323/full/thm/0/default.jpg",
+            "@type": "dctypes:Image",
+            "height": 150,
+            "width": 100,
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/18323",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            }
+          },
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://rspace.library.cofc.edu/iiif/chscd17820287518/annotation/0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/18323/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/18323",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "http://rspace.library.cofc.edu/iiif/chscd17820287518/canvas/0",
+              "height": 4191,
+              "width": 2791
+            }
+          ],
+          "otherContent": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://beta.lcdl.library.cofc.edu/lcdl/collections/annotation?iiif_identifier=chscd17820287518",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        },
+        {
+          "@id": "http://rspace.library.cofc.edu/iiif/chscd17820305304/canvas/0",
+          "@type": "sc:Canvas",
+          "label": "0",
+          "height": 4130,
+          "width": 2802,
+          "thumbnail": {
+            "@id": "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/18325/full/thm/0/default.jpg",
+            "@type": "dctypes:Image",
+            "height": 150,
+            "width": 102,
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/18325",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            }
+          },
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://rspace.library.cofc.edu/iiif/chscd17820305304/annotation/0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/18325/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/18325",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "http://rspace.library.cofc.edu/iiif/chscd17820305304/canvas/0",
+              "height": 4130,
+              "width": 2802
+            }
+          ],
+          "otherContent": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://beta.lcdl.library.cofc.edu/lcdl/collections/annotation?iiif_identifier=chscd17820305304",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        },
+        {
+          "@id": "http://rspace.library.cofc.edu/iiif/chscd17820319882/canvas/0",
+          "@type": "sc:Canvas",
+          "label": "0",
+          "height": 4054,
+          "width": 2737,
+          "thumbnail": {
+            "@id": "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/18326/full/thm/0/default.jpg",
+            "@type": "dctypes:Image",
+            "height": 150,
+            "width": 101,
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/18326",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            }
+          },
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://rspace.library.cofc.edu/iiif/chscd17820319882/annotation/0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/18326/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/18326",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "http://rspace.library.cofc.edu/iiif/chscd17820319882/canvas/0",
+              "height": 4054,
+              "width": 2737
+            }
+          ],
+          "otherContent": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://beta.lcdl.library.cofc.edu/lcdl/collections/annotation?iiif_identifier=chscd17820319882",
               "@type": "sc:AnnotationList"
             }
           ]

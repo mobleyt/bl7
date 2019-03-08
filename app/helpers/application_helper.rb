@@ -24,12 +24,13 @@ module ApplicationHelper
 
   def get_parent_document collection_identifier
     
-    solr = RSolr.connect :url => 'http://10.7.130.237:8983/solr/rspace/'
-    solrResponse = solr.get 'select', :params => {:q => 'collectionidentifier:'+collection_identifier + ' AND resourcetype:5', :rows => 1, :fl => 'title,id'}
+    solr = RSolr.connect :url => 'http://10.7.130.237:8983/solr/rspace/', update_format: :ruby
+    solrResponse = solr.get 'select', :params => {:q => 'compoundidentifier:'+collection_identifier + ' AND resourcetype:5', :rows => 1, :fl => 'title,id'}
 
     unless solrResponse.nil?
     parent = solrResponse['response']['docs'][0]
     parent_document=SolrDocument.new(parent)
+#    parent = []
 #    parent["id"] = solrResponse['response']['docs'][0]["id"]
 #    parent["title"] = solrResponse['response']['docs'][0]["title"]
     return parent_document

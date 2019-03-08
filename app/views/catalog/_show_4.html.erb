@@ -22,7 +22,7 @@
 <br />
 
 <% pdf = document['alternative-files'].select{|s| s.include?(".pdf")}.join %>
-<embed src="<%= pdf %>" type="application/pdf" width="100%" height="800px" /><br />
+<embed src="<%= pdf %>#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf" width="100%" height="800px" /><br />
 
 <br />
 

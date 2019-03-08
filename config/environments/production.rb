@@ -41,6 +41,7 @@ Rails.application.configure do
   # Store uploaded files on the local file system (see config/storage.yml for options)
   config.active_storage.service = :local
 
+  config.relative_url_root = "/lcdl"
   # Mount Action Cable outside main process or domain
   # config.action_cable.mount_path = nil
   # config.action_cable.url = 'wss://example.com/cable'
@@ -51,7 +52,7 @@ Rails.application.configure do
 
   # Use the lowest log level to ensure availability of diagnostic information
   # when problems arise.
-  config.log_level = :debug
+  config.log_level = :warn
 
   # Prepend all log lines with the following tags.
   config.log_tags = [ :request_id ]
@@ -64,7 +65,13 @@ Rails.application.configure do
   # config.active_job.queue_name_prefix = "bl7_#{Rails.env}"
 
   config.action_mailer.perform_caching = false
-
+  config.action_mailer.default_url_options = { :host => 'beta.lcdl.library.cofc.edu' }
+  config.action_mailer.delivery_method = :smtp
+  config.action_mailer.smtp_settings = {
+      :address              => 'relay.cougars.int',
+      :port                 => 25,
+      :domain               => 'relay.cougars.int' 
+  }
   # Ignore bad email addresses and do not raise email delivery errors.
   # Set this to true and configure the email server for immediate delivery to raise delivery errors.
   # config.action_mailer.raise_delivery_errors = false

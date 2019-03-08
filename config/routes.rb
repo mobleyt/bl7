@@ -1,3 +1,4 @@
+Rails.application.routes.default_url_options[:script_name] = '/lcdl'
 Rails.application.routes.draw do
 
   mount Blacklight::Engine => '/'
