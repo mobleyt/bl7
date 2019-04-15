@@ -72,6 +72,8 @@ Rails.application.configure do
       :port                 => 25,
       :domain               => 'relay.cougars.int' 
   }
+  config.action_mailer.perform_deliveries = true 
+  config.action_mailer.default_options = {from: 'no-reply@lcdl.library.cofc.edu'}
   # Ignore bad email addresses and do not raise email delivery errors.
   # Set this to true and configure the email server for immediate delivery to raise delivery errors.
   # config.action_mailer.raise_delivery_errors = false
