@@ -22,9 +22,13 @@ compound_iiif = "http://rspace.library.cofc.edu/iiif/#{identifier}/manifest"
 # Actually fetch the contents of the remote URL as a String.
 buffer = open(compound_iiif).read
 
-# Convert the String response into a plain old Ruby array. It is faster and saves you time compared to the standard Ruby libraries too.
+# Convert the JSON response to hash
 compound = JSON.parse(buffer)
 compound.delete("sequences")
+
+# Clear out empty metadata fields that RS includes for some reason
+multi["metadata"].delete_if { |h| h["value"] == "" }
+multi["metadata"].delete_if { |h| h["value"] == [] }
 
 #Get page list from Solr query 
 page_list = "http://10.7.130.237:8983/solr/rspace/select?fl=iiif,pageorder&q=collectionidentifier:%22#{coll_identifier}%22%20AND%20resourcetype:6&rows=5000&wt=json"
@@ -53,8 +57,8 @@ list.each do |l|
 #add otherContent for annotation list
   other_content = []
   inner_content = {}
-  inner_content["@context"] = "http://iiif.io/api/presentation/2/context.json"
-  inner_content["@id"] = "http://beta.lcdl.library.cofc.edu/lcdl/collections/annotation?iiif_identifier=#{l}"
+  inner_content["@context"] = "//iiif.io/api/presentation/2/context.json"
+  inner_content["@id"] = "https://beta.lcdl.library.cofc.edu/lcdl/collections/annotation?iiif_identifier=#{l}"
   inner_content["@type"] = "sc:AnnotationList"
   
   other_content.push(inner_content)
@@ -104,8 +108,12 @@ manifest = "http://rspace.library.cofc.edu/iiif/#{identifier}/manifest"
 # Actually fetch the contents of the remote URL as a String.
 buffer = open(manifest).read
 
-# Convert the String response into a plain old Ruby array. It is faster and saves you time compared to the standard Ruby libraries too.
+# Convert the JSON response to hash
 multi = JSON.parse(buffer)
+
+# Clear out empty metadata fields that RS includes for some reason
+multi["metadata"].delete_if { |h| h["value"] == "" }
+multi["metadata"].delete_if { |h| h["value"] == [] }
 
 #get values for each filestore alt file url
 solr_alt_query = "http://10.7.130.237:8983/solr/rspace/select?fl=alternative-files&q=rspace-id:#{rspaceid}&rows=1"
@@ -165,11 +173,11 @@ def other_manifest
 
 iiif_identifier = params[:iiif_identifier]
 
-annotation_json = '{"@context":"http://iiif.io/api/presentation/2/context.json","@id":"https://manifests.sub.uni-goettingen.de/iiif/presentation/PPN235181684_0174/list/gdz:PPN235181684_0174:00000003","@type":"sc:AnnotationList","resources":[{"@context":"http://iiif.io/api/presentation/2/context.json","@type":"oa:Annotation","motivation":"sc:painting","resource":{"@id":"https://gdz.sub.uni-goettingen.de/fulltext/PPN235181684_0174/00000003","@type":"dctypes:Text","format":"text/html"}}]}'
+annotation_json = '{"@context":"//iiif.io/api/presentation/2/context.json","@id":"https://manifests.sub.uni-goettingen.de/iiif/presentation/PPN235181684_0174/list/gdz:PPN235181684_0174:00000003","@type":"sc:AnnotationList","resources":[{"@context":"//iiif.io/api/presentation/2/context.json","@type":"oa:Annotation","motivation":"sc:painting","resource":{"@id":"https://gdz.sub.uni-goettingen.de/fulltext/PPN235181684_0174/00000003","@type":"dctypes:Text","format":"text/html"}}]}'
 annotation_list = JSON.parse(annotation_json)
 
-annotation_list["@id"] = "http://beta.lcdl.library.cofc.edu/lcdl/collections/annotation?iiif_identifier=#{iiif_identifier}"
-annotation_list["resources"][0]["resource"]["@id"] = "http://beta.lcdl.library.cofc.edu/lcdl/collections/fulltext?iiif_identifier=#{iiif_identifier}"
+annotation_list["@id"] = "https://beta.lcdl.library.cofc.edu/lcdl/collections/annotation?iiif_identifier=#{iiif_identifier}"
+annotation_list["resources"][0]["resource"]["@id"] = "https://beta.lcdl.library.cofc.edu/lcdl/collections/fulltext?iiif_identifier=#{iiif_identifier}"
 
 render json: annotation_list
 
