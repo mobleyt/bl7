@@ -1,6 +1,8 @@
 # frozen_string_literal: true
 class CatalogController < ApplicationController
 
+  include BlacklightRangeLimit::ControllerOverride
+
   include Blacklight::Catalog
 
   configure_blacklight do |config|
@@ -42,7 +44,7 @@ class CatalogController < ApplicationController
 #    config.add_show_tools_partial(:bookmark, partial: 'bookmark_control', if: :render_bookmarks_control?)
     config.add_show_tools_partial(:email, callback: :email_action, validator: :validate_email_params)
 #    config.add_show_tools_partial(:sms, if: :render_sms_action?, callback: :sms_action, validator: :validate_sms_params)
-#    config.add_show_tools_partial(:citation)
+    config.add_show_tools_partial(:citation)
 #    config.add_show_tools_partial(:more_like_this_document)
 
 #    config.add_nav_action(:bookmark, partial: 'blacklight/nav/bookmark', if: :render_bookmarks_control?)
@@ -84,6 +86,7 @@ class CatalogController < ApplicationController
     config.add_facet_field 'subject_topic_facet', label: 'Subject (Topic)', limit: 10
     config.add_facet_field 'subject_geographic_facet', label: 'Subject (Geographic)', limit: 10
     config.add_facet_field 'date_facet_facet', label: 'Date', limit: 10
+    config.add_facet_field 'daterange', label: 'Date Range (beta)', range: true
 #    config.add_facet_field 'pub_date_ssim', label: 'Publication Year', single: true
 #    config.add_facet_field 'subject_ssim', label: 'Topic', limit: 20, index_range: 'A'..'Z'
 #    config.add_facet_field 'language_ssim', label: 'Language', limit: true

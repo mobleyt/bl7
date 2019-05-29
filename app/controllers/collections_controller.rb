@@ -133,7 +133,7 @@ c = Marshal.load(Marshal.dump(base_canvas))
 canvas = canvas[30..-1]
 canvas = CGI.escape(canvas)
 
-altInfo = "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/#{canvas}/info.json"
+altInfo = "https://iiif.library.cofc.edu/iiif/2/#{canvas}/info.json"
 buffer = open(altInfo).read
 alt = JSON.parse(buffer)
 height = 85
@@ -147,8 +147,8 @@ c["images"][0]["@id"] = "http://rspace.library.cofc.edu/iiif/#{identifier}/annot
 c["images"][0]["on"] = "http://rspace.library.cofc.edu/iiif/#{identifier}/canvas/#{i}"
 c["images"][0]["height"] = height
 c["images"][0]["width"] = width
-c["images"][0]["resource"]["@id"] = "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/#{canvas}/full/full/0/default.jpg"
-c["images"][0]["resource"]["service"]["@id"] = "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/#{canvas}"
+c["images"][0]["resource"]["@id"] = "https://iiif.library.cofc.edu/iiif/2/#{canvas}/full/full/0/default.jpg"
+c["images"][0]["resource"]["service"]["@id"] = "https://iiif.library.cofc.edu/iiif/2/#{canvas}"
 
 multi["sequences"][0]["canvases"] << c
 

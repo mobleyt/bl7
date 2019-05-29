@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/2/context.json",
-  "@id": "http://rspace.library.cofc.edu/iiif/lcdl18584JPEG1jpg/manifest",
+  "@id": "https://rspace.library.cofc.edu/iiif/lcdl18584JPEG1jpg/manifest",
   "@type": "sc:Manifest",
   "label": "Box 4, Slide 005",
   "description": "",
@@ -17,6 +17,10 @@
     {
       "label": "Copyright Status Statement",
       "value": "Digital image copyright 2008, The College of Charleston Libraries. All rights reserved. For more information contact The College of Charleston Library, Charleston, SC 29424."
+    },
+    {
+      "label": "Date Digital",
+      "value": "2009-10"
     },
     {
       "label": "Digitization Specifications",
@@ -119,58 +123,58 @@
   ],
   "license": "Digital image copyright 2008, The College of Charleston Libraries. All rights reserved. For more information contact The College of Charleston Library, Charleston, SC 29424.",
   "thumbnail": {
-    "@id": "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/55680/full/thm/0/default.jpg",
+    "@id": "https://iiif.library.cofc.edu/iiif/2/55680/full/thm/0/default.jpg",
     "@type": "dctypes:Image",
     "height": 150,
     "width": 103,
     "format": "image/jpeg",
     "service": {
       "@context": "http://iiif.io/api/image/2/context.json",
-      "@id": "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/55680",
+      "@id": "https://iiif.library.cofc.edu/iiif/2/55680",
       "profile": "http://iiif.io/api/image/2/level1.json"
     }
   },
   "sequences": [
     {
-      "@id": "http://rspace.library.cofc.edu/iiif/lcdl18584JPEG1jpg/sequence/normal",
+      "@id": "https://rspace.library.cofc.edu/iiif/lcdl18584JPEG1jpg/sequence/normal",
       "@type": "sc:Sequence",
       "label": "Default order",
       "canvases": [
         {
-          "@id": "http://rspace.library.cofc.edu/iiif/lcdl18584JPEG1jpg/canvas/0",
+          "@id": "https://rspace.library.cofc.edu/iiif/lcdl18584JPEG1jpg/canvas/0",
           "@type": "sc:Canvas",
           "label": "0",
           "height": 3929,
           "width": 2710,
           "thumbnail": {
-            "@id": "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/55680/full/thm/0/default.jpg",
+            "@id": "https://iiif.library.cofc.edu/iiif/2/55680/full/thm/0/default.jpg",
             "@type": "dctypes:Image",
             "height": 150,
             "width": 103,
             "format": "image/jpeg",
             "service": {
               "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/55680",
+              "@id": "https://iiif.library.cofc.edu/iiif/2/55680",
               "profile": "http://iiif.io/api/image/2/level1.json"
             }
           },
           "images": [
             {
               "@context": "http://iiif.io/api/presentation/2/context.json",
-              "@id": "http://rspace.library.cofc.edu/iiif/lcdl18584JPEG1jpg/annotation/0",
+              "@id": "https://rspace.library.cofc.edu/iiif/lcdl18584JPEG1jpg/annotation/0",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
-                "@id": "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/55680/full/full/0/default.jpg",
+                "@id": "https://iiif.library.cofc.edu/iiif/2/55680/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "http://153.9.109.68:8080/cantaloupe-4.0.1/iiif/2/55680",
+                  "@id": "https://iiif.library.cofc.edu/iiif/2/55680",
                   "profile": "http://iiif.io/api/image/2/level1.json"
                 }
               },
-              "on": "http://rspace.library.cofc.edu/iiif/lcdl18584JPEG1jpg/canvas/0",
+              "on": "https://rspace.library.cofc.edu/iiif/lcdl18584JPEG1jpg/canvas/0",
               "height": 3929,
               "width": 2710
             }

@@ -13,7 +13,12 @@
  *= require_tree .
  *= require_self
  *= require mediaelement_rails
- */
+ 
+ *
+ * Used by blacklight_range_limit
+ *= require  'blacklight_range_limit'
+ *
+*/
 
 .applied-filter .filter-name:after {
     color: #6c757d;
