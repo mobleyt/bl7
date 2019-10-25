@@ -1,0 +1,248 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://rspace.library.cofc.edu/iiif/lcdl36812JPEG1jpg/manifest",
+  "@type": "sc:Manifest",
+  "label": "Page 09, Card 1",
+  "description": "Postcard. Religious theme - illustration of flowers (poppies) with bible verse. Mailed from Watha, North Carolina.",
+  "metadata": [
+    {
+      "label": "Description",
+      "value": "Postcard. Religious theme - illustration of flowers (poppies) with bible verse. Mailed from Watha, North Carolina."
+    },
+    {
+      "label": "Contributing Institution",
+      "value": [
+        {
+          "@value": "The Charleston Archive at CCPL",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Copyright Status Statement",
+      "value": "Digital image copyright 2011, Charleston County Public Library. All rights reserved. For more information contact the Charleston Archive, Charleston County Public Library, 68 Calhoun Street, Charleston, SC 29401"
+    },
+    {
+      "label": "Date Digital",
+      "value": "2011-04"
+    },
+    {
+      "label": "Digitization Specifications",
+      "value": "600 ppi, 24-bit depth, color, Epson Expression 10000XL scanner, Archival Master is a tiff."
+    },
+    {
+      "label": "Transcript",
+      "value": "God give thee of the dew of Heaven and the fatness of the earth. Gen. Chap. 27 ver. 27[End Front] Post Card; THIS SPACE MAY BE USED FOR CORRESPONDENCE. Your card rec'd & sure it was appreciated. Miss Bettie I do miss you so much Give my L- to your Mama & Miss Gertrude. All are well. I have ben packing S. B. [\"Hastely\" ?] Pearl M - ; FOR ADDRESS ONLY. Miss Bettie La. Barbe. #158 Chestnut St., Asheville, N. Carolina.[End Back]"
+    },
+    {
+      "label": "Media Type",
+      "value": [
+        {
+          "@value": "Images",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Resource Locator",
+      "value": "PostcardAlbum_09_001"
+    },
+    {
+      "label": "Type",
+      "value": [
+        {
+          "@value": "StillImage",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "PID",
+      "value": "lcdl:36812"
+    },
+    {
+      "label": "Collection Identifier",
+      "value": "BLB"
+    },
+    {
+      "label": "Original filename",
+      "value": "lcdl36812-JPEG1.jpg"
+    },
+    {
+      "label": "Collection Title",
+      "value": "Bettie La Barbe Postcard Collection"
+    },
+    {
+      "label": "Type IMT",
+      "value": "image/jpeg"
+    },
+    {
+      "label": "iiif",
+      "value": "lcdl36812JPEG1jpg"
+    },
+    {
+      "label": "Compound Identifier",
+      "value": "BLB"
+    },
+    {
+      "label": "Subject - Temporal",
+      "value": [
+        {
+          "@value": "StillImage,Charleston County (S.C.),The Charleston Archive at CCPL,Images,Postcards,Victoriana,Souvenirs (Keepsakes),190?-04-10",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Shelving Locator",
+      "value": "PostcardAlbum_09_001"
+    },
+    {
+      "label": "Subject - Geographic County",
+      "value": [
+        {
+          "@value": "Charleston County (S.C.)",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Title",
+      "value": "Page 09, Card 1"
+    },
+    {
+      "label": "Subject - Topical",
+      "value": [
+        {
+          "@value": "Postcards,Victoriana,Souvenirs (Keepsakes)",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Date",
+      "value": [
+        {
+          "@value": "190?-04-10",
+          "@language": "en"
+        }
+      ]
+    }
+  ],
+  "license": "Digital image copyright 2011, Charleston County Public Library. All rights reserved. For more information contact the Charleston Archive, Charleston County Public Library, 68 Calhoun Street, Charleston, SC 29401",
+  "thumbnail": {
+    "@id": "https://iiif.library.cofc.edu/iiif/2/29840/full/thm/0/default.jpg",
+    "@type": "dctypes:Image",
+    "height": 96,
+    "width": 150,
+    "format": "image/jpeg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif.library.cofc.edu/iiif/2/29840",
+      "profile": "http://iiif.io/api/image/2/level1.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://rspace.library.cofc.edu/iiif/lcdl36812JPEG1jpg/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Default order",
+      "canvases": [
+        {
+          "@id": "https://rspace.library.cofc.edu/iiif/lcdl36812JPEG1jpg/canvas/0",
+          "@type": "sc:Canvas",
+          "label": "0",
+          "height": 1276,
+          "width": 2000,
+          "thumbnail": {
+            "@id": "https://iiif.library.cofc.edu/iiif/2/29840/full/thm/0/default.jpg",
+            "@type": "dctypes:Image",
+            "height": 96,
+            "width": 150,
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://iiif.library.cofc.edu/iiif/2/29840",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            }
+          },
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "https://rspace.library.cofc.edu/iiif/lcdl36812JPEG1jpg/annotation/0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.library.cofc.edu/iiif/2/29840/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.library.cofc.edu/iiif/2/29840",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://rspace.library.cofc.edu/iiif/lcdl36812JPEG1jpg/canvas/0",
+              "height": 1276,
+              "width": 2000
+            }
+          ],
+          "otherContent": [
+            {
+              "@context": "//iiif.io/api/presentation/2/context.json",
+              "@id": "https://lcdl.library.cofc.edu/lcdl/collections/annotation?iiif_identifier=lcdl36812JPEG1jpg",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        },
+        {
+          "@id": "https://rspace.library.cofc.edu/iiif/lcdl36812JPEG1jpg/canvas/1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 85,
+          "width": 2000,
+          "thumbnail": {
+            "@id": "https://iiif.library.cofc.edu/iiif/2/29840/full/thm/0/default.jpg",
+            "@type": "dctypes:Image",
+            "height": 96,
+            "width": 150,
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://iiif.library.cofc.edu/iiif/2/29840",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            }
+          },
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "https://rspace.library.cofc.edu/iiif/lcdl36812JPEG1jpg/annotation/1",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.library.cofc.edu/iiif/2/%2Ffilestore%2F2%2F9%2F8%2F4%2F0_acf01cf1408e4c6%2F29840_alt_1038_c72fdcd41aef5c7.jpg/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.library.cofc.edu/iiif/2/%2Ffilestore%2F2%2F9%2F8%2F4%2F0_acf01cf1408e4c6%2F29840_alt_1038_c72fdcd41aef5c7.jpg",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://rspace.library.cofc.edu/iiif/lcdl36812JPEG1jpg/canvas/1",
+              "height": 85,
+              "width": 2000
+            }
+          ],
+          "otherContent": [
+            {
+              "@context": "//iiif.io/api/presentation/2/context.json",
+              "@id": "https://lcdl.library.cofc.edu/lcdl/collections/annotation?iiif_identifier=lcdl36812JPEG1jpg",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

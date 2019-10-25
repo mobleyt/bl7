@@ -1,0 +1,210 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://rspace.library.cofc.edu/iiif/lcdl40765JPEG1jpg/manifest",
+  "@type": "sc:Manifest",
+  "label": "173. \"Tribute\" - Dec. 1869",
+  "description": "Tribute to Magdalen Elizabeth Keith from her students at the Normal School",
+  "metadata": [
+    {
+      "label": "Description",
+      "value": "Tribute to Magdalen Elizabeth Keith from her students at the Normal School"
+    },
+    {
+      "label": "Contributing Institution",
+      "value": [
+        {
+          "@value": "College of Charleston Libraries",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Copyright Status Statement",
+      "value": "Digital image copyright 2010, The College of Charleston Libraries. All rights reserved. For more information contact The College of Charleston Library, Charleston, SC 29424."
+    },
+    {
+      "label": "Date Digital",
+      "value": "2010-06"
+    },
+    {
+      "label": "Digitization Specifications",
+      "value": "600 ppi, 24-bit depth, color, Epson Expression 10000XL scanner, Archival Master is a tiff."
+    },
+    {
+      "label": "Transcript",
+      "value": "A tribute of love and gratitude to our dear Teacher, from her pupils:  Frances Lunsforde,  Rosalie Courtney,  Jessie Jones,  Hattie White,  Louisa Jenkins,  Virginia Walker,  Julia Bailey,  Anna Wilson,  Florence Henery,  Anna Rabb,  Mary Trout,  Marion Spady,  Elvina Semoke,  Emily Sonbeyroux  Ellen Burnham,  Rebecca Batesman,  Louisa Hillers,  Rebecca Saunders,  Emily Stillman,  Margt. Moffett,  Annie Austin,  Isabelle Mahoney,  Julia Crawford,  Ida Tobias,  Ida Harrison,  Rosa Bird,  Florence Salano,  & Eliza Bredman.  Normal School,  Christmas 1869."
+    },
+    {
+      "label": "Media Type",
+      "value": [
+        {
+          "@value": "Manuscripts",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Resource Locator",
+      "value": "Mss 0111,Box3Folder8_08.jpg"
+    },
+    {
+      "label": "Type",
+      "value": [
+        {
+          "@value": "Text",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "PID",
+      "value": "lcdl:40765"
+    },
+    {
+      "label": "Collection Identifier",
+      "value": "WKF"
+    },
+    {
+      "label": "Original filename",
+      "value": "lcdl40765-JPEG1.jpg"
+    },
+    {
+      "label": "Collection Title",
+      "value": "Wilkinson-Keith Family Papers"
+    },
+    {
+      "label": "Type IMT",
+      "value": "image/jpeg"
+    },
+    {
+      "label": "iiif",
+      "value": "lcdl40765JPEG1jpg"
+    },
+    {
+      "label": "Compound Identifier",
+      "value": "WKF"
+    },
+    {
+      "label": "Subject - Temporal",
+      "value": [
+        {
+          "@value": "Text,Charleston County (S.C.),College of Charleston Libraries,Wilkinson and Keith Families,1869-12,Teaching,Manuscripts",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Shelving Locator",
+      "value": "Mss 0111,Box3Folder8_08.jpg"
+    },
+    {
+      "label": "Subject - Geographic County",
+      "value": [
+        {
+          "@value": "Charleston County (S.C.)",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Title",
+      "value": "173. \"Tribute\" - Dec. 1869"
+    },
+    {
+      "label": "Subject - Topical",
+      "value": [
+        {
+          "@value": "Teaching",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Creator Name (Personal)",
+      "value": [
+        {
+          "@value": "Wilkinson and Keith Families",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Date",
+      "value": [
+        {
+          "@value": "1869-12",
+          "@language": "en"
+        }
+      ]
+    }
+  ],
+  "license": "Digital image copyright 2010, The College of Charleston Libraries. All rights reserved. For more information contact The College of Charleston Library, Charleston, SC 29424.",
+  "thumbnail": {
+    "@id": "https://iiif.library.cofc.edu/iiif/2/24862/full/thm/0/default.jpg",
+    "@type": "dctypes:Image",
+    "height": 119,
+    "width": 150,
+    "format": "image/jpeg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif.library.cofc.edu/iiif/2/24862",
+      "profile": "http://iiif.io/api/image/2/level1.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://rspace.library.cofc.edu/iiif/lcdl40765JPEG1jpg/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Default order",
+      "canvases": [
+        {
+          "@id": "https://rspace.library.cofc.edu/iiif/lcdl40765JPEG1jpg/canvas/0",
+          "@type": "sc:Canvas",
+          "label": "0",
+          "height": 1583,
+          "width": 2000,
+          "thumbnail": {
+            "@id": "https://iiif.library.cofc.edu/iiif/2/24862/full/thm/0/default.jpg",
+            "@type": "dctypes:Image",
+            "height": 119,
+            "width": 150,
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://iiif.library.cofc.edu/iiif/2/24862",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            }
+          },
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "https://rspace.library.cofc.edu/iiif/lcdl40765JPEG1jpg/annotation/0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.library.cofc.edu/iiif/2/24862/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.library.cofc.edu/iiif/2/24862",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://rspace.library.cofc.edu/iiif/lcdl40765JPEG1jpg/canvas/0",
+              "height": 1583,
+              "width": 2000
+            }
+          ],
+          "otherContent": [
+            {
+              "@context": "//iiif.io/api/presentation/2/context.json",
+              "@id": "https://lcdl.library.cofc.edu/lcdl/collections/annotation?iiif_identifier=lcdl40765JPEG1jpg",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

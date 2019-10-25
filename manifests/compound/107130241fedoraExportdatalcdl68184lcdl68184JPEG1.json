@@ -1,0 +1,605 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://rspace.library.cofc.edu/iiif/107130241fedoraExportdatalcdl68184lcdl68184JPEG1/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter from Gertrude Sanford Legendre, November 8, 1942",
+  "description": "",
+  "metadata": [
+    {
+      "label": "Access Note",
+      "value": "All rights reserved. For more information and reuse requirements contact The College of Charleston Library, Charleston SC 29424."
+    },
+    {
+      "label": "Contributing Institution",
+      "value": [
+        {
+          "@value": "College of Charleston Libraries",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Copyright Status Statement",
+      "value": "Copyright © College of Charleston Libraries."
+    },
+    {
+      "label": "Date Digital",
+      "value": "2014-03-11"
+    },
+    {
+      "label": "Digitization Specifications",
+      "value": "300 dpi, 24-bit depth color, Epson Expression 10000XL, Archival Masters are tiffs."
+    },
+    {
+      "label": "Media Type",
+      "value": [
+        {
+          "@value": "Manuscripts",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Resource Locator",
+      "value": "Mss 182"
+    },
+    {
+      "label": "Type",
+      "value": [
+        {
+          "@value": "Text",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "PID",
+      "value": "lcdl:68184"
+    },
+    {
+      "label": "Collection Identifier",
+      "value": "GSL"
+    },
+    {
+      "label": "Original filename",
+      "value": "lcdl68184-JPEG1.jpg"
+    },
+    {
+      "label": "Collection Title",
+      "value": "Gertrude Sanford Legendre Papers, 1844-1996"
+    },
+    {
+      "label": "Series Title",
+      "value": [
+        {
+          "@value": "Gertrude Sanford Legendre Papers: Correspondence",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "iiif",
+      "value": "107130241fedoraExportdatalcdl68184lcdl68184JPEG1"
+    },
+    {
+      "label": "Compound Identifier",
+      "value": "GSL-C7"
+    },
+    {
+      "label": "Subject - Temporal",
+      "value": [
+        {
+          "@value": "Text,Washington (D.C.),Legendre, Sidney Jennings, 1903-1948,English,College of Charleston Libraries,World War, 1939-1945,Legendre, Gertrude Sanford,Gertrude Sanford Legendre Papers: Correspondence,1942-11-08,Manuscripts",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Shelving Locator",
+      "value": "Mss 182"
+    },
+    {
+      "label": "Title",
+      "value": "Letter from Gertrude Sanford Legendre, November 8, 1942"
+    },
+    {
+      "label": "Subject - Geographic",
+      "value": [
+        {
+          "@value": "Washington (D.C.)",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Subject - Topical",
+      "value": [
+        {
+          "@value": "World War, 1939-1945",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Subject - Name",
+      "value": [
+        {
+          "@value": "Legendre, Sidney Jennings, 1903-1948",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Creator Name (Personal)",
+      "value": [
+        {
+          "@value": "Legendre, Gertrude Sanford",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Date",
+      "value": [
+        {
+          "@value": "1942-11-08",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Language",
+      "value": [
+        {
+          "@value": "English",
+          "@language": "en"
+        }
+      ]
+    }
+  ],
+  "license": "Copyright © College of Charleston Libraries.",
+  "thumbnail": {
+    "@id": "https://iiif.library.cofc.edu/iiif/2/24195/full/thm/0/default.jpg",
+    "@type": "dctypes:Image",
+    "height": 150,
+    "width": 115,
+    "format": "image/jpeg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif.library.cofc.edu/iiif/2/24195",
+      "profile": "http://iiif.io/api/image/2/level1.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://rspace.library.cofc.edu/iiif/GSL-C7/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Default order",
+      "canvases": [
+        {
+          "@id": "https://rspace.library.cofc.edu/iiif/lcdl68185JPEG1jpg/canvas/0",
+          "@type": "sc:Canvas",
+          "label": "0",
+          "height": 2612,
+          "width": 2000,
+          "thumbnail": {
+            "@id": "https://iiif.library.cofc.edu/iiif/2/204597/full/thm/0/default.jpg",
+            "@type": "dctypes:Image",
+            "height": 150,
+            "width": 115,
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://iiif.library.cofc.edu/iiif/2/204597",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            }
+          },
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "https://rspace.library.cofc.edu/iiif/lcdl68185JPEG1jpg/annotation/0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.library.cofc.edu/iiif/2/204597/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.library.cofc.edu/iiif/2/204597",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://rspace.library.cofc.edu/iiif/lcdl68185JPEG1jpg/canvas/0",
+              "height": 2612,
+              "width": 2000
+            }
+          ],
+          "otherContent": [
+            {
+              "@context": "//iiif.io/api/presentation/2/context.json",
+              "@id": "https://lcdl.library.cofc.edu/lcdl/collections/annotation?iiif_identifier=lcdl68185JPEG1jpg",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        },
+        {
+          "@id": "https://rspace.library.cofc.edu/iiif/lcdl68186JPEG1jpg/canvas/0",
+          "@type": "sc:Canvas",
+          "label": "0",
+          "height": 2609,
+          "width": 2000,
+          "thumbnail": {
+            "@id": "https://iiif.library.cofc.edu/iiif/2/204598/full/thm/0/default.jpg",
+            "@type": "dctypes:Image",
+            "height": 150,
+            "width": 115,
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://iiif.library.cofc.edu/iiif/2/204598",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            }
+          },
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "https://rspace.library.cofc.edu/iiif/lcdl68186JPEG1jpg/annotation/0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.library.cofc.edu/iiif/2/204598/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.library.cofc.edu/iiif/2/204598",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://rspace.library.cofc.edu/iiif/lcdl68186JPEG1jpg/canvas/0",
+              "height": 2609,
+              "width": 2000
+            }
+          ],
+          "otherContent": [
+            {
+              "@context": "//iiif.io/api/presentation/2/context.json",
+              "@id": "https://lcdl.library.cofc.edu/lcdl/collections/annotation?iiif_identifier=lcdl68186JPEG1jpg",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        },
+        {
+          "@id": "https://rspace.library.cofc.edu/iiif/lcdl68187JPEG1jpg/canvas/0",
+          "@type": "sc:Canvas",
+          "label": "0",
+          "height": 3018,
+          "width": 2000,
+          "thumbnail": {
+            "@id": "https://iiif.library.cofc.edu/iiif/2/204599/full/thm/0/default.jpg",
+            "@type": "dctypes:Image",
+            "height": 150,
+            "width": 99,
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://iiif.library.cofc.edu/iiif/2/204599",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            }
+          },
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "https://rspace.library.cofc.edu/iiif/lcdl68187JPEG1jpg/annotation/0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.library.cofc.edu/iiif/2/204599/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.library.cofc.edu/iiif/2/204599",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://rspace.library.cofc.edu/iiif/lcdl68187JPEG1jpg/canvas/0",
+              "height": 3018,
+              "width": 2000
+            }
+          ],
+          "otherContent": [
+            {
+              "@context": "//iiif.io/api/presentation/2/context.json",
+              "@id": "https://lcdl.library.cofc.edu/lcdl/collections/annotation?iiif_identifier=lcdl68187JPEG1jpg",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        },
+        {
+          "@id": "https://rspace.library.cofc.edu/iiif/lcdl68188JPEG1jpg/canvas/0",
+          "@type": "sc:Canvas",
+          "label": "0",
+          "height": 2622,
+          "width": 2000,
+          "thumbnail": {
+            "@id": "https://iiif.library.cofc.edu/iiif/2/204600/full/thm/0/default.jpg",
+            "@type": "dctypes:Image",
+            "height": 150,
+            "width": 114,
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://iiif.library.cofc.edu/iiif/2/204600",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            }
+          },
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "https://rspace.library.cofc.edu/iiif/lcdl68188JPEG1jpg/annotation/0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.library.cofc.edu/iiif/2/204600/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.library.cofc.edu/iiif/2/204600",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://rspace.library.cofc.edu/iiif/lcdl68188JPEG1jpg/canvas/0",
+              "height": 2622,
+              "width": 2000
+            }
+          ],
+          "otherContent": [
+            {
+              "@context": "//iiif.io/api/presentation/2/context.json",
+              "@id": "https://lcdl.library.cofc.edu/lcdl/collections/annotation?iiif_identifier=lcdl68188JPEG1jpg",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        },
+        {
+          "@id": "https://rspace.library.cofc.edu/iiif/lcdl68189JPEG1jpg/canvas/0",
+          "@type": "sc:Canvas",
+          "label": "0",
+          "height": 2615,
+          "width": 2000,
+          "thumbnail": {
+            "@id": "https://iiif.library.cofc.edu/iiif/2/204601/full/thm/0/default.jpg",
+            "@type": "dctypes:Image",
+            "height": 150,
+            "width": 115,
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://iiif.library.cofc.edu/iiif/2/204601",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            }
+          },
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "https://rspace.library.cofc.edu/iiif/lcdl68189JPEG1jpg/annotation/0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.library.cofc.edu/iiif/2/204601/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.library.cofc.edu/iiif/2/204601",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://rspace.library.cofc.edu/iiif/lcdl68189JPEG1jpg/canvas/0",
+              "height": 2615,
+              "width": 2000
+            }
+          ],
+          "otherContent": [
+            {
+              "@context": "//iiif.io/api/presentation/2/context.json",
+              "@id": "https://lcdl.library.cofc.edu/lcdl/collections/annotation?iiif_identifier=lcdl68189JPEG1jpg",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        },
+        {
+          "@id": "https://rspace.library.cofc.edu/iiif/lcdl68190JPEG1jpg/canvas/0",
+          "@type": "sc:Canvas",
+          "label": "0",
+          "height": 3015,
+          "width": 2000,
+          "thumbnail": {
+            "@id": "https://iiif.library.cofc.edu/iiif/2/204602/full/thm/0/default.jpg",
+            "@type": "dctypes:Image",
+            "height": 150,
+            "width": 100,
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://iiif.library.cofc.edu/iiif/2/204602",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            }
+          },
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "https://rspace.library.cofc.edu/iiif/lcdl68190JPEG1jpg/annotation/0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.library.cofc.edu/iiif/2/204602/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.library.cofc.edu/iiif/2/204602",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://rspace.library.cofc.edu/iiif/lcdl68190JPEG1jpg/canvas/0",
+              "height": 3015,
+              "width": 2000
+            }
+          ],
+          "otherContent": [
+            {
+              "@context": "//iiif.io/api/presentation/2/context.json",
+              "@id": "https://lcdl.library.cofc.edu/lcdl/collections/annotation?iiif_identifier=lcdl68190JPEG1jpg",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        },
+        {
+          "@id": "https://rspace.library.cofc.edu/iiif/lcdl68191JPEG1jpg/canvas/0",
+          "@type": "sc:Canvas",
+          "label": "0",
+          "height": 2597,
+          "width": 2000,
+          "thumbnail": {
+            "@id": "https://iiif.library.cofc.edu/iiif/2/204603/full/thm/0/default.jpg",
+            "@type": "dctypes:Image",
+            "height": 150,
+            "width": 116,
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://iiif.library.cofc.edu/iiif/2/204603",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            }
+          },
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "https://rspace.library.cofc.edu/iiif/lcdl68191JPEG1jpg/annotation/0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.library.cofc.edu/iiif/2/204603/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.library.cofc.edu/iiif/2/204603",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://rspace.library.cofc.edu/iiif/lcdl68191JPEG1jpg/canvas/0",
+              "height": 2597,
+              "width": 2000
+            }
+          ],
+          "otherContent": [
+            {
+              "@context": "//iiif.io/api/presentation/2/context.json",
+              "@id": "https://lcdl.library.cofc.edu/lcdl/collections/annotation?iiif_identifier=lcdl68191JPEG1jpg",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        },
+        {
+          "@id": "https://rspace.library.cofc.edu/iiif/lcdl68192JPEG1jpg/canvas/0",
+          "@type": "sc:Canvas",
+          "label": "0",
+          "height": 2593,
+          "width": 2000,
+          "thumbnail": {
+            "@id": "https://iiif.library.cofc.edu/iiif/2/204604/full/thm/0/default.jpg",
+            "@type": "dctypes:Image",
+            "height": 150,
+            "width": 116,
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://iiif.library.cofc.edu/iiif/2/204604",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            }
+          },
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "https://rspace.library.cofc.edu/iiif/lcdl68192JPEG1jpg/annotation/0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.library.cofc.edu/iiif/2/204604/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.library.cofc.edu/iiif/2/204604",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://rspace.library.cofc.edu/iiif/lcdl68192JPEG1jpg/canvas/0",
+              "height": 2593,
+              "width": 2000
+            }
+          ],
+          "otherContent": [
+            {
+              "@context": "//iiif.io/api/presentation/2/context.json",
+              "@id": "https://lcdl.library.cofc.edu/lcdl/collections/annotation?iiif_identifier=lcdl68192JPEG1jpg",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        },
+        {
+          "@id": "https://rspace.library.cofc.edu/iiif/lcdl68193JPEG1jpg/canvas/0",
+          "@type": "sc:Canvas",
+          "label": "0",
+          "height": 3022,
+          "width": 2000,
+          "thumbnail": {
+            "@id": "https://iiif.library.cofc.edu/iiif/2/204605/full/thm/0/default.jpg",
+            "@type": "dctypes:Image",
+            "height": 150,
+            "width": 99,
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://iiif.library.cofc.edu/iiif/2/204605",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            }
+          },
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "https://rspace.library.cofc.edu/iiif/lcdl68193JPEG1jpg/annotation/0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.library.cofc.edu/iiif/2/204605/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.library.cofc.edu/iiif/2/204605",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://rspace.library.cofc.edu/iiif/lcdl68193JPEG1jpg/canvas/0",
+              "height": 3022,
+              "width": 2000
+            }
+          ],
+          "otherContent": [
+            {
+              "@context": "//iiif.io/api/presentation/2/context.json",
+              "@id": "https://lcdl.library.cofc.edu/lcdl/collections/annotation?iiif_identifier=lcdl68193JPEG1jpg",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

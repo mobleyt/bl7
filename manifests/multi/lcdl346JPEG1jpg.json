@@ -1,0 +1,206 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://rspace.library.cofc.edu/iiif/lcdl346JPEG1jpg/manifest",
+  "@type": "sc:Manifest",
+  "label": "The Illustrated London News",
+  "description": "Caption: 'Dealers inspecting a Negro at a slave auction in Virginia,--from a sketch by our Special Artist.'  [full date Feb. 15, 1861.]",
+  "metadata": [
+    {
+      "label": "Description",
+      "value": "Caption: 'Dealers inspecting a Negro at a slave auction in Virginia,--from a sketch by our Special Artist.'  [full date Feb. 15, 1861.]"
+    },
+    {
+      "label": "Contributing Institution",
+      "value": [
+        {
+          "@value": "The Charleston Museum Archives",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Copyright Status Statement",
+      "value": "Digital image copyright 2011, The Charleston Museum Archives. All rights reserved. For more information contact The Charleston Museum, 360 Meeting Street, Charleston, SC 29403."
+    },
+    {
+      "label": "Date Digital",
+      "value": "2011-03-01"
+    },
+    {
+      "label": "Digitization Specifications",
+      "value": "800 ppi, 24-bit depth, color, Epson Expression 10000XL, Archival Masters are tiffs."
+    },
+    {
+      "label": "Media Type",
+      "value": [
+        {
+          "@value": "Images",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Resource Locator",
+      "value": "2010.9.15"
+    },
+    {
+      "label": "Type",
+      "value": [
+        {
+          "@value": "StillImage",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "PID",
+      "value": "lcdl:346"
+    },
+    {
+      "label": "Collection Identifier",
+      "value": "CMN"
+    },
+    {
+      "label": "Original filename",
+      "value": "lcdl346-JPEG1.jpg"
+    },
+    {
+      "label": "Collection Title",
+      "value": "Charleston Museum Illustrated Newspapers Collection"
+    },
+    {
+      "label": "Type IMT",
+      "value": "image/jpeg"
+    },
+    {
+      "label": "iiif",
+      "value": "lcdl346JPEG1jpg"
+    },
+    {
+      "label": "Compound Identifier",
+      "value": "CMN"
+    },
+    {
+      "label": "Subject - Temporal",
+      "value": [
+        {
+          "@value": "StillImage,Richmond (Va.),Charleston County (S.C.),Slavery,Low Country,1861,The Charleston Museum Archives,Images,Slave trade",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Shelving Locator",
+      "value": "2010.9.15"
+    },
+    {
+      "label": "Subject - Geographic County",
+      "value": [
+        {
+          "@value": "Charleston County (S.C.)",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Title",
+      "value": "The Illustrated London News"
+    },
+    {
+      "label": "Subject - Geographic",
+      "value": [
+        {
+          "@value": "Richmond (Va.),Low Country",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Subject - Topical",
+      "value": [
+        {
+          "@value": "Slavery,Slave trade",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Date",
+      "value": [
+        {
+          "@value": "1861",
+          "@language": "en"
+        }
+      ]
+    }
+  ],
+  "license": "Digital image copyright 2011, The Charleston Museum Archives. All rights reserved. For more information contact The Charleston Museum, 360 Meeting Street, Charleston, SC 29403.",
+  "thumbnail": {
+    "@id": "https://iiif.library.cofc.edu/iiif/2/59436/full/thm/0/default.jpg",
+    "@type": "dctypes:Image",
+    "height": 142,
+    "width": 150,
+    "format": "image/jpeg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif.library.cofc.edu/iiif/2/59436",
+      "profile": "http://iiif.io/api/image/2/level1.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://rspace.library.cofc.edu/iiif/lcdl346JPEG1jpg/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Default order",
+      "canvases": [
+        {
+          "@id": "https://rspace.library.cofc.edu/iiif/lcdl346JPEG1jpg/canvas/0",
+          "@type": "sc:Canvas",
+          "label": "0",
+          "height": 2406,
+          "width": 2541,
+          "thumbnail": {
+            "@id": "https://iiif.library.cofc.edu/iiif/2/59436/full/thm/0/default.jpg",
+            "@type": "dctypes:Image",
+            "height": 142,
+            "width": 150,
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://iiif.library.cofc.edu/iiif/2/59436",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            }
+          },
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "https://rspace.library.cofc.edu/iiif/lcdl346JPEG1jpg/annotation/0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.library.cofc.edu/iiif/2/59436/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.library.cofc.edu/iiif/2/59436",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://rspace.library.cofc.edu/iiif/lcdl346JPEG1jpg/canvas/0",
+              "height": 2406,
+              "width": 2541
+            }
+          ],
+          "otherContent": [
+            {
+              "@context": "//iiif.io/api/presentation/2/context.json",
+              "@id": "https://lcdl.library.cofc.edu/lcdl/collections/annotation?iiif_identifier=lcdl346JPEG1jpg",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://rspace.library.cofc.edu/iiif/lcdl32836JPEG1jpg/manifest",
+  "@type": "sc:Manifest",
+  "label": "Gustave M. Pollitzer's prayer book in Yiddish",
+  "description": "A page of Gustave M. Pollitzer's prayer book in Yiddish.",
+  "metadata": [
+    {
+      "label": "Description",
+      "value": "A page of Gustave M. Pollitzer's prayer book in Yiddish."
+    },
+    {
+      "label": "Contributing Institution",
+      "value": [
+        {
+          "@value": "South Carolina Historical Society",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Copyright Status Statement",
+      "value": "Digital image copyright 2013, South Carolina Historical Society. All rights reserved. For more information contact The South Carolina Historical Society, Charleston, SC 29401."
+    },
+    {
+      "label": "Date Digital",
+      "value": "2013-01-24"
+    },
+    {
+      "label": "Digitization Specifications",
+      "value": "600 dpi, 24-bit depth, color, Epson Expression 10000XL, Archival masters are tiffs."
+    },
+    {
+      "label": "Media Type",
+      "value": [
+        {
+          "@value": "Manuscripts",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Resource Locator",
+      "value": "MSS-24-25-17-01"
+    },
+    {
+      "label": "Type",
+      "value": [
+        {
+          "@value": "Text",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "PID",
+      "value": "lcdl:32836"
+    },
+    {
+      "label": "Collection Identifier",
+      "value": "POL"
+    },
+    {
+      "label": "Original filename",
+      "value": "lcdl32836-JPEG1.jpg"
+    },
+    {
+      "label": "Collection Title",
+      "value": "Anita Pollitzer Family Papers"
+    },
+    {
+      "label": "Type IMT",
+      "value": "image/jpeg"
+    },
+    {
+      "label": "iiif",
+      "value": "lcdl32836JPEG1jpg"
+    },
+    {
+      "label": "Compound Identifier",
+      "value": "POL"
+    },
+    {
+      "label": "Subject - Temporal",
+      "value": [
+        {
+          "@value": "Text,Charleston County (S.C.),South Carolina Historical Society,Manuscripts,Judaism--Prayers and devotions,Yiddish language",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Shelving Locator",
+      "value": "MSS-24-25-17-01"
+    },
+    {
+      "label": "Subject - Geographic County",
+      "value": [
+        {
+          "@value": "Charleston County (S.C.)",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Title",
+      "value": "Gustave M. Pollitzer's prayer book in Yiddish"
+    },
+    {
+      "label": "Subject - Topical",
+      "value": [
+        {
+          "@value": "Judaism--Prayers and devotions,Yiddish language",
+          "@language": "en"
+        }
+      ]
+    }
+  ],
+  "license": "Digital image copyright 2013, South Carolina Historical Society. All rights reserved. For more information contact The South Carolina Historical Society, Charleston, SC 29401.",
+  "thumbnail": {
+    "@id": "https://iiif.library.cofc.edu/iiif/2/50310/full/thm/0/default.jpg",
+    "@type": "dctypes:Image",
+    "height": 150,
+    "width": 127,
+    "format": "image/jpeg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif.library.cofc.edu/iiif/2/50310",
+      "profile": "http://iiif.io/api/image/2/level1.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://rspace.library.cofc.edu/iiif/lcdl32836JPEG1jpg/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Default order",
+      "canvases": [
+        {
+          "@id": "https://rspace.library.cofc.edu/iiif/lcdl32836JPEG1jpg/canvas/0",
+          "@type": "sc:Canvas",
+          "label": "0",
+          "height": 2000,
+          "width": 1692,
+          "thumbnail": {
+            "@id": "https://iiif.library.cofc.edu/iiif/2/50310/full/thm/0/default.jpg",
+            "@type": "dctypes:Image",
+            "height": 150,
+            "width": 127,
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://iiif.library.cofc.edu/iiif/2/50310",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            }
+          },
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "https://rspace.library.cofc.edu/iiif/lcdl32836JPEG1jpg/annotation/0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.library.cofc.edu/iiif/2/50310/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.library.cofc.edu/iiif/2/50310",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://rspace.library.cofc.edu/iiif/lcdl32836JPEG1jpg/canvas/0",
+              "height": 2000,
+              "width": 1692
+            }
+          ],
+          "otherContent": [
+            {
+              "@context": "//iiif.io/api/presentation/2/context.json",
+              "@id": "https://beta.lcdl.library.cofc.edu/lcdl/collections/annotation?iiif_identifier=lcdl32836JPEG1jpg",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

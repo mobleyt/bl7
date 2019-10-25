@@ -1,0 +1,210 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://rspace.library.cofc.edu/iiif/lcdl40748JPEG1jpg/manifest",
+  "@type": "sc:Manifest",
+  "label": "009. From the office of R.M. Marshall to M. -- September 12, 1883",
+  "description": "Letter addressed to M from someone in the office of R. M. Marshall & Brother. Mentions Mama, Mimmie, Mr. P. & Keith",
+  "metadata": [
+    {
+      "label": "Description",
+      "value": "Letter addressed to M from someone in the office of R. M. Marshall & Brother. Mentions Mama, Mimmie, Mr. P. & Keith"
+    },
+    {
+      "label": "Contributing Institution",
+      "value": [
+        {
+          "@value": "College of Charleston Libraries",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Copyright Status Statement",
+      "value": "Digital image copyright 2010, The College of Charleston Libraries. All rights reserved. For more information contact The College of Charleston Library, Charleston, SC 29424."
+    },
+    {
+      "label": "Date Digital",
+      "value": "2010-06"
+    },
+    {
+      "label": "Digitization Specifications",
+      "value": "600 ppi, 24-bit depth, color, Epson Expression 10000XL scanner, Archival Master is a tiff."
+    },
+    {
+      "label": "Transcript",
+      "value": "R. M. MARSHALL.        ALEX W. MARSHALL.                       STOCKS AND BONDS  REAL ESTATE    R. M. Marshall & Brother,  33 BROAD STREET.    Charleston, S.C. Sept. 12. 1883    M    Dear M,    Yours of Mond. & Tues. or [cc?] today the [Northern?] mail was irregular today so letters did not come through and we have heard nothing further about Mama--I spent last [eveng.?] with Mama played [illegible] in afternoon--T. comes to the office very often but every thing is in such confusion that he has not [illebible]--After two days of cool weather it has got warm again--the garden [illegible line] with gale.  Mr. P. & Keith now expected back from Edisto today--I gave P. [Mimmie’s?] letter today--[illegible] still not well--M will make no [change/charge] at H. M.'s [illegible] [taking?] off the new doors in the gallery and [illegible]; the wall in in sober colors--all the pens have [been?] straightened (a very troublesome job)"
+    },
+    {
+      "label": "Media Type",
+      "value": [
+        {
+          "@value": "Manuscripts",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Resource Locator",
+      "value": "Mss 0111,026_Box1Folder01.jpg"
+    },
+    {
+      "label": "Type",
+      "value": [
+        {
+          "@value": "Text",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "PID",
+      "value": "lcdl:40748"
+    },
+    {
+      "label": "Collection Identifier",
+      "value": "WKF"
+    },
+    {
+      "label": "Original filename",
+      "value": "lcdl40748-JPEG1.jpg"
+    },
+    {
+      "label": "Collection Title",
+      "value": "Wilkinson-Keith Family Papers"
+    },
+    {
+      "label": "Type IMT",
+      "value": "image/jpeg"
+    },
+    {
+      "label": "iiif",
+      "value": "lcdl40748JPEG1jpg"
+    },
+    {
+      "label": "Compound Identifier",
+      "value": "WKF"
+    },
+    {
+      "label": "Subject - Temporal",
+      "value": [
+        {
+          "@value": "Text,Charleston County (S.C.),College of Charleston Libraries,Wilkinson and Keith Families,1883-09-12,Stockbrokers,Manuscripts",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Shelving Locator",
+      "value": "Mss 0111,026_Box1Folder01.jpg"
+    },
+    {
+      "label": "Subject - Geographic County",
+      "value": [
+        {
+          "@value": "Charleston County (S.C.)",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Title",
+      "value": "009. From the office of R.M. Marshall to M. -- September 12, 1883"
+    },
+    {
+      "label": "Subject - Topical",
+      "value": [
+        {
+          "@value": "Stockbrokers",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Creator Name (Personal)",
+      "value": [
+        {
+          "@value": "Wilkinson and Keith Families",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Date",
+      "value": [
+        {
+          "@value": "1883-09-12",
+          "@language": "en"
+        }
+      ]
+    }
+  ],
+  "license": "Digital image copyright 2010, The College of Charleston Libraries. All rights reserved. For more information contact The College of Charleston Library, Charleston, SC 29424.",
+  "thumbnail": {
+    "@id": "https://iiif.library.cofc.edu/iiif/2/24674/full/thm/0/default.jpg",
+    "@type": "dctypes:Image",
+    "height": 150,
+    "width": 90,
+    "format": "image/jpeg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif.library.cofc.edu/iiif/2/24674",
+      "profile": "http://iiif.io/api/image/2/level1.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://rspace.library.cofc.edu/iiif/lcdl40748JPEG1jpg/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Default order",
+      "canvases": [
+        {
+          "@id": "https://rspace.library.cofc.edu/iiif/lcdl40748JPEG1jpg/canvas/0",
+          "@type": "sc:Canvas",
+          "label": "0",
+          "height": 2000,
+          "width": 1205,
+          "thumbnail": {
+            "@id": "https://iiif.library.cofc.edu/iiif/2/24674/full/thm/0/default.jpg",
+            "@type": "dctypes:Image",
+            "height": 150,
+            "width": 90,
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://iiif.library.cofc.edu/iiif/2/24674",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            }
+          },
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "https://rspace.library.cofc.edu/iiif/lcdl40748JPEG1jpg/annotation/0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.library.cofc.edu/iiif/2/24674/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.library.cofc.edu/iiif/2/24674",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://rspace.library.cofc.edu/iiif/lcdl40748JPEG1jpg/canvas/0",
+              "height": 2000,
+              "width": 1205
+            }
+          ],
+          "otherContent": [
+            {
+              "@context": "//iiif.io/api/presentation/2/context.json",
+              "@id": "https://lcdl.library.cofc.edu/lcdl/collections/annotation?iiif_identifier=lcdl40748JPEG1jpg",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

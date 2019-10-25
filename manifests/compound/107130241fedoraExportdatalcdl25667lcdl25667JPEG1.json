@@ -1,0 +1,233 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://rspace.library.cofc.edu/iiif/107130241fedoraExportdatalcdl25667lcdl25667JPEG1/manifest",
+  "@type": "sc:Manifest",
+  "label": "Lists of medical supplies",
+  "description": "Drayton makes special requisitions for medicines for the slaves he attends at Bee's Ferry and at Camp Hinson",
+  "metadata": [
+    {
+      "label": "Description",
+      "value": "Drayton makes special requisitions for medicines for the slaves he attends at Bee's Ferry and at Camp Hinson"
+    },
+    {
+      "label": "Contributing Institution",
+      "value": [
+        {
+          "@value": "South Carolina Historical Society",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Copyright Status Statement",
+      "value": "Digital image copyright 2009, South Carolina Historical Society. All rights reserved. For more information contact the South Carolina Historical Society, Charleston, SC 29401"
+    },
+    {
+      "label": "Media Type",
+      "value": [
+        {
+          "@value": "Manuscripts",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Type",
+      "value": [
+        {
+          "@value": "Text",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "PID",
+      "value": "lcdl:25667"
+    },
+    {
+      "label": "Collection Identifier",
+      "value": "DFP"
+    },
+    {
+      "label": "Original filename",
+      "value": "lcdl25667-JPEG1.jpg"
+    },
+    {
+      "label": "Collection Title",
+      "value": "Drayton family papers, 1837-1869"
+    },
+    {
+      "label": "iiif",
+      "value": "107130241fedoraExportdatalcdl25667lcdl25667JPEG1"
+    },
+    {
+      "label": "Compound Identifier",
+      "value": "DFP47"
+    },
+    {
+      "label": "Subject - Temporal",
+      "value": [
+        {
+          "@value": "Text,Charleston County (S.C.),Medicine,South Carolina Historical Society,Drayton, John,1862-03,Inventories,Manuscripts",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Subject - Geographic County",
+      "value": [
+        {
+          "@value": "Charleston County (S.C.)",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Title",
+      "value": "Lists of medical supplies"
+    },
+    {
+      "label": "Subject - Topical",
+      "value": [
+        {
+          "@value": "Medicine,Inventories",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Creator Name (Personal)",
+      "value": [
+        {
+          "@value": "Drayton, John",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Date",
+      "value": [
+        {
+          "@value": "1862-03",
+          "@language": "en"
+        }
+      ]
+    }
+  ],
+  "license": "Digital image copyright 2009, South Carolina Historical Society. All rights reserved. For more information contact the South Carolina Historical Society, Charleston, SC 29401",
+  "thumbnail": {
+    "@id": "https://iiif.library.cofc.edu/iiif/2/23842/full/thm/0/default.jpg",
+    "@type": "dctypes:Image",
+    "height": 100,
+    "width": 150,
+    "format": "image/jpeg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif.library.cofc.edu/iiif/2/23842",
+      "profile": "http://iiif.io/api/image/2/level1.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://rspace.library.cofc.edu/iiif/DFP47/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Default order",
+      "canvases": [
+        {
+          "@id": "https://rspace.library.cofc.edu/iiif/lcdl25665JPEG1jpg/canvas/0",
+          "@type": "sc:Canvas",
+          "label": "0",
+          "height": 1335,
+          "width": 2000,
+          "thumbnail": {
+            "@id": "https://iiif.library.cofc.edu/iiif/2/198104/full/thm/0/default.jpg",
+            "@type": "dctypes:Image",
+            "height": 100,
+            "width": 150,
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://iiif.library.cofc.edu/iiif/2/198104",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            }
+          },
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "https://rspace.library.cofc.edu/iiif/lcdl25665JPEG1jpg/annotation/0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.library.cofc.edu/iiif/2/198104/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.library.cofc.edu/iiif/2/198104",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://rspace.library.cofc.edu/iiif/lcdl25665JPEG1jpg/canvas/0",
+              "height": 1335,
+              "width": 2000
+            }
+          ],
+          "otherContent": [
+            {
+              "@context": "//iiif.io/api/presentation/2/context.json",
+              "@id": "https://lcdl.library.cofc.edu/lcdl/collections/annotation?iiif_identifier=lcdl25665JPEG1jpg",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        },
+        {
+          "@id": "https://rspace.library.cofc.edu/iiif/lcdl25666JPEG1jpg/canvas/0",
+          "@type": "sc:Canvas",
+          "label": "0",
+          "height": 2000,
+          "width": 1349,
+          "thumbnail": {
+            "@id": "https://iiif.library.cofc.edu/iiif/2/198105/full/thm/0/default.jpg",
+            "@type": "dctypes:Image",
+            "height": 150,
+            "width": 101,
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://iiif.library.cofc.edu/iiif/2/198105",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            }
+          },
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "https://rspace.library.cofc.edu/iiif/lcdl25666JPEG1jpg/annotation/0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.library.cofc.edu/iiif/2/198105/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.library.cofc.edu/iiif/2/198105",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://rspace.library.cofc.edu/iiif/lcdl25666JPEG1jpg/canvas/0",
+              "height": 2000,
+              "width": 1349
+            }
+          ],
+          "otherContent": [
+            {
+              "@context": "//iiif.io/api/presentation/2/context.json",
+              "@id": "https://lcdl.library.cofc.edu/lcdl/collections/annotation?iiif_identifier=lcdl25666JPEG1jpg",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

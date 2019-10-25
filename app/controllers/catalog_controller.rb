@@ -1,11 +1,24 @@
 # frozen_string_literal: true
 class CatalogController < ApplicationController
+  include BlacklightAdvancedSearch::Controller
 
   include BlacklightRangeLimit::ControllerOverride
 
   include Blacklight::Catalog
 
   configure_blacklight do |config|
+    # default advanced config values
+    config.advanced_search ||= Blacklight::OpenStructWithHashAccess.new
+    # config.advanced_search[:qt] ||= 'advanced'
+#    config.advanced_search[:url_key] ||= 'advanced'
+    config.advanced_search[:query_parser] ||= 'edismax'
+    config.advanced_search = {
+      :form_solr_parameters => {
+        "facet.field" => ["mediatype_facet", "contribinst_facet"],
+        "facet.limit" => -1, # return all facet values
+        "facet.sort" => "index"}, # sort by byte order of values
+      :form_facet_partial => "advanced_search_facets_as_select"
+    }
 
     ## Class for sending and receiving requests from a search index
     # config.repository_class = Blacklight::Solr::Repository
@@ -19,6 +32,7 @@ class CatalogController < ApplicationController
     ## Default parameters to send to solr for all search-like requests. See also SearchBuilder#processed_parameters
     config.default_solr_params = {
       rows: 10,
+      qt: 'select'
 #      fq: "{!tag=exclude}exclude-pages:Yes"
     }
 
@@ -34,7 +48,7 @@ class CatalogController < ApplicationController
     config.index.display_type_field = 'resourcetype'
     config.show.display_type_field = 'resourcetype'
     config.index.thumbnail_field = 'thumbnail'
-
+#    config.index.thumbnail_method = 'iiif_thumbnail'
 #    config.add_results_document_tool(:bookmark, partial: 'bookmark_control', if: :render_bookmarks_control?)
 
     config.add_results_collection_tool(:sort_widget)
@@ -117,21 +131,44 @@ class CatalogController < ApplicationController
     # solr fields to be displayed in the show (single result) view
     #   The ordering of the field names is the order of the display
     config.add_show_field 'title', label: 'Title'
+    config.add_show_field 'date', label: 'Date'
     config.add_show_field 'interviewer', label: 'Interviewer'
     config.add_show_field 'interviewee', label: 'Interviewee'
     config.add_show_field 'creatornamecorporate', label: 'Creator (Corporate)'
     config.add_show_field 'creatornamepersonal', label: 'Creator (Personal)'
-    config.add_show_field 'date', label: 'Date', link_to_facet: 'date_facet_facet'
+    config.add_show_field 'contributor', label: 'Contributor'
     config.add_show_field 'description', label: 'Description'
     config.add_show_field 'collectiontitle', label: 'Collection Title', link_to_facet: 'collection_titleInfo_title_facet'
     config.add_show_field 'contribinst', link_to_facet: 'contribinst-facet', label: 'Contributing Institution'
     config.add_show_field 'mediatype', label: 'Media Type', link_to_facet: 'mediatype_facet'
+    config.add_show_field 'alternatetitle', label: 'Alternate Title'
+    config.add_show_field 'subtitle', label: 'Subtitle'
+    config.add_show_field 'abstract', label: 'Abstract'
+    config.add_show_field 'note', label: 'Note'
+    config.add_show_field 'biographicalnote', label: 'Biographical Note'
+    config.add_show_field 'creatornote', label: 'Creator Note'
+    config.add_show_field 'collectionnote', label: 'Collection Note'
+    config.add_show_field 'locationrecord', label: 'Location Recorded'
+    config.add_show_field 'conditionevaluationn', label: 'Condition'
+    config.add_show_field 'extent', label: 'Dimensions'
+    config.add_show_field 'seriestitle', label: 'Series', link_to_facet: 'seriesinfo_seriestitle_facet'
+    config.add_show_field 'subseriestitle', label: 'Sub-Series', link_to_facet: 'subseriestitle-facet'
+    config.add_show_field 'photoid', label: 'Photo ID Number'
+    config.add_show_field 'portfoliotitle', label: 'Original Portfolio'
+    config.add_show_field 'portfolionumber', label: 'Portfolio Number'
+    config.add_show_field 'foldernumber', label: 'Folder Number'
+    config.add_show_field 'region', label: 'Region'
+    config.add_show_field 'physdesc_note', label: 'Material Type'
+    config.add_show_field 'originalformat', label: 'Format of Original'
+    config.add_show_field 'typeaat', label: 'Type (AAT)'
+    config.add_show_field 'typedcmi', label: 'Type (DCMI)'
+    config.add_show_field 'citation', label: 'Preferred Citation'
     config.add_show_field 'subject-name', label: 'Personal or Corporate Subject', helper_method: 'line_break_multi'
     config.add_show_field 'subject-topical', label: 'Topical Subject', link_to_facet: 'subject_topic_facet'
     config.add_show_field 'subject-geographic', label: 'Geographic Subject', link_to_facet: 'subject_geographic_facet'
     config.add_show_field 'subject-county', label: 'S.C. County'
     config.add_show_field 'language', label: 'Language'
-    config.add_show_field 'resourcelocator', label: 'Resource Locator'
+    config.add_show_field 'resourcelocator', label: 'Shelving Locator', helper_method: 'line_break_multi'
     config.add_show_field 'datedigital', label: 'Date Digital'
     config.add_show_field 'digispec', label: 'Digitization Specifications'
     config.add_show_field 'typeimt', label: 'Internet Media Type'
@@ -139,6 +176,7 @@ class CatalogController < ApplicationController
     config.add_show_field 'rights', label: 'Copyright Status Statement'
     config.add_show_field 'accessstatement', label: 'Access Statement'
     config.add_show_field 'accessnote', label: 'Access Information'
+    config.add_show_field 'rspace-id', label: 'Admin ID'
 
     # "fielded" search configuration. Used by pulldown among other places.
     # For supported keys in hash, see rdoc for Blacklight::SearchFields
@@ -168,7 +206,6 @@ class CatalogController < ApplicationController
     config.add_search_field('title') do |field|
       # solr_parameters hash are sent to Solr as ordinary url query params.
       field.solr_parameters = {
-        'spellcheck.dictionary': 'title',
         qf: '${title_qf}',
         pf: '${title_pf}'
       }
@@ -176,7 +213,6 @@ class CatalogController < ApplicationController
 
     config.add_search_field('creator') do |field|
       field.solr_parameters = {
-        'spellcheck.dictionary': 'author',
         qf: '${creator_qf}',
         pf: '${creator_pf}'
       }
@@ -186,9 +222,7 @@ class CatalogController < ApplicationController
     # tests can test it. In this case it's the same as
     # config[:default_solr_parameters][:qt], so isn't actually neccesary.
     config.add_search_field('subject') do |field|
-      field.qt = 'search'
       field.solr_parameters = {
-        'spellcheck.dictionary': 'subject',
         qf: '${subject_qf}',
         pf: '${subject_pf}'
       }
@@ -198,9 +232,10 @@ class CatalogController < ApplicationController
     # label in pulldown is followed by the name of the SOLR field to sort by and
     # whether the sort is ascending or descending (it must be asc or desc
     # except in the relevancy case).
-    config.add_sort_field 'score desc, description asc, title asc', label: 'Relevance'
+    config.add_sort_field 'score desc, title asc', label: 'Relevance'
     config.add_sort_field 'title asc', label: 'Title'
-    config.add_sort_field 'date desc', label: 'Date'
+    config.add_sort_field 'daterange desc', label: 'Date (Newest)'
+    config.add_sort_field 'daterange asc', label: 'Date (Oldest)'
 
     # If there are more than this many search results, no spelling ("did you
     # mean") suggestion is offered.

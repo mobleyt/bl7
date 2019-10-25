@@ -1,0 +1,210 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://rspace.library.cofc.edu/iiif/lcdl33513JPEG1jpg/manifest",
+  "@type": "sc:Manifest",
+  "label": "3. Note to William Craft requesting his presence at an Abolitionist Meeting",
+  "description": "Note to William Craft requesting his company at a meeting on the 30th of June, 1859. Signiture of Sender unknown. Location of meeting not stated. 7in.x 4.5in.",
+  "metadata": [
+    {
+      "label": "Description",
+      "value": "Note to William Craft requesting his company at a meeting on the 30th of June, 1859. Signiture of Sender unknown. Location of meeting not stated. 7in.x 4.5in."
+    },
+    {
+      "label": "Contributing Institution",
+      "value": [
+        {
+          "@value": "Avery Research Center at the College of Charleston",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Copyright Status Statement",
+      "value": "Digital image copyright 2013, The College of Charleston Libraries. All rights reserved. For more information contact The College of Charleston Library, Charleston, SC 29424"
+    },
+    {
+      "label": "Date Digital",
+      "value": "2013-02-20"
+    },
+    {
+      "label": "Digitization Specifications",
+      "value": "600 dpi, 24-bit depth, color, Epson Expression 10000XL, Archival masters are tiffs."
+    },
+    {
+      "label": "Transcript",
+      "value": "To Mr. W. Craft with Highest Compliments Soliciting the Hour of his Company at the Meeting on the 30th June. March 23, [18]59. [Illegible]."
+    },
+    {
+      "label": "Media Type",
+      "value": [
+        {
+          "@value": "Manuscripts",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Resource Locator",
+      "value": "AMN 1102"
+    },
+    {
+      "label": "Type",
+      "value": [
+        {
+          "@value": "Text",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "PID",
+      "value": "lcdl:33513"
+    },
+    {
+      "label": "Collection Identifier",
+      "value": "CRUM"
+    },
+    {
+      "label": "Original filename",
+      "value": "lcdl33513-JPEG1.jpg"
+    },
+    {
+      "label": "Collection Title",
+      "value": "Craft and Crum Families, 1780-2007"
+    },
+    {
+      "label": "Type IMT",
+      "value": "image/jpeg"
+    },
+    {
+      "label": "iiif",
+      "value": "lcdl33513JPEG1jpg"
+    },
+    {
+      "label": "Compound Identifier",
+      "value": "CRUM"
+    },
+    {
+      "label": "Subject - Temporal",
+      "value": [
+        {
+          "@value": "Text,Charleston County (S.C.),Craft family,Craft, William,Abolitionists--United States--History--19th century,Avery Research Center at the College of Charleston,Manuscripts,1859-03-23",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Shelving Locator",
+      "value": "AMN 1102"
+    },
+    {
+      "label": "Subject - Geographic County",
+      "value": [
+        {
+          "@value": "Charleston County (S.C.)",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Title",
+      "value": "3. Note to William Craft requesting his presence at an Abolitionist Meeting"
+    },
+    {
+      "label": "Subject - Topical",
+      "value": [
+        {
+          "@value": "Abolitionists--United States--History--19th century",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Subject - Name",
+      "value": [
+        {
+          "@value": "Craft family,Craft, William",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Date",
+      "value": [
+        {
+          "@value": "1859-03-23",
+          "@language": "en"
+        }
+      ]
+    }
+  ],
+  "license": "Digital image copyright 2013, The College of Charleston Libraries. All rights reserved. For more information contact The College of Charleston Library, Charleston, SC 29424",
+  "thumbnail": {
+    "@id": "https://iiif.library.cofc.edu/iiif/2/50318/full/thm/0/default.jpg",
+    "@type": "dctypes:Image",
+    "height": 150,
+    "width": 96,
+    "format": "image/jpeg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif.library.cofc.edu/iiif/2/50318",
+      "profile": "http://iiif.io/api/image/2/level1.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://rspace.library.cofc.edu/iiif/lcdl33513JPEG1jpg/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Default order",
+      "canvases": [
+        {
+          "@id": "https://rspace.library.cofc.edu/iiif/lcdl33513JPEG1jpg/canvas/0",
+          "@type": "sc:Canvas",
+          "label": "0",
+          "height": 2000,
+          "width": 1285,
+          "thumbnail": {
+            "@id": "https://iiif.library.cofc.edu/iiif/2/50318/full/thm/0/default.jpg",
+            "@type": "dctypes:Image",
+            "height": 150,
+            "width": 96,
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://iiif.library.cofc.edu/iiif/2/50318",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            }
+          },
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "https://rspace.library.cofc.edu/iiif/lcdl33513JPEG1jpg/annotation/0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.library.cofc.edu/iiif/2/50318/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.library.cofc.edu/iiif/2/50318",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://rspace.library.cofc.edu/iiif/lcdl33513JPEG1jpg/canvas/0",
+              "height": 2000,
+              "width": 1285
+            }
+          ],
+          "otherContent": [
+            {
+              "@context": "//iiif.io/api/presentation/2/context.json",
+              "@id": "https://lcdl.library.cofc.edu/lcdl/collections/annotation?iiif_identifier=lcdl33513JPEG1jpg",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

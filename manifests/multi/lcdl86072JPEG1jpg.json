@@ -1,0 +1,216 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://rspace.library.cofc.edu/iiif/lcdl86072JPEG1jpg/manifest",
+  "@type": "sc:Manifest",
+  "label": "City Hall and Court House, Charleston, S.C.",
+  "description": "Postcard of a view of Charleston's City Hall and Court House on Broad Street.",
+  "metadata": [
+    {
+      "label": "Description",
+      "value": "Postcard of a view of Charleston's City Hall and Court House on Broad Street."
+    },
+    {
+      "label": "Contributing Institution",
+      "value": [
+        {
+          "@value": "College of Charleston Libraries",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Copyright Status Statement",
+      "value": "Digital image copyright 2013, The College of Charleston Libraries. All rights reserved. For more information contact Special Collections at Addlestone Library, College of Charleston, Charleston, SC, 29424."
+    },
+    {
+      "label": "Date Digital",
+      "value": "2013-10-18"
+    },
+    {
+      "label": "Digitization Specifications",
+      "value": "600 dpi, 24-bit depth, color, Epson Expression 10000XL, Archival masters are tiffs."
+    },
+    {
+      "label": "Media Type",
+      "value": [
+        {
+          "@value": "Postcards",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Type",
+      "value": [
+        {
+          "@value": "StillImage",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "PID",
+      "value": "lcdl:86072"
+    },
+    {
+      "label": "Collection Identifier",
+      "value": "LGPC"
+    },
+    {
+      "label": "Original filename",
+      "value": "lcdl86072-JPEG1.jpg"
+    },
+    {
+      "label": "Collection Title",
+      "value": "Leah Greenberg Postcard Collection"
+    },
+    {
+      "label": "Series Title",
+      "value": [
+        {
+          "@value": "Charleston Public Buildings",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Type IMT",
+      "value": "image/jpeg"
+    },
+    {
+      "label": "iiif",
+      "value": "lcdl86072JPEG1jpg"
+    },
+    {
+      "label": "Compound Identifier",
+      "value": "LGPC"
+    },
+    {
+      "label": "Subject - Temporal",
+      "value": [
+        {
+          "@value": "StillImage,Charleston County (S.C.),English,College of Charleston Libraries,Postcards,Valentine & Sons,Public buildings,Charleston (S.C.)--Buildings, structures, etc.--Pictorial works,Charleston Public Buildings,Government buildings,Courthouses,City halls",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Subject - Geographic County",
+      "value": [
+        {
+          "@value": "Charleston County (S.C.)",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Title",
+      "value": "City Hall and Court House, Charleston, S.C."
+    },
+    {
+      "label": "Subject - Geographic",
+      "value": [
+        {
+          "@value": "Charleston (S.C.)--Buildings, structures, etc.--Pictorial works",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Subject - Topical",
+      "value": [
+        {
+          "@value": "Public buildings,Government buildings,Courthouses,City halls",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Creator Name (Corporate)",
+      "value": [
+        {
+          "@value": "Valentine & Sons",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Language",
+      "value": [
+        {
+          "@value": "English",
+          "@language": "en"
+        }
+      ]
+    }
+  ],
+  "license": "Digital image copyright 2013, The College of Charleston Libraries. All rights reserved. For more information contact Special Collections at Addlestone Library, College of Charleston, Charleston, SC, 29424.",
+  "thumbnail": {
+    "@id": "https://iiif.library.cofc.edu/iiif/2/40533/full/thm/0/default.jpg",
+    "@type": "dctypes:Image",
+    "height": 95,
+    "width": 150,
+    "format": "image/jpeg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif.library.cofc.edu/iiif/2/40533",
+      "profile": "http://iiif.io/api/image/2/level1.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://rspace.library.cofc.edu/iiif/lcdl86072JPEG1jpg/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Default order",
+      "canvases": [
+        {
+          "@id": "https://rspace.library.cofc.edu/iiif/lcdl86072JPEG1jpg/canvas/0",
+          "@type": "sc:Canvas",
+          "label": "0",
+          "height": 2000,
+          "width": 3144,
+          "thumbnail": {
+            "@id": "https://iiif.library.cofc.edu/iiif/2/40533/full/thm/0/default.jpg",
+            "@type": "dctypes:Image",
+            "height": 95,
+            "width": 150,
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://iiif.library.cofc.edu/iiif/2/40533",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            }
+          },
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "https://rspace.library.cofc.edu/iiif/lcdl86072JPEG1jpg/annotation/0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.library.cofc.edu/iiif/2/40533/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.library.cofc.edu/iiif/2/40533",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://rspace.library.cofc.edu/iiif/lcdl86072JPEG1jpg/canvas/0",
+              "height": 2000,
+              "width": 3144
+            }
+          ],
+          "otherContent": [
+            {
+              "@context": "//iiif.io/api/presentation/2/context.json",
+              "@id": "https://lcdl.library.cofc.edu/lcdl/collections/annotation?iiif_identifier=lcdl86072JPEG1jpg",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

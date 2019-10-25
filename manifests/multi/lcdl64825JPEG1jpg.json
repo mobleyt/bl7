@@ -1,0 +1,373 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://rspace.library.cofc.edu/iiif/lcdl64825JPEG1jpg/manifest",
+  "@type": "sc:Manifest",
+  "label": "Avery Normal Institute Commencement Exercises",
+  "description": "Four-page program for Avery's commencement ceremony for the class of 1926. Program includes faculty, class roll, and a list of speeches.",
+  "metadata": [
+    {
+      "label": "Description",
+      "value": "Four-page program for Avery's commencement ceremony for the class of 1926. Program includes faculty, class roll, and a list of speeches."
+    },
+    {
+      "label": "Access Note",
+      "value": "For more information and reuse requirements contact Archivist, Avery Research Center at the College of Charleston, Charleston, SC, 29424."
+    },
+    {
+      "label": "Access Statement",
+      "value": "All Rights Reserved."
+    },
+    {
+      "label": "Contributing Institution",
+      "value": [
+        {
+          "@value": "Avery Research Center at the College of Charleston",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Copyright Status Statement",
+      "value": "© Avery Research Center for African American History and Culture"
+    },
+    {
+      "label": "Date Digital",
+      "value": "2014-04-03"
+    },
+    {
+      "label": "Digitization Specifications",
+      "value": "300 dpi, 24-bit depth, color, Epson Expression 10000XL, Archival masters are tiffs."
+    },
+    {
+      "label": "Media Type",
+      "value": [
+        {
+          "@value": "Pamphlets",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Resource Locator",
+      "value": "Avery Memorabilia Collection_2_7"
+    },
+    {
+      "label": "Type",
+      "value": [
+        {
+          "@value": "Text",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "PID",
+      "value": "lcdl:64825"
+    },
+    {
+      "label": "Collection Identifier",
+      "value": "ANI"
+    },
+    {
+      "label": "Original filename",
+      "value": "lcdl64825-JPEG1.jpg"
+    },
+    {
+      "label": "Collection Title",
+      "value": "Avery Normal Institute"
+    },
+    {
+      "label": "Type IMT",
+      "value": "image/jpeg"
+    },
+    {
+      "label": "iiif",
+      "value": "lcdl64825JPEG1jpg"
+    },
+    {
+      "label": "Compound Identifier",
+      "value": "ANI"
+    },
+    {
+      "label": "Subject - Temporal",
+      "value": [
+        {
+          "@value": "Text,Charleston (S.C.),Charleston County (S.C.),Avery Normal Institute,South Carolina--Education.,African American schools--History.,Avery Research Center at the College of Charleston,English,Pamphlets,1926-05-26",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Shelving Locator",
+      "value": "Avery Memorabilia Collection_2_7"
+    },
+    {
+      "label": "Subject - Geographic County",
+      "value": [
+        {
+          "@value": "Charleston County (S.C.)",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Title",
+      "value": "Avery Normal Institute Commencement Exercises"
+    },
+    {
+      "label": "Subject - Geographic",
+      "value": [
+        {
+          "@value": "Charleston (S.C.)",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Subject - Topical",
+      "value": [
+        {
+          "@value": "South Carolina--Education.,African American schools--History.",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Subject - Name",
+      "value": [
+        {
+          "@value": "Avery Normal Institute",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Date",
+      "value": [
+        {
+          "@value": "1926-05-26",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Language",
+      "value": [
+        {
+          "@value": "English",
+          "@language": "en"
+        }
+      ]
+    }
+  ],
+  "license": "© Avery Research Center for African American History and Culture",
+  "thumbnail": {
+    "@id": "https://iiif.library.cofc.edu/iiif/2/48530/full/thm/0/default.jpg",
+    "@type": "dctypes:Image",
+    "height": 150,
+    "width": 96,
+    "format": "image/jpeg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif.library.cofc.edu/iiif/2/48530",
+      "profile": "http://iiif.io/api/image/2/level1.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://rspace.library.cofc.edu/iiif/lcdl64825JPEG1jpg/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Default order",
+      "canvases": [
+        {
+          "@id": "https://rspace.library.cofc.edu/iiif/lcdl64825JPEG1jpg/canvas/0",
+          "@type": "sc:Canvas",
+          "label": "0",
+          "height": 1664,
+          "width": 1064,
+          "thumbnail": {
+            "@id": "https://iiif.library.cofc.edu/iiif/2/48530/full/thm/0/default.jpg",
+            "@type": "dctypes:Image",
+            "height": 150,
+            "width": 96,
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://iiif.library.cofc.edu/iiif/2/48530",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            }
+          },
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "https://rspace.library.cofc.edu/iiif/lcdl64825JPEG1jpg/annotation/0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.library.cofc.edu/iiif/2/48530/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.library.cofc.edu/iiif/2/48530",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://rspace.library.cofc.edu/iiif/lcdl64825JPEG1jpg/canvas/0",
+              "height": 1664,
+              "width": 1064
+            }
+          ],
+          "otherContent": [
+            {
+              "@context": "//iiif.io/api/presentation/2/context.json",
+              "@id": "https://lcdl.library.cofc.edu/lcdl/collections/annotation?iiif_identifier=lcdl64825JPEG1jpg",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        },
+        {
+          "@id": "https://rspace.library.cofc.edu/iiif/lcdl64825JPEG1jpg/canvas/1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 85,
+          "width": 1018,
+          "thumbnail": {
+            "@id": "https://iiif.library.cofc.edu/iiif/2/48530/full/thm/0/default.jpg",
+            "@type": "dctypes:Image",
+            "height": 150,
+            "width": 96,
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://iiif.library.cofc.edu/iiif/2/48530",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            }
+          },
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "https://rspace.library.cofc.edu/iiif/lcdl64825JPEG1jpg/annotation/1",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.library.cofc.edu/iiif/2/%2Ffilestore%2F4%2F8%2F5%2F3%2F0_dff72fbc4b7b6c7%2F48530_alt_11771_3a10727041159f1.jpg/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.library.cofc.edu/iiif/2/%2Ffilestore%2F4%2F8%2F5%2F3%2F0_dff72fbc4b7b6c7%2F48530_alt_11771_3a10727041159f1.jpg",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://rspace.library.cofc.edu/iiif/lcdl64825JPEG1jpg/canvas/1",
+              "height": 85,
+              "width": 1018
+            }
+          ],
+          "otherContent": [
+            {
+              "@context": "//iiif.io/api/presentation/2/context.json",
+              "@id": "https://lcdl.library.cofc.edu/lcdl/collections/annotation?iiif_identifier=lcdl64825JPEG1jpg",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        },
+        {
+          "@id": "https://rspace.library.cofc.edu/iiif/lcdl64825JPEG1jpg/canvas/2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 85,
+          "width": 1102,
+          "thumbnail": {
+            "@id": "https://iiif.library.cofc.edu/iiif/2/48530/full/thm/0/default.jpg",
+            "@type": "dctypes:Image",
+            "height": 150,
+            "width": 96,
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://iiif.library.cofc.edu/iiif/2/48530",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            }
+          },
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "https://rspace.library.cofc.edu/iiif/lcdl64825JPEG1jpg/annotation/2",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.library.cofc.edu/iiif/2/%2Ffilestore%2F4%2F8%2F5%2F3%2F0_dff72fbc4b7b6c7%2F48530_alt_11775_9ce77b79716e150.jpg/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.library.cofc.edu/iiif/2/%2Ffilestore%2F4%2F8%2F5%2F3%2F0_dff72fbc4b7b6c7%2F48530_alt_11775_9ce77b79716e150.jpg",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://rspace.library.cofc.edu/iiif/lcdl64825JPEG1jpg/canvas/2",
+              "height": 85,
+              "width": 1102
+            }
+          ],
+          "otherContent": [
+            {
+              "@context": "//iiif.io/api/presentation/2/context.json",
+              "@id": "https://lcdl.library.cofc.edu/lcdl/collections/annotation?iiif_identifier=lcdl64825JPEG1jpg",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        },
+        {
+          "@id": "https://rspace.library.cofc.edu/iiif/lcdl64825JPEG1jpg/canvas/3",
+          "@type": "sc:Canvas",
+          "label": "3",
+          "height": 85,
+          "width": 1017,
+          "thumbnail": {
+            "@id": "https://iiif.library.cofc.edu/iiif/2/48530/full/thm/0/default.jpg",
+            "@type": "dctypes:Image",
+            "height": 150,
+            "width": 96,
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://iiif.library.cofc.edu/iiif/2/48530",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            }
+          },
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "https://rspace.library.cofc.edu/iiif/lcdl64825JPEG1jpg/annotation/3",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.library.cofc.edu/iiif/2/%2Ffilestore%2F4%2F8%2F5%2F3%2F0_dff72fbc4b7b6c7%2F48530_alt_11778_ff9accfd5730f92.jpg/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.library.cofc.edu/iiif/2/%2Ffilestore%2F4%2F8%2F5%2F3%2F0_dff72fbc4b7b6c7%2F48530_alt_11778_ff9accfd5730f92.jpg",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://rspace.library.cofc.edu/iiif/lcdl64825JPEG1jpg/canvas/3",
+              "height": 85,
+              "width": 1017
+            }
+          ],
+          "otherContent": [
+            {
+              "@context": "//iiif.io/api/presentation/2/context.json",
+              "@id": "https://lcdl.library.cofc.edu/lcdl/collections/annotation?iiif_identifier=lcdl64825JPEG1jpg",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,224 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://rspace.library.cofc.edu/iiif/lcdl2729JPEG1jpg/manifest",
+  "@type": "sc:Manifest",
+  "label": "Post Office",
+  "description": "Charleston Earthquake scene.  Possibly from Cook's Earthquake views, No.74, wreck in rear of Post Office, showing shell hole made during the war.'",
+  "metadata": [
+    {
+      "label": "Description",
+      "value": "Charleston Earthquake scene.  Possibly from Cook's Earthquake views, No.74, wreck in rear of Post Office, showing shell hole made during the war.'"
+    },
+    {
+      "label": "Contributing Institution",
+      "value": [
+        {
+          "@value": "The Charleston Museum Archives",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Copyright Status Statement",
+      "value": "Digital image copyright 2009, The Charleston Museum Archives. All rights reserved. For more information contact The Charleston Museum, 360 Meeting Street, Charleston, SC 29403."
+    },
+    {
+      "label": "Date Digital",
+      "value": "2009-12"
+    },
+    {
+      "label": "Digitization Specifications",
+      "value": "600 ppi, 24-bit depth, color, Epson Expression 10000XL, Archival Masters are tiffs."
+    },
+    {
+      "label": "Media Type",
+      "value": [
+        {
+          "@value": "Images",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Resource Locator",
+      "value": "MK 4121"
+    },
+    {
+      "label": "Type",
+      "value": [
+        {
+          "@value": "StillImage",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "PID",
+      "value": "lcdl:2729"
+    },
+    {
+      "label": "Collection Identifier",
+      "value": "CHM"
+    },
+    {
+      "label": "Original filename",
+      "value": "lcdl2729-JPEG1.jpg"
+    },
+    {
+      "label": "Collection Title",
+      "value": "Charleston Museum Earthquake Photographs"
+    },
+    {
+      "label": "Type IMT",
+      "value": "image/jpeg"
+    },
+    {
+      "label": "iiif",
+      "value": "lcdl2729JPEG1jpg"
+    },
+    {
+      "label": "Compound Identifier",
+      "value": "CHM"
+    },
+    {
+      "label": "Subject - Temporal",
+      "value": [
+        {
+          "@value": "StillImage,Charleston County (S.C.),Low Country,Buildings--Earthquake effects--South Carolina--Charleston,Charleston Earthquake, S.C., 1886,Unknown,1886,The Charleston Museum Archives,Images,Public buildings,Government buildings,Old Exchange Building and Provost Dungeon (Charleston, S.C.),Earthquakes--South Carolina,Post office buildings",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Shelving Locator",
+      "value": "MK 4121"
+    },
+    {
+      "label": "Subject - Geographic County",
+      "value": [
+        {
+          "@value": "Charleston County (S.C.)",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Title",
+      "value": "Post Office"
+    },
+    {
+      "label": "Subject - Geographic",
+      "value": [
+        {
+          "@value": "Low Country",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Subject - Topical",
+      "value": [
+        {
+          "@value": "Buildings--Earthquake effects--South Carolina--Charleston,Charleston Earthquake, S.C., 1886,Public buildings,Government buildings,Earthquakes--South Carolina,Post office buildings",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Subject - Name",
+      "value": [
+        {
+          "@value": "Old Exchange Building and Provost Dungeon (Charleston, S.C.)",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Creator Name (Personal)",
+      "value": [
+        {
+          "@value": "Unknown",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Date",
+      "value": [
+        {
+          "@value": "1886",
+          "@language": "en"
+        }
+      ]
+    }
+  ],
+  "license": "Digital image copyright 2009, The Charleston Museum Archives. All rights reserved. For more information contact The Charleston Museum, 360 Meeting Street, Charleston, SC 29403.",
+  "thumbnail": {
+    "@id": "https://iiif.library.cofc.edu/iiif/2/52226/full/thm/0/default.jpg",
+    "@type": "dctypes:Image",
+    "height": 111,
+    "width": 150,
+    "format": "image/jpeg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif.library.cofc.edu/iiif/2/52226",
+      "profile": "http://iiif.io/api/image/2/level1.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://rspace.library.cofc.edu/iiif/lcdl2729JPEG1jpg/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Default order",
+      "canvases": [
+        {
+          "@id": "https://rspace.library.cofc.edu/iiif/lcdl2729JPEG1jpg/canvas/0",
+          "@type": "sc:Canvas",
+          "label": "0",
+          "height": 4113,
+          "width": 5569,
+          "thumbnail": {
+            "@id": "https://iiif.library.cofc.edu/iiif/2/52226/full/thm/0/default.jpg",
+            "@type": "dctypes:Image",
+            "height": 111,
+            "width": 150,
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://iiif.library.cofc.edu/iiif/2/52226",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            }
+          },
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "https://rspace.library.cofc.edu/iiif/lcdl2729JPEG1jpg/annotation/0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.library.cofc.edu/iiif/2/52226/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.library.cofc.edu/iiif/2/52226",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://rspace.library.cofc.edu/iiif/lcdl2729JPEG1jpg/canvas/0",
+              "height": 4113,
+              "width": 5569
+            }
+          ],
+          "otherContent": [
+            {
+              "@context": "//iiif.io/api/presentation/2/context.json",
+              "@id": "https://lcdl.library.cofc.edu/lcdl/collections/annotation?iiif_identifier=lcdl2729JPEG1jpg",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

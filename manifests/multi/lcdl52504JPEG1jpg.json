@@ -1,0 +1,206 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://rspace.library.cofc.edu/iiif/lcdl52504JPEG1jpg/manifest",
+  "@type": "sc:Manifest",
+  "label": "Łódź. Synagoga. / Lodz. Synagoge. / Лодзь. синагога.",
+  "description": "Color postcard of the exterior of the Great Synagogue of Łódź.",
+  "metadata": [
+    {
+      "label": "Description",
+      "value": "Color postcard of the exterior of the Great Synagogue of Łódź."
+    },
+    {
+      "label": "Contributing Institution",
+      "value": [
+        {
+          "@value": "College of Charleston Libraries",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Copyright Status Statement",
+      "value": "Digital image copyright 2013, The College of Charleston Libraries. All rights reserved. For more information contact The College of Charleston Library, Charleston, SC 29424."
+    },
+    {
+      "label": "Date Digital",
+      "value": "2013-09-05"
+    },
+    {
+      "label": "Digitization Specifications",
+      "value": "Scanned with Epson Expression 10000 XL, 600 ppi, 24-bit color. Archival tiff image available."
+    },
+    {
+      "label": "Media Type",
+      "value": [
+        {
+          "@value": "Postcards",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Resource Locator",
+      "value": "Postcard Portfolio 15,cofc-war-postcard15-112"
+    },
+    {
+      "label": "Type",
+      "value": [
+        {
+          "@value": "StillImage",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "PID",
+      "value": "lcdl:52504"
+    },
+    {
+      "label": "Collection Identifier",
+      "value": "WRP-NEW3"
+    },
+    {
+      "label": "Original filename",
+      "value": "lcdl52504-JPEG1.jpg"
+    },
+    {
+      "label": "Collection Title",
+      "value": "William A. Rosenthall Judaica Collection - Postcards"
+    },
+    {
+      "label": "Type IMT",
+      "value": "image/jpeg"
+    },
+    {
+      "label": "iiif",
+      "value": "lcdl52504JPEG1jpg"
+    },
+    {
+      "label": "Compound Identifier",
+      "value": "WRP-NEW3"
+    },
+    {
+      "label": "Subject - Temporal",
+      "value": [
+        {
+          "@value": "StillImage,1915,College of Charleston Libraries,Postcards,Polish,German,Russian,Synagogues--Poland--Łódź,Łódź (Poland)",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Shelving Locator",
+      "value": "Postcard Portfolio 15,cofc-war-postcard15-112"
+    },
+    {
+      "label": "Title",
+      "value": "Łódź. Synagoga. / Lodz. Synagoge. / Лодзь. синагога."
+    },
+    {
+      "label": "Subject - Geographic",
+      "value": [
+        {
+          "@value": "Łódź (Poland)",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Subject - Topical",
+      "value": [
+        {
+          "@value": "Synagogues--Poland--Łódź",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Date",
+      "value": [
+        {
+          "@value": "1915",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Language",
+      "value": [
+        {
+          "@value": "Polish,German,Russian",
+          "@language": "en"
+        }
+      ]
+    }
+  ],
+  "license": "Digital image copyright 2013, The College of Charleston Libraries. All rights reserved. For more information contact The College of Charleston Library, Charleston, SC 29424.",
+  "thumbnail": {
+    "@id": "https://iiif.library.cofc.edu/iiif/2/34118/full/thm/0/default.jpg",
+    "@type": "dctypes:Image",
+    "height": 94,
+    "width": 150,
+    "format": "image/jpeg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif.library.cofc.edu/iiif/2/34118",
+      "profile": "http://iiif.io/api/image/2/level1.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://rspace.library.cofc.edu/iiif/lcdl52504JPEG1jpg/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Default order",
+      "canvases": [
+        {
+          "@id": "https://rspace.library.cofc.edu/iiif/lcdl52504JPEG1jpg/canvas/0",
+          "@type": "sc:Canvas",
+          "label": "0",
+          "height": 1250,
+          "width": 2000,
+          "thumbnail": {
+            "@id": "https://iiif.library.cofc.edu/iiif/2/34118/full/thm/0/default.jpg",
+            "@type": "dctypes:Image",
+            "height": 94,
+            "width": 150,
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://iiif.library.cofc.edu/iiif/2/34118",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            }
+          },
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "https://rspace.library.cofc.edu/iiif/lcdl52504JPEG1jpg/annotation/0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.library.cofc.edu/iiif/2/34118/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.library.cofc.edu/iiif/2/34118",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://rspace.library.cofc.edu/iiif/lcdl52504JPEG1jpg/canvas/0",
+              "height": 1250,
+              "width": 2000
+            }
+          ],
+          "otherContent": [
+            {
+              "@context": "//iiif.io/api/presentation/2/context.json",
+              "@id": "https://lcdl.library.cofc.edu/lcdl/collections/annotation?iiif_identifier=lcdl52504JPEG1jpg",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

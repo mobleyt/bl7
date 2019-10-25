@@ -1,0 +1,219 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://rspace.library.cofc.edu/iiif/lcdl146039JPEG1jpg/manifest",
+  "@type": "sc:Manifest",
+  "label": "Edisto River Plat 1715",
+  "description": "150 acre plot budding and bounding on the east side of the Edisto River, shows south Edisto River and surrounding plot owners, no land detail. Names associated with this plat are John Gerardeau, William Livingston, Charles Gruren, and Thomas Broughton. Notable geographic locations include South Edisto River and Colleton County.",
+  "metadata": [
+    {
+      "label": "Description",
+      "value": "150 acre plot budding and bounding on the east side of the Edisto River, shows south Edisto River and surrounding plot owners, no land detail. Names associated with this plat are John Gerardeau, William Livingston, Charles Gruren, and Thomas Broughton. Notable geographic locations include South Edisto River and Colleton County."
+    },
+    {
+      "label": "Access Note",
+      "value": "For more information and re-use requirements contact the South Carolina Historical Society, Charleston, SC, 29401."
+    },
+    {
+      "label": "Contributing Institution",
+      "value": [
+        {
+          "@value": "South Carolina Historical Society",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Copyright Status Statement",
+      "value": "Public Domain."
+    },
+    {
+      "label": "Date Digital",
+      "value": "2016-02-22"
+    },
+    {
+      "label": "Digitization Specifications",
+      "value": "400 dpi, 24-bit depth, color, Bookeye 4 Basic, Archival masters are tiffs."
+    },
+    {
+      "label": "Media Type",
+      "value": [
+        {
+          "@value": "Maps",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Resource Locator",
+      "value": "510.00, Box 2, Folder 13"
+    },
+    {
+      "label": "Type",
+      "value": [
+        {
+          "@value": "StillImage",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "PID",
+      "value": "lcdl:146039"
+    },
+    {
+      "label": "Collection Identifier",
+      "value": "mccradyplat"
+    },
+    {
+      "label": "Original filename",
+      "value": "lcdl:146039-JPEG1.jpg"
+    },
+    {
+      "label": "Collection Title",
+      "value": "John McCrady Plats and Deeds Collection"
+    },
+    {
+      "label": "Type IMT",
+      "value": "image/jpeg"
+    },
+    {
+      "label": "iiif",
+      "value": "lcdl146039JPEG1jpg"
+    },
+    {
+      "label": "Compound Identifier",
+      "value": "mccradyplat"
+    },
+    {
+      "label": "Subject - Temporal",
+      "value": [
+        {
+          "@value": "StillImage,Conveyancing--South Carolina,Maps,English,South Carolina Historical Society,Colleton County (S.C.),Surveying--South Carolina,Maps,Edisto River (S.C.),1715",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Shelving Locator",
+      "value": "510.00, Box 2, Folder 13"
+    },
+    {
+      "label": "Subject - Geographic County",
+      "value": [
+        {
+          "@value": "Colleton County (S.C.)",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Title",
+      "value": "Edisto River Plat 1715"
+    },
+    {
+      "label": "Subject - Geographic",
+      "value": [
+        {
+          "@value": "Edisto River (S.C.)",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Subject - Topical",
+      "value": [
+        {
+          "@value": "Conveyancing--South Carolina,Maps,Surveying--South Carolina",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Date",
+      "value": [
+        {
+          "@value": "1715",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Language",
+      "value": [
+        {
+          "@value": "English",
+          "@language": "en"
+        }
+      ]
+    }
+  ],
+  "license": "Public Domain.",
+  "thumbnail": {
+    "@id": "https://iiif.library.cofc.edu/iiif/2/223236/full/thm/0/default.jpg",
+    "@type": "dctypes:Image",
+    "height": 121,
+    "width": 150,
+    "format": "image/jpeg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif.library.cofc.edu/iiif/2/223236",
+      "profile": "http://iiif.io/api/image/2/level1.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://rspace.library.cofc.edu/iiif/lcdl146039JPEG1jpg/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Default order",
+      "canvases": [
+        {
+          "@id": "https://rspace.library.cofc.edu/iiif/lcdl146039JPEG1jpg/canvas/0",
+          "@type": "sc:Canvas",
+          "label": "0",
+          "height": 1611,
+          "width": 2000,
+          "thumbnail": {
+            "@id": "https://iiif.library.cofc.edu/iiif/2/223236/full/thm/0/default.jpg",
+            "@type": "dctypes:Image",
+            "height": 121,
+            "width": 150,
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://iiif.library.cofc.edu/iiif/2/223236",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            }
+          },
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "https://rspace.library.cofc.edu/iiif/lcdl146039JPEG1jpg/annotation/0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.library.cofc.edu/iiif/2/223236/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.library.cofc.edu/iiif/2/223236",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://rspace.library.cofc.edu/iiif/lcdl146039JPEG1jpg/canvas/0",
+              "height": 1611,
+              "width": 2000
+            }
+          ],
+          "otherContent": [
+            {
+              "@context": "//iiif.io/api/presentation/2/context.json",
+              "@id": "https://lcdl.library.cofc.edu/lcdl/collections/annotation?iiif_identifier=lcdl146039JPEG1jpg",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

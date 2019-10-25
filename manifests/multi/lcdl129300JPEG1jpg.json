@@ -1,0 +1,211 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://rspace.library.cofc.edu/iiif/lcdl129300JPEG1jpg/manifest",
+  "@type": "sc:Manifest",
+  "label": "Fotografía de un joven y su carro  /  Photograph of Young Man and his Car",
+  "description": "Fotografía en color de Mario Puga asomándose a través del techo de su automóvil recientemente adquirido. La fotografía fue tomada en el vecindario construido por Habitat for Humanity, Esau Jenkins en Johns Island.  /  Color photograph of Mario Puga standing through the sunroof of his recently purchased car. The photo was taken in the Esau Jenkins Habitat for Humanity neighborhood in Johns Island.",
+  "metadata": [
+    {
+      "label": "Description",
+      "value": "Fotografía en color de Mario Puga asomándose a través del techo de su automóvil recientemente adquirido. La fotografía fue tomada en el vecindario construido por Habitat for Humanity, Esau Jenkins en Johns Island.  /  Color photograph of Mario Puga standing through the sunroof of his recently purchased car. The photo was taken in the Esau Jenkins Habitat for Humanity neighborhood in Johns Island."
+    },
+    {
+      "label": "Access Note",
+      "value": "For more information contact The Citadel Archives "
+    },
+    {
+      "label": "Contributing Institution",
+      "value": [
+        {
+          "@value": "The Citadel Archives & Museum",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Copyright Status Statement",
+      "value": "Copyright status undetermined."
+    },
+    {
+      "label": "Date Digital",
+      "value": "2017-06-16"
+    },
+    {
+      "label": "Digitization Specifications",
+      "value": "600 dpi, 24-bit depth, color, Epson Perfection V600, Archival masters are tiffs."
+    },
+    {
+      "label": "Media Type",
+      "value": [
+        {
+          "@value": "Images",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Type",
+      "value": [
+        {
+          "@value": "StillImage",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "PID",
+      "value": "lcdl:129300"
+    },
+    {
+      "label": "Collection Identifier",
+      "value": "COHP_AE"
+    },
+    {
+      "label": "Original filename",
+      "value": "lcdl129300-JPEG1.jpg"
+    },
+    {
+      "label": "Collection Title",
+      "value": "Aqui Estamos"
+    },
+    {
+      "label": "Type IMT",
+      "value": "image/jpeg"
+    },
+    {
+      "label": "iiif",
+      "value": "lcdl129300JPEG1jpg"
+    },
+    {
+      "label": "Compound Identifier",
+      "value": "COHP_AE"
+    },
+    {
+      "label": "Subject - Temporal",
+      "value": [
+        {
+          "@value": "StillImage,Charleston County (S.C.),The Citadel Archives & Museum,1994,Johns Island (S.C.),Images,Spanish,English,Latin Americans--Southern States,Hispanic Americans--Southern States,Foreign workers,Latin American--Southern States",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Subject - Geographic County",
+      "value": [
+        {
+          "@value": "Charleston County (S.C.)",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Title",
+      "value": "Fotografía de un joven y su carro  /  Photograph of Young Man and his Car"
+    },
+    {
+      "label": "Subject - Geographic",
+      "value": [
+        {
+          "@value": "Johns Island (S.C.)",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Subject - Topical",
+      "value": [
+        {
+          "@value": "Latin Americans--Southern States,Hispanic Americans--Southern States,Foreign workers,Latin American--Southern States",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Date",
+      "value": [
+        {
+          "@value": "1994",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Language",
+      "value": [
+        {
+          "@value": "Spanish,English",
+          "@language": "en"
+        }
+      ]
+    }
+  ],
+  "license": "Copyright status undetermined.",
+  "thumbnail": {
+    "@id": "https://iiif.library.cofc.edu/iiif/2/43087/full/thm/0/default.jpg",
+    "@type": "dctypes:Image",
+    "height": 104,
+    "width": 150,
+    "format": "image/jpeg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif.library.cofc.edu/iiif/2/43087",
+      "profile": "http://iiif.io/api/image/2/level1.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://rspace.library.cofc.edu/iiif/lcdl129300JPEG1jpg/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Default order",
+      "canvases": [
+        {
+          "@id": "https://rspace.library.cofc.edu/iiif/lcdl129300JPEG1jpg/canvas/0",
+          "@type": "sc:Canvas",
+          "label": "0",
+          "height": 1392,
+          "width": 2000,
+          "thumbnail": {
+            "@id": "https://iiif.library.cofc.edu/iiif/2/43087/full/thm/0/default.jpg",
+            "@type": "dctypes:Image",
+            "height": 104,
+            "width": 150,
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://iiif.library.cofc.edu/iiif/2/43087",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            }
+          },
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "https://rspace.library.cofc.edu/iiif/lcdl129300JPEG1jpg/annotation/0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.library.cofc.edu/iiif/2/43087/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.library.cofc.edu/iiif/2/43087",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://rspace.library.cofc.edu/iiif/lcdl129300JPEG1jpg/canvas/0",
+              "height": 1392,
+              "width": 2000
+            }
+          ],
+          "otherContent": [
+            {
+              "@context": "//iiif.io/api/presentation/2/context.json",
+              "@id": "https://lcdl.library.cofc.edu/lcdl/collections/annotation?iiif_identifier=lcdl129300JPEG1jpg",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

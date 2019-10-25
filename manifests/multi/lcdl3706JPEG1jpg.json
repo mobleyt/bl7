@@ -1,0 +1,212 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://rspace.library.cofc.edu/iiif/lcdl3706JPEG1jpg/manifest",
+  "@type": "sc:Manifest",
+  "label": "CNB_419.12",
+  "description": "80 Meeting Street, St. Michael's Episcopal Church, ca. 1751. Interior View - Detail of balcony panel railing & supporting column cap.  4\" x 5\" B/W photo.",
+  "metadata": [
+    {
+      "label": "Description",
+      "value": "80 Meeting Street, St. Michael's Episcopal Church, ca. 1751. Interior View - Detail of balcony panel railing & supporting column cap.  4\" x 5\" B/W photo."
+    },
+    {
+      "label": "Contributing Institution",
+      "value": [
+        {
+          "@value": "The Charleston Archive at CCPL",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Copyright Status Statement",
+      "value": "Digital image copyright 2009, Charleston County Public Library. All rights reserved. For more information contact the Charleston Archive, Charleston County Public Library, 68 Calhoun Street, Charleston, SC 29401"
+    },
+    {
+      "label": "Date Digital",
+      "value": "2009-06"
+    },
+    {
+      "label": "Media Type",
+      "value": [
+        {
+          "@value": "Images",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Type",
+      "value": [
+        {
+          "@value": "StillImage",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "PID",
+      "value": "lcdl:3706"
+    },
+    {
+      "label": "Collection Identifier",
+      "value": "BAY"
+    },
+    {
+      "label": "Original filename",
+      "value": "lcdl3706-JPEG1.jpg"
+    },
+    {
+      "label": "Collection Title",
+      "value": "Charles N. Bayless Photos of Charleston and Georgetown County, S.C."
+    },
+    {
+      "label": "Type IMT",
+      "value": "image/jpg"
+    },
+    {
+      "label": "iiif",
+      "value": "lcdl3706JPEG1jpg"
+    },
+    {
+      "label": "Compound Identifier",
+      "value": "BAY"
+    },
+    {
+      "label": "Subject - Temporal",
+      "value": [
+        {
+          "@value": "StillImage,Charleston (S.C.),Charleston County (S.C.),Low Country,English,Architecture,The Charleston Archive at CCPL,Images,Historic buildings,Church buildings,1977-1983,Bayless, Charles N., 1914",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Subject - Geographic County",
+      "value": [
+        {
+          "@value": "Charleston County (S.C.)",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Title",
+      "value": "CNB_419.12"
+    },
+    {
+      "label": "Subject - Geographic",
+      "value": [
+        {
+          "@value": "Charleston (S.C.),Low Country",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Subject - Topical",
+      "value": [
+        {
+          "@value": "Architecture,Historic buildings,Church buildings",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Subject - Name",
+      "value": [
+        {
+          "@value": "Bayless, Charles N., 1914",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Date",
+      "value": [
+        {
+          "@value": "1977-1983",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Language",
+      "value": [
+        {
+          "@value": "English",
+          "@language": "en"
+        }
+      ]
+    }
+  ],
+  "license": "Digital image copyright 2009, Charleston County Public Library. All rights reserved. For more information contact the Charleston Archive, Charleston County Public Library, 68 Calhoun Street, Charleston, SC 29401",
+  "thumbnail": {
+    "@id": "https://iiif.library.cofc.edu/iiif/2/57287/full/thm/0/default.jpg",
+    "@type": "dctypes:Image",
+    "height": 150,
+    "width": 117,
+    "format": "image/jpeg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif.library.cofc.edu/iiif/2/57287",
+      "profile": "http://iiif.io/api/image/2/level1.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://rspace.library.cofc.edu/iiif/lcdl3706JPEG1jpg/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Default order",
+      "canvases": [
+        {
+          "@id": "https://rspace.library.cofc.edu/iiif/lcdl3706JPEG1jpg/canvas/0",
+          "@type": "sc:Canvas",
+          "label": "0",
+          "height": 2788,
+          "width": 2166,
+          "thumbnail": {
+            "@id": "https://iiif.library.cofc.edu/iiif/2/57287/full/thm/0/default.jpg",
+            "@type": "dctypes:Image",
+            "height": 150,
+            "width": 117,
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://iiif.library.cofc.edu/iiif/2/57287",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            }
+          },
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "https://rspace.library.cofc.edu/iiif/lcdl3706JPEG1jpg/annotation/0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.library.cofc.edu/iiif/2/57287/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.library.cofc.edu/iiif/2/57287",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://rspace.library.cofc.edu/iiif/lcdl3706JPEG1jpg/canvas/0",
+              "height": 2788,
+              "width": 2166
+            }
+          ],
+          "otherContent": [
+            {
+              "@context": "//iiif.io/api/presentation/2/context.json",
+              "@id": "https://lcdl.library.cofc.edu/lcdl/collections/annotation?iiif_identifier=lcdl3706JPEG1jpg",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

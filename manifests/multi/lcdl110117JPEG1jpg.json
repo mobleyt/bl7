@@ -1,0 +1,223 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://rspace.library.cofc.edu/iiif/lcdl110117JPEG1jpg/manifest",
+  "@type": "sc:Manifest",
+  "label": "Pipeline, Spring/Summer 1991",
+  "description": "Southern Education Foundation periodical, \"Pipeline: Recruiting, Educating and Retaining Teachers,\" discussing Southern Education Foundation programs, leadership education for teachers, and other related information.",
+  "metadata": [
+    {
+      "label": "Description",
+      "value": "Southern Education Foundation periodical, \"Pipeline: Recruiting, Educating and Retaining Teachers,\" discussing Southern Education Foundation programs, leadership education for teachers, and other related information."
+    },
+    {
+      "label": "Access Note",
+      "value": "For more information contact archivist at the Avery Research Center, 125 Bull Street, Charleston, SC 29424."
+    },
+    {
+      "label": "Access Statement",
+      "value": "All rights reserved."
+    },
+    {
+      "label": "Contributing Institution",
+      "value": [
+        {
+          "@value": "Avery Research Center at the College of Charleston",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Copyright Status Statement",
+      "value": "Copyright © Southern Education Foundation."
+    },
+    {
+      "label": "Date Digital",
+      "value": "2016-11"
+    },
+    {
+      "label": "Digitization Specifications",
+      "value": "300 dpi, 24-bit depth, color, Epson Expression 10000XL, Archival masters are tiffs."
+    },
+    {
+      "label": "Media Type",
+      "value": [
+        {
+          "@value": "Documents",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Resource Locator",
+      "value": "AMN 1117 Box 05 Folder 37"
+    },
+    {
+      "label": "Type",
+      "value": [
+        {
+          "@value": "Text",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "PID",
+      "value": "lcdl:110117"
+    },
+    {
+      "label": "Collection Identifier",
+      "value": "AMN1117"
+    },
+    {
+      "label": "Original filename",
+      "value": "lcdl110117-JPEG1.jpg"
+    },
+    {
+      "label": "Collection Title",
+      "value": "Charleston Branch of the National Association for the Advancement of Colored People Papers, 1920-1995"
+    },
+    {
+      "label": "Type IMT",
+      "value": "image/jpeg"
+    },
+    {
+      "label": "iiif",
+      "value": "lcdl110117JPEG1jpg"
+    },
+    {
+      "label": "Compound Identifier",
+      "value": "AMN1117"
+    },
+    {
+      "label": "Subject - Temporal",
+      "value": [
+        {
+          "@value": "Text,Southern States,African Americans--Civil rights,African Americans--Political activity,Charleston (S.C.)--Race relations,National Association for the Advancement of Colored People,National Association for the Advancement of Colored People. Charleston Branch (Charleston, S.C.),Avery Research Center at the College of Charleston,English,African Americans--South Carolina,1991,Southern Education Foundation,Documents",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Shelving Locator",
+      "value": "AMN 1117 Box 05 Folder 37"
+    },
+    {
+      "label": "Title",
+      "value": "Pipeline, Spring/Summer 1991"
+    },
+    {
+      "label": "Subject - Geographic",
+      "value": [
+        {
+          "@value": "Southern States",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Subject - Topical",
+      "value": [
+        {
+          "@value": "African Americans--Civil rights,African Americans--Political activity,Charleston (S.C.)--Race relations,National Association for the Advancement of Colored People,National Association for the Advancement of Colored People. Charleston Branch (Charleston, S.C.),African Americans--South Carolina",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Creator Name (Corporate)",
+      "value": [
+        {
+          "@value": "Southern Education Foundation",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Date",
+      "value": [
+        {
+          "@value": "1991",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Language",
+      "value": [
+        {
+          "@value": "English",
+          "@language": "en"
+        }
+      ]
+    }
+  ],
+  "license": "Copyright © Southern Education Foundation.",
+  "thumbnail": {
+    "@id": "https://iiif.library.cofc.edu/iiif/2/44281/full/thm/0/default.jpg",
+    "@type": "dctypes:Image",
+    "height": 150,
+    "width": 119,
+    "format": "image/jpeg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif.library.cofc.edu/iiif/2/44281",
+      "profile": "http://iiif.io/api/image/2/level1.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://rspace.library.cofc.edu/iiif/lcdl110117JPEG1jpg/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Default order",
+      "canvases": [
+        {
+          "@id": "https://rspace.library.cofc.edu/iiif/lcdl110117JPEG1jpg/canvas/0",
+          "@type": "sc:Canvas",
+          "label": "0",
+          "height": 2000,
+          "width": 1588,
+          "thumbnail": {
+            "@id": "https://iiif.library.cofc.edu/iiif/2/44281/full/thm/0/default.jpg",
+            "@type": "dctypes:Image",
+            "height": 150,
+            "width": 119,
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://iiif.library.cofc.edu/iiif/2/44281",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            }
+          },
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "https://rspace.library.cofc.edu/iiif/lcdl110117JPEG1jpg/annotation/0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.library.cofc.edu/iiif/2/44281/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.library.cofc.edu/iiif/2/44281",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://rspace.library.cofc.edu/iiif/lcdl110117JPEG1jpg/canvas/0",
+              "height": 2000,
+              "width": 1588
+            }
+          ],
+          "otherContent": [
+            {
+              "@context": "//iiif.io/api/presentation/2/context.json",
+              "@id": "https://lcdl.library.cofc.edu/lcdl/collections/annotation?iiif_identifier=lcdl110117JPEG1jpg",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

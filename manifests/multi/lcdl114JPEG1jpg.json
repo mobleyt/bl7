@@ -1,0 +1,197 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://rspace.library.cofc.edu/iiif/lcdl114JPEG1jpg/manifest",
+  "@type": "sc:Manifest",
+  "label": "The Soldier in Our Civil War",
+  "description": "[Color image.]  Caption: 'The citizens of Charleston, S.C., deserting their homes, on the threatened attack of the city by the Federal Forces. From a Sketch by Lieutenant G.P. Kirby.'",
+  "metadata": [
+    {
+      "label": "Description",
+      "value": "[Color image.]  Caption: 'The citizens of Charleston, S.C., deserting their homes, on the threatened attack of the city by the Federal Forces. From a Sketch by Lieutenant G.P. Kirby.'"
+    },
+    {
+      "label": "Contributing Institution",
+      "value": [
+        {
+          "@value": "The Charleston Museum Archives",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Copyright Status Statement",
+      "value": "Digital image copyright 2011, The Charleston Museum Archives. All rights reserved. For more information contact The Charleston Museum, 360 Meeting Street, Charleston, SC 29403."
+    },
+    {
+      "label": "Date Digital",
+      "value": "2011-03-01"
+    },
+    {
+      "label": "Digitization Specifications",
+      "value": "800 ppi, 24-bit depth, color, Epson Expression 10000XL, Archival Masters are tiffs."
+    },
+    {
+      "label": "Media Type",
+      "value": [
+        {
+          "@value": "Images",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Resource Locator",
+      "value": "2010.9.3"
+    },
+    {
+      "label": "Type",
+      "value": [
+        {
+          "@value": "StillImage",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "PID",
+      "value": "lcdl:114"
+    },
+    {
+      "label": "Collection Identifier",
+      "value": "CMN"
+    },
+    {
+      "label": "Original filename",
+      "value": "lcdl114-JPEG1.jpg"
+    },
+    {
+      "label": "Collection Title",
+      "value": "Charleston Museum Illustrated Newspapers Collection"
+    },
+    {
+      "label": "Type IMT",
+      "value": "image/jpeg"
+    },
+    {
+      "label": "iiif",
+      "value": "lcdl114JPEG1jpg"
+    },
+    {
+      "label": "Compound Identifier",
+      "value": "CMN"
+    },
+    {
+      "label": "Subject - Temporal",
+      "value": [
+        {
+          "@value": "StillImage,Charleston (S.C.),Charleston County (S.C.),Low Country,The Charleston Museum Archives,United States--History--Civil War, 1861-1865,Images,Offensive (Military science),Evacuation of civilians",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Shelving Locator",
+      "value": "2010.9.3"
+    },
+    {
+      "label": "Subject - Geographic County",
+      "value": [
+        {
+          "@value": "Charleston County (S.C.)",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Title",
+      "value": "The Soldier in Our Civil War"
+    },
+    {
+      "label": "Subject - Geographic",
+      "value": [
+        {
+          "@value": "Charleston (S.C.),Low Country,United States--History--Civil War, 1861-1865",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Subject - Topical",
+      "value": [
+        {
+          "@value": "Offensive (Military science),Evacuation of civilians",
+          "@language": "en"
+        }
+      ]
+    }
+  ],
+  "license": "Digital image copyright 2011, The Charleston Museum Archives. All rights reserved. For more information contact The Charleston Museum, 360 Meeting Street, Charleston, SC 29403.",
+  "thumbnail": {
+    "@id": "https://iiif.library.cofc.edu/iiif/2/58235/full/thm/0/default.jpg",
+    "@type": "dctypes:Image",
+    "height": 101,
+    "width": 150,
+    "format": "image/jpeg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif.library.cofc.edu/iiif/2/58235",
+      "profile": "http://iiif.io/api/image/2/level1.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://rspace.library.cofc.edu/iiif/lcdl114JPEG1jpg/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Default order",
+      "canvases": [
+        {
+          "@id": "https://rspace.library.cofc.edu/iiif/lcdl114JPEG1jpg/canvas/0",
+          "@type": "sc:Canvas",
+          "label": "0",
+          "height": 4021,
+          "width": 5976,
+          "thumbnail": {
+            "@id": "https://iiif.library.cofc.edu/iiif/2/58235/full/thm/0/default.jpg",
+            "@type": "dctypes:Image",
+            "height": 101,
+            "width": 150,
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://iiif.library.cofc.edu/iiif/2/58235",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            }
+          },
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "https://rspace.library.cofc.edu/iiif/lcdl114JPEG1jpg/annotation/0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.library.cofc.edu/iiif/2/58235/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.library.cofc.edu/iiif/2/58235",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://rspace.library.cofc.edu/iiif/lcdl114JPEG1jpg/canvas/0",
+              "height": 4021,
+              "width": 5976
+            }
+          ],
+          "otherContent": [
+            {
+              "@context": "//iiif.io/api/presentation/2/context.json",
+              "@id": "https://lcdl.library.cofc.edu/lcdl/collections/annotation?iiif_identifier=lcdl114JPEG1jpg",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,201 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://rspace.library.cofc.edu/iiif/lcdl66195JPEG1jpg/manifest",
+  "@type": "sc:Manifest",
+  "label": "Mrs. Sarah Lyon. Aged 104 years.",
+  "description": "Black-and-white engraved portrait of Sarah Lyon (1703-1807) of Ipswich, who lived to the age of 105. Engraving by Robert Roe after a painting by Walter Stephens Lethbridge.",
+  "metadata": [
+    {
+      "label": "Description",
+      "value": "Black-and-white engraved portrait of Sarah Lyon (1703-1807) of Ipswich, who lived to the age of 105. Engraving by Robert Roe after a painting by Walter Stephens Lethbridge."
+    },
+    {
+      "label": "Access Note",
+      "value": "For more information contact Special Collections at the College of Charleston Libraries, Charleston, SC 29424."
+    },
+    {
+      "label": "Contributing Institution",
+      "value": [
+        {
+          "@value": "College of Charleston Libraries",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Copyright Status Statement",
+      "value": "Public domain."
+    },
+    {
+      "label": "Date Digital",
+      "value": "2011-11-11"
+    },
+    {
+      "label": "Digitization Specifications",
+      "value": "Scanned with Epson Expression 10000 XL, 250 ppi, 24-bit color. Archival tiff image available."
+    },
+    {
+      "label": "Media Type",
+      "value": [
+        {
+          "@value": "Images",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Resource Locator",
+      "value": "Print Portfolio 16,cofc-war-print16-061"
+    },
+    {
+      "label": "Type",
+      "value": [
+        {
+          "@value": "StillImage",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "PID",
+      "value": "lcdl:66195"
+    },
+    {
+      "label": "Collection Identifier",
+      "value": "ROS"
+    },
+    {
+      "label": "Original filename",
+      "value": "lcdl66195-JPEG1.jpg"
+    },
+    {
+      "label": "Collection Title",
+      "value": "William A. Rosenthall Judaica Collection - Prints and Photographs"
+    },
+    {
+      "label": "Type IMT",
+      "value": "image/jpeg"
+    },
+    {
+      "label": "iiif",
+      "value": "lcdl66195JPEG1jpg"
+    },
+    {
+      "label": "Compound Identifier",
+      "value": "ROS"
+    },
+    {
+      "label": "Subject - Temporal",
+      "value": [
+        {
+          "@value": "StillImage,English,College of Charleston Libraries,1822,Images,Lethbridge",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Shelving Locator",
+      "value": "Print Portfolio 16,cofc-war-print16-061"
+    },
+    {
+      "label": "Title",
+      "value": "Mrs. Sarah Lyon. Aged 104 years."
+    },
+    {
+      "label": "Creator Name (Personal)",
+      "value": [
+        {
+          "@value": "Lethbridge",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Date",
+      "value": [
+        {
+          "@value": "1822",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Language",
+      "value": [
+        {
+          "@value": "English",
+          "@language": "en"
+        }
+      ]
+    }
+  ],
+  "license": "Public domain.",
+  "thumbnail": {
+    "@id": "https://iiif.library.cofc.edu/iiif/2/40256/full/thm/0/default.jpg",
+    "@type": "dctypes:Image",
+    "height": 150,
+    "width": 119,
+    "format": "image/jpeg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif.library.cofc.edu/iiif/2/40256",
+      "profile": "http://iiif.io/api/image/2/level1.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://rspace.library.cofc.edu/iiif/lcdl66195JPEG1jpg/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Default order",
+      "canvases": [
+        {
+          "@id": "https://rspace.library.cofc.edu/iiif/lcdl66195JPEG1jpg/canvas/0",
+          "@type": "sc:Canvas",
+          "label": "0",
+          "height": 2525,
+          "width": 2000,
+          "thumbnail": {
+            "@id": "https://iiif.library.cofc.edu/iiif/2/40256/full/thm/0/default.jpg",
+            "@type": "dctypes:Image",
+            "height": 150,
+            "width": 119,
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://iiif.library.cofc.edu/iiif/2/40256",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            }
+          },
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "https://rspace.library.cofc.edu/iiif/lcdl66195JPEG1jpg/annotation/0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.library.cofc.edu/iiif/2/40256/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.library.cofc.edu/iiif/2/40256",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://rspace.library.cofc.edu/iiif/lcdl66195JPEG1jpg/canvas/0",
+              "height": 2525,
+              "width": 2000
+            }
+          ],
+          "otherContent": [
+            {
+              "@context": "//iiif.io/api/presentation/2/context.json",
+              "@id": "https://lcdl.library.cofc.edu/lcdl/collections/annotation?iiif_identifier=lcdl66195JPEG1jpg",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

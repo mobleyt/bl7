@@ -1,0 +1,219 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://rspace.library.cofc.edu/iiif/lcdl146018JPEG1jpg/manifest",
+  "@type": "sc:Manifest",
+  "label": "St. John's Parish Plat 1794",
+  "description": "“Plan of parcel of land of late belonging to John Jones and now sold and conveyed by the said Jones to James Carsen for 850 acres but the request of the said Carsen. The said tract of land has been resurveyed and find it to contain but 805 acres of land or there about, so that the original survey must have taken in 45 acres of the marshes of Bohicket River...true copy taken from the original plat in the property of Mr. William Carsen in June 1794.\" Names associated with this plat are John Carsen, John Jones, James Carsen, William Chambers, James Young, Thomas Winborns, McDoul, Abigail Winborn, John Gibbs, Wilkins, and William Carsen. Notable geographic locations include St. John's Parish, Bohicket River, Wadmalaw River and Johns Island.",
+  "metadata": [
+    {
+      "label": "Description",
+      "value": "“Plan of parcel of land of late belonging to John Jones and now sold and conveyed by the said Jones to James Carsen for 850 acres but the request of the said Carsen. The said tract of land has been resurveyed and find it to contain but 805 acres of land or there about, so that the original survey must have taken in 45 acres of the marshes of Bohicket River...true copy taken from the original plat in the property of Mr. William Carsen in June 1794.\" Names associated with this plat are John Carsen, John Jones, James Carsen, William Chambers, James Young, Thomas Winborns, McDoul, Abigail Winborn, John Gibbs, Wilkins, and William Carsen. Notable geographic locations include St. John's Parish, Bohicket River, Wadmalaw River and Johns Island."
+    },
+    {
+      "label": "Access Note",
+      "value": "For more information and re-use requirements contact the South Carolina Historical Society, Charleston, SC, 29401."
+    },
+    {
+      "label": "Contributing Institution",
+      "value": [
+        {
+          "@value": "South Carolina Historical Society",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Copyright Status Statement",
+      "value": "Public Domain."
+    },
+    {
+      "label": "Date Digital",
+      "value": "2016-02-22"
+    },
+    {
+      "label": "Digitization Specifications",
+      "value": "400 dpi, 24-bit depth, color, Bookeye 4 Basic, Archival masters are tiffs."
+    },
+    {
+      "label": "Media Type",
+      "value": [
+        {
+          "@value": "Maps",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Resource Locator",
+      "value": "510.00, Box 1, Folder 58"
+    },
+    {
+      "label": "Type",
+      "value": [
+        {
+          "@value": "StillImage",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "PID",
+      "value": "lcdl:146018"
+    },
+    {
+      "label": "Collection Identifier",
+      "value": "mccradyplat"
+    },
+    {
+      "label": "Original filename",
+      "value": "lcdl:146018-JPEG1.jpg"
+    },
+    {
+      "label": "Collection Title",
+      "value": "John McCrady Plats and Deeds Collection"
+    },
+    {
+      "label": "Type IMT",
+      "value": "image/jpeg"
+    },
+    {
+      "label": "iiif",
+      "value": "lcdl146018JPEG1jpg"
+    },
+    {
+      "label": "Compound Identifier",
+      "value": "mccradyplat"
+    },
+    {
+      "label": "Subject - Temporal",
+      "value": [
+        {
+          "@value": "StillImage,Conveyancing--South Carolina,Maps,English,South Carolina Historical Society,Surveying--South Carolina,Johns Island (S.C.),Maps,1794,St. John’s Parish (S.C.)",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Shelving Locator",
+      "value": "510.00, Box 1, Folder 58"
+    },
+    {
+      "label": "Title",
+      "value": "St. John's Parish Plat 1794"
+    },
+    {
+      "label": "Subject - Geographic",
+      "value": [
+        {
+          "@value": "Johns Island (S.C.)",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Subject - Topical",
+      "value": [
+        {
+          "@value": "Conveyancing--South Carolina,Maps,Surveying--South Carolina",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Subject - Name",
+      "value": [
+        {
+          "@value": "St. John’s Parish (S.C.)",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Date",
+      "value": [
+        {
+          "@value": "1794",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Language",
+      "value": [
+        {
+          "@value": "English",
+          "@language": "en"
+        }
+      ]
+    }
+  ],
+  "license": "Public Domain.",
+  "thumbnail": {
+    "@id": "https://iiif.library.cofc.edu/iiif/2/223215/full/thm/0/default.jpg",
+    "@type": "dctypes:Image",
+    "height": 93,
+    "width": 150,
+    "format": "image/jpeg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif.library.cofc.edu/iiif/2/223215",
+      "profile": "http://iiif.io/api/image/2/level1.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://rspace.library.cofc.edu/iiif/lcdl146018JPEG1jpg/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Default order",
+      "canvases": [
+        {
+          "@id": "https://rspace.library.cofc.edu/iiif/lcdl146018JPEG1jpg/canvas/0",
+          "@type": "sc:Canvas",
+          "label": "0",
+          "height": 1239,
+          "width": 2000,
+          "thumbnail": {
+            "@id": "https://iiif.library.cofc.edu/iiif/2/223215/full/thm/0/default.jpg",
+            "@type": "dctypes:Image",
+            "height": 93,
+            "width": 150,
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://iiif.library.cofc.edu/iiif/2/223215",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            }
+          },
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "https://rspace.library.cofc.edu/iiif/lcdl146018JPEG1jpg/annotation/0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.library.cofc.edu/iiif/2/223215/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.library.cofc.edu/iiif/2/223215",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://rspace.library.cofc.edu/iiif/lcdl146018JPEG1jpg/canvas/0",
+              "height": 1239,
+              "width": 2000
+            }
+          ],
+          "otherContent": [
+            {
+              "@context": "//iiif.io/api/presentation/2/context.json",
+              "@id": "https://lcdl.library.cofc.edu/lcdl/collections/annotation?iiif_identifier=lcdl146018JPEG1jpg",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

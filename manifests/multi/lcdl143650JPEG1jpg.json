@@ -1,0 +1,241 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://rspace.library.cofc.edu/iiif/lcdl143650JPEG1jpg/manifest",
+  "@type": "sc:Manifest",
+  "label": "St. Andrew's Society note written by I. Miller",
+  "description": "An internal note of the St. Andrew's Society .",
+  "metadata": [
+    {
+      "label": "Description",
+      "value": "An internal note of the St. Andrew's Society ."
+    },
+    {
+      "label": "Access Note",
+      "value": "For more information contact Special Collections, College of Charleston Libraries, 66 George St., Charleston SC 29401."
+    },
+    {
+      "label": "Contributing Institution",
+      "value": [
+        {
+          "@value": "College of Charleston Libraries",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Copyright Status Statement",
+      "value": "Public domain."
+    },
+    {
+      "label": "Date Digital",
+      "value": "2017-02"
+    },
+    {
+      "label": "Digitization Specifications",
+      "value": "300 dpi, 24-bit depth, color. Epson Expression 10000XL. Archival masters are tiffs."
+    },
+    {
+      "label": "Transcript",
+      "value": "To the President vice President and Members of the St Andrews Club\n\n30th Novr. 1793\n\nGentn. [gentlemen]\n\nOn our last Anniversary I prepaid a Memorial in favor of Catherine [illegible] Donald from [Grunate?], and from your liberality obtaind [obtained] Ten Pounds under the express Idea of Paying her passage to her native home, which from unforeseen events, as well as want of Opportunity has not yet taken place   And as your Donation was never withdrawn from the Treasurer, I beg leave to request [illegible] [circuited?] to minute this [June?], so as to enable him to appropriate it when occasion offers, for the purpose for which it was originally intended [illegible] to Mr [Purport?] of her Petition have with [illegible] I am for the Petr. Genl.\n\nYour very huble Servt. \n\nIa. Miller"
+    },
+    {
+      "label": "Media Type",
+      "value": [
+        {
+          "@value": "Manuscripts",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Resource Locator",
+      "value": "MSS 0144 Box 8 Folder 1"
+    },
+    {
+      "label": "Type",
+      "value": [
+        {
+          "@value": "StillImage",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "PID",
+      "value": "lcdl:143650"
+    },
+    {
+      "label": "Collection Identifier",
+      "value": "SASR"
+    },
+    {
+      "label": "Original filename",
+      "value": "lcdl143650-JPEG1.jpg"
+    },
+    {
+      "label": "Collection Title",
+      "value": "St. Andrew's Society of Charleston Records, 1729-2001"
+    },
+    {
+      "label": "Type IMT",
+      "value": "image/jpeg"
+    },
+    {
+      "label": "iiif",
+      "value": "lcdl143650JPEG1jpg"
+    },
+    {
+      "label": "Compound Identifier",
+      "value": "SASR"
+    },
+    {
+      "label": "Subject - Temporal",
+      "value": [
+        {
+          "@value": "StillImage,Charleston (S.C.),Charleston County (S.C.),English,College of Charleston Libraries,Charities--South Carolina--Charleston,1793,St. Andrew’s Society of Charleston, South Carolina,Manuscripts,Colonial life,Transatlantic voyages--History,Miller, I.",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Shelving Locator",
+      "value": "MSS 0144 Box 8 Folder 1"
+    },
+    {
+      "label": "Subject - Geographic County",
+      "value": [
+        {
+          "@value": "Charleston County (S.C.)",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Title",
+      "value": "St. Andrew's Society note written by I. Miller"
+    },
+    {
+      "label": "Subject - Geographic",
+      "value": [
+        {
+          "@value": "Charleston (S.C.)",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Subject - Topical",
+      "value": [
+        {
+          "@value": "Charities--South Carolina--Charleston,Colonial life,Transatlantic voyages--History",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Subject - Name",
+      "value": [
+        {
+          "@value": "St. Andrew’s Society of Charleston, South Carolina",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Creator Name (Corporate)",
+      "value": [
+        {
+          "@value": "Miller, I.",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Date",
+      "value": [
+        {
+          "@value": "1793",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Language",
+      "value": [
+        {
+          "@value": "English",
+          "@language": "en"
+        }
+      ]
+    }
+  ],
+  "license": "Public domain.",
+  "thumbnail": {
+    "@id": "https://iiif.library.cofc.edu/iiif/2/49135/full/thm/0/default.jpg",
+    "@type": "dctypes:Image",
+    "height": 150,
+    "width": 123,
+    "format": "image/jpeg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif.library.cofc.edu/iiif/2/49135",
+      "profile": "http://iiif.io/api/image/2/level1.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://rspace.library.cofc.edu/iiif/lcdl143650JPEG1jpg/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Default order",
+      "canvases": [
+        {
+          "@id": "https://rspace.library.cofc.edu/iiif/lcdl143650JPEG1jpg/canvas/0",
+          "@type": "sc:Canvas",
+          "label": "0",
+          "height": 1800,
+          "width": 1476,
+          "thumbnail": {
+            "@id": "https://iiif.library.cofc.edu/iiif/2/49135/full/thm/0/default.jpg",
+            "@type": "dctypes:Image",
+            "height": 150,
+            "width": 123,
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://iiif.library.cofc.edu/iiif/2/49135",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            }
+          },
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "https://rspace.library.cofc.edu/iiif/lcdl143650JPEG1jpg/annotation/0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.library.cofc.edu/iiif/2/49135/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.library.cofc.edu/iiif/2/49135",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://rspace.library.cofc.edu/iiif/lcdl143650JPEG1jpg/canvas/0",
+              "height": 1800,
+              "width": 1476
+            }
+          ],
+          "otherContent": [
+            {
+              "@context": "//iiif.io/api/presentation/2/context.json",
+              "@id": "https://lcdl.library.cofc.edu/lcdl/collections/annotation?iiif_identifier=lcdl143650JPEG1jpg",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,253 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://rspace.library.cofc.edu/iiif/lcdl57903JPEG1jpg/manifest",
+  "@type": "sc:Manifest",
+  "label": "Brass thimble",
+  "description": "Brass thimble, 1.5 cm in diameter. Images show close-up of thimble following removal from the submarine and the thimble following mechanical cleaning and thorough drying.",
+  "metadata": [
+    {
+      "label": "Description",
+      "value": "Brass thimble, 1.5 cm in diameter. Images show close-up of thimble following removal from the submarine and the thimble following mechanical cleaning and thorough drying."
+    },
+    {
+      "label": "Contributing Institution",
+      "value": [
+        {
+          "@value": "Friends of the Hunley",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Copyright Status Statement",
+      "value": "Digital image copyright 2013, Friends of the Hunley. All rights reserved.Â For more information, contact Friends of the Hunley at 843.743.4865."
+    },
+    {
+      "label": "Date Digital",
+      "value": "2014-01-24"
+    },
+    {
+      "label": "Digitization Specifications",
+      "value": "1350 dpi, 24-bit depth, Nikon;300 dpi, 24-bit depth, Nikon D60"
+    },
+    {
+      "label": "Media Type",
+      "value": [
+        {
+          "@value": "Objects",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Resource Locator",
+      "value": "HL-1354"
+    },
+    {
+      "label": "Type",
+      "value": [
+        {
+          "@value": "PhysicalObject",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "PID",
+      "value": "lcdl:57903"
+    },
+    {
+      "label": "Collection Identifier",
+      "value": "HLH-PA"
+    },
+    {
+      "label": "Original filename",
+      "value": "lcdl57903-JPEG1.jpg"
+    },
+    {
+      "label": "Collection Title",
+      "value": "Hunley Artifact Collection – Personal Artifacts"
+    },
+    {
+      "label": "Type IMT",
+      "value": "image/jpeg"
+    },
+    {
+      "label": "iiif",
+      "value": "lcdl57903JPEG1jpg"
+    },
+    {
+      "label": "Compound Identifier",
+      "value": "HLH-PA"
+    },
+    {
+      "label": "Subject - Temporal",
+      "value": [
+        {
+          "@value": "Charleston County (S.C.),PhysicalObject,Objects,Brasswork,1860,1869,Friends of the Hunley,H.L. Hunley (Submarine),Brass--Metallurgy,Thimbles",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Shelving Locator",
+      "value": "HL-1354"
+    },
+    {
+      "label": "Subject - Geographic County",
+      "value": [
+        {
+          "@value": "Charleston County (S.C.)",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Title",
+      "value": "Brass thimble"
+    },
+    {
+      "label": "Subject - Topical",
+      "value": [
+        {
+          "@value": "Brasswork,Brass--Metallurgy,Thimbles",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Subject - Name",
+      "value": [
+        {
+          "@value": "H.L. Hunley (Submarine)",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Date",
+      "value": [
+        {
+          "@value": "1860,1869",
+          "@language": "en"
+        }
+      ]
+    }
+  ],
+  "license": "Digital image copyright 2013, Friends of the Hunley. All rights reserved.Â For more information, contact Friends of the Hunley at 843.743.4865.",
+  "thumbnail": {
+    "@id": "https://iiif.library.cofc.edu/iiif/2/34655/full/thm/0/default.jpg",
+    "@type": "dctypes:Image",
+    "height": 100,
+    "width": 150,
+    "format": "image/jpeg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif.library.cofc.edu/iiif/2/34655",
+      "profile": "http://iiif.io/api/image/2/level1.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://rspace.library.cofc.edu/iiif/lcdl57903JPEG1jpg/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Default order",
+      "canvases": [
+        {
+          "@id": "https://rspace.library.cofc.edu/iiif/lcdl57903JPEG1jpg/canvas/0",
+          "@type": "sc:Canvas",
+          "label": "0",
+          "height": 1296,
+          "width": 1947,
+          "thumbnail": {
+            "@id": "https://iiif.library.cofc.edu/iiif/2/34655/full/thm/0/default.jpg",
+            "@type": "dctypes:Image",
+            "height": 100,
+            "width": 150,
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://iiif.library.cofc.edu/iiif/2/34655",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            }
+          },
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "https://rspace.library.cofc.edu/iiif/lcdl57903JPEG1jpg/annotation/0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.library.cofc.edu/iiif/2/34655/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.library.cofc.edu/iiif/2/34655",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://rspace.library.cofc.edu/iiif/lcdl57903JPEG1jpg/canvas/0",
+              "height": 1296,
+              "width": 1947
+            }
+          ],
+          "otherContent": [
+            {
+              "@context": "//iiif.io/api/presentation/2/context.json",
+              "@id": "https://lcdl.library.cofc.edu/lcdl/collections/annotation?iiif_identifier=lcdl57903JPEG1jpg",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        },
+        {
+          "@id": "https://rspace.library.cofc.edu/iiif/lcdl57903JPEG1jpg/canvas/1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 85,
+          "width": 3872,
+          "thumbnail": {
+            "@id": "https://iiif.library.cofc.edu/iiif/2/34655/full/thm/0/default.jpg",
+            "@type": "dctypes:Image",
+            "height": 100,
+            "width": 150,
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://iiif.library.cofc.edu/iiif/2/34655",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            }
+          },
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "https://rspace.library.cofc.edu/iiif/lcdl57903JPEG1jpg/annotation/1",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.library.cofc.edu/iiif/2/%2Ffilestore%2F3%2F4%2F6%2F5%2F5_3db4e3d4403fafc%2F34655_alt_10160_fbd7b4e7b477309.jpg/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.library.cofc.edu/iiif/2/%2Ffilestore%2F3%2F4%2F6%2F5%2F5_3db4e3d4403fafc%2F34655_alt_10160_fbd7b4e7b477309.jpg",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://rspace.library.cofc.edu/iiif/lcdl57903JPEG1jpg/canvas/1",
+              "height": 85,
+              "width": 3872
+            }
+          ],
+          "otherContent": [
+            {
+              "@context": "//iiif.io/api/presentation/2/context.json",
+              "@id": "https://lcdl.library.cofc.edu/lcdl/collections/annotation?iiif_identifier=lcdl57903JPEG1jpg",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,201 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://rspace.library.cofc.edu/iiif/lcdl89307JPEG1jpg/manifest",
+  "@type": "sc:Manifest",
+  "label": "Chintz Applique Quilt",
+  "description": "The center medallion is a large urn with flowers surrounded by bird motifs. A floral appliqued vine encircles the center medallion, on a muslin background. The center medallion is predominantly red, brown, green, yellow, and blue. A golden face of a bearded man crowned with a wreath of fruit and leaves is portrayed on the urn. The quilt has a pink chintz border printed with alternating designs of brown cartouches with a floral vase in the center and blue and red flowers in brown baskets.",
+  "metadata": [
+    {
+      "label": "Description",
+      "value": "The center medallion is a large urn with flowers surrounded by bird motifs. A floral appliqued vine encircles the center medallion, on a muslin background. The center medallion is predominantly red, brown, green, yellow, and blue. A golden face of a bearded man crowned with a wreath of fruit and leaves is portrayed on the urn. The quilt has a pink chintz border printed with alternating designs of brown cartouches with a floral vase in the center and blue and red flowers in brown baskets."
+    },
+    {
+      "label": "Access Note",
+      "value": "Courtesy of The Charleston Museum. Photo by Sean Money. For more information contact The Charleston Museum, 360 Meeting Street, Charleston, SC 29403."
+    },
+    {
+      "label": "Contributing Institution",
+      "value": [
+        {
+          "@value": "The Charleston Museum Archives",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Copyright Status Statement",
+      "value": "Public Domain."
+    },
+    {
+      "label": "Date Digital",
+      "value": "1905-07-04"
+    },
+    {
+      "label": "Digitization Specifications",
+      "value": "Photographed using a Nikon D90 with a 50.0 mm f/1.8 lens. 1/125 sec, f/9, ISO 250, sRGB."
+    },
+    {
+      "label": "Media Type",
+      "value": [
+        {
+          "@value": "Objects",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Resource Locator",
+      "value": "1988.61"
+    },
+    {
+      "label": "Type",
+      "value": [
+        {
+          "@value": "StillImage",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "PID",
+      "value": "lcdl:89307"
+    },
+    {
+      "label": "Collection Identifier",
+      "value": "CHM-QLT"
+    },
+    {
+      "label": "Original filename",
+      "value": "lcdl89307-JPEG1.jpg"
+    },
+    {
+      "label": "Collection Title",
+      "value": "Charleston Museum Quilt Collection"
+    },
+    {
+      "label": "Type IMT",
+      "value": "image/jpeg"
+    },
+    {
+      "label": "iiif",
+      "value": "lcdl89307JPEG1jpg"
+    },
+    {
+      "label": "Compound Identifier",
+      "value": "CHM-QLT"
+    },
+    {
+      "label": "Subject - Temporal",
+      "value": [
+        {
+          "@value": "StillImage,The Charleston Museum Archives,1855,Birds,Chintz,Applique,Decoration and ornament--Plant forms,Wreaths,Urns,Fruit,Pope, Mary Townsend,Objects",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Shelving Locator",
+      "value": "1988.61"
+    },
+    {
+      "label": "Title",
+      "value": "Chintz Applique Quilt"
+    },
+    {
+      "label": "Subject - Topical",
+      "value": [
+        {
+          "@value": "Birds,Chintz,Applique,Decoration and ornament--Plant forms,Wreaths,Urns,Fruit",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Creator Name (Personal)",
+      "value": [
+        {
+          "@value": "Pope, Mary Townsend",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Date",
+      "value": [
+        {
+          "@value": "1855",
+          "@language": "en"
+        }
+      ]
+    }
+  ],
+  "license": "Public Domain.",
+  "thumbnail": {
+    "@id": "https://iiif.library.cofc.edu/iiif/2/27959/full/thm/0/default.jpg",
+    "@type": "dctypes:Image",
+    "height": 150,
+    "width": 133,
+    "format": "image/jpeg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif.library.cofc.edu/iiif/2/27959",
+      "profile": "http://iiif.io/api/image/2/level1.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://rspace.library.cofc.edu/iiif/lcdl89307JPEG1jpg/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Default order",
+      "canvases": [
+        {
+          "@id": "https://rspace.library.cofc.edu/iiif/lcdl89307JPEG1jpg/canvas/0",
+          "@type": "sc:Canvas",
+          "label": "0",
+          "height": 2000,
+          "width": 1767,
+          "thumbnail": {
+            "@id": "https://iiif.library.cofc.edu/iiif/2/27959/full/thm/0/default.jpg",
+            "@type": "dctypes:Image",
+            "height": 150,
+            "width": 133,
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://iiif.library.cofc.edu/iiif/2/27959",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            }
+          },
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "https://rspace.library.cofc.edu/iiif/lcdl89307JPEG1jpg/annotation/0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.library.cofc.edu/iiif/2/27959/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.library.cofc.edu/iiif/2/27959",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://rspace.library.cofc.edu/iiif/lcdl89307JPEG1jpg/canvas/0",
+              "height": 2000,
+              "width": 1767
+            }
+          ],
+          "otherContent": [
+            {
+              "@context": "//iiif.io/api/presentation/2/context.json",
+              "@id": "https://lcdl.library.cofc.edu/lcdl/collections/annotation?iiif_identifier=lcdl89307JPEG1jpg",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

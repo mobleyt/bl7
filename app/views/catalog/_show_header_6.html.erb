@@ -1,0 +1,10 @@
+<% parent = get_parent_document document['compoundidentifier'].to_s %>
+
+<% # bookmark/folder functions -%>
+
+<div class="alert alert-danger" role="alert">
+  You selected <span style="font-weight:bold;"><%= document['title'] %></span> from the <span style="font-weight:bold;"><%= parent['title'] %></span>. Click the Image Below to View It.
+</div>
+
+<%= render_document_heading(parent, :tag => :h1) %>
+

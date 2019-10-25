@@ -1,0 +1,219 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://rspace.library.cofc.edu/iiif/lcdl115082JPEG1jpg/manifest",
+  "@type": "sc:Manifest",
+  "label": "U.S.O.-Y.M.C.A. Building in Beaufort",
+  "description": "Color postcard of the U.S.O. building in Beaufort, South Carolina Correspondence postmarked June 3, 1956.",
+  "metadata": [
+    {
+      "label": "Description",
+      "value": "Color postcard of the U.S.O. building in Beaufort, South Carolina Correspondence postmarked June 3, 1956."
+    },
+    {
+      "label": "Access Note",
+      "value": "For more information contact Beaufort District Collection at the Beaufort County Library, Beaufort, S.C. 29902"
+    },
+    {
+      "label": "Contributing Institution",
+      "value": [
+        {
+          "@value": "Beaufort County Library",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Copyright Status Statement",
+      "value": "Public Domain"
+    },
+    {
+      "label": "Date Digital",
+      "value": "2016-01-18"
+    },
+    {
+      "label": "Digitization Specifications",
+      "value": "600ppi HP scanjet N6350"
+    },
+    {
+      "label": "Media Type",
+      "value": [
+        {
+          "@value": "Postcards",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Resource Locator",
+      "value": "0530010396618, Binder 1"
+    },
+    {
+      "label": "Type",
+      "value": [
+        {
+          "@value": "StillImage",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "PID",
+      "value": "lcdl:115082"
+    },
+    {
+      "label": "Collection Identifier",
+      "value": "BC-APC"
+    },
+    {
+      "label": "Original filename",
+      "value": "lcdl115082-JPEG1.jpg"
+    },
+    {
+      "label": "Collection Title",
+      "value": "Russell J. Arnsberger Postcard Collection"
+    },
+    {
+      "label": "Type IMT",
+      "value": "image/jpeg"
+    },
+    {
+      "label": "iiif",
+      "value": "lcdl115082JPEG1jpg"
+    },
+    {
+      "label": "Compound Identifier",
+      "value": "BC-APC"
+    },
+    {
+      "label": "Subject - Temporal",
+      "value": [
+        {
+          "@value": "StillImage,Beaufort County (S.C.),English,Beaufort County Library,Postcards,Advertising postcards,Tichnor Bros.  (Boston, Ma.),United Service Organizations,Y.M.C.A (Beaufort, S.C.)",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Shelving Locator",
+      "value": "0530010396618, Binder 1"
+    },
+    {
+      "label": "Subject - Geographic County",
+      "value": [
+        {
+          "@value": "Beaufort County (S.C.)",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Title",
+      "value": "U.S.O.-Y.M.C.A. Building in Beaufort"
+    },
+    {
+      "label": "Subject - Geographic",
+      "value": [
+        {
+          "@value": "Y.M.C.A (Beaufort, S.C.)",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Subject - Topical",
+      "value": [
+        {
+          "@value": "Advertising postcards,United Service Organizations",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Creator Name (Corporate)",
+      "value": [
+        {
+          "@value": "Tichnor Bros.  (Boston, Ma.)",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Language",
+      "value": [
+        {
+          "@value": "English",
+          "@language": "en"
+        }
+      ]
+    }
+  ],
+  "license": "Public Domain",
+  "thumbnail": {
+    "@id": "https://iiif.library.cofc.edu/iiif/2/38603/full/thm/0/default.jpg",
+    "@type": "dctypes:Image",
+    "height": 97,
+    "width": 150,
+    "format": "image/jpeg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif.library.cofc.edu/iiif/2/38603",
+      "profile": "http://iiif.io/api/image/2/level1.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://rspace.library.cofc.edu/iiif/lcdl115082JPEG1jpg/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Default order",
+      "canvases": [
+        {
+          "@id": "https://rspace.library.cofc.edu/iiif/lcdl115082JPEG1jpg/canvas/0",
+          "@type": "sc:Canvas",
+          "label": "0",
+          "height": 1162,
+          "width": 1800,
+          "thumbnail": {
+            "@id": "https://iiif.library.cofc.edu/iiif/2/38603/full/thm/0/default.jpg",
+            "@type": "dctypes:Image",
+            "height": 97,
+            "width": 150,
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://iiif.library.cofc.edu/iiif/2/38603",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            }
+          },
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "https://rspace.library.cofc.edu/iiif/lcdl115082JPEG1jpg/annotation/0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.library.cofc.edu/iiif/2/38603/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.library.cofc.edu/iiif/2/38603",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://rspace.library.cofc.edu/iiif/lcdl115082JPEG1jpg/canvas/0",
+              "height": 1162,
+              "width": 1800
+            }
+          ],
+          "otherContent": [
+            {
+              "@context": "//iiif.io/api/presentation/2/context.json",
+              "@id": "https://lcdl.library.cofc.edu/lcdl/collections/annotation?iiif_identifier=lcdl115082JPEG1jpg",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

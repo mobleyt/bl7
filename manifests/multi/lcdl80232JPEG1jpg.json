@@ -1,0 +1,192 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://rspace.library.cofc.edu/iiif/lcdl80232JPEG1jpg/manifest",
+  "@type": "sc:Manifest",
+  "label": "Portrait of an African American Girl",
+  "description": "A paper photo portrait of an African American girl wearing a dress. The date \"May 13, 1942\" is stamped on the back of the picture.",
+  "metadata": [
+    {
+      "label": "Description",
+      "value": "A paper photo portrait of an African American girl wearing a dress. The date \"May 13, 1942\" is stamped on the back of the picture."
+    },
+    {
+      "label": "Access Note",
+      "value": "For more information contactÂ Archivist, Avery Research Center at the College of Charleston, Charleston, SC, 29424."
+    },
+    {
+      "label": "Contributing Institution",
+      "value": [
+        {
+          "@value": "Avery Research Center at the College of Charleston",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Copyright Status Statement",
+      "value": "Copyright © Avery Research Center for African American History and Culture"
+    },
+    {
+      "label": "Date Digital",
+      "value": "2014-07-10"
+    },
+    {
+      "label": "Digitization Specifications",
+      "value": "1200 dpi, 24-bit depth, color, Epson Expression 10000XL, Archival masters are tiffs."
+    },
+    {
+      "label": "Media Type",
+      "value": [
+        {
+          "@value": "Images",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Resource Locator",
+      "value": "MSS 1041 Box 5"
+    },
+    {
+      "label": "Type",
+      "value": [
+        {
+          "@value": "StillImage",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "PID",
+      "value": "lcdl:80232"
+    },
+    {
+      "label": "Collection Identifier",
+      "value": "A-WPS"
+    },
+    {
+      "label": "Original filename",
+      "value": "lcdl80232-JPEG1.jpg"
+    },
+    {
+      "label": "Collection Title",
+      "value": "Walter Pantovic Slavery and African American History Collection"
+    },
+    {
+      "label": "Type IMT",
+      "value": "image/jpeg"
+    },
+    {
+      "label": "iiif",
+      "value": "lcdl80232JPEG1jpg"
+    },
+    {
+      "label": "Compound Identifier",
+      "value": "A-WPS"
+    },
+    {
+      "label": "Subject - Temporal",
+      "value": [
+        {
+          "@value": "StillImage,Avery Research Center at the College of Charleston,Portrait photography,Images,1942-05-31",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Shelving Locator",
+      "value": "MSS 1041 Box 5"
+    },
+    {
+      "label": "Title",
+      "value": "Portrait of an African American Girl"
+    },
+    {
+      "label": "Subject - Topical",
+      "value": [
+        {
+          "@value": "Portrait photography",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Date",
+      "value": [
+        {
+          "@value": "1942-05-31",
+          "@language": "en"
+        }
+      ]
+    }
+  ],
+  "license": "Copyright © Avery Research Center for African American History and Culture",
+  "thumbnail": {
+    "@id": "https://iiif.library.cofc.edu/iiif/2/48274/full/thm/0/default.jpg",
+    "@type": "dctypes:Image",
+    "height": 150,
+    "width": 104,
+    "format": "image/jpeg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif.library.cofc.edu/iiif/2/48274",
+      "profile": "http://iiif.io/api/image/2/level1.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://rspace.library.cofc.edu/iiif/lcdl80232JPEG1jpg/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Default order",
+      "canvases": [
+        {
+          "@id": "https://rspace.library.cofc.edu/iiif/lcdl80232JPEG1jpg/canvas/0",
+          "@type": "sc:Canvas",
+          "label": "0",
+          "height": 2000,
+          "width": 1392,
+          "thumbnail": {
+            "@id": "https://iiif.library.cofc.edu/iiif/2/48274/full/thm/0/default.jpg",
+            "@type": "dctypes:Image",
+            "height": 150,
+            "width": 104,
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://iiif.library.cofc.edu/iiif/2/48274",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            }
+          },
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "https://rspace.library.cofc.edu/iiif/lcdl80232JPEG1jpg/annotation/0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.library.cofc.edu/iiif/2/48274/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.library.cofc.edu/iiif/2/48274",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://rspace.library.cofc.edu/iiif/lcdl80232JPEG1jpg/canvas/0",
+              "height": 2000,
+              "width": 1392
+            }
+          ],
+          "otherContent": [
+            {
+              "@context": "//iiif.io/api/presentation/2/context.json",
+              "@id": "https://lcdl.library.cofc.edu/lcdl/collections/annotation?iiif_identifier=lcdl80232JPEG1jpg",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

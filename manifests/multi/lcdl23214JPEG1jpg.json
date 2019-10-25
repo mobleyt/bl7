@@ -1,0 +1,207 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://rspace.library.cofc.edu/iiif/lcdl23214JPEG1jpg/manifest",
+  "@type": "sc:Manifest",
+  "label": "At Fort Dix, New Jersey",
+  "description": "Visitor tag for Fort Dix, New Jersey, assumedly used by his wife Kay during a quick visit.  The 67th Observation Group was sent here for processing for overseas shipment and left August 29, 1942 on a five day \"zig-zag\" journey across the Atlantic (on the original \"Queen Elizabeth\") to Membury Air Base, England.  His \"official\" note home to Kay telling her of his arrival overseas does not explicitly tell her where he is.",
+  "metadata": [
+    {
+      "label": "Description",
+      "value": "Visitor tag for Fort Dix, New Jersey, assumedly used by his wife Kay during a quick visit.  The 67th Observation Group was sent here for processing for overseas shipment and left August 29, 1942 on a five day \"zig-zag\" journey across the Atlantic (on the original \"Queen Elizabeth\") to Membury Air Base, England.  His \"official\" note home to Kay telling her of his arrival overseas does not explicitly tell her where he is."
+    },
+    {
+      "label": "Contributing Institution",
+      "value": [
+        {
+          "@value": "College of Charleston Libraries",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Copyright Status Statement",
+      "value": "Digital images copyright 2009, The College of Charleston Libraries. All rights reserved. For more information contact The College of Charleston Library, Charleston, SC 29424."
+    },
+    {
+      "label": "Date Digital",
+      "value": "2009-11"
+    },
+    {
+      "label": "Digitization Specifications",
+      "value": "400 ppi, 24-bit depth, color, Epson Expression 10000XL, Archival Masters are tiffs"
+    },
+    {
+      "label": "Media Type",
+      "value": [
+        {
+          "@value": "Images",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Type",
+      "value": [
+        {
+          "@value": "StillImage",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "PID",
+      "value": "lcdl:23214"
+    },
+    {
+      "label": "Collection Identifier",
+      "value": "HAP4"
+    },
+    {
+      "label": "Original filename",
+      "value": "lcdl23214-JPEG1.jpg"
+    },
+    {
+      "label": "Collection Title",
+      "value": "Lawrence Layden Scrapbook, 1941-1945"
+    },
+    {
+      "label": "Type IMT",
+      "value": "image/jpeg"
+    },
+    {
+      "label": "iiif",
+      "value": "lcdl23214JPEG1jpg"
+    },
+    {
+      "label": "Compound Identifier",
+      "value": "HAP4"
+    },
+    {
+      "label": "Subject - Temporal",
+      "value": [
+        {
+          "@value": "StillImage,English,College of Charleston Libraries,Images,Layden, Lawrence, 1916-2011,1942-08,Queen Elizabeth (Ship),Fort Dix (N.J.)",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Title",
+      "value": "At Fort Dix, New Jersey"
+    },
+    {
+      "label": "Subject - Geographic",
+      "value": [
+        {
+          "@value": "Fort Dix (N.J.)",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Subject - Name",
+      "value": [
+        {
+          "@value": "Queen Elizabeth (Ship)",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Creator Name (Personal)",
+      "value": [
+        {
+          "@value": "Layden, Lawrence, 1916-2011",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Date",
+      "value": [
+        {
+          "@value": "1942-08",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Language",
+      "value": [
+        {
+          "@value": "English",
+          "@language": "en"
+        }
+      ]
+    }
+  ],
+  "license": "Digital images copyright 2009, The College of Charleston Libraries. All rights reserved. For more information contact The College of Charleston Library, Charleston, SC 29424.",
+  "thumbnail": {
+    "@id": "https://iiif.library.cofc.edu/iiif/2/52882/full/thm/0/default.jpg",
+    "@type": "dctypes:Image",
+    "height": 150,
+    "width": 109,
+    "format": "image/jpeg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif.library.cofc.edu/iiif/2/52882",
+      "profile": "http://iiif.io/api/image/2/level1.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://rspace.library.cofc.edu/iiif/lcdl23214JPEG1jpg/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Default order",
+      "canvases": [
+        {
+          "@id": "https://rspace.library.cofc.edu/iiif/lcdl23214JPEG1jpg/canvas/0",
+          "@type": "sc:Canvas",
+          "label": "0",
+          "height": 4368,
+          "width": 3168,
+          "thumbnail": {
+            "@id": "https://iiif.library.cofc.edu/iiif/2/52882/full/thm/0/default.jpg",
+            "@type": "dctypes:Image",
+            "height": 150,
+            "width": 109,
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://iiif.library.cofc.edu/iiif/2/52882",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            }
+          },
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "https://rspace.library.cofc.edu/iiif/lcdl23214JPEG1jpg/annotation/0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.library.cofc.edu/iiif/2/52882/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.library.cofc.edu/iiif/2/52882",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://rspace.library.cofc.edu/iiif/lcdl23214JPEG1jpg/canvas/0",
+              "height": 4368,
+              "width": 3168
+            }
+          ],
+          "otherContent": [
+            {
+              "@context": "//iiif.io/api/presentation/2/context.json",
+              "@id": "https://lcdl.library.cofc.edu/lcdl/collections/annotation?iiif_identifier=lcdl23214JPEG1jpg",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

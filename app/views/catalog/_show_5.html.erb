@@ -8,16 +8,17 @@
 #launch-tify img{margin-bottom:15px;}
 </style>
 
-    <a id="launch-tify" href="#animatedModal"><img src="http://rspace.library.cofc.edu/iiif/image/<%= document['rspace-id'] %>/full/800/0/default.jpg" class="shadow-sm" /></a>
+    <a id="launch-tify" href="#animatedModal"><img style="border:1px solid #000;" src="https://iiif.library.cofc.edu/iiif/2/<%= document['rspace-id'] %>/full/800,/0/default.jpg" class="shadow-sm" /></a>
     <div id="animatedModal" style="background-color:#660000;">
         <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID  class="close-animatedModal" -->
         <div class="close-animatedModal">
-            &nbsp;&nbsp;&nbsp;&nbsp;Close Viewer
+            <span style="padding:10px;">Close Viewer</span>
         </div>
         <div class="modal-content" id="tify">
         </div>
     </div>
-<script src="https://beta.lcdl.library.cofc.edu/tify/animatedModal.min.js"></script>
+    
+<script src="https://lcdl.library.cofc.edu/tify/animatedModal.min.js"></script>
 
 <script>
   jQuery("#launch-tify").animatedModal({color:'#383838'});
@@ -27,10 +28,10 @@
 tifyOptions = {
 		container: '#tify',
 		init: true,
-		manifest: '//beta.lcdl.library.cofc.edu/lcdl/collections/compound?identifier=<%= document['iiif'] %>&amp;collidentifier=<%= document['collectionidentifier'] %>'
+		manifest: '//lcdl.library.cofc.edu/lcdl/collections/compound?identifier=<%= document['iiif'] %>&amp;collidentifier=<%= document['compoundidentifier'] %>'
 	}
 </script>
-<script src="https://beta.lcdl.library.cofc.edu/tify/tify.js"></script>
+<script src="https://lcdl.library.cofc.edu/tify/tify.js"></script>
 
 <dl class="row dl-invert document-metadata">
   <% doc_presenter.fields_to_render.each do |field_name, field| -%>

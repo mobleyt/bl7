@@ -1,0 +1,257 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://rspace.library.cofc.edu/iiif/lcdl40733JPEG1jpg/manifest",
+  "@type": "sc:Manifest",
+  "label": "157. State of Alabama -- Mar. 1, 1890",
+  "description": "Certificate authorizing Edward Haskell to practice law in Alabama",
+  "metadata": [
+    {
+      "label": "Description",
+      "value": "Certificate authorizing Edward Haskell to practice law in Alabama"
+    },
+    {
+      "label": "Contributing Institution",
+      "value": [
+        {
+          "@value": "College of Charleston Libraries",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Copyright Status Statement",
+      "value": "Digital image copyright 2010, The College of Charleston Libraries. All rights reserved. For more information contact The College of Charleston Library, Charleston, SC 29424."
+    },
+    {
+      "label": "Date Digital",
+      "value": "2010-06"
+    },
+    {
+      "label": "Digitization Specifications",
+      "value": "600 ppi, 24-bit depth, color, Epson Expression 10000XL scanner, Archival Master is a tiff."
+    },
+    {
+      "label": "Transcript",
+      "value": "License of Edward C Haskell to Practice Law[End Page 1] The State of Alabama, County of Jefferson, City Court of Birmingham, September Term, 1889-90. On this 1st day of March 1890, came into open Court Edward C Haskell who applies for admission to practice Law in the various Courts of Equity and Law in the State of Alabama, and who proves to the satisfaction of the Court that he is over twenty-one years of age, and is of good moral character, and that he is duly qualified to practice as an Attorney under the Laws of this State. And the said Edward C Haskell having taken an oath and filed the same in the Clerk and Register's office of this Court to support the Constitution of the United States of America, and the Constitution of the State Alabama, and that he will not violate any of the duties enjoined on him as an Attorney and Counselor at Law, It is, Therefore, Ordered by the Court, That the said Edward C Haskell be and he is hereby authorized to practice Law as an Attorney and Counselor in all the various Courts of Law and Equity of the State of Alabama, except the Supreme Court, and the Clerk and Register of this Court shall give him a duly certified copy of this order under the Seal of the Court, which shall be, and constitute him, full and free license for the same. I, Nathan L. Miller, Clerk and Register of the City Court of Birmingham in and for said County, hereby certify that the foregoing contains a full, true and correct exemplification of the record of the said City Court of Birmingham, made on the application of Edward C Haskell to practice Law in the several Courts of Law and Equity on the State of Alabama. IN TESTIMONY WHEREOF, I have hereunto set my hand and seal of office, at office in Birmingham, Alabama, this 1st day of March in the year of our Lord, One Thousand Eight Hundred and Ninety. Nathan L. Miller Clerk and Register of City Court of Birmingham [End Page 2]"
+    },
+    {
+      "label": "Media Type",
+      "value": [
+        {
+          "@value": "Manuscripts",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Resource Locator",
+      "value": "Mss 0111"
+    },
+    {
+      "label": "Type",
+      "value": [
+        {
+          "@value": "Text",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "PID",
+      "value": "lcdl:40733"
+    },
+    {
+      "label": "Collection Identifier",
+      "value": "WKF"
+    },
+    {
+      "label": "Original filename",
+      "value": "lcdl40733-JPEG1.jpg"
+    },
+    {
+      "label": "Collection Title",
+      "value": "Wilkinson-Keith Family Papers"
+    },
+    {
+      "label": "Type IMT",
+      "value": "image/jpeg"
+    },
+    {
+      "label": "iiif",
+      "value": "lcdl40733JPEG1jpg"
+    },
+    {
+      "label": "Compound Identifier",
+      "value": "WKF"
+    },
+    {
+      "label": "Subject - Temporal",
+      "value": [
+        {
+          "@value": "Text,Charleston County (S.C.),College of Charleston Libraries,Wilkinson and Keith Families,Law,1890-03-01,Certificates--1890-1900:Alabama,Manuscripts",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Shelving Locator",
+      "value": "Mss 0111"
+    },
+    {
+      "label": "Subject - Geographic County",
+      "value": [
+        {
+          "@value": "Charleston County (S.C.)",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Title",
+      "value": "157. State of Alabama -- Mar. 1, 1890"
+    },
+    {
+      "label": "Subject - Topical",
+      "value": [
+        {
+          "@value": "Law,Certificates--1890-1900:Alabama",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Creator Name (Personal)",
+      "value": [
+        {
+          "@value": "Wilkinson and Keith Families",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Date",
+      "value": [
+        {
+          "@value": "1890-03-01",
+          "@language": "en"
+        }
+      ]
+    }
+  ],
+  "license": "Digital image copyright 2010, The College of Charleston Libraries. All rights reserved. For more information contact The College of Charleston Library, Charleston, SC 29424.",
+  "thumbnail": {
+    "@id": "https://iiif.library.cofc.edu/iiif/2/25036/full/thm/0/default.jpg",
+    "@type": "dctypes:Image",
+    "height": 89,
+    "width": 150,
+    "format": "image/jpeg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif.library.cofc.edu/iiif/2/25036",
+      "profile": "http://iiif.io/api/image/2/level1.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://rspace.library.cofc.edu/iiif/lcdl40733JPEG1jpg/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Default order",
+      "canvases": [
+        {
+          "@id": "https://rspace.library.cofc.edu/iiif/lcdl40733JPEG1jpg/canvas/0",
+          "@type": "sc:Canvas",
+          "label": "0",
+          "height": 1181,
+          "width": 2000,
+          "thumbnail": {
+            "@id": "https://iiif.library.cofc.edu/iiif/2/25036/full/thm/0/default.jpg",
+            "@type": "dctypes:Image",
+            "height": 89,
+            "width": 150,
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://iiif.library.cofc.edu/iiif/2/25036",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            }
+          },
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "https://rspace.library.cofc.edu/iiif/lcdl40733JPEG1jpg/annotation/0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.library.cofc.edu/iiif/2/25036/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.library.cofc.edu/iiif/2/25036",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://rspace.library.cofc.edu/iiif/lcdl40733JPEG1jpg/canvas/0",
+              "height": 1181,
+              "width": 2000
+            }
+          ],
+          "otherContent": [
+            {
+              "@context": "//iiif.io/api/presentation/2/context.json",
+              "@id": "https://beta.lcdl.library.cofc.edu/lcdl/collections/annotation?iiif_identifier=lcdl40733JPEG1jpg",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        },
+        {
+          "@id": "https://rspace.library.cofc.edu/iiif/lcdl40733JPEG1jpg/canvas/1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 85,
+          "width": 1210,
+          "thumbnail": {
+            "@id": "https://iiif.library.cofc.edu/iiif/2/25036/full/thm/0/default.jpg",
+            "@type": "dctypes:Image",
+            "height": 89,
+            "width": 150,
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://iiif.library.cofc.edu/iiif/2/25036",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            }
+          },
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "https://rspace.library.cofc.edu/iiif/lcdl40733JPEG1jpg/annotation/1",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.library.cofc.edu/iiif/2/%2Ffilestore%2F2%2F5%2F0%2F3%2F6_8cbf5b761d759cd%2F25036_alt_6455_64524001d01d13a.jpg/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.library.cofc.edu/iiif/2/%2Ffilestore%2F2%2F5%2F0%2F3%2F6_8cbf5b761d759cd%2F25036_alt_6455_64524001d01d13a.jpg",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://rspace.library.cofc.edu/iiif/lcdl40733JPEG1jpg/canvas/1",
+              "height": 85,
+              "width": 1210
+            }
+          ],
+          "otherContent": [
+            {
+              "@context": "//iiif.io/api/presentation/2/context.json",
+              "@id": "https://beta.lcdl.library.cofc.edu/lcdl/collections/annotation?iiif_identifier=lcdl40733JPEG1jpg",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

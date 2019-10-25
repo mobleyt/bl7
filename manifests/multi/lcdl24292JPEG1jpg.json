@@ -1,0 +1,210 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://rspace.library.cofc.edu/iiif/lcdl24292JPEG1jpg/manifest",
+  "@type": "sc:Manifest",
+  "label": "Plantations, Oak Hurst Plantation",
+  "description": "5\" X 7\" image with 'Hutton Plantation from files of J.F. Brenner' handwritten on reverse.",
+  "metadata": [
+    {
+      "label": "Description",
+      "value": "5\" X 7\" image with 'Hutton Plantation from files of J.F. Brenner' handwritten on reverse."
+    },
+    {
+      "label": "Contributing Institution",
+      "value": [
+        {
+          "@value": "The Charleston Museum Archives",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Copyright Status Statement",
+      "value": "Digital image copyright 2011, The Charleston Museum Archives. All rights reserved. For more information contact The Charleston Museum, 360 Meeting Street, Charleston, SC 29403."
+    },
+    {
+      "label": "Date Digital",
+      "value": "2011-06-01"
+    },
+    {
+      "label": "Digitization Specifications",
+      "value": "800 ppi, 24-bit depth, color, Epson Expression 10000XL, Archival Masters are tiffs."
+    },
+    {
+      "label": "Media Type",
+      "value": [
+        {
+          "@value": "Images",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Resource Locator",
+      "value": "1999.30.63"
+    },
+    {
+      "label": "Type",
+      "value": [
+        {
+          "@value": "StillImage",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "PID",
+      "value": "lcdl:24292"
+    },
+    {
+      "label": "Collection Identifier",
+      "value": "CMP"
+    },
+    {
+      "label": "Original filename",
+      "value": "lcdl24292-JPEG1.jpg"
+    },
+    {
+      "label": "Collection Title",
+      "value": "Charleston Museum Plantation Photographs"
+    },
+    {
+      "label": "Note",
+      "value": "Property was also known as Hutton plantation.  The house was destroyed by fire in 1987."
+    },
+    {
+      "label": "Type IMT",
+      "value": "image/jpeg"
+    },
+    {
+      "label": "iiif",
+      "value": "lcdl24292JPEG1jpg"
+    },
+    {
+      "label": "Compound Identifier",
+      "value": "CMP"
+    },
+    {
+      "label": "Subject - Temporal",
+      "value": [
+        {
+          "@value": "StillImage,Low Country,Columns,1980,1989,Colleton County (S.C.),The Charleston Museum Archives,Colleton County (S.C.),Images,Lost Architecture,Plantations -- South Carolina,Manors,Television--Antennas",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Shelving Locator",
+      "value": "1999.30.63"
+    },
+    {
+      "label": "Subject - Geographic County",
+      "value": [
+        {
+          "@value": "Colleton County (S.C.)",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Title",
+      "value": "Plantations, Oak Hurst Plantation"
+    },
+    {
+      "label": "Subject - Geographic",
+      "value": [
+        {
+          "@value": "Low Country,Colleton County (S.C.)",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Subject - Topical",
+      "value": [
+        {
+          "@value": "Columns,Lost Architecture,Plantations -- South Carolina,Manors,Television--Antennas",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Date",
+      "value": [
+        {
+          "@value": "1980,1989",
+          "@language": "en"
+        }
+      ]
+    }
+  ],
+  "license": "Digital image copyright 2011, The Charleston Museum Archives. All rights reserved. For more information contact The Charleston Museum, 360 Meeting Street, Charleston, SC 29403.",
+  "thumbnail": {
+    "@id": "https://iiif.library.cofc.edu/iiif/2/52834/full/thm/0/default.jpg",
+    "@type": "dctypes:Image",
+    "height": 109,
+    "width": 150,
+    "format": "image/jpeg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif.library.cofc.edu/iiif/2/52834",
+      "profile": "http://iiif.io/api/image/2/level1.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://rspace.library.cofc.edu/iiif/lcdl24292JPEG1jpg/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Default order",
+      "canvases": [
+        {
+          "@id": "https://rspace.library.cofc.edu/iiif/lcdl24292JPEG1jpg/canvas/0",
+          "@type": "sc:Canvas",
+          "label": "0",
+          "height": 1450,
+          "width": 2000,
+          "thumbnail": {
+            "@id": "https://iiif.library.cofc.edu/iiif/2/52834/full/thm/0/default.jpg",
+            "@type": "dctypes:Image",
+            "height": 109,
+            "width": 150,
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://iiif.library.cofc.edu/iiif/2/52834",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            }
+          },
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "https://rspace.library.cofc.edu/iiif/lcdl24292JPEG1jpg/annotation/0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.library.cofc.edu/iiif/2/52834/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.library.cofc.edu/iiif/2/52834",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://rspace.library.cofc.edu/iiif/lcdl24292JPEG1jpg/canvas/0",
+              "height": 1450,
+              "width": 2000
+            }
+          ],
+          "otherContent": [
+            {
+              "@context": "//iiif.io/api/presentation/2/context.json",
+              "@id": "https://lcdl.library.cofc.edu/lcdl/collections/annotation?iiif_identifier=lcdl24292JPEG1jpg",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

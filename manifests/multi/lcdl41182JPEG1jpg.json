@@ -1,0 +1,206 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://rspace.library.cofc.edu/iiif/lcdl41182JPEG1jpg/manifest",
+  "@type": "sc:Manifest",
+  "label": "Why they get the money : they never talk or think of anything else",
+  "description": "Caricature by Walter H. Gallaway published in Puck. The text reads : 1 \"Dey cosd only ninedy cends und sell for fife tollars.\" 2 \"Max, I tells you ve can'd lose.\" 3 \"Und I asks Cohenstein, 'Do ve ged a discound?'\" 4 \"It vas all in Rachel's name, efery cend.\" 5 \"Now ve vill talk ofer dot brobosition you haf.\" 6 \"Dere's noting in it at der brice.\"",
+  "metadata": [
+    {
+      "label": "Description",
+      "value": "Caricature by Walter H. Gallaway published in Puck. The text reads : 1 \"Dey cosd only ninedy cends und sell for fife tollars.\" 2 \"Max, I tells you ve can'd lose.\" 3 \"Und I asks Cohenstein, 'Do ve ged a discound?'\" 4 \"It vas all in Rachel's name, efery cend.\" 5 \"Now ve vill talk ofer dot brobosition you haf.\" 6 \"Dere's noting in it at der brice.\""
+    },
+    {
+      "label": "Contributing Institution",
+      "value": [
+        {
+          "@value": "College of Charleston Libraries",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Copyright Status Statement",
+      "value": "Digital image copyright 2011, The College of Charleston Libraries. All rights reserved. For more information contact The College of Charleston Library, Charleston, SC 29424."
+    },
+    {
+      "label": "Date Digital",
+      "value": "2011-06"
+    },
+    {
+      "label": "Digitization Specifications",
+      "value": "Scanned with Epson Expression 10000 XL, 600 ppi, 24-bit color. Archival tiff image available."
+    },
+    {
+      "label": "Media Type",
+      "value": [
+        {
+          "@value": "Images",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Resource Locator",
+      "value": "Print Portfolio 05 v2,cofc-war-print05-v2-013"
+    },
+    {
+      "label": "Type",
+      "value": [
+        {
+          "@value": "StillImage",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "PID",
+      "value": "lcdl:41182"
+    },
+    {
+      "label": "Collection Identifier",
+      "value": "ROS"
+    },
+    {
+      "label": "Original filename",
+      "value": "lcdl41182-JPEG1.jpg"
+    },
+    {
+      "label": "Collection Title",
+      "value": "William A. Rosenthall Judaica Collection - Prints and Photographs"
+    },
+    {
+      "label": "Type IMT",
+      "value": "image/jpeg"
+    },
+    {
+      "label": "iiif",
+      "value": "lcdl41182JPEG1jpg"
+    },
+    {
+      "label": "Compound Identifier",
+      "value": "ROS"
+    },
+    {
+      "label": "Subject - Temporal",
+      "value": [
+        {
+          "@value": "StillImage,1906,English,College of Charleston Libraries,Images,Jews--Caricatures and cartoons,Antisemitism--Caricatures and cartoons,Gallaway",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Shelving Locator",
+      "value": "Print Portfolio 05 v2,cofc-war-print05-v2-013"
+    },
+    {
+      "label": "Title",
+      "value": "Why they get the money : they never talk or think of anything else"
+    },
+    {
+      "label": "Subject - Topical",
+      "value": [
+        {
+          "@value": "Jews--Caricatures and cartoons,Antisemitism--Caricatures and cartoons",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Creator Name (Personal)",
+      "value": [
+        {
+          "@value": "Gallaway",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Date",
+      "value": [
+        {
+          "@value": "1906",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Language",
+      "value": [
+        {
+          "@value": "English",
+          "@language": "en"
+        }
+      ]
+    }
+  ],
+  "license": "Digital image copyright 2011, The College of Charleston Libraries. All rights reserved. For more information contact The College of Charleston Library, Charleston, SC 29424.",
+  "thumbnail": {
+    "@id": "https://iiif.library.cofc.edu/iiif/2/59975/full/thm/0/default.jpg",
+    "@type": "dctypes:Image",
+    "height": 150,
+    "width": 112,
+    "format": "image/jpeg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif.library.cofc.edu/iiif/2/59975",
+      "profile": "http://iiif.io/api/image/2/level1.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://rspace.library.cofc.edu/iiif/lcdl41182JPEG1jpg/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Default order",
+      "canvases": [
+        {
+          "@id": "https://rspace.library.cofc.edu/iiif/lcdl41182JPEG1jpg/canvas/0",
+          "@type": "sc:Canvas",
+          "label": "0",
+          "height": 2000,
+          "width": 1494,
+          "thumbnail": {
+            "@id": "https://iiif.library.cofc.edu/iiif/2/59975/full/thm/0/default.jpg",
+            "@type": "dctypes:Image",
+            "height": 150,
+            "width": 112,
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://iiif.library.cofc.edu/iiif/2/59975",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            }
+          },
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "https://rspace.library.cofc.edu/iiif/lcdl41182JPEG1jpg/annotation/0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.library.cofc.edu/iiif/2/59975/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.library.cofc.edu/iiif/2/59975",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://rspace.library.cofc.edu/iiif/lcdl41182JPEG1jpg/canvas/0",
+              "height": 2000,
+              "width": 1494
+            }
+          ],
+          "otherContent": [
+            {
+              "@context": "//iiif.io/api/presentation/2/context.json",
+              "@id": "https://lcdl.library.cofc.edu/lcdl/collections/annotation?iiif_identifier=lcdl41182JPEG1jpg",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

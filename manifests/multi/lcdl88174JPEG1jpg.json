@@ -1,0 +1,214 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://rspace.library.cofc.edu/iiif/lcdl88174JPEG1jpg/manifest",
+  "@type": "sc:Manifest",
+  "label": "North View from Country Club Road",
+  "description": "Black-and-white image depciting north view of McLeod Plantation as seen from Country Club Road.",
+  "metadata": [
+    {
+      "label": "Description",
+      "value": "Black-and-white image depciting north view of McLeod Plantation as seen from Country Club Road."
+    },
+    {
+      "label": "Access Note",
+      "value": "For more information and reuse requirements contact The South Carolina Historical Society, Charleston, SC 29401."
+    },
+    {
+      "label": "Access Statement",
+      "value": "All rights reserved."
+    },
+    {
+      "label": "Contributing Institution",
+      "value": [
+        {
+          "@value": "South Carolina Historical Society",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Copyright Status Statement",
+      "value": "Copyright © South Carolina Historical Society."
+    },
+    {
+      "label": "Date Digital",
+      "value": "2015-06-10"
+    },
+    {
+      "label": "Digitization Specifications",
+      "value": "600 dpi, 24-bit depth color, Epson Expression 10000XL, Archival masters are tiffs."
+    },
+    {
+      "label": "Media Type",
+      "value": [
+        {
+          "@value": "Images",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Resource Locator",
+      "value": "Mss 285, Box 1, Folder 2_1, visual materials"
+    },
+    {
+      "label": "Type",
+      "value": [
+        {
+          "@value": "StillImage",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "PID",
+      "value": "lcdl:88174"
+    },
+    {
+      "label": "Collection Identifier",
+      "value": "MFP"
+    },
+    {
+      "label": "Original filename",
+      "value": "lcdl88174-JPEG1.jpg"
+    },
+    {
+      "label": "Collection Title",
+      "value": "McLeod Family Papers, 1873-1990 (bulk 1900-1965)"
+    },
+    {
+      "label": "Type IMT",
+      "value": "image/jpeg"
+    },
+    {
+      "label": "iiif",
+      "value": "lcdl88174JPEG1jpg"
+    },
+    {
+      "label": "Compound Identifier",
+      "value": "MFP"
+    },
+    {
+      "label": "Subject - Temporal",
+      "value": [
+        {
+          "@value": "StillImage,Charleston County (S.C.),Plantations--South Carolina,James Island (S.C.),Plantation life--South Carolina,South Carolina Historical Society,McLeod family,Images",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Shelving Locator",
+      "value": "Mss 285, Box 1, Folder 2_1, visual materials"
+    },
+    {
+      "label": "Subject - Geographic County",
+      "value": [
+        {
+          "@value": "Charleston County (S.C.)",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Title",
+      "value": "North View from Country Club Road"
+    },
+    {
+      "label": "Subject - Geographic",
+      "value": [
+        {
+          "@value": "James Island (S.C.)",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Subject - Topical",
+      "value": [
+        {
+          "@value": "Plantations--South Carolina,Plantation life--South Carolina",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Subject - Name",
+      "value": [
+        {
+          "@value": "McLeod family",
+          "@language": "en"
+        }
+      ]
+    }
+  ],
+  "license": "Copyright © South Carolina Historical Society.",
+  "thumbnail": {
+    "@id": "https://iiif.library.cofc.edu/iiif/2/27359/full/thm/0/default.jpg",
+    "@type": "dctypes:Image",
+    "height": 117,
+    "width": 150,
+    "format": "image/jpeg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif.library.cofc.edu/iiif/2/27359",
+      "profile": "http://iiif.io/api/image/2/level1.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://rspace.library.cofc.edu/iiif/lcdl88174JPEG1jpg/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Default order",
+      "canvases": [
+        {
+          "@id": "https://rspace.library.cofc.edu/iiif/lcdl88174JPEG1jpg/canvas/0",
+          "@type": "sc:Canvas",
+          "label": "0",
+          "height": 1406,
+          "width": 1800,
+          "thumbnail": {
+            "@id": "https://iiif.library.cofc.edu/iiif/2/27359/full/thm/0/default.jpg",
+            "@type": "dctypes:Image",
+            "height": 117,
+            "width": 150,
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://iiif.library.cofc.edu/iiif/2/27359",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            }
+          },
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "https://rspace.library.cofc.edu/iiif/lcdl88174JPEG1jpg/annotation/0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.library.cofc.edu/iiif/2/27359/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.library.cofc.edu/iiif/2/27359",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://rspace.library.cofc.edu/iiif/lcdl88174JPEG1jpg/canvas/0",
+              "height": 1406,
+              "width": 1800
+            }
+          ],
+          "otherContent": [
+            {
+              "@context": "//iiif.io/api/presentation/2/context.json",
+              "@id": "https://lcdl.library.cofc.edu/lcdl/collections/annotation?iiif_identifier=lcdl88174JPEG1jpg",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

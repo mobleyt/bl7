@@ -1,0 +1,219 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://rspace.library.cofc.edu/iiif/lcdl58109JPEG1jpg/manifest",
+  "@type": "sc:Manifest",
+  "label": "Folder 04: Whitelaw Letter 5",
+  "description": "Letter from Robert N.S. Whitelaw to Miss Mary Vardine McBee enclosing the report of a CSC's subcommittee on war memorials (June 29, 1945).",
+  "metadata": [
+    {
+      "label": "Description",
+      "value": "Letter from Robert N.S. Whitelaw to Miss Mary Vardine McBee enclosing the report of a CSC's subcommittee on war memorials (June 29, 1945)."
+    },
+    {
+      "label": "Contributing Institution",
+      "value": [
+        {
+          "@value": "Margaretta Childs Archives at Historic Charleston Foundation",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Copyright Status Statement",
+      "value": "Digital image copyright 2009, Historic Charleston Foundation. All rights reserved. For more information contact Margaretta Childs Archives at HCF, PO Box 1120, Charleston, SC 29402."
+    },
+    {
+      "label": "Date Digital",
+      "value": "2010-02"
+    },
+    {
+      "label": "Digitization Specifications",
+      "value": "300 dpi, 24-bit depth, color, Epson Expression 10000XL, Archival Masters are tiffs."
+    },
+    {
+      "label": "Transcript",
+      "value": "June 28,  1945    Miss Mary Vardrine BcBee  Ashley Hall School   Charleston 15, South Carolina  Dear Miss BcBee,  I am encosing the report of the Civic  Services Committee\"s sub-committee on war memorias.  It was suggested by our meeting held on June 23th that  you bring this report to the attention of the Exchange  Club committee.  Sincerely yours,  Robert N.S. Whitelaw  Director  RNSW:mm  Enc.  Copies to;  Mr.   C.  Bisse Jenkins,  Jr.  Mr.  E. Burnham Chamberain  Mr.  A.W.  Allison"
+    },
+    {
+      "label": "Media Type",
+      "value": [
+        {
+          "@value": "Manuscripts",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Resource Locator",
+      "value": "HCF 001"
+    },
+    {
+      "label": "Type",
+      "value": [
+        {
+          "@value": "Text",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "PID",
+      "value": "lcdl:58109"
+    },
+    {
+      "label": "Collection Identifier",
+      "value": "CSC"
+    },
+    {
+      "label": "Original filename",
+      "value": "lcdl58109-JPEG1.jpg"
+    },
+    {
+      "label": "Collection Title",
+      "value": "Civic Services Committee Papers"
+    },
+    {
+      "label": "Series Title",
+      "value": [
+        {
+          "@value": "Folder 04: Committee Membership",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Type IMT",
+      "value": "image/jpeg"
+    },
+    {
+      "label": "iiif",
+      "value": "lcdl58109JPEG1jpg"
+    },
+    {
+      "label": "Compound Identifier",
+      "value": "CSC"
+    },
+    {
+      "label": "Subject - Temporal",
+      "value": [
+        {
+          "@value": "Text,Charleston County (S.C.),Civic Services Committee--Records and correspondence,Whitelaw, Robert N. S., 1905--Correspondence,Margaretta Childs Archives at Historic Charleston Foundation,Manuscripts,Whitelaw, Robert N. S., 1905-,Folder 04: Committee Membership,1945-06-29",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Shelving Locator",
+      "value": "HCF 001"
+    },
+    {
+      "label": "Subject - Geographic County",
+      "value": [
+        {
+          "@value": "Charleston County (S.C.)",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Title",
+      "value": "Folder 04: Whitelaw Letter 5"
+    },
+    {
+      "label": "Subject - Name",
+      "value": [
+        {
+          "@value": "Civic Services Committee--Records and correspondence,Whitelaw, Robert N. S., 1905--Correspondence",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Creator Name (Personal)",
+      "value": [
+        {
+          "@value": "Whitelaw, Robert N. S., 1905-",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Date",
+      "value": [
+        {
+          "@value": "1945-06-29",
+          "@language": "en"
+        }
+      ]
+    }
+  ],
+  "license": "Digital image copyright 2009, Historic Charleston Foundation. All rights reserved. For more information contact Margaretta Childs Archives at HCF, PO Box 1120, Charleston, SC 29402.",
+  "thumbnail": {
+    "@id": "https://iiif.library.cofc.edu/iiif/2/33150/full/thm/0/default.jpg",
+    "@type": "dctypes:Image",
+    "height": 150,
+    "width": 111,
+    "format": "image/jpeg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif.library.cofc.edu/iiif/2/33150",
+      "profile": "http://iiif.io/api/image/2/level1.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://rspace.library.cofc.edu/iiif/lcdl58109JPEG1jpg/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Default order",
+      "canvases": [
+        {
+          "@id": "https://rspace.library.cofc.edu/iiif/lcdl58109JPEG1jpg/canvas/0",
+          "@type": "sc:Canvas",
+          "label": "0",
+          "height": 2000,
+          "width": 1486,
+          "thumbnail": {
+            "@id": "https://iiif.library.cofc.edu/iiif/2/33150/full/thm/0/default.jpg",
+            "@type": "dctypes:Image",
+            "height": 150,
+            "width": 111,
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://iiif.library.cofc.edu/iiif/2/33150",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            }
+          },
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "https://rspace.library.cofc.edu/iiif/lcdl58109JPEG1jpg/annotation/0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.library.cofc.edu/iiif/2/33150/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.library.cofc.edu/iiif/2/33150",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://rspace.library.cofc.edu/iiif/lcdl58109JPEG1jpg/canvas/0",
+              "height": 2000,
+              "width": 1486
+            }
+          ],
+          "otherContent": [
+            {
+              "@context": "//iiif.io/api/presentation/2/context.json",
+              "@id": "https://lcdl.library.cofc.edu/lcdl/collections/annotation?iiif_identifier=lcdl58109JPEG1jpg",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

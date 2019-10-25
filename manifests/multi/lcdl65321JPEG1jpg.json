@@ -1,0 +1,192 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://rspace.library.cofc.edu/iiif/lcdl65321JPEG1jpg/manifest",
+  "@type": "sc:Manifest",
+  "label": "ישמך אלהים כשרה רבקה רחל ולאה",
+  "description": "Postcard depicting a mother blessing her daughter. The text reads : \"May God make you like Sarah, Rebecca, Rachel and Leah.\"",
+  "metadata": [
+    {
+      "label": "Description",
+      "value": "Postcard depicting a mother blessing her daughter. The text reads : \"May God make you like Sarah, Rebecca, Rachel and Leah.\""
+    },
+    {
+      "label": "Access Note",
+      "value": "For more information contact Special Collections at the College of Charleston Libraries, Charleston, SC 29424."
+    },
+    {
+      "label": "Contributing Institution",
+      "value": [
+        {
+          "@value": "College of Charleston Libraries",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Copyright Status Statement",
+      "value": "Copyright status undetermined."
+    },
+    {
+      "label": "Date Digital",
+      "value": "2014-04-14"
+    },
+    {
+      "label": "Digitization Specifications",
+      "value": "Scanned with Epson Expression 10000 XL, 600 ppi, 24-bit color. Archival tiff image available."
+    },
+    {
+      "label": "Media Type",
+      "value": [
+        {
+          "@value": "Postcards",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Resource Locator",
+      "value": "Postcard Portfolio 14,cofc-war-postcard14-046"
+    },
+    {
+      "label": "Type",
+      "value": [
+        {
+          "@value": "StillImage",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "PID",
+      "value": "lcdl:65321"
+    },
+    {
+      "label": "Collection Identifier",
+      "value": "WRP-NEW3"
+    },
+    {
+      "label": "Original filename",
+      "value": "lcdl65321-JPEG1.jpg"
+    },
+    {
+      "label": "Collection Title",
+      "value": "William A. Rosenthall Judaica Collection - Postcards"
+    },
+    {
+      "label": "Type IMT",
+      "value": "image/jpeg"
+    },
+    {
+      "label": "iiif",
+      "value": "lcdl65321JPEG1jpg"
+    },
+    {
+      "label": "Compound Identifier",
+      "value": "WRP-NEW3"
+    },
+    {
+      "label": "Subject - Temporal",
+      "value": [
+        {
+          "@value": "StillImage,College of Charleston Libraries,Hebrew,Jews--Social life and customs,Judaism--Customs and practices,Postcards",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Shelving Locator",
+      "value": "Postcard Portfolio 14,cofc-war-postcard14-046"
+    },
+    {
+      "label": "Title",
+      "value": "ישמך אלהים כשרה רבקה רחל ולאה"
+    },
+    {
+      "label": "Subject - Topical",
+      "value": [
+        {
+          "@value": "Jews--Social life and customs,Judaism--Customs and practices",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Language",
+      "value": [
+        {
+          "@value": "Hebrew",
+          "@language": "en"
+        }
+      ]
+    }
+  ],
+  "license": "Copyright status undetermined.",
+  "thumbnail": {
+    "@id": "https://iiif.library.cofc.edu/iiif/2/35610/full/thm/0/default.jpg",
+    "@type": "dctypes:Image",
+    "height": 150,
+    "width": 96,
+    "format": "image/jpeg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif.library.cofc.edu/iiif/2/35610",
+      "profile": "http://iiif.io/api/image/2/level1.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://rspace.library.cofc.edu/iiif/lcdl65321JPEG1jpg/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Default order",
+      "canvases": [
+        {
+          "@id": "https://rspace.library.cofc.edu/iiif/lcdl65321JPEG1jpg/canvas/0",
+          "@type": "sc:Canvas",
+          "label": "0",
+          "height": 3129,
+          "width": 2000,
+          "thumbnail": {
+            "@id": "https://iiif.library.cofc.edu/iiif/2/35610/full/thm/0/default.jpg",
+            "@type": "dctypes:Image",
+            "height": 150,
+            "width": 96,
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://iiif.library.cofc.edu/iiif/2/35610",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            }
+          },
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "https://rspace.library.cofc.edu/iiif/lcdl65321JPEG1jpg/annotation/0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.library.cofc.edu/iiif/2/35610/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.library.cofc.edu/iiif/2/35610",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://rspace.library.cofc.edu/iiif/lcdl65321JPEG1jpg/canvas/0",
+              "height": 3129,
+              "width": 2000
+            }
+          ],
+          "otherContent": [
+            {
+              "@context": "//iiif.io/api/presentation/2/context.json",
+              "@id": "https://lcdl.library.cofc.edu/lcdl/collections/annotation?iiif_identifier=lcdl65321JPEG1jpg",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

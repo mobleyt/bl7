@@ -1,0 +1,223 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://rspace.library.cofc.edu/iiif/lcdl86253JPEG1jpg/manifest",
+  "@type": "sc:Manifest",
+  "label": "Photographic Survey: Charleston Center Site 06",
+  "description": "Black-and-white photograph of a parking lot on Wentworth Street near King Street [60 Wentworth / 260 King Street]; northeast corner of the Kerrison's building at upper right.",
+  "metadata": [
+    {
+      "label": "Description",
+      "value": "Black-and-white photograph of a parking lot on Wentworth Street near King Street [60 Wentworth / 260 King Street]; northeast corner of the Kerrison's building at upper right."
+    },
+    {
+      "label": "Access Note",
+      "value": "For more information and reuse requirements contact Archivist/Librarian; Historic Charleston Foundation; P.O. Box 1120; Charleston, SC 29402."
+    },
+    {
+      "label": "Access Statement",
+      "value": "All rights reserved."
+    },
+    {
+      "label": "Contributing Institution",
+      "value": [
+        {
+          "@value": "Margaretta Childs Archives at Historic Charleston Foundation",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Copyright Status Statement",
+      "value": "Copyright © Historic Charleston Foundation"
+    },
+    {
+      "label": "Date Digital",
+      "value": "2015-04"
+    },
+    {
+      "label": "Digitization Specifications",
+      "value": "600 dpi, 24-bit depth, color, Epson Perfection V600, Archival masters are tiffs."
+    },
+    {
+      "label": "Media Type",
+      "value": [
+        {
+          "@value": "Images",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Resource Locator",
+      "value": "HCF.005.7.1e"
+    },
+    {
+      "label": "Type",
+      "value": [
+        {
+          "@value": "StillImage",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "PID",
+      "value": "lcdl:86253"
+    },
+    {
+      "label": "Collection Identifier",
+      "value": "HCF-CC"
+    },
+    {
+      "label": "Original filename",
+      "value": "lcdl86253-JPEG1.jpg"
+    },
+    {
+      "label": "Collection Title",
+      "value": "Photograph Survey of the “Charleston Center” Site"
+    },
+    {
+      "label": "Type IMT",
+      "value": "image/jpeg"
+    },
+    {
+      "label": "iiif",
+      "value": "lcdl86253JPEG1jpg"
+    },
+    {
+      "label": "Compound Identifier",
+      "value": "HCF-CC"
+    },
+    {
+      "label": "Subject - Temporal",
+      "value": [
+        {
+          "@value": "StillImage,Charleston County (S.C.),Margaretta Childs Archives at Historic Charleston Foundation,Historic Charleston Foundation,Charleston (S.C.)--Buildings, structures, etc.,1970-1979,Images,Parking lots--South Carolina--Charleston",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Shelving Locator",
+      "value": "HCF.005.7.1e"
+    },
+    {
+      "label": "Subject - Geographic County",
+      "value": [
+        {
+          "@value": "Charleston County (S.C.)",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Title",
+      "value": "Photographic Survey: Charleston Center Site 06"
+    },
+    {
+      "label": "Subject - Geographic",
+      "value": [
+        {
+          "@value": "Charleston (S.C.)--Buildings, structures, etc.",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Subject - Topical",
+      "value": [
+        {
+          "@value": "Parking lots--South Carolina--Charleston",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Creator Name (Corporate)",
+      "value": [
+        {
+          "@value": "Historic Charleston Foundation",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Date",
+      "value": [
+        {
+          "@value": "1970-1979",
+          "@language": "en"
+        }
+      ]
+    }
+  ],
+  "license": "Copyright © Historic Charleston Foundation",
+  "thumbnail": {
+    "@id": "https://iiif.library.cofc.edu/iiif/2/47859/full/thm/0/default.jpg",
+    "@type": "dctypes:Image",
+    "height": 97,
+    "width": 150,
+    "format": "image/jpeg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif.library.cofc.edu/iiif/2/47859",
+      "profile": "http://iiif.io/api/image/2/level1.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://rspace.library.cofc.edu/iiif/lcdl86253JPEG1jpg/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Default order",
+      "canvases": [
+        {
+          "@id": "https://rspace.library.cofc.edu/iiif/lcdl86253JPEG1jpg/canvas/0",
+          "@type": "sc:Canvas",
+          "label": "0",
+          "height": 1288,
+          "width": 2000,
+          "thumbnail": {
+            "@id": "https://iiif.library.cofc.edu/iiif/2/47859/full/thm/0/default.jpg",
+            "@type": "dctypes:Image",
+            "height": 97,
+            "width": 150,
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://iiif.library.cofc.edu/iiif/2/47859",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            }
+          },
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "https://rspace.library.cofc.edu/iiif/lcdl86253JPEG1jpg/annotation/0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.library.cofc.edu/iiif/2/47859/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.library.cofc.edu/iiif/2/47859",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://rspace.library.cofc.edu/iiif/lcdl86253JPEG1jpg/canvas/0",
+              "height": 1288,
+              "width": 2000
+            }
+          ],
+          "otherContent": [
+            {
+              "@context": "//iiif.io/api/presentation/2/context.json",
+              "@id": "https://lcdl.library.cofc.edu/lcdl/collections/annotation?iiif_identifier=lcdl86253JPEG1jpg",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

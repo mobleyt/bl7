@@ -1,0 +1,215 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://rspace.library.cofc.edu/iiif/lcdl54882JPEG1jpg/manifest",
+  "@type": "sc:Manifest",
+  "label": "Beth Israel Hospital, Newark, N.J.",
+  "description": "Color postcard of the exterior of Newark Beth Israel Hospital.",
+  "metadata": [
+    {
+      "label": "Description",
+      "value": "Color postcard of the exterior of Newark Beth Israel Hospital."
+    },
+    {
+      "label": "Contributing Institution",
+      "value": [
+        {
+          "@value": "College of Charleston Libraries",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Copyright Status Statement",
+      "value": "Digital image copyright 2012, The College of Charleston Libraries. All rights reserved. For more information contact the College of Charleston Library, Charleston, SC 29424."
+    },
+    {
+      "label": "Date Digital",
+      "value": "2012-03-13"
+    },
+    {
+      "label": "Digitization Specifications",
+      "value": "Scanned with Epson Expressions 10000 XL, 800 ppi, 24-bit color. Archival tiff image available."
+    },
+    {
+      "label": "Media Type",
+      "value": [
+        {
+          "@value": "Postcards",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Resource Locator",
+      "value": "Postcard Portfolio 09,cofc-war-postcard09-069"
+    },
+    {
+      "label": "Type",
+      "value": [
+        {
+          "@value": "StillImage",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "PID",
+      "value": "lcdl:54882"
+    },
+    {
+      "label": "Collection Identifier",
+      "value": "WRP-NEW3"
+    },
+    {
+      "label": "Original filename",
+      "value": "lcdl54882-JPEG1.jpg"
+    },
+    {
+      "label": "Collection Title",
+      "value": "William A. Rosenthall Judaica Collection - Postcards"
+    },
+    {
+      "label": "Type IMT",
+      "value": "image/jpeg"
+    },
+    {
+      "label": "iiif",
+      "value": "lcdl54882JPEG1jpg"
+    },
+    {
+      "label": "Compound Identifier",
+      "value": "WRP-NEW3"
+    },
+    {
+      "label": "Subject - Temporal",
+      "value": [
+        {
+          "@value": "StillImage,1944,English,College of Charleston Libraries,Newark (N.J.),Postcards,Newark Beth Israel Hospital,Jewish hospitals--New Jersey--Newark",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Shelving Locator",
+      "value": "Postcard Portfolio 09,cofc-war-postcard09-069"
+    },
+    {
+      "label": "Title",
+      "value": "Beth Israel Hospital, Newark, N.J."
+    },
+    {
+      "label": "Subject - Geographic",
+      "value": [
+        {
+          "@value": "Newark (N.J.)",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Subject - Topical",
+      "value": [
+        {
+          "@value": "Jewish hospitals--New Jersey--Newark",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Subject - Name",
+      "value": [
+        {
+          "@value": "Newark Beth Israel Hospital",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Date",
+      "value": [
+        {
+          "@value": "1944",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Language",
+      "value": [
+        {
+          "@value": "English",
+          "@language": "en"
+        }
+      ]
+    }
+  ],
+  "license": "Digital image copyright 2012, The College of Charleston Libraries. All rights reserved. For more information contact the College of Charleston Library, Charleston, SC 29424.",
+  "thumbnail": {
+    "@id": "https://iiif.library.cofc.edu/iiif/2/33273/full/thm/0/default.jpg",
+    "@type": "dctypes:Image",
+    "height": 95,
+    "width": 150,
+    "format": "image/jpeg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif.library.cofc.edu/iiif/2/33273",
+      "profile": "http://iiif.io/api/image/2/level1.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://rspace.library.cofc.edu/iiif/lcdl54882JPEG1jpg/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Default order",
+      "canvases": [
+        {
+          "@id": "https://rspace.library.cofc.edu/iiif/lcdl54882JPEG1jpg/canvas/0",
+          "@type": "sc:Canvas",
+          "label": "0",
+          "height": 1071,
+          "width": 1693,
+          "thumbnail": {
+            "@id": "https://iiif.library.cofc.edu/iiif/2/33273/full/thm/0/default.jpg",
+            "@type": "dctypes:Image",
+            "height": 95,
+            "width": 150,
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://iiif.library.cofc.edu/iiif/2/33273",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            }
+          },
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "https://rspace.library.cofc.edu/iiif/lcdl54882JPEG1jpg/annotation/0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.library.cofc.edu/iiif/2/33273/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.library.cofc.edu/iiif/2/33273",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://rspace.library.cofc.edu/iiif/lcdl54882JPEG1jpg/canvas/0",
+              "height": 1071,
+              "width": 1693
+            }
+          ],
+          "otherContent": [
+            {
+              "@context": "//iiif.io/api/presentation/2/context.json",
+              "@id": "https://lcdl.library.cofc.edu/lcdl/collections/annotation?iiif_identifier=lcdl54882JPEG1jpg",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

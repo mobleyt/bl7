@@ -1,0 +1,228 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://rspace.library.cofc.edu/iiif/lcdl58433JPEG1jpg/manifest",
+  "@type": "sc:Manifest",
+  "label": "Folder 28: This is Charleston title page",
+  "description": "Title page of This is Charleston.  [Note:  Only the title page has been scanned here. Book is available at HCF and other libraries.]",
+  "metadata": [
+    {
+      "label": "Description",
+      "value": "Title page of This is Charleston.  [Note:  Only the title page has been scanned here. Book is available at HCF and other libraries.]"
+    },
+    {
+      "label": "Contributing Institution",
+      "value": [
+        {
+          "@value": "Margaretta Childs Archives at Historic Charleston Foundation",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Copyright Status Statement",
+      "value": "Digital image copyright 2009, Historic Charleston Foundation. All rights reserved. For more information contact Margaretta Childs Archives at HCF, PO Box 1120, Charleston, SC 29402."
+    },
+    {
+      "label": "Date Digital",
+      "value": "2010-03"
+    },
+    {
+      "label": "Digitization Specifications",
+      "value": "300 dpi, 24-bit depth, color, Epson Expression 10000XL, Archival Masters are tiffs."
+    },
+    {
+      "label": "Transcript",
+      "value": "J  THIS IS  Charleston  A SURVEY OF THE architectural HERITAGE OF  A UNIQUE AMERICAN CITY UNDERTAKEN RY THE  Charleston CIVIC SERVICES COMMITTEE  Text by  Samuel Galliard STONEY      r444  Revised faomJrtia Repmte to  the\"wmmttee  QxkvI:-vcA-   A r ir-\"-A-sSo,Sc oJnJamp;t; H cJ2  PUBISHED  BY  THE   Carolina  ART   Association  Charleston, SOUTH Carolina  FOR THE Charleston CIVIC SERVICES COMMITTEE  JZVr J. J"
+    },
+    {
+      "label": "Media Type",
+      "value": [
+        {
+          "@value": "Manuscripts",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Resource Locator",
+      "value": "HCF 001"
+    },
+    {
+      "label": "Type",
+      "value": [
+        {
+          "@value": "Text",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "PID",
+      "value": "lcdl:58433"
+    },
+    {
+      "label": "Collection Identifier",
+      "value": "CSC"
+    },
+    {
+      "label": "Original filename",
+      "value": "lcdl58433-JPEG1.jpg"
+    },
+    {
+      "label": "Collection Title",
+      "value": "Civic Services Committee Papers"
+    },
+    {
+      "label": "Series Title",
+      "value": [
+        {
+          "@value": "Folder 28: This is Charleston--Publication",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Type IMT",
+      "value": "image/jpeg"
+    },
+    {
+      "label": "iiif",
+      "value": "lcdl58433JPEG1jpg"
+    },
+    {
+      "label": "Compound Identifier",
+      "value": "CSC"
+    },
+    {
+      "label": "Subject - Temporal",
+      "value": [
+        {
+          "@value": "Text,Charleston County (S.C.),Architecture--South Carolina--Charleston,1944,Margaretta Childs Archives at Historic Charleston Foundation,Charleston (S.C.)--Buildings, structures, etc.,Manuscripts,Carolina Art Association,Folder 28: This is Charleston--Publication",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Shelving Locator",
+      "value": "HCF 001"
+    },
+    {
+      "label": "Subject - Geographic County",
+      "value": [
+        {
+          "@value": "Charleston County (S.C.)",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Title",
+      "value": "Folder 28: This is Charleston title page"
+    },
+    {
+      "label": "Subject - Geographic",
+      "value": [
+        {
+          "@value": "Charleston (S.C.)--Buildings, structures, etc.",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Subject - Topical",
+      "value": [
+        {
+          "@value": "Architecture--South Carolina--Charleston",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Creator Name (Personal)",
+      "value": [
+        {
+          "@value": "Carolina Art Association",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Date",
+      "value": [
+        {
+          "@value": "1944",
+          "@language": "en"
+        }
+      ]
+    }
+  ],
+  "license": "Digital image copyright 2009, Historic Charleston Foundation. All rights reserved. For more information contact Margaretta Childs Archives at HCF, PO Box 1120, Charleston, SC 29402.",
+  "thumbnail": {
+    "@id": "https://iiif.library.cofc.edu/iiif/2/34599/full/thm/0/default.jpg",
+    "@type": "dctypes:Image",
+    "height": 150,
+    "width": 98,
+    "format": "image/jpeg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif.library.cofc.edu/iiif/2/34599",
+      "profile": "http://iiif.io/api/image/2/level1.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://rspace.library.cofc.edu/iiif/lcdl58433JPEG1jpg/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Default order",
+      "canvases": [
+        {
+          "@id": "https://rspace.library.cofc.edu/iiif/lcdl58433JPEG1jpg/canvas/0",
+          "@type": "sc:Canvas",
+          "label": "0",
+          "height": 2000,
+          "width": 1307,
+          "thumbnail": {
+            "@id": "https://iiif.library.cofc.edu/iiif/2/34599/full/thm/0/default.jpg",
+            "@type": "dctypes:Image",
+            "height": 150,
+            "width": 98,
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://iiif.library.cofc.edu/iiif/2/34599",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            }
+          },
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "https://rspace.library.cofc.edu/iiif/lcdl58433JPEG1jpg/annotation/0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.library.cofc.edu/iiif/2/34599/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.library.cofc.edu/iiif/2/34599",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://rspace.library.cofc.edu/iiif/lcdl58433JPEG1jpg/canvas/0",
+              "height": 2000,
+              "width": 1307
+            }
+          ],
+          "otherContent": [
+            {
+              "@context": "//iiif.io/api/presentation/2/context.json",
+              "@id": "https://beta.lcdl.library.cofc.edu/lcdl/collections/annotation?iiif_identifier=lcdl58433JPEG1jpg",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

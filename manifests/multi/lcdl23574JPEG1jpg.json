@@ -1,0 +1,202 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://rspace.library.cofc.edu/iiif/lcdl23574JPEG1jpg/manifest",
+  "@type": "sc:Manifest",
+  "label": "EXPO_118",
+  "description": "Page 118. Subjects from Left to Right, Top to Bottom: 1048. Mrs. T. A. Smith; 1049. Isabel Cohen; 1050. Mrs. L. M. Mortimer; 1051. Miss Fielder; 1052. Miss A. P. Waring; 1053. Miss Susan Pringle; 1054. Miss Adele Ploger; 1055. Mrs. H. A. Smith; 1056. Miss B. H. Barbot.",
+  "metadata": [
+    {
+      "label": "Description",
+      "value": "Page 118. Subjects from Left to Right, Top to Bottom: 1048. Mrs. T. A. Smith; 1049. Isabel Cohen; 1050. Mrs. L. M. Mortimer; 1051. Miss Fielder; 1052. Miss A. P. Waring; 1053. Miss Susan Pringle; 1054. Miss Adele Ploger; 1055. Mrs. H. A. Smith; 1056. Miss B. H. Barbot."
+    },
+    {
+      "label": "Contributing Institution",
+      "value": [
+        {
+          "@value": "The Charleston Archive at CCPL",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Copyright Status Statement",
+      "value": "Digital image copyright 2010, Charleston County Public Library. All rights reserved. For more information contact the Charleston Archive, Charleston County Public Library, 68 Calhoun Street, Charleston, SC 29401"
+    },
+    {
+      "label": "Date Digital",
+      "value": "2010-12"
+    },
+    {
+      "label": "Digitization Specifications",
+      "value": "600 ppi, 24-bit depth, color, Epson Expression 10000XL scanner, Archival Master is a tiff."
+    },
+    {
+      "label": "Media Type",
+      "value": [
+        {
+          "@value": "Images",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Type",
+      "value": [
+        {
+          "@value": "StillImage",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "PID",
+      "value": "lcdl:23574"
+    },
+    {
+      "label": "Collection Identifier",
+      "value": "EPB"
+    },
+    {
+      "label": "Original filename",
+      "value": "lcdl23574-JPEG1.jpg"
+    },
+    {
+      "label": "Collection Title",
+      "value": "The South Carolina & West Indian Exposition Photo Passbook, 1901 - 1902"
+    },
+    {
+      "label": "Note",
+      "value": "Nine 2.25\" x 1.5\" B/W photos mounted on a 13\" x 9\" page."
+    },
+    {
+      "label": "Type IMT",
+      "value": "image/jpeg"
+    },
+    {
+      "label": "iiif",
+      "value": "lcdl23574JPEG1jpg"
+    },
+    {
+      "label": "Compound Identifier",
+      "value": "EPB"
+    },
+    {
+      "label": "Subject - Temporal",
+      "value": [
+        {
+          "@value": "StillImage,Charleston (S.C.),Charleston County (S.C.),Portrait photography,The Charleston Archive at CCPL,Photography,Exhibitions,Images,1901-1902,Portraits, Victorian",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Subject - Geographic County",
+      "value": [
+        {
+          "@value": "Charleston County (S.C.)",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Title",
+      "value": "EXPO_118"
+    },
+    {
+      "label": "Subject - Geographic",
+      "value": [
+        {
+          "@value": "Charleston (S.C.)",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Subject - Topical",
+      "value": [
+        {
+          "@value": "Portrait photography,Photography,Exhibitions,Portraits, Victorian",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Date",
+      "value": [
+        {
+          "@value": "1901-1902",
+          "@language": "en"
+        }
+      ]
+    }
+  ],
+  "license": "Digital image copyright 2010, Charleston County Public Library. All rights reserved. For more information contact the Charleston Archive, Charleston County Public Library, 68 Calhoun Street, Charleston, SC 29401",
+  "thumbnail": {
+    "@id": "https://iiif.library.cofc.edu/iiif/2/60612/full/thm/0/default.jpg",
+    "@type": "dctypes:Image",
+    "height": 150,
+    "width": 106,
+    "format": "image/jpeg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif.library.cofc.edu/iiif/2/60612",
+      "profile": "http://iiif.io/api/image/2/level1.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://rspace.library.cofc.edu/iiif/lcdl23574JPEG1jpg/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Default order",
+      "canvases": [
+        {
+          "@id": "https://rspace.library.cofc.edu/iiif/lcdl23574JPEG1jpg/canvas/0",
+          "@type": "sc:Canvas",
+          "label": "0",
+          "height": 1500,
+          "width": 1056,
+          "thumbnail": {
+            "@id": "https://iiif.library.cofc.edu/iiif/2/60612/full/thm/0/default.jpg",
+            "@type": "dctypes:Image",
+            "height": 150,
+            "width": 106,
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://iiif.library.cofc.edu/iiif/2/60612",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            }
+          },
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "https://rspace.library.cofc.edu/iiif/lcdl23574JPEG1jpg/annotation/0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.library.cofc.edu/iiif/2/60612/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.library.cofc.edu/iiif/2/60612",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://rspace.library.cofc.edu/iiif/lcdl23574JPEG1jpg/canvas/0",
+              "height": 1500,
+              "width": 1056
+            }
+          ],
+          "otherContent": [
+            {
+              "@context": "//iiif.io/api/presentation/2/context.json",
+              "@id": "https://lcdl.library.cofc.edu/lcdl/collections/annotation?iiif_identifier=lcdl23574JPEG1jpg",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,197 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://rspace.library.cofc.edu/iiif/lcdl53063JPEG1jpg/manifest",
+  "@type": "sc:Manifest",
+  "label": "Framed image of Sri Anandamayi Ma",
+  "description": "Framed photo image of Sri Anandamayi Ma seated, eyes closed.",
+  "metadata": [
+    {
+      "label": "Description",
+      "value": "Framed photo image of Sri Anandamayi Ma seated, eyes closed."
+    },
+    {
+      "label": "Contributing Institution",
+      "value": [
+        {
+          "@value": "Avery Research Center at the College of Charleston",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Copyright Status Statement",
+      "value": "Digital image copyright 2009, The College of Charleston Libraries. All rights reserved. For more information contact The College of Charleston Library, Charleston, SC 29424."
+    },
+    {
+      "label": "Date Digital",
+      "value": "2009-08"
+    },
+    {
+      "label": "Digitization Specifications",
+      "value": "300 dpi; Nikon D80 camera; archival images in .tif and .nef formats."
+    },
+    {
+      "label": "Media Type",
+      "value": [
+        {
+          "@value": "Objects",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Resource Locator",
+      "value": "1989.001.166j"
+    },
+    {
+      "label": "Type",
+      "value": [
+        {
+          "@value": "PhysicalObject",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "PID",
+      "value": "lcdl:53063"
+    },
+    {
+      "label": "Collection Identifier",
+      "value": "ART-JT"
+    },
+    {
+      "label": "Original filename",
+      "value": "lcdl53063-JPEG1.jpg"
+    },
+    {
+      "label": "Collection Title",
+      "value": "Joseph A. Towles Artifact Collection"
+    },
+    {
+      "label": "Type IMT",
+      "value": "image/jpeg"
+    },
+    {
+      "label": "iiif",
+      "value": "lcdl53063JPEG1jpg"
+    },
+    {
+      "label": "Compound Identifier",
+      "value": "ART-JT"
+    },
+    {
+      "label": "Subject - Temporal",
+      "value": [
+        {
+          "@value": "India,Avery Research Center at the College of Charleston,PhysicalObject,Objects,1951,1989,Anandamayi, 1896-1982,Gurus--India,Photographs",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Shelving Locator",
+      "value": "1989.001.166j"
+    },
+    {
+      "label": "Title",
+      "value": "Framed image of Sri Anandamayi Ma"
+    },
+    {
+      "label": "Subject - Geographic",
+      "value": [
+        {
+          "@value": "India",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Subject - Topical",
+      "value": [
+        {
+          "@value": "Anandamayi, 1896-1982,Gurus--India,Photographs",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Date",
+      "value": [
+        {
+          "@value": "1951,1989",
+          "@language": "en"
+        }
+      ]
+    }
+  ],
+  "license": "Digital image copyright 2009, The College of Charleston Libraries. All rights reserved. For more information contact The College of Charleston Library, Charleston, SC 29424.",
+  "thumbnail": {
+    "@id": "https://iiif.library.cofc.edu/iiif/2/45707/full/thm/0/default.jpg",
+    "@type": "dctypes:Image",
+    "height": 150,
+    "width": 104,
+    "format": "image/jpeg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif.library.cofc.edu/iiif/2/45707",
+      "profile": "http://iiif.io/api/image/2/level1.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://rspace.library.cofc.edu/iiif/lcdl53063JPEG1jpg/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Default order",
+      "canvases": [
+        {
+          "@id": "https://rspace.library.cofc.edu/iiif/lcdl53063JPEG1jpg/canvas/0",
+          "@type": "sc:Canvas",
+          "label": "0",
+          "height": 2000,
+          "width": 1387,
+          "thumbnail": {
+            "@id": "https://iiif.library.cofc.edu/iiif/2/45707/full/thm/0/default.jpg",
+            "@type": "dctypes:Image",
+            "height": 150,
+            "width": 104,
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://iiif.library.cofc.edu/iiif/2/45707",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            }
+          },
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "https://rspace.library.cofc.edu/iiif/lcdl53063JPEG1jpg/annotation/0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.library.cofc.edu/iiif/2/45707/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.library.cofc.edu/iiif/2/45707",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://rspace.library.cofc.edu/iiif/lcdl53063JPEG1jpg/canvas/0",
+              "height": 2000,
+              "width": 1387
+            }
+          ],
+          "otherContent": [
+            {
+              "@context": "//iiif.io/api/presentation/2/context.json",
+              "@id": "https://lcdl.library.cofc.edu/lcdl/collections/annotation?iiif_identifier=lcdl53063JPEG1jpg",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

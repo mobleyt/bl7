@@ -1,0 +1,215 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://rspace.library.cofc.edu/iiif/lcdl54693JPEG1jpg/manifest",
+  "@type": "sc:Manifest",
+  "label": "“Calypso”, Harry Belafonte records",
+  "description": "Two 7-inch 45 rpm extended play Harry Belafonte records, entitled \"Calypso.\"",
+  "metadata": [
+    {
+      "label": "Description",
+      "value": "Two 7-inch 45 rpm extended play Harry Belafonte records, entitled \"Calypso.\""
+    },
+    {
+      "label": "Contributing Institution",
+      "value": [
+        {
+          "@value": "Avery Research Center at the College of Charleston",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Copyright Status Statement",
+      "value": "Digital image copyright 2010, The College of Charleston Libraries. All rights reserved. For more information contact The College of Charleston Library, Charleston, SC 29424."
+    },
+    {
+      "label": "Date Digital",
+      "value": "2010-07-28"
+    },
+    {
+      "label": "Digitization Specifications",
+      "value": "300 dpi; Nikon D80 camera; archival images in .tif and .nef formats."
+    },
+    {
+      "label": "Media Type",
+      "value": [
+        {
+          "@value": "Objects",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Resource Locator",
+      "value": "1999.001.090-91"
+    },
+    {
+      "label": "Type",
+      "value": [
+        {
+          "@value": "PhysicalObject",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "PID",
+      "value": "lcdl:54693"
+    },
+    {
+      "label": "Collection Identifier",
+      "value": "ART-WP"
+    },
+    {
+      "label": "Original filename",
+      "value": "lcdl54693-JPEG1.jpg"
+    },
+    {
+      "label": "Collection Title",
+      "value": "Walter Pantovic Artifact Collection"
+    },
+    {
+      "label": "Type IMT",
+      "value": "image/jpeg"
+    },
+    {
+      "label": "iiif",
+      "value": "lcdl54693JPEG1jpg"
+    },
+    {
+      "label": "Compound Identifier",
+      "value": "ART-WP"
+    },
+    {
+      "label": "Subject - Temporal",
+      "value": [
+        {
+          "@value": "United States,Avery Research Center at the College of Charleston,1956,PhysicalObject,Objects,Belafonte, Harry, 1927-,African American entertainers,Belafonte, Harry, 1927-,Calypso (Music),Folk songs, English--Trinidad,Popular music--Trinidad,Trinidad,RCA Corporation",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Shelving Locator",
+      "value": "1999.001.090-91"
+    },
+    {
+      "label": "Title",
+      "value": "“Calypso”, Harry Belafonte records"
+    },
+    {
+      "label": "Subject - Geographic",
+      "value": [
+        {
+          "@value": "United States,Trinidad",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Subject - Topical",
+      "value": [
+        {
+          "@value": "African American entertainers,Belafonte, Harry, 1927-,Calypso (Music),Folk songs, English--Trinidad,Popular music--Trinidad",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Creator Name (Corporate)",
+      "value": [
+        {
+          "@value": "RCA Corporation",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Creator Name (Personal)",
+      "value": [
+        {
+          "@value": "Belafonte, Harry, 1927-",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Date",
+      "value": [
+        {
+          "@value": "1956",
+          "@language": "en"
+        }
+      ]
+    }
+  ],
+  "license": "Digital image copyright 2010, The College of Charleston Libraries. All rights reserved. For more information contact The College of Charleston Library, Charleston, SC 29424.",
+  "thumbnail": {
+    "@id": "https://iiif.library.cofc.edu/iiif/2/29903/full/thm/0/default.jpg",
+    "@type": "dctypes:Image",
+    "height": 124,
+    "width": 150,
+    "format": "image/jpeg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif.library.cofc.edu/iiif/2/29903",
+      "profile": "http://iiif.io/api/image/2/level1.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://rspace.library.cofc.edu/iiif/lcdl54693JPEG1jpg/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Default order",
+      "canvases": [
+        {
+          "@id": "https://rspace.library.cofc.edu/iiif/lcdl54693JPEG1jpg/canvas/0",
+          "@type": "sc:Canvas",
+          "label": "0",
+          "height": 1655,
+          "width": 2000,
+          "thumbnail": {
+            "@id": "https://iiif.library.cofc.edu/iiif/2/29903/full/thm/0/default.jpg",
+            "@type": "dctypes:Image",
+            "height": 124,
+            "width": 150,
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://iiif.library.cofc.edu/iiif/2/29903",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            }
+          },
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "https://rspace.library.cofc.edu/iiif/lcdl54693JPEG1jpg/annotation/0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.library.cofc.edu/iiif/2/29903/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.library.cofc.edu/iiif/2/29903",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://rspace.library.cofc.edu/iiif/lcdl54693JPEG1jpg/canvas/0",
+              "height": 1655,
+              "width": 2000
+            }
+          ],
+          "otherContent": [
+            {
+              "@context": "//iiif.io/api/presentation/2/context.json",
+              "@id": "https://lcdl.library.cofc.edu/lcdl/collections/annotation?iiif_identifier=lcdl54693JPEG1jpg",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

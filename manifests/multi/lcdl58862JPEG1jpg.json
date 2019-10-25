@@ -1,0 +1,219 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://rspace.library.cofc.edu/iiif/lcdl58862JPEG1jpg/manifest",
+  "@type": "sc:Manifest",
+  "label": "Folder 48: Schirmer Letter",
+  "description": "Letter to Robert N.S. Whitelaw, from the Boy Scouts of America Scout Executive C. D. Schirmer, declining invitation to attend a meeting (Jan. 23, 1937).",
+  "metadata": [
+    {
+      "label": "Description",
+      "value": "Letter to Robert N.S. Whitelaw, from the Boy Scouts of America Scout Executive C. D. Schirmer, declining invitation to attend a meeting (Jan. 23, 1937)."
+    },
+    {
+      "label": "Contributing Institution",
+      "value": [
+        {
+          "@value": "Margaretta Childs Archives at Historic Charleston Foundation",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Copyright Status Statement",
+      "value": "Digital image copyright 2009, Historic Charleston Foundation. All rights reserved. For more information contact Margaretta Childs Archives at HCF, PO Box 1120, Charleston, SC 29402."
+    },
+    {
+      "label": "Date Digital",
+      "value": "2010-04"
+    },
+    {
+      "label": "Digitization Specifications",
+      "value": "300 dpi, 24-bit depth, color, Epson Expression 10000XL, Archival Masters are tiffs."
+    },
+    {
+      "label": "Transcript",
+      "value": "The transcript is not currently available for this item."
+    },
+    {
+      "label": "Media Type",
+      "value": [
+        {
+          "@value": "Manuscripts",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Resource Locator",
+      "value": "HCF 001"
+    },
+    {
+      "label": "Type",
+      "value": [
+        {
+          "@value": "Text",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "PID",
+      "value": "lcdl:58862"
+    },
+    {
+      "label": "Collection Identifier",
+      "value": "CSC"
+    },
+    {
+      "label": "Original filename",
+      "value": "lcdl58862-JPEG1.jpg"
+    },
+    {
+      "label": "Collection Title",
+      "value": "Civic Services Committee Papers"
+    },
+    {
+      "label": "Series Title",
+      "value": [
+        {
+          "@value": "Folder 48: Road Conservation and Beautification",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Type IMT",
+      "value": "image/jpeg"
+    },
+    {
+      "label": "iiif",
+      "value": "lcdl58862JPEG1jpg"
+    },
+    {
+      "label": "Compound Identifier",
+      "value": "CSC"
+    },
+    {
+      "label": "Subject - Temporal",
+      "value": [
+        {
+          "@value": "Text,Charleston County (S.C.),Margaretta Childs Archives at Historic Charleston Foundation,Manuscripts,Folder 48: Road Conservation and Beautification,Schirmer, C. D.,1937-01-23,Schirmer, C. D.--Correspondence",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Shelving Locator",
+      "value": "HCF 001"
+    },
+    {
+      "label": "Subject - Geographic County",
+      "value": [
+        {
+          "@value": "Charleston County (S.C.)",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Title",
+      "value": "Folder 48: Schirmer Letter"
+    },
+    {
+      "label": "Subject - Name",
+      "value": [
+        {
+          "@value": "Schirmer, C. D.--Correspondence",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Creator Name (Personal)",
+      "value": [
+        {
+          "@value": "Schirmer, C. D.",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Date",
+      "value": [
+        {
+          "@value": "1937-01-23",
+          "@language": "en"
+        }
+      ]
+    }
+  ],
+  "license": "Digital image copyright 2009, Historic Charleston Foundation. All rights reserved. For more information contact Margaretta Childs Archives at HCF, PO Box 1120, Charleston, SC 29402.",
+  "thumbnail": {
+    "@id": "https://iiif.library.cofc.edu/iiif/2/29826/full/thm/0/default.jpg",
+    "@type": "dctypes:Image",
+    "height": 150,
+    "width": 116,
+    "format": "image/jpeg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif.library.cofc.edu/iiif/2/29826",
+      "profile": "http://iiif.io/api/image/2/level1.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://rspace.library.cofc.edu/iiif/lcdl58862JPEG1jpg/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Default order",
+      "canvases": [
+        {
+          "@id": "https://rspace.library.cofc.edu/iiif/lcdl58862JPEG1jpg/canvas/0",
+          "@type": "sc:Canvas",
+          "label": "0",
+          "height": 2000,
+          "width": 1543,
+          "thumbnail": {
+            "@id": "https://iiif.library.cofc.edu/iiif/2/29826/full/thm/0/default.jpg",
+            "@type": "dctypes:Image",
+            "height": 150,
+            "width": 116,
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://iiif.library.cofc.edu/iiif/2/29826",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            }
+          },
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "https://rspace.library.cofc.edu/iiif/lcdl58862JPEG1jpg/annotation/0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.library.cofc.edu/iiif/2/29826/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.library.cofc.edu/iiif/2/29826",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://rspace.library.cofc.edu/iiif/lcdl58862JPEG1jpg/canvas/0",
+              "height": 2000,
+              "width": 1543
+            }
+          ],
+          "otherContent": [
+            {
+              "@context": "//iiif.io/api/presentation/2/context.json",
+              "@id": "https://lcdl.library.cofc.edu/lcdl/collections/annotation?iiif_identifier=lcdl58862JPEG1jpg",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

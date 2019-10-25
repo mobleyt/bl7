@@ -1,0 +1,257 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://rspace.library.cofc.edu/iiif/lcdl64018JPEG1jpg/manifest",
+  "@type": "sc:Manifest",
+  "label": "022. Nathaniel Heyward (II) to Mother -- October 9, 1817",
+  "description": "Short letter from Nathaniel Heyward to his mother announcing the birth of his third son James. 2p.",
+  "metadata": [
+    {
+      "label": "Description",
+      "value": "Short letter from Nathaniel Heyward to his mother announcing the birth of his third son James. 2p."
+    },
+    {
+      "label": "Contributing Institution",
+      "value": [
+        {
+          "@value": "College of Charleston Libraries",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Copyright Status Statement",
+      "value": "Digital image copyright 2009, The College of Charleston Libraries. All rights reserved. For more information contact The College of Charleston Library, Charleston, SC 29424."
+    },
+    {
+      "label": "Date Digital",
+      "value": "2009-09"
+    },
+    {
+      "label": "Digitization Specifications",
+      "value": "700 ppi, 24-bit depth, color, Epson Expression 10000XL scanner, Archival Master is a tiff."
+    },
+    {
+      "label": "Transcript",
+      "value": "Charleston 9th October 1817    Dear Mother,  Hetty presented us this morning with another son. The child is well but she is not as strong as usual on these occasions.-Her mind has been much distressed [by?] our recent [advice?] from Beaufort, and has filled us with the greatest anxiety for the fate of our numerous friends; to add to which the uncommon silence of Hetty's correspondents has left room for the most gloomy anticipations, I trust however that our fears will be dispelled by a letter to-day, confirming your good health and that of the family.---    Our town is improving rapidly in health, as you will see by the papers, and we have certainly had the happiness of enjoying our full share. We are all perfectly well.  [End Page 1]Mrs. Finley and Mrs. Griffin are both here-  I am Dear Mother   Yr. Affectionately  N. Heyward Junr.    [in pencil:] This letter announced the birth of my grandfather James Barnwell Heyward    Jeannie B. Cannon [End Page 2]"
+    },
+    {
+      "label": "Media Type",
+      "value": [
+        {
+          "@value": "Manuscripts",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Resource Locator",
+      "value": "Mss 0092"
+    },
+    {
+      "label": "Type",
+      "value": [
+        {
+          "@value": "Text",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "PID",
+      "value": "lcdl:64018"
+    },
+    {
+      "label": "Collection Identifier",
+      "value": "HFF"
+    },
+    {
+      "label": "Original filename",
+      "value": "lcdl64018-JPEG1.jpg"
+    },
+    {
+      "label": "Collection Title",
+      "value": "Heyward and Ferguson Family Papers, 1806-1923"
+    },
+    {
+      "label": "Type IMT",
+      "value": "image/jpeg"
+    },
+    {
+      "label": "iiif",
+      "value": "lcdl64018JPEG1jpg"
+    },
+    {
+      "label": "Compound Identifier",
+      "value": "HFF"
+    },
+    {
+      "label": "Subject - Temporal",
+      "value": [
+        {
+          "@value": "Text,Charleston County (S.C.),Heyward family,College of Charleston Libraries,Heyward and Ferguson families, 1806-1923,Manuscripts,Heyward, Nathaniel, 1790-1819--Correspondence,1817-10-09",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Shelving Locator",
+      "value": "Mss 0092"
+    },
+    {
+      "label": "Subject - Geographic County",
+      "value": [
+        {
+          "@value": "Charleston County (S.C.)",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Title",
+      "value": "022. Nathaniel Heyward (II) to Mother -- October 9, 1817"
+    },
+    {
+      "label": "Subject - Name",
+      "value": [
+        {
+          "@value": "Heyward family,Heyward, Nathaniel, 1790-1819--Correspondence",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Creator Name (Personal)",
+      "value": [
+        {
+          "@value": "Heyward and Ferguson families, 1806-1923",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Date",
+      "value": [
+        {
+          "@value": "1817-10-09",
+          "@language": "en"
+        }
+      ]
+    }
+  ],
+  "license": "Digital image copyright 2009, The College of Charleston Libraries. All rights reserved. For more information contact The College of Charleston Library, Charleston, SC 29424.",
+  "thumbnail": {
+    "@id": "https://iiif.library.cofc.edu/iiif/2/47815/full/thm/0/default.jpg",
+    "@type": "dctypes:Image",
+    "height": 150,
+    "width": 125,
+    "format": "image/jpeg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif.library.cofc.edu/iiif/2/47815",
+      "profile": "http://iiif.io/api/image/2/level1.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://rspace.library.cofc.edu/iiif/lcdl64018JPEG1jpg/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Default order",
+      "canvases": [
+        {
+          "@id": "https://rspace.library.cofc.edu/iiif/lcdl64018JPEG1jpg/canvas/0",
+          "@type": "sc:Canvas",
+          "label": "0",
+          "height": 6873,
+          "width": 5724,
+          "thumbnail": {
+            "@id": "https://iiif.library.cofc.edu/iiif/2/47815/full/thm/0/default.jpg",
+            "@type": "dctypes:Image",
+            "height": 150,
+            "width": 125,
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://iiif.library.cofc.edu/iiif/2/47815",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            }
+          },
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "https://rspace.library.cofc.edu/iiif/lcdl64018JPEG1jpg/annotation/0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.library.cofc.edu/iiif/2/47815/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.library.cofc.edu/iiif/2/47815",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://rspace.library.cofc.edu/iiif/lcdl64018JPEG1jpg/canvas/0",
+              "height": 6873,
+              "width": 5724
+            }
+          ],
+          "otherContent": [
+            {
+              "@context": "//iiif.io/api/presentation/2/context.json",
+              "@id": "https://lcdl.library.cofc.edu/lcdl/collections/annotation?iiif_identifier=lcdl64018JPEG1jpg",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        },
+        {
+          "@id": "https://rspace.library.cofc.edu/iiif/lcdl64018JPEG1jpg/canvas/1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 85,
+          "width": 5702,
+          "thumbnail": {
+            "@id": "https://iiif.library.cofc.edu/iiif/2/47815/full/thm/0/default.jpg",
+            "@type": "dctypes:Image",
+            "height": 150,
+            "width": 125,
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://iiif.library.cofc.edu/iiif/2/47815",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            }
+          },
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "https://rspace.library.cofc.edu/iiif/lcdl64018JPEG1jpg/annotation/1",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.library.cofc.edu/iiif/2/%2Ffilestore%2F4%2F7%2F8%2F1%2F5_f2b7da824977ecf%2F47815_alt_12045_977d6c2cc5625ef.jpg/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.library.cofc.edu/iiif/2/%2Ffilestore%2F4%2F7%2F8%2F1%2F5_f2b7da824977ecf%2F47815_alt_12045_977d6c2cc5625ef.jpg",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://rspace.library.cofc.edu/iiif/lcdl64018JPEG1jpg/canvas/1",
+              "height": 85,
+              "width": 5702
+            }
+          ],
+          "otherContent": [
+            {
+              "@context": "//iiif.io/api/presentation/2/context.json",
+              "@id": "https://lcdl.library.cofc.edu/lcdl/collections/annotation?iiif_identifier=lcdl64018JPEG1jpg",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

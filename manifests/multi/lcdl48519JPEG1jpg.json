@@ -1,0 +1,194 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://rspace.library.cofc.edu/iiif/lcdl48519JPEG1jpg/manifest",
+  "@type": "sc:Manifest",
+  "label": "JK_087_002",
+  "description": "Fort Sumter from Charleston Harbor. Charleston, S.C. Originals are 35mm color slides.",
+  "metadata": [
+    {
+      "label": "Description",
+      "value": "Fort Sumter from Charleston Harbor. Charleston, S.C. Originals are 35mm color slides."
+    },
+    {
+      "label": "Contributing Institution",
+      "value": [
+        {
+          "@value": "The Charleston Archive at CCPL",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Copyright Status Statement",
+      "value": "Digital image copyright 2009, Charleston County Public Library. All rights reserved. For more information contact the Charleston Archive, Charleston County Public Library, 68 Calhoun Street, Charleston, SC 29401"
+    },
+    {
+      "label": "Date Digital",
+      "value": "2009-08"
+    },
+    {
+      "label": "Media Type",
+      "value": [
+        {
+          "@value": "Images",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Type",
+      "value": [
+        {
+          "@value": "StillImage",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "PID",
+      "value": "lcdl:48519"
+    },
+    {
+      "label": "Collection Identifier",
+      "value": "JKS"
+    },
+    {
+      "label": "Original filename",
+      "value": "lcdl48519-JPEG1.jpg"
+    },
+    {
+      "label": "Collection Title",
+      "value": "Jack Keilen Slide Collection"
+    },
+    {
+      "label": "Type IMT",
+      "value": "image/jpeg"
+    },
+    {
+      "label": "iiif",
+      "value": "lcdl48519JPEG1jpg"
+    },
+    {
+      "label": "Compound Identifier",
+      "value": "JKS"
+    },
+    {
+      "label": "Subject - Temporal",
+      "value": [
+        {
+          "@value": "StillImage,Charleston County (S.C.),The Charleston Archive at CCPL,Images,Fort Sumter (Charleston, S.C.),Charleston Harbor (S.C.),Keilen, Jack,1959-07-25",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Subject - Geographic County",
+      "value": [
+        {
+          "@value": "Charleston County (S.C.)",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Title",
+      "value": "JK_087_002"
+    },
+    {
+      "label": "Subject - Geographic",
+      "value": [
+        {
+          "@value": "Fort Sumter (Charleston, S.C.),Charleston Harbor (S.C.)",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Creator Name (Personal)",
+      "value": [
+        {
+          "@value": "Keilen, Jack",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Date",
+      "value": [
+        {
+          "@value": "1959-07-25",
+          "@language": "en"
+        }
+      ]
+    }
+  ],
+  "license": "Digital image copyright 2009, Charleston County Public Library. All rights reserved. For more information contact the Charleston Archive, Charleston County Public Library, 68 Calhoun Street, Charleston, SC 29401",
+  "thumbnail": {
+    "@id": "https://iiif.library.cofc.edu/iiif/2/53318/full/thm/0/default.jpg",
+    "@type": "dctypes:Image",
+    "height": 100,
+    "width": 150,
+    "format": "image/jpeg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif.library.cofc.edu/iiif/2/53318",
+      "profile": "http://iiif.io/api/image/2/level1.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://rspace.library.cofc.edu/iiif/lcdl48519JPEG1jpg/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Default order",
+      "canvases": [
+        {
+          "@id": "https://rspace.library.cofc.edu/iiif/lcdl48519JPEG1jpg/canvas/0",
+          "@type": "sc:Canvas",
+          "label": "0",
+          "height": 2047,
+          "width": 3080,
+          "thumbnail": {
+            "@id": "https://iiif.library.cofc.edu/iiif/2/53318/full/thm/0/default.jpg",
+            "@type": "dctypes:Image",
+            "height": 100,
+            "width": 150,
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://iiif.library.cofc.edu/iiif/2/53318",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            }
+          },
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "https://rspace.library.cofc.edu/iiif/lcdl48519JPEG1jpg/annotation/0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.library.cofc.edu/iiif/2/53318/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.library.cofc.edu/iiif/2/53318",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://rspace.library.cofc.edu/iiif/lcdl48519JPEG1jpg/canvas/0",
+              "height": 2047,
+              "width": 3080
+            }
+          ],
+          "otherContent": [
+            {
+              "@context": "//iiif.io/api/presentation/2/context.json",
+              "@id": "https://lcdl.library.cofc.edu/lcdl/collections/annotation?iiif_identifier=lcdl48519JPEG1jpg",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

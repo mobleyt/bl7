@@ -1,0 +1,285 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://rspace.library.cofc.edu/iiif/lcdl51342JPEG1jpg/manifest",
+  "@type": "sc:Manifest",
+  "label": "Dues 1",
+  "description": "",
+  "metadata": [
+    {
+      "label": "Contributing Institution",
+      "value": [
+        {
+          "@value": "South Carolina Historical Society",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Copyright Status Statement",
+      "value": "Digital image copyright 2011, The South Carolina Historical Society.  All rights reserved. For more information contact The South Carolina Historical Society, 100 Meeting St., Charleston, SC 29401."
+    },
+    {
+      "label": "Date Digital",
+      "value": "2011-08"
+    },
+    {
+      "label": "Transcript",
+      "value": "Transcript is currently unavailable."
+    },
+    {
+      "label": "Media Type",
+      "value": [
+        {
+          "@value": "Manuscripts",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Resource Locator",
+      "value": "001_43-2088-02-01.jpg"
+    },
+    {
+      "label": "Type",
+      "value": [
+        {
+          "@value": "Text",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "PID",
+      "value": "lcdl:51342"
+    },
+    {
+      "label": "Collection Identifier",
+      "value": "SCHS-SCW8"
+    },
+    {
+      "label": "Original filename",
+      "value": "lcdl51342-JPEG1.jpg"
+    },
+    {
+      "label": "Collection Title",
+      "value": "American Federation of Musicians Local 502 records, 1911-1914"
+    },
+    {
+      "label": "Series Title",
+      "value": [
+        {
+          "@value": "South Carolinians at Work",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Type IMT",
+      "value": "image/jpeg"
+    },
+    {
+      "label": "iiif",
+      "value": "lcdl51342JPEG1jpg"
+    },
+    {
+      "label": "Compound Identifier",
+      "value": "SCHS-SCW8"
+    },
+    {
+      "label": "Subject - Temporal",
+      "value": [
+        {
+          "@value": "Text,Charleston (S.C.),Charleston County (S.C.),Charleston (S.C.)--History,Dauer, A. C.,Dauer, E. M.,Dauer, J. E.,Davin, J. B.,Dehrmann, J. H.,Fitzgerald, T.,Ford, F.,English,South Carolina Historical Society,South Carolinians at Work,American Federation of Musicians. Local 502 (Charleston, S.C.),Labor unions--Accounting,Manuscripts,1913-02-09,American Federation of Musicians,Vaughan, R. Emmett,Hencken, Charles F.,Lehman, Jack,Lehman, J.,Seebeck, J. C.,Koster, Theo,Seel, F. J.,Marjenhoff, A.,Tumpowski, B. R.,Performing arts,Performing arts Employees,Labor unions and the arts,Labor unions--United States--Songs and music,Musicians--Employment,Musicians--Labor unions",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Shelving Locator",
+      "value": "001_43-2088-02-01.jpg"
+    },
+    {
+      "label": "Subject - Geographic County",
+      "value": [
+        {
+          "@value": "Charleston County (S.C.)",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Title",
+      "value": "Dues 1"
+    },
+    {
+      "label": "Subject - Geographic",
+      "value": [
+        {
+          "@value": "Charleston (S.C.),Charleston (S.C.)--History",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Subject - Topical",
+      "value": [
+        {
+          "@value": "Labor unions--Accounting,Performing arts,Performing arts Employees,Labor unions and the arts,Labor unions--United States--Songs and music,Musicians--Employment,Musicians--Labor unions",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Subject - Name",
+      "value": [
+        {
+          "@value": "Dauer, A. C.,Dauer, E. M.,Dauer, J. E.,Davin, J. B.,Dehrmann, J. H.,Fitzgerald, T.,Ford, F.,American Federation of Musicians,Vaughan, R. Emmett,Hencken, Charles F.,Lehman, Jack,Lehman, J.,Seebeck, J. C.,Koster, Theo,Seel, F. J.,Marjenhoff, A.,Tumpowski, B. R.",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Creator Name (Corporate)",
+      "value": [
+        {
+          "@value": "American Federation of Musicians. Local 502 (Charleston, S.C.)",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Date",
+      "value": [
+        {
+          "@value": "1913-02-09",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Language",
+      "value": [
+        {
+          "@value": "English",
+          "@language": "en"
+        }
+      ]
+    }
+  ],
+  "license": "Digital image copyright 2011, The South Carolina Historical Society.  All rights reserved. For more information contact The South Carolina Historical Society, 100 Meeting St., Charleston, SC 29401.",
+  "thumbnail": {
+    "@id": "https://iiif.library.cofc.edu/iiif/2/31508/full/thm/0/default.jpg",
+    "@type": "dctypes:Image",
+    "height": 150,
+    "width": 101,
+    "format": "image/jpeg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif.library.cofc.edu/iiif/2/31508",
+      "profile": "http://iiif.io/api/image/2/level1.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://rspace.library.cofc.edu/iiif/lcdl51342JPEG1jpg/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Default order",
+      "canvases": [
+        {
+          "@id": "https://rspace.library.cofc.edu/iiif/lcdl51342JPEG1jpg/canvas/0",
+          "@type": "sc:Canvas",
+          "label": "0",
+          "height": 2978,
+          "width": 2000,
+          "thumbnail": {
+            "@id": "https://iiif.library.cofc.edu/iiif/2/31508/full/thm/0/default.jpg",
+            "@type": "dctypes:Image",
+            "height": 150,
+            "width": 101,
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://iiif.library.cofc.edu/iiif/2/31508",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            }
+          },
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "https://rspace.library.cofc.edu/iiif/lcdl51342JPEG1jpg/annotation/0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.library.cofc.edu/iiif/2/31508/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.library.cofc.edu/iiif/2/31508",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://rspace.library.cofc.edu/iiif/lcdl51342JPEG1jpg/canvas/0",
+              "height": 2978,
+              "width": 2000
+            }
+          ],
+          "otherContent": [
+            {
+              "@context": "//iiif.io/api/presentation/2/context.json",
+              "@id": "https://beta.lcdl.library.cofc.edu/lcdl/collections/annotation?iiif_identifier=lcdl51342JPEG1jpg",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        },
+        {
+          "@id": "https://rspace.library.cofc.edu/iiif/lcdl51342JPEG1jpg/canvas/1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 85,
+          "width": 2000,
+          "thumbnail": {
+            "@id": "https://iiif.library.cofc.edu/iiif/2/31508/full/thm/0/default.jpg",
+            "@type": "dctypes:Image",
+            "height": 150,
+            "width": 101,
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://iiif.library.cofc.edu/iiif/2/31508",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            }
+          },
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "https://rspace.library.cofc.edu/iiif/lcdl51342JPEG1jpg/annotation/1",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.library.cofc.edu/iiif/2/%2Ffilestore%2F3%2F1%2F5%2F0%2F8_394ea8c282b4a6e%2F31508_alt_5507_6dcb810b6d953f0.jpg/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.library.cofc.edu/iiif/2/%2Ffilestore%2F3%2F1%2F5%2F0%2F8_394ea8c282b4a6e%2F31508_alt_5507_6dcb810b6d953f0.jpg",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://rspace.library.cofc.edu/iiif/lcdl51342JPEG1jpg/canvas/1",
+              "height": 85,
+              "width": 2000
+            }
+          ],
+          "otherContent": [
+            {
+              "@context": "//iiif.io/api/presentation/2/context.json",
+              "@id": "https://beta.lcdl.library.cofc.edu/lcdl/collections/annotation?iiif_identifier=lcdl51342JPEG1jpg",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

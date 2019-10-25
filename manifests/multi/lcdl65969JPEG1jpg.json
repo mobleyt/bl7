@@ -1,0 +1,228 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://rspace.library.cofc.edu/iiif/lcdl65969JPEG1jpg/manifest",
+  "@type": "sc:Manifest",
+  "label": "Mount Zion. Neby Daûd. / Tomb de David.",
+  "description": "Color lithograph of the interior of David's Tomb on Mount Zion in Jerusalem. Lithograph by L. N. Rosenthal after a sketch by James Turner Barclay. From The city of the Great King; or, Jerusalem as it was, as it is, and as it is to be by James Turner Barclay, published Philadelphia: Challen.",
+  "metadata": [
+    {
+      "label": "Description",
+      "value": "Color lithograph of the interior of David's Tomb on Mount Zion in Jerusalem. Lithograph by L. N. Rosenthal after a sketch by James Turner Barclay. From The city of the Great King; or, Jerusalem as it was, as it is, and as it is to be by James Turner Barclay, published Philadelphia: Challen."
+    },
+    {
+      "label": "Access Note",
+      "value": "For more information contact Special Collections at the College of Charleston Libraries, Charleston, SC 29424."
+    },
+    {
+      "label": "Contributing Institution",
+      "value": [
+        {
+          "@value": "College of Charleston Libraries",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Copyright Status Statement",
+      "value": "Public domain."
+    },
+    {
+      "label": "Date Digital",
+      "value": "2012-02-17"
+    },
+    {
+      "label": "Digitization Specifications",
+      "value": "Scanned with Epson Expression 10000 XL, 250 ppi, 24-bit color. Archival tiff image available."
+    },
+    {
+      "label": "Media Type",
+      "value": [
+        {
+          "@value": "Images",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Resource Locator",
+      "value": "Print Portfolio 12,cofc-war-print12-040"
+    },
+    {
+      "label": "Type",
+      "value": [
+        {
+          "@value": "StillImage",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "PID",
+      "value": "lcdl:65969"
+    },
+    {
+      "label": "Collection Identifier",
+      "value": "ROS"
+    },
+    {
+      "label": "Original filename",
+      "value": "lcdl65969-JPEG1.jpg"
+    },
+    {
+      "label": "Collection Title",
+      "value": "William A. Rosenthall Judaica Collection - Prints and Photographs"
+    },
+    {
+      "label": "Type IMT",
+      "value": "image/jpeg"
+    },
+    {
+      "label": "iiif",
+      "value": "lcdl65969JPEG1jpg"
+    },
+    {
+      "label": "Compound Identifier",
+      "value": "ROS"
+    },
+    {
+      "label": "Subject - Temporal",
+      "value": [
+        {
+          "@value": "StillImage,1858,English,College of Charleston Libraries,Jerusalem,Jewish sepulchral monuments,David, King of Israel,Tombs--Jerusalem,Tomb of David (Jerusalem),Zion, Mount (Jerusalem),Images,Rosenthal,Barclay",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Shelving Locator",
+      "value": "Print Portfolio 12,cofc-war-print12-040"
+    },
+    {
+      "label": "Title",
+      "value": "Mount Zion. Neby Daûd. / Tomb de David."
+    },
+    {
+      "label": "Subject - Geographic",
+      "value": [
+        {
+          "@value": "Jerusalem,Zion, Mount (Jerusalem)",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Subject - Topical",
+      "value": [
+        {
+          "@value": "Jewish sepulchral monuments,Tombs--Jerusalem,Tomb of David (Jerusalem)",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Subject - Name",
+      "value": [
+        {
+          "@value": "David, King of Israel",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Creator Name (Personal)",
+      "value": [
+        {
+          "@value": "Rosenthal,Barclay",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Date",
+      "value": [
+        {
+          "@value": "1858",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Language",
+      "value": [
+        {
+          "@value": "English",
+          "@language": "en"
+        }
+      ]
+    }
+  ],
+  "license": "Public domain.",
+  "thumbnail": {
+    "@id": "https://iiif.library.cofc.edu/iiif/2/40372/full/thm/0/default.jpg",
+    "@type": "dctypes:Image",
+    "height": 101,
+    "width": 150,
+    "format": "image/jpeg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif.library.cofc.edu/iiif/2/40372",
+      "profile": "http://iiif.io/api/image/2/level1.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://rspace.library.cofc.edu/iiif/lcdl65969JPEG1jpg/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Default order",
+      "canvases": [
+        {
+          "@id": "https://rspace.library.cofc.edu/iiif/lcdl65969JPEG1jpg/canvas/0",
+          "@type": "sc:Canvas",
+          "label": "0",
+          "height": 1345,
+          "width": 2000,
+          "thumbnail": {
+            "@id": "https://iiif.library.cofc.edu/iiif/2/40372/full/thm/0/default.jpg",
+            "@type": "dctypes:Image",
+            "height": 101,
+            "width": 150,
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://iiif.library.cofc.edu/iiif/2/40372",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            }
+          },
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "https://rspace.library.cofc.edu/iiif/lcdl65969JPEG1jpg/annotation/0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.library.cofc.edu/iiif/2/40372/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.library.cofc.edu/iiif/2/40372",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://rspace.library.cofc.edu/iiif/lcdl65969JPEG1jpg/canvas/0",
+              "height": 1345,
+              "width": 2000
+            }
+          ],
+          "otherContent": [
+            {
+              "@context": "//iiif.io/api/presentation/2/context.json",
+              "@id": "https://lcdl.library.cofc.edu/lcdl/collections/annotation?iiif_identifier=lcdl65969JPEG1jpg",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

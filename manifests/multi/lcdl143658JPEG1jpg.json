@@ -1,0 +1,241 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://rspace.library.cofc.edu/iiif/lcdl143658JPEG1jpg/manifest",
+  "@type": "sc:Manifest",
+  "label": "Petition from A. Morrison to the St. Andrew's Society",
+  "description": "Petition of A. Morrison to the St. Andrew's Society requesting assistance, explaining that he cannot find employment.",
+  "metadata": [
+    {
+      "label": "Description",
+      "value": "Petition of A. Morrison to the St. Andrew's Society requesting assistance, explaining that he cannot find employment."
+    },
+    {
+      "label": "Access Note",
+      "value": "For more information contact Special Collections, College of Charleston Libraries, 66 George St., Charleston SC 29401."
+    },
+    {
+      "label": "Contributing Institution",
+      "value": [
+        {
+          "@value": "College of Charleston Libraries",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Copyright Status Statement",
+      "value": "Public domain."
+    },
+    {
+      "label": "Date Digital",
+      "value": "2017-02"
+    },
+    {
+      "label": "Digitization Specifications",
+      "value": "300 dpi, 24-bit depth, color. Epson Expression 10000XL. Archival masters are tiffs."
+    },
+    {
+      "label": "Transcript",
+      "value": "Charleston 30 November 1808\n\nPresident and Members of the St Andrews Society\n\nGentleman [gentlemen]I am under the necessity of Applying to you for A continuance of your Benevolent Bounty as the times are so dull that it is impossible for me to make a living without the Assistance of my friends\n\nWith Respect\n\nAd. Morrison [signature of applicant]\n\n[P.S.]\nMr Smith\n[illegible] Morris\nJames Blain"
+    },
+    {
+      "label": "Media Type",
+      "value": [
+        {
+          "@value": "Manuscripts",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Resource Locator",
+      "value": "MSS 0144 Box 8 Folder 2"
+    },
+    {
+      "label": "Type",
+      "value": [
+        {
+          "@value": "StillImage",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "PID",
+      "value": "lcdl:143658"
+    },
+    {
+      "label": "Collection Identifier",
+      "value": "SASR"
+    },
+    {
+      "label": "Original filename",
+      "value": "lcdl143658-JPEG1.jpg"
+    },
+    {
+      "label": "Collection Title",
+      "value": "St. Andrew's Society of Charleston Records, 1729-2001"
+    },
+    {
+      "label": "Type IMT",
+      "value": "image/jpeg"
+    },
+    {
+      "label": "iiif",
+      "value": "lcdl143658JPEG1jpg"
+    },
+    {
+      "label": "Compound Identifier",
+      "value": "SASR"
+    },
+    {
+      "label": "Subject - Temporal",
+      "value": [
+        {
+          "@value": "StillImage,Charleston (S.C.),Charleston County (S.C.),English,College of Charleston Libraries,Charities--South Carolina--Charleston,St. Andrew’s Society of Charleston, South Carolina,1808-11-30,Manuscripts,Colonial life,Poverty,Morrison, A.",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Shelving Locator",
+      "value": "MSS 0144 Box 8 Folder 2"
+    },
+    {
+      "label": "Subject - Geographic County",
+      "value": [
+        {
+          "@value": "Charleston County (S.C.)",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Title",
+      "value": "Petition from A. Morrison to the St. Andrew's Society"
+    },
+    {
+      "label": "Subject - Geographic",
+      "value": [
+        {
+          "@value": "Charleston (S.C.)",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Subject - Topical",
+      "value": [
+        {
+          "@value": "Charities--South Carolina--Charleston,Colonial life,Poverty",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Subject - Name",
+      "value": [
+        {
+          "@value": "St. Andrew’s Society of Charleston, South Carolina",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Creator Name (Corporate)",
+      "value": [
+        {
+          "@value": "Morrison, A.",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Date",
+      "value": [
+        {
+          "@value": "1808-11-30",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Language",
+      "value": [
+        {
+          "@value": "English",
+          "@language": "en"
+        }
+      ]
+    }
+  ],
+  "license": "Public domain.",
+  "thumbnail": {
+    "@id": "https://iiif.library.cofc.edu/iiif/2/49226/full/thm/0/default.jpg",
+    "@type": "dctypes:Image",
+    "height": 150,
+    "width": 124,
+    "format": "image/jpeg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif.library.cofc.edu/iiif/2/49226",
+      "profile": "http://iiif.io/api/image/2/level1.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://rspace.library.cofc.edu/iiif/lcdl143658JPEG1jpg/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Default order",
+      "canvases": [
+        {
+          "@id": "https://rspace.library.cofc.edu/iiif/lcdl143658JPEG1jpg/canvas/0",
+          "@type": "sc:Canvas",
+          "label": "0",
+          "height": 1800,
+          "width": 1492,
+          "thumbnail": {
+            "@id": "https://iiif.library.cofc.edu/iiif/2/49226/full/thm/0/default.jpg",
+            "@type": "dctypes:Image",
+            "height": 150,
+            "width": 124,
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://iiif.library.cofc.edu/iiif/2/49226",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            }
+          },
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "https://rspace.library.cofc.edu/iiif/lcdl143658JPEG1jpg/annotation/0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.library.cofc.edu/iiif/2/49226/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.library.cofc.edu/iiif/2/49226",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://rspace.library.cofc.edu/iiif/lcdl143658JPEG1jpg/canvas/0",
+              "height": 1800,
+              "width": 1492
+            }
+          ],
+          "otherContent": [
+            {
+              "@context": "//iiif.io/api/presentation/2/context.json",
+              "@id": "https://lcdl.library.cofc.edu/lcdl/collections/annotation?iiif_identifier=lcdl143658JPEG1jpg",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

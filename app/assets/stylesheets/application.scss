@@ -18,6 +18,9 @@
  * Used by blacklight_range_limit
  *= require  'blacklight_range_limit'
  *
+
+ *= require 'blacklight_advanced_search'
+
 */
 
 .applied-filter .filter-name:after {
@@ -54,7 +57,7 @@ a{color:#660000;}
     color:white;
 }
 
-
+h1{font-size:2rem;}
 h1,h2,h3,h4{font-family: 'Playfair Display', serif;}
 body,p,a,h5{font-family: 'Raleway', sans-serif;}
 .thicc{font-weight:bold;}
@@ -72,7 +75,7 @@ nav ul a{font-family: 'Playfair Display', serif; font-size:18px; color:black;}
 .cofcRedBg{background-color:#660000;}
 
 .navbar-brand {
-    background: transparent url("//beta.lcdl.library.cofc.edu/wp-content/uploads/2018/12/new-lcdl-strips-1.png") no-repeat top left;
+    background: transparent url("//beta.lcdl.library.cofc.edu/wp-content/uploads/2019/06/logo-strips-redo-1.png") no-repeat top left;
     flex: 0 0 100%;
     height: 50px;
     margin-right: 20px;
@@ -97,11 +100,14 @@ background-position:center;
 }
 
 
-#document.blacklight-7 #tify > div > header > div.tify-header_column.-views > div.tify-header_button-group.-view > button:nth-child(4){display:none;}
+#document.blacklight-7 #tify > div > header > div.tify-header_column.-views > div.tify-header_button-group.-view > button:nth-child(5){display:none;}
 #document.blacklight-7 #tify > div > header > div.tify-header_column.-views > div.tify-header_button-group.-view > button.tify-header_button.-help {display:none;}
 
 #document.blacklight-5 #tify > div > header > div.tify-header_column.-views > div.tify-header_button-group.-view > button:nth-child(5){display:none;}
 #document.blacklight-5 #tify > div > header > div.tify-header_column.-views > div.tify-header_button-group.-view > button.tify-header_button.-help{display:none;}
+
+#document.blacklight-6 #tify > div > header > div.tify-header_column.-views > div.tify-header_button-group.-view > button:nth-child(5){display:none;}
+#document.blacklight-6 #tify > div > header > div.tify-header_column.-views > div.tify-header_button-group.-view > button.tify-header_button.-help{display:none;}
 
 .document-thumbnail img{max-width:200px !important;}
 

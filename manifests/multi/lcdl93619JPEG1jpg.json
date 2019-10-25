@@ -1,0 +1,232 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://rspace.library.cofc.edu/iiif/lcdl93619JPEG1jpg/manifest",
+  "@type": "sc:Manifest",
+  "label": "Property values assessed by Max L. Hill Co., Inc.",
+  "description": "In this one-page typed document, financial information for several Ansonborough properties is provided, including the owner, city appraisal value, and market value.",
+  "metadata": [
+    {
+      "label": "Description",
+      "value": "In this one-page typed document, financial information for several Ansonborough properties is provided, including the owner, city appraisal value, and market value."
+    },
+    {
+      "label": "Access Note",
+      "value": "For more information and reuse requirements contact Archivist, Historic Charleston Foundation, P.O. Box 1120, Charleston, SC 29402."
+    },
+    {
+      "label": "Access Statement",
+      "value": "All rights reserved."
+    },
+    {
+      "label": "Contributing Institution",
+      "value": [
+        {
+          "@value": "Margaretta Childs Archives at Historic Charleston Foundation",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Copyright Status Statement",
+      "value": "Copyright © Historic Charleston Foundation."
+    },
+    {
+      "label": "Date Digital",
+      "value": "2014-11-20"
+    },
+    {
+      "label": "Digitization Specifications",
+      "value": "600 dpi, 24-bit depth, color, DLSG Bookedge Scanner, Archival masters are tiffs."
+    },
+    {
+      "label": "Media Type",
+      "value": [
+        {
+          "@value": "Documents",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Resource Locator",
+      "value": "HCF.005.3A"
+    },
+    {
+      "label": "Type",
+      "value": [
+        {
+          "@value": "StillImage",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "PID",
+      "value": "lcdl:93619"
+    },
+    {
+      "label": "Collection Identifier",
+      "value": "ARP-D"
+    },
+    {
+      "label": "Original filename",
+      "value": "lcdl93619-JPEG1.jpg"
+    },
+    {
+      "label": "Collection Title",
+      "value": "Ansonborough Rehabilitation Project"
+    },
+    {
+      "label": "Series Title",
+      "value": [
+        {
+          "@value": "Folder 07: Property Sales",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Type IMT",
+      "value": "image/jpeg"
+    },
+    {
+      "label": "iiif",
+      "value": "lcdl93619JPEG1jpg"
+    },
+    {
+      "label": "Compound Identifier",
+      "value": "ARP-D"
+    },
+    {
+      "label": "Subject - Temporal",
+      "value": [
+        {
+          "@value": "StillImage,Charleston (S.C.)--History,Neighborhoods--Conservation and restoration--South Carolina--Charleston,Historic Charleston Foundation (Charleston, S.C.),English,Margaretta Childs Archives at Historic Charleston Foundation,Historic buildings--Conservation and restoration--South Carolina--Charleston,Folder 07: Property Sales,Charleston County (S.C),Documents",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Shelving Locator",
+      "value": "HCF.005.3A"
+    },
+    {
+      "label": "Subject - Geographic County",
+      "value": [
+        {
+          "@value": "Charleston County (S.C)",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Title",
+      "value": "Property values assessed by Max L. Hill Co., Inc."
+    },
+    {
+      "label": "Subject - Geographic",
+      "value": [
+        {
+          "@value": "Charleston (S.C.)--History",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Subject - Topical",
+      "value": [
+        {
+          "@value": "Neighborhoods--Conservation and restoration--South Carolina--Charleston,Historic buildings--Conservation and restoration--South Carolina--Charleston",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Subject - Name",
+      "value": [
+        {
+          "@value": "Historic Charleston Foundation (Charleston, S.C.)",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Language",
+      "value": [
+        {
+          "@value": "English",
+          "@language": "en"
+        }
+      ]
+    }
+  ],
+  "license": "Copyright © Historic Charleston Foundation.",
+  "thumbnail": {
+    "@id": "https://iiif.library.cofc.edu/iiif/2/28651/full/thm/0/default.jpg",
+    "@type": "dctypes:Image",
+    "height": 150,
+    "width": 116,
+    "format": "image/jpeg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif.library.cofc.edu/iiif/2/28651",
+      "profile": "http://iiif.io/api/image/2/level1.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://rspace.library.cofc.edu/iiif/lcdl93619JPEG1jpg/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Default order",
+      "canvases": [
+        {
+          "@id": "https://rspace.library.cofc.edu/iiif/lcdl93619JPEG1jpg/canvas/0",
+          "@type": "sc:Canvas",
+          "label": "0",
+          "height": 2000,
+          "width": 1552,
+          "thumbnail": {
+            "@id": "https://iiif.library.cofc.edu/iiif/2/28651/full/thm/0/default.jpg",
+            "@type": "dctypes:Image",
+            "height": 150,
+            "width": 116,
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://iiif.library.cofc.edu/iiif/2/28651",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            }
+          },
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "https://rspace.library.cofc.edu/iiif/lcdl93619JPEG1jpg/annotation/0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.library.cofc.edu/iiif/2/28651/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.library.cofc.edu/iiif/2/28651",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://rspace.library.cofc.edu/iiif/lcdl93619JPEG1jpg/canvas/0",
+              "height": 2000,
+              "width": 1552
+            }
+          ],
+          "otherContent": [
+            {
+              "@context": "//iiif.io/api/presentation/2/context.json",
+              "@id": "https://lcdl.library.cofc.edu/lcdl/collections/annotation?iiif_identifier=lcdl93619JPEG1jpg",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

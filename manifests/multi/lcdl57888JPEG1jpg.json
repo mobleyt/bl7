@@ -1,0 +1,253 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://rspace.library.cofc.edu/iiif/lcdl57888JPEG1jpg/manifest",
+  "@type": "sc:Manifest",
+  "label": "Leather wallet",
+  "description": "Leather wallet belonging to one of the crew, made of two sides that fold in, once stitched together, and an additional pocket inside, with a reinforced band of leather for closing. Images show the wallet during the excavation of the submarine interior and the wallet following cleaning, conservation treatment, and freeze drying.",
+  "metadata": [
+    {
+      "label": "Description",
+      "value": "Leather wallet belonging to one of the crew, made of two sides that fold in, once stitched together, and an additional pocket inside, with a reinforced band of leather for closing. Images show the wallet during the excavation of the submarine interior and the wallet following cleaning, conservation treatment, and freeze drying."
+    },
+    {
+      "label": "Contributing Institution",
+      "value": [
+        {
+          "@value": "Friends of the Hunley",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Copyright Status Statement",
+      "value": "Digital image copyright 2013, Friends of the Hunley. All rights reserved.Â For more information, contact Friends of the Hunley at 843.743.4865."
+    },
+    {
+      "label": "Date Digital",
+      "value": "2008-01-16"
+    },
+    {
+      "label": "Digitization Specifications",
+      "value": "300 dpi, 24-bit depth, Nikon E990;72 dpi, 24-bit depth, Fuji FinePixS1Pro"
+    },
+    {
+      "label": "Media Type",
+      "value": [
+        {
+          "@value": "Objects",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Resource Locator",
+      "value": "HL-1285"
+    },
+    {
+      "label": "Type",
+      "value": [
+        {
+          "@value": "PhysicalObject",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "PID",
+      "value": "lcdl:57888"
+    },
+    {
+      "label": "Collection Identifier",
+      "value": "HLH-PA"
+    },
+    {
+      "label": "Original filename",
+      "value": "lcdl57888-JPEG1.jpg"
+    },
+    {
+      "label": "Collection Title",
+      "value": "Hunley Artifact Collection – Personal Artifacts"
+    },
+    {
+      "label": "Type IMT",
+      "value": "image/jpeg"
+    },
+    {
+      "label": "iiif",
+      "value": "lcdl57888JPEG1jpg"
+    },
+    {
+      "label": "Compound Identifier",
+      "value": "HLH-PA"
+    },
+    {
+      "label": "Subject - Temporal",
+      "value": [
+        {
+          "@value": "Charleston County (S.C.),PhysicalObject,Objects,1860,1869,Friends of the Hunley,H.L. Hunley (Submarine),Wallets,Leather--Conservation and restoration",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Shelving Locator",
+      "value": "HL-1285"
+    },
+    {
+      "label": "Subject - Geographic County",
+      "value": [
+        {
+          "@value": "Charleston County (S.C.)",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Title",
+      "value": "Leather wallet"
+    },
+    {
+      "label": "Subject - Topical",
+      "value": [
+        {
+          "@value": "Wallets,Leather--Conservation and restoration",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Subject - Name",
+      "value": [
+        {
+          "@value": "H.L. Hunley (Submarine)",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Date",
+      "value": [
+        {
+          "@value": "1860,1869",
+          "@language": "en"
+        }
+      ]
+    }
+  ],
+  "license": "Digital image copyright 2013, Friends of the Hunley. All rights reserved.Â For more information, contact Friends of the Hunley at 843.743.4865.",
+  "thumbnail": {
+    "@id": "https://iiif.library.cofc.edu/iiif/2/32581/full/thm/0/default.jpg",
+    "@type": "dctypes:Image",
+    "height": 113,
+    "width": 150,
+    "format": "image/jpeg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif.library.cofc.edu/iiif/2/32581",
+      "profile": "http://iiif.io/api/image/2/level1.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://rspace.library.cofc.edu/iiif/lcdl57888JPEG1jpg/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Default order",
+      "canvases": [
+        {
+          "@id": "https://rspace.library.cofc.edu/iiif/lcdl57888JPEG1jpg/canvas/0",
+          "@type": "sc:Canvas",
+          "label": "0",
+          "height": 1536,
+          "width": 2048,
+          "thumbnail": {
+            "@id": "https://iiif.library.cofc.edu/iiif/2/32581/full/thm/0/default.jpg",
+            "@type": "dctypes:Image",
+            "height": 113,
+            "width": 150,
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://iiif.library.cofc.edu/iiif/2/32581",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            }
+          },
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "https://rspace.library.cofc.edu/iiif/lcdl57888JPEG1jpg/annotation/0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.library.cofc.edu/iiif/2/32581/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.library.cofc.edu/iiif/2/32581",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://rspace.library.cofc.edu/iiif/lcdl57888JPEG1jpg/canvas/0",
+              "height": 1536,
+              "width": 2048
+            }
+          ],
+          "otherContent": [
+            {
+              "@context": "//iiif.io/api/presentation/2/context.json",
+              "@id": "https://lcdl.library.cofc.edu/lcdl/collections/annotation?iiif_identifier=lcdl57888JPEG1jpg",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        },
+        {
+          "@id": "https://rspace.library.cofc.edu/iiif/lcdl57888JPEG1jpg/canvas/1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 85,
+          "width": 3040,
+          "thumbnail": {
+            "@id": "https://iiif.library.cofc.edu/iiif/2/32581/full/thm/0/default.jpg",
+            "@type": "dctypes:Image",
+            "height": 113,
+            "width": 150,
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://iiif.library.cofc.edu/iiif/2/32581",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            }
+          },
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "https://rspace.library.cofc.edu/iiif/lcdl57888JPEG1jpg/annotation/1",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.library.cofc.edu/iiif/2/%2Ffilestore%2F3%2F2%2F5%2F8%2F1_a662d38ba5d663c%2F32581_alt_10112_2e2b5d9d3b51417.jpg/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.library.cofc.edu/iiif/2/%2Ffilestore%2F3%2F2%2F5%2F8%2F1_a662d38ba5d663c%2F32581_alt_10112_2e2b5d9d3b51417.jpg",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://rspace.library.cofc.edu/iiif/lcdl57888JPEG1jpg/canvas/1",
+              "height": 85,
+              "width": 3040
+            }
+          ],
+          "otherContent": [
+            {
+              "@context": "//iiif.io/api/presentation/2/context.json",
+              "@id": "https://lcdl.library.cofc.edu/lcdl/collections/annotation?iiif_identifier=lcdl57888JPEG1jpg",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

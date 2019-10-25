@@ -1,0 +1,258 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://rspace.library.cofc.edu/iiif/FairfieldPlantation003jpg804/manifest",
+  "@type": "sc:Manifest",
+  "label": "Fairfield Plantation Garden Map",
+  "description": "Chart mapping the placement of fruit trees in a new garden at Fairfield Plantation. Handwritten note on back of map.",
+  "metadata": [
+    {
+      "label": "Description",
+      "value": "Chart mapping the placement of fruit trees in a new garden at Fairfield Plantation. Handwritten note on back of map."
+    },
+    {
+      "label": "Access Note",
+      "value": "For more information, contact Special Collections, College of Charleston Libraries, 66 George St., Charleston, SC 29424."
+    },
+    {
+      "label": "Contributing Institution",
+      "value": [
+        {
+          "@value": "College of Charleston Libraries",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Copyright Status Statement",
+      "value": "Public domain."
+    },
+    {
+      "label": "Date Digital",
+      "value": "2019-06"
+    },
+    {
+      "label": "Digitization Specifications",
+      "value": "600 dpi, 24-bit depth, color, Epson Expression 10000XL. Archival masters are tiffs."
+    },
+    {
+      "label": "Transcript",
+      "value": "Fairfield Fruit Garden"
+    },
+    {
+      "label": "Format",
+      "value": "image/jpeg"
+    },
+    {
+      "label": "Media Type",
+      "value": [
+        {
+          "@value": "Maps",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Resource Locator",
+      "value": "Mss 0034-140"
+    },
+    {
+      "label": "Type",
+      "value": [
+        {
+          "@value": "StillImage",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Collection Identifier",
+      "value": "COFC-FairPla"
+    },
+    {
+      "label": "Original filename",
+      "value": "Fairfield-Plantation-003.jpg"
+    },
+    {
+      "label": "Collection Title",
+      "value": "Fairfield Plantation Papers"
+    },
+    {
+      "label": "iiif",
+      "value": "FairfieldPlantation003jpg804"
+    },
+    {
+      "label": "Subject - Temporal",
+      "value": [
+        {
+          "@value": "StillImage,Slavery,Georgetown (S.C.),Georgetown County (S.C.),Gardens,English,College of Charleston Libraries,Maps,Orchards,Waccamaw River Valley (N.C. and S.C.),Plantations--South Carolina--Georgetown County--History,Deas, Alston, 1893-1985,Alston, William, -1839,Alston, Charles C. P., -1881",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Subject - Geographic County",
+      "value": [
+        {
+          "@value": "Georgetown County (S.C.)",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Title",
+      "value": "Fairfield Plantation Garden Map"
+    },
+    {
+      "label": "Subject - Geographic",
+      "value": [
+        {
+          "@value": "Georgetown (S.C.),Waccamaw River Valley (N.C. and S.C.)",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Subject - Topical",
+      "value": [
+        {
+          "@value": "Slavery,Gardens,Orchards,Plantations--South Carolina--Georgetown County--History",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Subject - Name",
+      "value": [
+        {
+          "@value": "Deas, Alston, 1893-1985,Alston, William, -1839,Alston, Charles C. P., -1881",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Language",
+      "value": [
+        {
+          "@value": "English",
+          "@language": "en"
+        }
+      ]
+    }
+  ],
+  "license": "Public domain.",
+  "thumbnail": {
+    "@id": "https://iiif.library.cofc.edu/iiif/2/226398/full/thm/0/default.jpg",
+    "@type": "dctypes:Image",
+    "height": 150,
+    "width": 92,
+    "format": "image/jpeg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif.library.cofc.edu/iiif/2/226398",
+      "profile": "http://iiif.io/api/image/2/level1.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://rspace.library.cofc.edu/iiif/FairfieldPlantation003jpg804/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Default order",
+      "canvases": [
+        {
+          "@id": "https://rspace.library.cofc.edu/iiif/FairfieldPlantation003jpg804/canvas/0",
+          "@type": "sc:Canvas",
+          "label": "0",
+          "height": 8359,
+          "width": 5108,
+          "thumbnail": {
+            "@id": "https://iiif.library.cofc.edu/iiif/2/226398/full/thm/0/default.jpg",
+            "@type": "dctypes:Image",
+            "height": 150,
+            "width": 92,
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://iiif.library.cofc.edu/iiif/2/226398",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            }
+          },
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "https://rspace.library.cofc.edu/iiif/FairfieldPlantation003jpg804/annotation/0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.library.cofc.edu/iiif/2/226398/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.library.cofc.edu/iiif/2/226398",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://rspace.library.cofc.edu/iiif/FairfieldPlantation003jpg804/canvas/0",
+              "height": 8359,
+              "width": 5108
+            }
+          ],
+          "otherContent": [
+            {
+              "@context": "//iiif.io/api/presentation/2/context.json",
+              "@id": "https://lcdl.library.cofc.edu/lcdl/collections/annotation?iiif_identifier=FairfieldPlantation003jpg804",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        },
+        {
+          "@id": "https://rspace.library.cofc.edu/iiif/FairfieldPlantation003jpg804/canvas/1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 85,
+          "width": 5085,
+          "thumbnail": {
+            "@id": "https://iiif.library.cofc.edu/iiif/2/226398/full/thm/0/default.jpg",
+            "@type": "dctypes:Image",
+            "height": 150,
+            "width": 92,
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://iiif.library.cofc.edu/iiif/2/226398",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            }
+          },
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "https://rspace.library.cofc.edu/iiif/FairfieldPlantation003jpg804/annotation/1",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.library.cofc.edu/iiif/2/%2Ffilestore%2F2%2F2%2F6%2F3%2F9%2F8_6f00519abc6460d%2F226398_alt_30957_f9d5e22f3c5267f.jpg/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.library.cofc.edu/iiif/2/%2Ffilestore%2F2%2F2%2F6%2F3%2F9%2F8_6f00519abc6460d%2F226398_alt_30957_f9d5e22f3c5267f.jpg",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://rspace.library.cofc.edu/iiif/FairfieldPlantation003jpg804/canvas/1",
+              "height": 85,
+              "width": 5085
+            }
+          ],
+          "otherContent": [
+            {
+              "@context": "//iiif.io/api/presentation/2/context.json",
+              "@id": "https://lcdl.library.cofc.edu/lcdl/collections/annotation?iiif_identifier=FairfieldPlantation003jpg804",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

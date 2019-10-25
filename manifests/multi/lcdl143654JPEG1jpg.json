@@ -1,0 +1,241 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://rspace.library.cofc.edu/iiif/lcdl143654JPEG1jpg/manifest",
+  "@type": "sc:Manifest",
+  "label": "Petition from Anne Williams to the St. Andrew's Society",
+  "description": "Petition of Anne Williams to the St. Andrew's Society explaining that she lives unmarried in Edinburgh and requesting that her annuity be paid. A postscript confirms that Anne Williams is alive and unmarried.",
+  "metadata": [
+    {
+      "label": "Description",
+      "value": "Petition of Anne Williams to the St. Andrew's Society explaining that she lives unmarried in Edinburgh and requesting that her annuity be paid. A postscript confirms that Anne Williams is alive and unmarried."
+    },
+    {
+      "label": "Access Note",
+      "value": "For more information contact Special Collections, College of Charleston Libraries, 66 George St., Charleston SC 29401."
+    },
+    {
+      "label": "Contributing Institution",
+      "value": [
+        {
+          "@value": "College of Charleston Libraries",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Copyright Status Statement",
+      "value": "Public domain."
+    },
+    {
+      "label": "Date Digital",
+      "value": "2017-02"
+    },
+    {
+      "label": "Digitization Specifications",
+      "value": "300 dpi, 24-bit depth, color. Epson Expression 10000XL. Archival masters are tiffs."
+    },
+    {
+      "label": "Transcript",
+      "value": "Unto the President and members of the St. Andrews Society the Petition of Anne Williams.\n\nHumbly Sheweth\n\nThat your petitioner still resides in Edinburgh, and remains unmarried. She therefore Humbly requests, that the President and members will be pleased to order payment of her annuity to Mr. Adam Tuno, who has full powers to discharge the same.\n\nAnd your petitioner shall ever pray\n\nAnne Williams [signature of applicant]\n\nEdinburgh\n\n[P.S.] Edin. April 2d. 1805 These certify that Mrs Anne Williams is alive this day and to the best of our knowledge and belief is unmarried\n\nJames [Struthers?] Minr. [minister]\nGeorge Borthwick Elder\nRichd. McLean Elder"
+    },
+    {
+      "label": "Media Type",
+      "value": [
+        {
+          "@value": "Manuscripts",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Resource Locator",
+      "value": "MSS 0144 Box 8 Folder 2"
+    },
+    {
+      "label": "Type",
+      "value": [
+        {
+          "@value": "StillImage",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "PID",
+      "value": "lcdl:143654"
+    },
+    {
+      "label": "Collection Identifier",
+      "value": "SASR"
+    },
+    {
+      "label": "Original filename",
+      "value": "lcdl143654-JPEG1.jpg"
+    },
+    {
+      "label": "Collection Title",
+      "value": "St. Andrew's Society of Charleston Records, 1729-2001"
+    },
+    {
+      "label": "Type IMT",
+      "value": "image/jpeg"
+    },
+    {
+      "label": "iiif",
+      "value": "lcdl143654JPEG1jpg"
+    },
+    {
+      "label": "Compound Identifier",
+      "value": "SASR"
+    },
+    {
+      "label": "Subject - Temporal",
+      "value": [
+        {
+          "@value": "StillImage,Charleston (S.C.),Charleston County (S.C.),English,College of Charleston Libraries,Charities--South Carolina--Charleston,St. Andrew’s Society of Charleston, South Carolina,Edinburgh (Scotland),Manuscripts,1805,Colonial life,Women--History--19th century,Single women--Conduct of life,Williams, Anne",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Shelving Locator",
+      "value": "MSS 0144 Box 8 Folder 2"
+    },
+    {
+      "label": "Subject - Geographic County",
+      "value": [
+        {
+          "@value": "Charleston County (S.C.)",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Title",
+      "value": "Petition from Anne Williams to the St. Andrew's Society"
+    },
+    {
+      "label": "Subject - Geographic",
+      "value": [
+        {
+          "@value": "Charleston (S.C.),Edinburgh (Scotland)",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Subject - Topical",
+      "value": [
+        {
+          "@value": "Charities--South Carolina--Charleston,Colonial life,Women--History--19th century,Single women--Conduct of life",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Subject - Name",
+      "value": [
+        {
+          "@value": "St. Andrew’s Society of Charleston, South Carolina",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Creator Name (Corporate)",
+      "value": [
+        {
+          "@value": "Williams, Anne",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Date",
+      "value": [
+        {
+          "@value": "1805",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Language",
+      "value": [
+        {
+          "@value": "English",
+          "@language": "en"
+        }
+      ]
+    }
+  ],
+  "license": "Public domain.",
+  "thumbnail": {
+    "@id": "https://iiif.library.cofc.edu/iiif/2/49133/full/thm/0/default.jpg",
+    "@type": "dctypes:Image",
+    "height": 150,
+    "width": 123,
+    "format": "image/jpeg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif.library.cofc.edu/iiif/2/49133",
+      "profile": "http://iiif.io/api/image/2/level1.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://rspace.library.cofc.edu/iiif/lcdl143654JPEG1jpg/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Default order",
+      "canvases": [
+        {
+          "@id": "https://rspace.library.cofc.edu/iiif/lcdl143654JPEG1jpg/canvas/0",
+          "@type": "sc:Canvas",
+          "label": "0",
+          "height": 1800,
+          "width": 1476,
+          "thumbnail": {
+            "@id": "https://iiif.library.cofc.edu/iiif/2/49133/full/thm/0/default.jpg",
+            "@type": "dctypes:Image",
+            "height": 150,
+            "width": 123,
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://iiif.library.cofc.edu/iiif/2/49133",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            }
+          },
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "https://rspace.library.cofc.edu/iiif/lcdl143654JPEG1jpg/annotation/0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.library.cofc.edu/iiif/2/49133/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.library.cofc.edu/iiif/2/49133",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://rspace.library.cofc.edu/iiif/lcdl143654JPEG1jpg/canvas/0",
+              "height": 1800,
+              "width": 1476
+            }
+          ],
+          "otherContent": [
+            {
+              "@context": "//iiif.io/api/presentation/2/context.json",
+              "@id": "https://lcdl.library.cofc.edu/lcdl/collections/annotation?iiif_identifier=lcdl143654JPEG1jpg",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

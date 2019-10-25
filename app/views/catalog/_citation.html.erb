@@ -1,0 +1,15 @@
+<div class="modal-header">
+  <h1><%= t('blacklight.tools.citation') %></h1>
+  <button type="button" class="blacklight-modal-close close" data-dismiss="modal" aria-label="<%= t('blacklight.modal.close') %>">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+<div class="modal-body">
+<% @documents.each do |document| %>
+<p><%= document['interviewee'].join  unless document['interviewee'].nil? %>
+<%= document['creatornamepersonal'].join unless document['creatornamepersonal'].nil? %>. “
+<%= document['title'] %>” Lowcountry Digital Library, 
+<%= document['contribinst'].join unless document['contribinst'].nil? %>, 
+<%= document['date'].join unless document['date'].nil? %>.</p>
+<% end %>
+</div>

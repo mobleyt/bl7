@@ -1,0 +1,219 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://rspace.library.cofc.edu/iiif/lcdl58490JPEG1jpg/manifest",
+  "@type": "sc:Manifest",
+  "label": "Folder 32: Abbott Letter",
+  "description": "Letter to Frederick H. McDonald from J. S. Abbott regarding an invitation to join the Community Development Council (Jan. 26, 1943).",
+  "metadata": [
+    {
+      "label": "Description",
+      "value": "Letter to Frederick H. McDonald from J. S. Abbott regarding an invitation to join the Community Development Council (Jan. 26, 1943)."
+    },
+    {
+      "label": "Contributing Institution",
+      "value": [
+        {
+          "@value": "Margaretta Childs Archives at Historic Charleston Foundation",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Copyright Status Statement",
+      "value": "Digital image copyright 2009, Historic Charleston Foundation. All rights reserved. For more information contact Margaretta Childs Archives at HCF, PO Box 1120, Charleston, SC 29402."
+    },
+    {
+      "label": "Date Digital",
+      "value": "2010-03"
+    },
+    {
+      "label": "Digitization Specifications",
+      "value": "300 dpi, 24-bit depth, color, Epson Expression 10000XL, Archival Masters are tiffs."
+    },
+    {
+      "label": "Transcript",
+      "value": "CIVIIAN DEFENSE HEADQUARTERS  56 WENTWORTH STREET  Charleston, S. C.  January 26, 1943  Mr. Frederick H. McDonad, Chairman  Community development Council  Gibbes Art Gallery  Charleston, South Carolina  Dear Mr. McDonad:  Repying to your letter of January 23, I have  appointed Mrs. H. M. Rubin, Director of Citizens\" ,  Service Corps,to represent Civiian Defense on your  Counci.  We will be very gad to cooperate in any way  possibe.  I have asked Mrs. Rubin to be at the first  meeting of the Council on Friday, January 29, at the  Gibbes Art Gallery.  Yours sincerey,  J. S. Abbott, Capt. USN [Ret.]  Coordinator    Charleston Area  D C"
+    },
+    {
+      "label": "Media Type",
+      "value": [
+        {
+          "@value": "Manuscripts",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Resource Locator",
+      "value": "HCF 001"
+    },
+    {
+      "label": "Type",
+      "value": [
+        {
+          "@value": "Text",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "PID",
+      "value": "lcdl:58490"
+    },
+    {
+      "label": "Collection Identifier",
+      "value": "CSC"
+    },
+    {
+      "label": "Original filename",
+      "value": "lcdl58490-JPEG1.jpg"
+    },
+    {
+      "label": "Collection Title",
+      "value": "Civic Services Committee Papers"
+    },
+    {
+      "label": "Series Title",
+      "value": [
+        {
+          "@value": "Folder 32: Community Development Council--Members",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Type IMT",
+      "value": "image/jpeg"
+    },
+    {
+      "label": "iiif",
+      "value": "lcdl58490JPEG1jpg"
+    },
+    {
+      "label": "Compound Identifier",
+      "value": "CSC"
+    },
+    {
+      "label": "Subject - Temporal",
+      "value": [
+        {
+          "@value": "Text,1943,Charleston County (S.C.),Margaretta Childs Archives at Historic Charleston Foundation,Folder 32: Community Development Council--Members,Manuscripts,Community Development Council--Membership,Abbott, J. S.,Abbott, J. S.--Correspondence",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Shelving Locator",
+      "value": "HCF 001"
+    },
+    {
+      "label": "Subject - Geographic County",
+      "value": [
+        {
+          "@value": "Charleston County (S.C.)",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Title",
+      "value": "Folder 32: Abbott Letter"
+    },
+    {
+      "label": "Subject - Name",
+      "value": [
+        {
+          "@value": "Community Development Council--Membership,Abbott, J. S.--Correspondence",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Creator Name (Personal)",
+      "value": [
+        {
+          "@value": "Abbott, J. S.",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Date",
+      "value": [
+        {
+          "@value": "1943",
+          "@language": "en"
+        }
+      ]
+    }
+  ],
+  "license": "Digital image copyright 2009, Historic Charleston Foundation. All rights reserved. For more information contact Margaretta Childs Archives at HCF, PO Box 1120, Charleston, SC 29402.",
+  "thumbnail": {
+    "@id": "https://iiif.library.cofc.edu/iiif/2/30755/full/thm/0/default.jpg",
+    "@type": "dctypes:Image",
+    "height": 150,
+    "width": 116,
+    "format": "image/jpeg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif.library.cofc.edu/iiif/2/30755",
+      "profile": "http://iiif.io/api/image/2/level1.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://rspace.library.cofc.edu/iiif/lcdl58490JPEG1jpg/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Default order",
+      "canvases": [
+        {
+          "@id": "https://rspace.library.cofc.edu/iiif/lcdl58490JPEG1jpg/canvas/0",
+          "@type": "sc:Canvas",
+          "label": "0",
+          "height": 2000,
+          "width": 1548,
+          "thumbnail": {
+            "@id": "https://iiif.library.cofc.edu/iiif/2/30755/full/thm/0/default.jpg",
+            "@type": "dctypes:Image",
+            "height": 150,
+            "width": 116,
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://iiif.library.cofc.edu/iiif/2/30755",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            }
+          },
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "https://rspace.library.cofc.edu/iiif/lcdl58490JPEG1jpg/annotation/0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.library.cofc.edu/iiif/2/30755/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.library.cofc.edu/iiif/2/30755",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://rspace.library.cofc.edu/iiif/lcdl58490JPEG1jpg/canvas/0",
+              "height": 2000,
+              "width": 1548
+            }
+          ],
+          "otherContent": [
+            {
+              "@context": "//iiif.io/api/presentation/2/context.json",
+              "@id": "https://lcdl.library.cofc.edu/lcdl/collections/annotation?iiif_identifier=lcdl58490JPEG1jpg",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

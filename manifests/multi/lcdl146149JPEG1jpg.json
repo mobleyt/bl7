@@ -1,0 +1,219 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://rspace.library.cofc.edu/iiif/lcdl146149JPEG1jpg/manifest",
+  "@type": "sc:Manifest",
+  "label": "Newington Plantation Plat 1845",
+  "description": "Plat consists of 50 acres titled Newington Plantation bounding on Middleton Plantation. Names associated with this plat include Johnson Middleton, N.W. Ancrum, G.H. Ingraham, R.B. Pinckney and H.A. Middleton.",
+  "metadata": [
+    {
+      "label": "Description",
+      "value": "Plat consists of 50 acres titled Newington Plantation bounding on Middleton Plantation. Names associated with this plat include Johnson Middleton, N.W. Ancrum, G.H. Ingraham, R.B. Pinckney and H.A. Middleton."
+    },
+    {
+      "label": "Access Note",
+      "value": "For more information and re-use requirements contact the South Carolina Historical Society, Charleston, SC, 29401."
+    },
+    {
+      "label": "Contributing Institution",
+      "value": [
+        {
+          "@value": "South Carolina Historical Society",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Copyright Status Statement",
+      "value": "Public Domain."
+    },
+    {
+      "label": "Date Digital",
+      "value": "2017-03-31"
+    },
+    {
+      "label": "Digitization Specifications",
+      "value": "400 dpi, 24-bit depth, color, Bookeye 4 Basic, Archival masters are tiffs."
+    },
+    {
+      "label": "Media Type",
+      "value": [
+        {
+          "@value": "Maps",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Resource Locator",
+      "value": "510.00, Box 3, Folder 69"
+    },
+    {
+      "label": "Type",
+      "value": [
+        {
+          "@value": "StillImage",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "PID",
+      "value": "lcdl:146149"
+    },
+    {
+      "label": "Collection Identifier",
+      "value": "mccradyplat"
+    },
+    {
+      "label": "Original filename",
+      "value": "lcdl:146149-JPEG1.jpg"
+    },
+    {
+      "label": "Collection Title",
+      "value": "John McCrady Plats and Deeds Collection"
+    },
+    {
+      "label": "Type IMT",
+      "value": "image/jpeg"
+    },
+    {
+      "label": "iiif",
+      "value": "lcdl146149JPEG1jpg"
+    },
+    {
+      "label": "Compound Identifier",
+      "value": "mccradyplat"
+    },
+    {
+      "label": "Subject - Temporal",
+      "value": [
+        {
+          "@value": "StillImage,Middleton family,Pinckney family,Conveyancing--South Carolina,Maps,English,South Carolina Historical Society,Summerville (S.C.),Surveying--South Carolina,Maps,1845-04-24",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Shelving Locator",
+      "value": "510.00, Box 3, Folder 69"
+    },
+    {
+      "label": "Title",
+      "value": "Newington Plantation Plat 1845"
+    },
+    {
+      "label": "Subject - Geographic",
+      "value": [
+        {
+          "@value": "Summerville (S.C.)",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Subject - Topical",
+      "value": [
+        {
+          "@value": "Conveyancing--South Carolina,Maps,Surveying--South Carolina",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Subject - Name",
+      "value": [
+        {
+          "@value": "Middleton family,Pinckney family",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Date",
+      "value": [
+        {
+          "@value": "1845-04-24",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Language",
+      "value": [
+        {
+          "@value": "English",
+          "@language": "en"
+        }
+      ]
+    }
+  ],
+  "license": "Public Domain.",
+  "thumbnail": {
+    "@id": "https://iiif.library.cofc.edu/iiif/2/223346/full/thm/0/default.jpg",
+    "@type": "dctypes:Image",
+    "height": 150,
+    "width": 100,
+    "format": "image/jpeg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif.library.cofc.edu/iiif/2/223346",
+      "profile": "http://iiif.io/api/image/2/level1.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://rspace.library.cofc.edu/iiif/lcdl146149JPEG1jpg/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Default order",
+      "canvases": [
+        {
+          "@id": "https://rspace.library.cofc.edu/iiif/lcdl146149JPEG1jpg/canvas/0",
+          "@type": "sc:Canvas",
+          "label": "0",
+          "height": 2000,
+          "width": 1336,
+          "thumbnail": {
+            "@id": "https://iiif.library.cofc.edu/iiif/2/223346/full/thm/0/default.jpg",
+            "@type": "dctypes:Image",
+            "height": 150,
+            "width": 100,
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://iiif.library.cofc.edu/iiif/2/223346",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            }
+          },
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "https://rspace.library.cofc.edu/iiif/lcdl146149JPEG1jpg/annotation/0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.library.cofc.edu/iiif/2/223346/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.library.cofc.edu/iiif/2/223346",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://rspace.library.cofc.edu/iiif/lcdl146149JPEG1jpg/canvas/0",
+              "height": 2000,
+              "width": 1336
+            }
+          ],
+          "otherContent": [
+            {
+              "@context": "//iiif.io/api/presentation/2/context.json",
+              "@id": "https://lcdl.library.cofc.edu/lcdl/collections/annotation?iiif_identifier=lcdl146149JPEG1jpg",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

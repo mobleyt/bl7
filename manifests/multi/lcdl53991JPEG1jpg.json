@@ -1,0 +1,224 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://rspace.library.cofc.edu/iiif/lcdl53991JPEG1jpg/manifest",
+  "@type": "sc:Manifest",
+  "label": "Charleston County Courthouse After the 1938 Tornadoes",
+  "description": "Photograph of the Charleston County Courthouse after the tornadoes of September 29, 1938, showing the damage done to the building. View of the corner elevation (Meeting Street and Broad Street). People who are standing inside the building at the second and third story windows can be seen. To the left of the Courthouse, the Hebrew Orphanage (88 Broad Street) is also in view.",
+  "metadata": [
+    {
+      "label": "Description",
+      "value": "Photograph of the Charleston County Courthouse after the tornadoes of September 29, 1938, showing the damage done to the building. View of the corner elevation (Meeting Street and Broad Street). People who are standing inside the building at the second and third story windows can be seen. To the left of the Courthouse, the Hebrew Orphanage (88 Broad Street) is also in view."
+    },
+    {
+      "label": "Contributing Institution",
+      "value": [
+        {
+          "@value": "Margaretta Childs Archives at Historic Charleston Foundation",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Copyright Status Statement",
+      "value": "Digital image copyright 2013, Margaretta Childs Archives at Historic Charleston Foundation. All rights reserved. For more information contact Historic Charleston Foundation; P.O. Box 1120; Charleston, SC 29402."
+    },
+    {
+      "label": "Date Digital",
+      "value": "2013-10-30"
+    },
+    {
+      "label": "Digitization Specifications",
+      "value": "600 dpi, 24-bit depth, color, Epson Perfection V600, Archival masters are tiffs."
+    },
+    {
+      "label": "Media Type",
+      "value": [
+        {
+          "@value": "Images",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Resource Locator",
+      "value": "2013.026.1"
+    },
+    {
+      "label": "Type",
+      "value": [
+        {
+          "@value": "StillImage",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "PID",
+      "value": "lcdl:53991"
+    },
+    {
+      "label": "Collection Identifier",
+      "value": "HCF-TP"
+    },
+    {
+      "label": "Original filename",
+      "value": "lcdl53991-JPEG1.jpg"
+    },
+    {
+      "label": "Collection Title",
+      "value": "1938 Tornado Photograph Collection"
+    },
+    {
+      "label": "Type IMT",
+      "value": "image/jpeg"
+    },
+    {
+      "label": "iiif",
+      "value": "lcdl53991JPEG1jpg"
+    },
+    {
+      "label": "Compound Identifier",
+      "value": "HCF-TP"
+    },
+    {
+      "label": "Subject - Temporal",
+      "value": [
+        {
+          "@value": "StillImage,Charleston County (S.C.),Historic buildings--South Carolina--Charleston,1938,Margaretta Childs Archives at Historic Charleston Foundation,Charleston (S.C.)--Buildings, structures, etc.,Images,Tornado damage--South Carolina--Charleston,Charleston County Courthouse (Charleston, S.C.),Losse, Ernest,Persons",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Shelving Locator",
+      "value": "2013.026.1"
+    },
+    {
+      "label": "Subject - Geographic County",
+      "value": [
+        {
+          "@value": "Charleston County (S.C.)",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Title",
+      "value": "Charleston County Courthouse After the 1938 Tornadoes"
+    },
+    {
+      "label": "Subject - Geographic",
+      "value": [
+        {
+          "@value": "Charleston (S.C.)--Buildings, structures, etc.",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Subject - Topical",
+      "value": [
+        {
+          "@value": "Historic buildings--South Carolina--Charleston,Tornado damage--South Carolina--Charleston,Persons",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Subject - Name",
+      "value": [
+        {
+          "@value": "Charleston County Courthouse (Charleston, S.C.)",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Creator Name (Personal)",
+      "value": [
+        {
+          "@value": "Losse, Ernest",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Date",
+      "value": [
+        {
+          "@value": "1938",
+          "@language": "en"
+        }
+      ]
+    }
+  ],
+  "license": "Digital image copyright 2013, Margaretta Childs Archives at Historic Charleston Foundation. All rights reserved. For more information contact Historic Charleston Foundation; P.O. Box 1120; Charleston, SC 29402.",
+  "thumbnail": {
+    "@id": "https://iiif.library.cofc.edu/iiif/2/53426/full/thm/0/default.jpg",
+    "@type": "dctypes:Image",
+    "height": 95,
+    "width": 150,
+    "format": "image/jpeg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif.library.cofc.edu/iiif/2/53426",
+      "profile": "http://iiif.io/api/image/2/level1.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://rspace.library.cofc.edu/iiif/lcdl53991JPEG1jpg/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Default order",
+      "canvases": [
+        {
+          "@id": "https://rspace.library.cofc.edu/iiif/lcdl53991JPEG1jpg/canvas/0",
+          "@type": "sc:Canvas",
+          "label": "0",
+          "height": 1260,
+          "width": 2000,
+          "thumbnail": {
+            "@id": "https://iiif.library.cofc.edu/iiif/2/53426/full/thm/0/default.jpg",
+            "@type": "dctypes:Image",
+            "height": 95,
+            "width": 150,
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://iiif.library.cofc.edu/iiif/2/53426",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            }
+          },
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "https://rspace.library.cofc.edu/iiif/lcdl53991JPEG1jpg/annotation/0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.library.cofc.edu/iiif/2/53426/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.library.cofc.edu/iiif/2/53426",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://rspace.library.cofc.edu/iiif/lcdl53991JPEG1jpg/canvas/0",
+              "height": 1260,
+              "width": 2000
+            }
+          ],
+          "otherContent": [
+            {
+              "@context": "//iiif.io/api/presentation/2/context.json",
+              "@id": "https://lcdl.library.cofc.edu/lcdl/collections/annotation?iiif_identifier=lcdl53991JPEG1jpg",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

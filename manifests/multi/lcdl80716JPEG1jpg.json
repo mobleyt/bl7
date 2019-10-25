@@ -1,0 +1,261 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://rspace.library.cofc.edu/iiif/lcdl80716JPEG1jpg/manifest",
+  "@type": "sc:Manifest",
+  "label": "Thomas S. Grimke Autograph Collection, autograph of Doctor Thomas Girdlestone, May 16, 1787",
+  "description": "Autograph of Thomas Girdlestone English physician and author on the reverse of a printed title page.",
+  "metadata": [
+    {
+      "label": "Description",
+      "value": "Autograph of Thomas Girdlestone English physician and author on the reverse of a printed title page."
+    },
+    {
+      "label": "Access Note",
+      "value": "For more information and reuse requirements contact Special Collections at Addlestone Library, College of Charleston, Charleston, SC, 29424."
+    },
+    {
+      "label": "Contributing Institution",
+      "value": [
+        {
+          "@value": "College of Charleston Libraries",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Copyright Status Statement",
+      "value": "Public Domain."
+    },
+    {
+      "label": "Date Digital",
+      "value": "2014-06-12"
+    },
+    {
+      "label": "Digitization Specifications",
+      "value": "600 dpi, 24-bit depth, color, Epson Expression 10000XL, Archival masters are tiffs."
+    },
+    {
+      "label": "Transcript",
+      "value": "Adamo Gordon,\nRei Militaris Duci,\nNec Non\nDucali Stirpe Nobilitato;\nHonorabili\nCarolo Stuart,\nPeditum Praefecto\nEtc. Etc. Etc.\nAndreaeque Gordon,\nCohortis XXVI. Imperatori;\nDenique\nJoanni Rose,\nArmigero Apud\nPutney\nIn Comitatu Surria\nHas Medicinae Primitias in Gra-\nti Animi Testimonium\nD.C. q.\nAuctor.\n\n[End page 1]\n\nThos [Girdlestone?]\ngraduate of [Ligdon?]\n16 May 1787\nand an Englishman\n\nTo Joseph Wilson Esq\nfrom his sincere friend\nThoas Girdlestone\n\n[End page 2]"
+    },
+    {
+      "label": "Media Type",
+      "value": [
+        {
+          "@value": "Manuscripts",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Resource Locator",
+      "value": "MSS 0176 Box 01 Folder 21"
+    },
+    {
+      "label": "Type",
+      "value": [
+        {
+          "@value": "Text",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "PID",
+      "value": "lcdl:80716"
+    },
+    {
+      "label": "Collection Identifier",
+      "value": "GDP"
+    },
+    {
+      "label": "Original filename",
+      "value": "lcdl80716-JPEG1.jpg"
+    },
+    {
+      "label": "Collection Title",
+      "value": "Grimke family papers, 1678-1977"
+    },
+    {
+      "label": "Type IMT",
+      "value": "image/jpeg"
+    },
+    {
+      "label": "iiif",
+      "value": "lcdl80716JPEG1jpg"
+    },
+    {
+      "label": "Compound Identifier",
+      "value": "GDP"
+    },
+    {
+      "label": "Subject - Temporal",
+      "value": [
+        {
+          "@value": "Text,English,College of Charleston Libraries,Manuscripts,Autographs,Girdlestone, Thomas, 1758-1822,1787-05-16",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Shelving Locator",
+      "value": "MSS 0176 Box 01 Folder 21"
+    },
+    {
+      "label": "Title",
+      "value": "Thomas S. Grimke Autograph Collection, autograph of Doctor Thomas Girdlestone, May 16, 1787"
+    },
+    {
+      "label": "Subject - Topical",
+      "value": [
+        {
+          "@value": "Autographs",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Creator Name (Personal)",
+      "value": [
+        {
+          "@value": "Girdlestone, Thomas, 1758-1822",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Date",
+      "value": [
+        {
+          "@value": "1787-05-16",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Language",
+      "value": [
+        {
+          "@value": "English",
+          "@language": "en"
+        }
+      ]
+    }
+  ],
+  "license": "Public Domain.",
+  "thumbnail": {
+    "@id": "https://iiif.library.cofc.edu/iiif/2/36215/full/thm/0/default.jpg",
+    "@type": "dctypes:Image",
+    "height": 150,
+    "width": 131,
+    "format": "image/jpeg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif.library.cofc.edu/iiif/2/36215",
+      "profile": "http://iiif.io/api/image/2/level1.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://rspace.library.cofc.edu/iiif/lcdl80716JPEG1jpg/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Default order",
+      "canvases": [
+        {
+          "@id": "https://rspace.library.cofc.edu/iiif/lcdl80716JPEG1jpg/canvas/0",
+          "@type": "sc:Canvas",
+          "label": "0",
+          "height": 2000,
+          "width": 1748,
+          "thumbnail": {
+            "@id": "https://iiif.library.cofc.edu/iiif/2/36215/full/thm/0/default.jpg",
+            "@type": "dctypes:Image",
+            "height": 150,
+            "width": 131,
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://iiif.library.cofc.edu/iiif/2/36215",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            }
+          },
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "https://rspace.library.cofc.edu/iiif/lcdl80716JPEG1jpg/annotation/0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.library.cofc.edu/iiif/2/36215/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.library.cofc.edu/iiif/2/36215",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://rspace.library.cofc.edu/iiif/lcdl80716JPEG1jpg/canvas/0",
+              "height": 2000,
+              "width": 1748
+            }
+          ],
+          "otherContent": [
+            {
+              "@context": "//iiif.io/api/presentation/2/context.json",
+              "@id": "https://lcdl.library.cofc.edu/lcdl/collections/annotation?iiif_identifier=lcdl80716JPEG1jpg",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        },
+        {
+          "@id": "https://rspace.library.cofc.edu/iiif/lcdl80716JPEG1jpg/canvas/1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 85,
+          "width": 1773,
+          "thumbnail": {
+            "@id": "https://iiif.library.cofc.edu/iiif/2/36215/full/thm/0/default.jpg",
+            "@type": "dctypes:Image",
+            "height": 150,
+            "width": 131,
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://iiif.library.cofc.edu/iiif/2/36215",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            }
+          },
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "https://rspace.library.cofc.edu/iiif/lcdl80716JPEG1jpg/annotation/1",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.library.cofc.edu/iiif/2/%2Ffilestore%2F3%2F6%2F2%2F1%2F5_beff85909ddce5c%2F36215_alt_15617_febc93ad3fd7ad7.jpg/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.library.cofc.edu/iiif/2/%2Ffilestore%2F3%2F6%2F2%2F1%2F5_beff85909ddce5c%2F36215_alt_15617_febc93ad3fd7ad7.jpg",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://rspace.library.cofc.edu/iiif/lcdl80716JPEG1jpg/canvas/1",
+              "height": 85,
+              "width": 1773
+            }
+          ],
+          "otherContent": [
+            {
+              "@context": "//iiif.io/api/presentation/2/context.json",
+              "@id": "https://lcdl.library.cofc.edu/lcdl/collections/annotation?iiif_identifier=lcdl80716JPEG1jpg",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

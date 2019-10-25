@@ -1,0 +1,197 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://rspace.library.cofc.edu/iiif/lcdl50841JPEG1jpg/manifest",
+  "@type": "sc:Manifest",
+  "label": "The Chapel in the Union House of Living Judaism-Berg Memorial, 838 Fifth Avenue, New York, N.Y.",
+  "description": "Black-and-white photographic postcard of the interior of the chapel at the Union of American Hebrew Congregations headquarters in New York.",
+  "metadata": [
+    {
+      "label": "Description",
+      "value": "Black-and-white photographic postcard of the interior of the chapel at the Union of American Hebrew Congregations headquarters in New York."
+    },
+    {
+      "label": "Contributing Institution",
+      "value": [
+        {
+          "@value": "College of Charleston Libraries",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Copyright Status Statement",
+      "value": "Digital image copyright 2012, The College of Charleston Libraries. All rights reserved. For more information contact the College of Charleston Library, Charleston, SC 29424"
+    },
+    {
+      "label": "Date Digital",
+      "value": "2012-02"
+    },
+    {
+      "label": "Digitization Specifications",
+      "value": "Scanned with Epson Expressions 10000 XL, 800 ppi, 24-bit color. Archival tiff image available."
+    },
+    {
+      "label": "Media Type",
+      "value": [
+        {
+          "@value": "Postcards",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Resource Locator",
+      "value": "Postcard Portfolio 10;cofc-war-postcard10-113"
+    },
+    {
+      "label": "PID",
+      "value": "lcdl:50841"
+    },
+    {
+      "label": "Collection Identifier",
+      "value": "WRP-NEW3"
+    },
+    {
+      "label": "Original filename",
+      "value": "lcdl50841-JPEG1.jpg"
+    },
+    {
+      "label": "Collection Title",
+      "value": "William A. Rosenthall Judaica Collection - Postcards"
+    },
+    {
+      "label": "Type IMT",
+      "value": "image/jpeg"
+    },
+    {
+      "label": "iiif",
+      "value": "lcdl50841JPEG1jpg"
+    },
+    {
+      "label": "Compound Identifier",
+      "value": "WRP-NEW3"
+    },
+    {
+      "label": "Subject - Temporal",
+      "value": [
+        {
+          "@value": "New York (N.Y.),English,College of Charleston Libraries,Synagogues--United States,Synagogues--New York (State)--New York,Chapels,Union of American Hebrew Congregations,Postcards",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Shelving Locator",
+      "value": "Postcard Portfolio 10;cofc-war-postcard10-113"
+    },
+    {
+      "label": "Title",
+      "value": "The Chapel in the Union House of Living Judaism-Berg Memorial, 838 Fifth Avenue, New York, N.Y."
+    },
+    {
+      "label": "Subject - Geographic",
+      "value": [
+        {
+          "@value": "New York (N.Y.)",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Subject - Topical",
+      "value": [
+        {
+          "@value": "Synagogues--United States,Synagogues--New York (State)--New York,Chapels",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Subject - Name",
+      "value": [
+        {
+          "@value": "Union of American Hebrew Congregations",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Language",
+      "value": [
+        {
+          "@value": "English",
+          "@language": "en"
+        }
+      ]
+    }
+  ],
+  "license": "Digital image copyright 2012, The College of Charleston Libraries. All rights reserved. For more information contact the College of Charleston Library, Charleston, SC 29424",
+  "thumbnail": {
+    "@id": "https://iiif.library.cofc.edu/iiif/2/50203/full/thm/0/default.jpg",
+    "@type": "dctypes:Image",
+    "height": 98,
+    "width": 150,
+    "format": "image/jpeg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif.library.cofc.edu/iiif/2/50203",
+      "profile": "http://iiif.io/api/image/2/level1.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://rspace.library.cofc.edu/iiif/lcdl50841JPEG1jpg/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Default order",
+      "canvases": [
+        {
+          "@id": "https://rspace.library.cofc.edu/iiif/lcdl50841JPEG1jpg/canvas/0",
+          "@type": "sc:Canvas",
+          "label": "0",
+          "height": 1313,
+          "width": 2000,
+          "thumbnail": {
+            "@id": "https://iiif.library.cofc.edu/iiif/2/50203/full/thm/0/default.jpg",
+            "@type": "dctypes:Image",
+            "height": 98,
+            "width": 150,
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://iiif.library.cofc.edu/iiif/2/50203",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            }
+          },
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "https://rspace.library.cofc.edu/iiif/lcdl50841JPEG1jpg/annotation/0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.library.cofc.edu/iiif/2/50203/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.library.cofc.edu/iiif/2/50203",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://rspace.library.cofc.edu/iiif/lcdl50841JPEG1jpg/canvas/0",
+              "height": 1313,
+              "width": 2000
+            }
+          ],
+          "otherContent": [
+            {
+              "@context": "//iiif.io/api/presentation/2/context.json",
+              "@id": "https://lcdl.library.cofc.edu/lcdl/collections/annotation?iiif_identifier=lcdl50841JPEG1jpg",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

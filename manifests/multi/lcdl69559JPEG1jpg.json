@@ -1,0 +1,202 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://rspace.library.cofc.edu/iiif/lcdl69559JPEG1jpg/manifest",
+  "@type": "sc:Manifest",
+  "label": "Military officials at a train station, Photograph 13",
+  "description": "Photograph of unidentified military officials, in uniform, conversing at the train station.",
+  "metadata": [
+    {
+      "label": "Description",
+      "value": "Photograph of unidentified military officials, in uniform, conversing at the train station."
+    },
+    {
+      "label": "Access Note",
+      "value": "For more information contact Special Collections at Addlestone Library, College of Charleston, Charleston, SC, 29424."
+    },
+    {
+      "label": "Contributing Institution",
+      "value": [
+        {
+          "@value": "College of Charleston Libraries",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Copyright Status Statement",
+      "value": "Copyright status undetermined."
+    },
+    {
+      "label": "Date Digital",
+      "value": "2014-09-17"
+    },
+    {
+      "label": "Digitization Specifications",
+      "value": "300 dpi, 24-bit depth color, Epson Expression 10000XL, Archival Masters are tiffs."
+    },
+    {
+      "label": "Media Type",
+      "value": [
+        {
+          "@value": "Images",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Type",
+      "value": [
+        {
+          "@value": "StillImage",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "PID",
+      "value": "lcdl:69559"
+    },
+    {
+      "label": "Collection Identifier",
+      "value": "GSL"
+    },
+    {
+      "label": "Original filename",
+      "value": "lcdl69559-JPEG1.jpg"
+    },
+    {
+      "label": "Collection Title",
+      "value": "Gertrude Sanford Legendre Papers, 1844-1996"
+    },
+    {
+      "label": "Series Title",
+      "value": [
+        {
+          "@value": "Gertrude Sanford Legendre Papers: Mario Pansa Materials",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Type IMT",
+      "value": "image/jpeg"
+    },
+    {
+      "label": "iiif",
+      "value": "lcdl69559JPEG1jpg"
+    },
+    {
+      "label": "Compound Identifier",
+      "value": "GSL"
+    },
+    {
+      "label": "Subject - Temporal",
+      "value": [
+        {
+          "@value": "StillImage,College of Charleston Libraries,1943-08,Images,Pansa, Mario, -1946,Gertrude Sanford Legendre Papers: Mario Pansa Materials,Military ceremonies, honors, and salutes,Military uniforms,Military officers,Railroad trains",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Title",
+      "value": "Military officials at a train station, Photograph 13"
+    },
+    {
+      "label": "Subject - Topical",
+      "value": [
+        {
+          "@value": "Military ceremonies, honors, and salutes,Military uniforms,Military officers,Railroad trains",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Subject - Name",
+      "value": [
+        {
+          "@value": "Pansa, Mario, -1946",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Date",
+      "value": [
+        {
+          "@value": "1943-08",
+          "@language": "en"
+        }
+      ]
+    }
+  ],
+  "license": "Copyright status undetermined.",
+  "thumbnail": {
+    "@id": "https://iiif.library.cofc.edu/iiif/2/35990/full/thm/0/default.jpg",
+    "@type": "dctypes:Image",
+    "height": 110,
+    "width": 150,
+    "format": "image/jpeg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif.library.cofc.edu/iiif/2/35990",
+      "profile": "http://iiif.io/api/image/2/level1.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://rspace.library.cofc.edu/iiif/lcdl69559JPEG1jpg/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Default order",
+      "canvases": [
+        {
+          "@id": "https://rspace.library.cofc.edu/iiif/lcdl69559JPEG1jpg/canvas/0",
+          "@type": "sc:Canvas",
+          "label": "0",
+          "height": 1473,
+          "width": 2000,
+          "thumbnail": {
+            "@id": "https://iiif.library.cofc.edu/iiif/2/35990/full/thm/0/default.jpg",
+            "@type": "dctypes:Image",
+            "height": 110,
+            "width": 150,
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://iiif.library.cofc.edu/iiif/2/35990",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            }
+          },
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "https://rspace.library.cofc.edu/iiif/lcdl69559JPEG1jpg/annotation/0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.library.cofc.edu/iiif/2/35990/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.library.cofc.edu/iiif/2/35990",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://rspace.library.cofc.edu/iiif/lcdl69559JPEG1jpg/canvas/0",
+              "height": 1473,
+              "width": 2000
+            }
+          ],
+          "otherContent": [
+            {
+              "@context": "//iiif.io/api/presentation/2/context.json",
+              "@id": "https://lcdl.library.cofc.edu/lcdl/collections/annotation?iiif_identifier=lcdl69559JPEG1jpg",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

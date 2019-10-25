@@ -1,0 +1,219 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://rspace.library.cofc.edu/iiif/lcdl146159JPEG1jpg/manifest",
+  "@type": "sc:Manifest",
+  "label": "Georgetown District Plat 1848",
+  "description": "Copy of two tracts of land A and B. A containing 1144 acres, and B, containing 580 located north of the Santee River and Duck Creek for Georgetown District. John Hutchinson, Chardon, Laroche, Foijsin, Gail Huger, Isaac Huger, Mark Hugin, Ford, Job. Rothmaklen, Jospeh Purcell and Charles Parker. Notable geographic locations include Mosquito Creek, Four Mile Creek, Belin Creek Duck Creek, Minim Creek, Santee River, Winyaw Bay, and Georgetown District.",
+  "metadata": [
+    {
+      "label": "Description",
+      "value": "Copy of two tracts of land A and B. A containing 1144 acres, and B, containing 580 located north of the Santee River and Duck Creek for Georgetown District. John Hutchinson, Chardon, Laroche, Foijsin, Gail Huger, Isaac Huger, Mark Hugin, Ford, Job. Rothmaklen, Jospeh Purcell and Charles Parker. Notable geographic locations include Mosquito Creek, Four Mile Creek, Belin Creek Duck Creek, Minim Creek, Santee River, Winyaw Bay, and Georgetown District."
+    },
+    {
+      "label": "Access Note",
+      "value": "For more information and re-use requirements contact the South Carolina Historical Society, Charleston, SC, 29401."
+    },
+    {
+      "label": "Contributing Institution",
+      "value": [
+        {
+          "@value": "South Carolina Historical Society",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Copyright Status Statement",
+      "value": "Public Domain."
+    },
+    {
+      "label": "Date Digital",
+      "value": "2018-09-26"
+    },
+    {
+      "label": "Digitization Specifications",
+      "value": "400 dpi, 24-bit depth, color, Bookeye 4 Basic, Archival masters are tiffs."
+    },
+    {
+      "label": "Media Type",
+      "value": [
+        {
+          "@value": "Maps",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Resource Locator",
+      "value": "510.00, Box 3, Folder 85"
+    },
+    {
+      "label": "Type",
+      "value": [
+        {
+          "@value": "StillImage",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "PID",
+      "value": "lcdl:146159"
+    },
+    {
+      "label": "Collection Identifier",
+      "value": "mccradyplat"
+    },
+    {
+      "label": "Original filename",
+      "value": "lcdl:146159-JPEG1.jpg"
+    },
+    {
+      "label": "Collection Title",
+      "value": "John McCrady Plats and Deeds Collection"
+    },
+    {
+      "label": "Type IMT",
+      "value": "image/jpeg"
+    },
+    {
+      "label": "iiif",
+      "value": "lcdl146159JPEG1jpg"
+    },
+    {
+      "label": "Compound Identifier",
+      "value": "mccradyplat"
+    },
+    {
+      "label": "Subject - Temporal",
+      "value": [
+        {
+          "@value": "StillImage,Orangeburg County (S.C.),Conveyancing--South Carolina,Santee River (S.C.),Maps,English,South Carolina Historical Society,Surveying--South Carolina,1848,Maps",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Shelving Locator",
+      "value": "510.00, Box 3, Folder 85"
+    },
+    {
+      "label": "Subject - Geographic County",
+      "value": [
+        {
+          "@value": "Orangeburg County (S.C.)",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Title",
+      "value": "Georgetown District Plat 1848"
+    },
+    {
+      "label": "Subject - Geographic",
+      "value": [
+        {
+          "@value": "Santee River (S.C.)",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Subject - Topical",
+      "value": [
+        {
+          "@value": "Conveyancing--South Carolina,Maps,Surveying--South Carolina",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Date",
+      "value": [
+        {
+          "@value": "1848",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Language",
+      "value": [
+        {
+          "@value": "English",
+          "@language": "en"
+        }
+      ]
+    }
+  ],
+  "license": "Public Domain.",
+  "thumbnail": {
+    "@id": "https://iiif.library.cofc.edu/iiif/2/223356/full/thm/0/default.jpg",
+    "@type": "dctypes:Image",
+    "height": 103,
+    "width": 150,
+    "format": "image/jpeg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif.library.cofc.edu/iiif/2/223356",
+      "profile": "http://iiif.io/api/image/2/level1.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://rspace.library.cofc.edu/iiif/lcdl146159JPEG1jpg/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Default order",
+      "canvases": [
+        {
+          "@id": "https://rspace.library.cofc.edu/iiif/lcdl146159JPEG1jpg/canvas/0",
+          "@type": "sc:Canvas",
+          "label": "0",
+          "height": 1369,
+          "width": 2000,
+          "thumbnail": {
+            "@id": "https://iiif.library.cofc.edu/iiif/2/223356/full/thm/0/default.jpg",
+            "@type": "dctypes:Image",
+            "height": 103,
+            "width": 150,
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://iiif.library.cofc.edu/iiif/2/223356",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            }
+          },
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "https://rspace.library.cofc.edu/iiif/lcdl146159JPEG1jpg/annotation/0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.library.cofc.edu/iiif/2/223356/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.library.cofc.edu/iiif/2/223356",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://rspace.library.cofc.edu/iiif/lcdl146159JPEG1jpg/canvas/0",
+              "height": 1369,
+              "width": 2000
+            }
+          ],
+          "otherContent": [
+            {
+              "@context": "//iiif.io/api/presentation/2/context.json",
+              "@id": "https://lcdl.library.cofc.edu/lcdl/collections/annotation?iiif_identifier=lcdl146159JPEG1jpg",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

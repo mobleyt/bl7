@@ -1,0 +1,210 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://rspace.library.cofc.edu/iiif/lcdl63189JPEG1jpg/manifest",
+  "@type": "sc:Manifest",
+  "label": "Book discussion at Dart Hall Branch Library, 1952 (2)",
+  "description": "Dart Hall Branch Library, 19 Kracke Street. Patrons and staff gathered for book discussion. Susan Dart Butler seated at the front of the room to far right. Caption on back: \"Great Books group Dart Hall Branch Charleston County Free Library S.C.\"",
+  "metadata": [
+    {
+      "label": "Description",
+      "value": "Dart Hall Branch Library, 19 Kracke Street. Patrons and staff gathered for book discussion. Susan Dart Butler seated at the front of the room to far right. Caption on back: \"Great Books group Dart Hall Branch Charleston County Free Library S.C.\""
+    },
+    {
+      "label": "Contributing Institution",
+      "value": [
+        {
+          "@value": "The Charleston Archive at CCPL",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Copyright Status Statement",
+      "value": "Digital image copyright 2014, Charleston County Public Library. All rights reserved. For more information contact the Charleston Archive, Charleston County Public Library, 68 Calhoun Street, Charleston, SC 29401. http://www.ccpl.org"
+    },
+    {
+      "label": "Date Digital",
+      "value": "2013-10-31"
+    },
+    {
+      "label": "Digitization Specifications",
+      "value": "600 ppi, 24-bit color, Epson Expression 10000XL scanner, Archival Master is a tiff."
+    },
+    {
+      "label": "Media Type",
+      "value": [
+        {
+          "@value": "Images",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Resource Locator",
+      "value": "ccpl_110"
+    },
+    {
+      "label": "Type",
+      "value": [
+        {
+          "@value": "StillImage",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "PID",
+      "value": "lcdl:63189"
+    },
+    {
+      "label": "Collection Identifier",
+      "value": "CCPL-HI"
+    },
+    {
+      "label": "Original filename",
+      "value": "lcdl63189-JPEG1.jpg"
+    },
+    {
+      "label": "Collection Title",
+      "value": "Images from the Records of the Charleston County Public Library"
+    },
+    {
+      "label": "Note",
+      "value": "8\" x 10\" Black and white photograph."
+    },
+    {
+      "label": "Type IMT",
+      "value": "image/jpeg"
+    },
+    {
+      "label": "iiif",
+      "value": "lcdl63189JPEG1jpg"
+    },
+    {
+      "label": "Compound Identifier",
+      "value": "CCPL-HI"
+    },
+    {
+      "label": "Subject - Temporal",
+      "value": [
+        {
+          "@value": "StillImage,Charleston County (S.C.),The Charleston Archive at CCPL,Charleston County Library,Public libraries--South Carolina--Charleston County,1952-10-06,Butler, Susan Dart,African Americans and libraries,Images",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Shelving Locator",
+      "value": "ccpl_110"
+    },
+    {
+      "label": "Subject - Geographic County",
+      "value": [
+        {
+          "@value": "Charleston County (S.C.)",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Title",
+      "value": "Book discussion at Dart Hall Branch Library, 1952 (2)"
+    },
+    {
+      "label": "Subject - Topical",
+      "value": [
+        {
+          "@value": "Public libraries--South Carolina--Charleston County,African Americans and libraries",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Subject - Name",
+      "value": [
+        {
+          "@value": "Charleston County Library,Butler, Susan Dart",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Date",
+      "value": [
+        {
+          "@value": "1952-10-06",
+          "@language": "en"
+        }
+      ]
+    }
+  ],
+  "license": "Digital image copyright 2014, Charleston County Public Library. All rights reserved. For more information contact the Charleston Archive, Charleston County Public Library, 68 Calhoun Street, Charleston, SC 29401. http://www.ccpl.org",
+  "thumbnail": {
+    "@id": "https://iiif.library.cofc.edu/iiif/2/25226/full/thm/0/default.jpg",
+    "@type": "dctypes:Image",
+    "height": 120,
+    "width": 150,
+    "format": "image/jpeg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif.library.cofc.edu/iiif/2/25226",
+      "profile": "http://iiif.io/api/image/2/level1.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://rspace.library.cofc.edu/iiif/lcdl63189JPEG1jpg/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Default order",
+      "canvases": [
+        {
+          "@id": "https://rspace.library.cofc.edu/iiif/lcdl63189JPEG1jpg/canvas/0",
+          "@type": "sc:Canvas",
+          "label": "0",
+          "height": 1603,
+          "width": 2000,
+          "thumbnail": {
+            "@id": "https://iiif.library.cofc.edu/iiif/2/25226/full/thm/0/default.jpg",
+            "@type": "dctypes:Image",
+            "height": 120,
+            "width": 150,
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://iiif.library.cofc.edu/iiif/2/25226",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            }
+          },
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "https://rspace.library.cofc.edu/iiif/lcdl63189JPEG1jpg/annotation/0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.library.cofc.edu/iiif/2/25226/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.library.cofc.edu/iiif/2/25226",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://rspace.library.cofc.edu/iiif/lcdl63189JPEG1jpg/canvas/0",
+              "height": 1603,
+              "width": 2000
+            }
+          ],
+          "otherContent": [
+            {
+              "@context": "//iiif.io/api/presentation/2/context.json",
+              "@id": "https://lcdl.library.cofc.edu/lcdl/collections/annotation?iiif_identifier=lcdl63189JPEG1jpg",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

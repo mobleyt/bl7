@@ -1,0 +1,210 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://rspace.library.cofc.edu/iiif/lcdl146008JPEG1jpg/manifest",
+  "@type": "sc:Manifest",
+  "label": "Wall Eye Swamp Plat 1770",
+  "description": "Plan of a tract of 1000 acres of land in Wall Eye Swamp in Craven County [now in parts of Berkeley, Charleston, Georgetown, and Williamsburg counties]. Names associated with this plat are Samuel Cooper, James Sinkler, Peter Sinkler, Isham Moore, John Bremar, and William Bull.",
+  "metadata": [
+    {
+      "label": "Description",
+      "value": "Plan of a tract of 1000 acres of land in Wall Eye Swamp in Craven County [now in parts of Berkeley, Charleston, Georgetown, and Williamsburg counties]. Names associated with this plat are Samuel Cooper, James Sinkler, Peter Sinkler, Isham Moore, John Bremar, and William Bull."
+    },
+    {
+      "label": "Access Note",
+      "value": "For more information and re-use requirements contact the South Carolina Historical Society, Charleston, SC, 29401."
+    },
+    {
+      "label": "Contributing Institution",
+      "value": [
+        {
+          "@value": "South Carolina Historical Society",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Copyright Status Statement",
+      "value": "Public Domain."
+    },
+    {
+      "label": "Date Digital",
+      "value": "2016-02-22"
+    },
+    {
+      "label": "Digitization Specifications",
+      "value": "400 dpi, 24-bit depth, color, Bookeye 4 Basic, Archival masters are tiffs."
+    },
+    {
+      "label": "Media Type",
+      "value": [
+        {
+          "@value": "Maps",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Resource Locator",
+      "value": "510.00, Box 1, Folder 48"
+    },
+    {
+      "label": "Type",
+      "value": [
+        {
+          "@value": "StillImage",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "PID",
+      "value": "lcdl:146008"
+    },
+    {
+      "label": "Collection Identifier",
+      "value": "mccradyplat"
+    },
+    {
+      "label": "Original filename",
+      "value": "lcdl:146008-JPEG1.jpg"
+    },
+    {
+      "label": "Collection Title",
+      "value": "John McCrady Plats and Deeds Collection"
+    },
+    {
+      "label": "Type IMT",
+      "value": "image/jpeg"
+    },
+    {
+      "label": "iiif",
+      "value": "lcdl146008JPEG1jpg"
+    },
+    {
+      "label": "Compound Identifier",
+      "value": "mccradyplat"
+    },
+    {
+      "label": "Subject - Temporal",
+      "value": [
+        {
+          "@value": "StillImage,Conveyancing--South Carolina,Maps,English,South Carolina Historical Society,Surveying--South Carolina,1770,Maps,Bull family,Cooper family",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Shelving Locator",
+      "value": "510.00, Box 1, Folder 48"
+    },
+    {
+      "label": "Title",
+      "value": "Wall Eye Swamp Plat 1770"
+    },
+    {
+      "label": "Subject - Topical",
+      "value": [
+        {
+          "@value": "Conveyancing--South Carolina,Maps,Surveying--South Carolina",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Subject - Name",
+      "value": [
+        {
+          "@value": "Bull family,Cooper family",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Date",
+      "value": [
+        {
+          "@value": "1770",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Language",
+      "value": [
+        {
+          "@value": "English",
+          "@language": "en"
+        }
+      ]
+    }
+  ],
+  "license": "Public Domain.",
+  "thumbnail": {
+    "@id": "https://iiif.library.cofc.edu/iiif/2/223206/full/thm/0/default.jpg",
+    "@type": "dctypes:Image",
+    "height": 114,
+    "width": 150,
+    "format": "image/jpeg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif.library.cofc.edu/iiif/2/223206",
+      "profile": "http://iiif.io/api/image/2/level1.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://rspace.library.cofc.edu/iiif/lcdl146008JPEG1jpg/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Default order",
+      "canvases": [
+        {
+          "@id": "https://rspace.library.cofc.edu/iiif/lcdl146008JPEG1jpg/canvas/0",
+          "@type": "sc:Canvas",
+          "label": "0",
+          "height": 1520,
+          "width": 2000,
+          "thumbnail": {
+            "@id": "https://iiif.library.cofc.edu/iiif/2/223206/full/thm/0/default.jpg",
+            "@type": "dctypes:Image",
+            "height": 114,
+            "width": 150,
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://iiif.library.cofc.edu/iiif/2/223206",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            }
+          },
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "https://rspace.library.cofc.edu/iiif/lcdl146008JPEG1jpg/annotation/0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.library.cofc.edu/iiif/2/223206/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.library.cofc.edu/iiif/2/223206",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://rspace.library.cofc.edu/iiif/lcdl146008JPEG1jpg/canvas/0",
+              "height": 1520,
+              "width": 2000
+            }
+          ],
+          "otherContent": [
+            {
+              "@context": "//iiif.io/api/presentation/2/context.json",
+              "@id": "https://lcdl.library.cofc.edu/lcdl/collections/annotation?iiif_identifier=lcdl146008JPEG1jpg",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,225 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://rspace.library.cofc.edu/iiif/Fraser116jpg704/manifest",
+  "@type": "sc:Manifest",
+  "label": "\"A view in Charleston taken from Savage's Green\"",
+  "description": "Work on paper in watercolor and ink dated 1796. Large, white Georgian style two story house is fronted by a clear blue stream. In this frontal view, the symmetrical house has two chimneys and four windows on each floor. First floor has elaborate double door while immediately above it on second floor, there is an elaborate window. House is sided by a less ornate taupe building to its left, half hidden by a grove of trees. To the main house's right, a smaller brick support building stands behind an impressive brick and iron gate. Horse-drawn carriage is found waiting outside of the gate. Water visible in background to right of smaller building. Grass visible in foreground, between viewer, water, and house.",
+  "metadata": [
+    {
+      "label": "Description",
+      "value": "Work on paper in watercolor and ink dated 1796. Large, white Georgian style two story house is fronted by a clear blue stream. In this frontal view, the symmetrical house has two chimneys and four windows on each floor. First floor has elaborate double door while immediately above it on second floor, there is an elaborate window. House is sided by a less ornate taupe building to its left, half hidden by a grove of trees. To the main house's right, a smaller brick support building stands behind an impressive brick and iron gate. Horse-drawn carriage is found waiting outside of the gate. Water visible in background to right of smaller building. Grass visible in foreground, between viewer, water, and house."
+    },
+    {
+      "label": "Access Note",
+      "value": "For more information, contact Gibbes Museum of Art, 135 Meeting St., Charleston, SC 29401"
+    },
+    {
+      "label": "Contributing Institution",
+      "value": [
+        {
+          "@value": "Gibbes Museum of Art",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Copyright Status Statement",
+      "value": "Public domain."
+    },
+    {
+      "label": "Date Digital",
+      "value": "2014"
+    },
+    {
+      "label": "Digitization Specifications",
+      "value": "Scanned by the Lyrasis Digitization Project. 600 dpi. Archival masters are tiffs."
+    },
+    {
+      "label": "Format",
+      "value": "image/jpeg"
+    },
+    {
+      "label": "Media Type",
+      "value": [
+        {
+          "@value": "Images",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Resource Locator",
+      "value": "1938.036.0010"
+    },
+    {
+      "label": "Type",
+      "value": [
+        {
+          "@value": "StillImage",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Collection Identifier",
+      "value": "GIBBS-CFSB"
+    },
+    {
+      "label": "Original filename",
+      "value": "Fraser_116.jpg"
+    },
+    {
+      "label": "Collection Title",
+      "value": "Charles Fraser's Sketchbook, 1796-1805"
+    },
+    {
+      "label": "iiif",
+      "value": "Fraser116jpg704"
+    },
+    {
+      "label": "Subject - Temporal",
+      "value": [
+        {
+          "@value": "StillImage,Charleston (S.C.),Charleston County (S.C.),Watercolor painting,Carolina Art Association,English,Fraser, Charles, 1782-1860,Fraser, Charles, 1782-1860,Images,Gibbes Museum of Art,Drawings,1800-1809,1790-1799,Sketchbooks,Smith, Alice R. Huger (Alice Ravenel Huger), 1876-,Landscape painting,Architecture in art,Seascapes",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Subject - Geographic County",
+      "value": [
+        {
+          "@value": "Charleston County (S.C.)",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Title",
+      "value": "\"A view in Charleston taken from Savage's Green\""
+    },
+    {
+      "label": "Subject - Geographic",
+      "value": [
+        {
+          "@value": "Charleston (S.C.)",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Subject - Topical",
+      "value": [
+        {
+          "@value": "Watercolor painting,Drawings,Sketchbooks,Landscape painting,Architecture in art,Seascapes",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Subject - Name",
+      "value": [
+        {
+          "@value": "Carolina Art Association,Fraser, Charles, 1782-1860,Smith, Alice R. Huger (Alice Ravenel Huger), 1876-",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Creator Name (Personal)",
+      "value": [
+        {
+          "@value": "Fraser, Charles, 1782-1860",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Date",
+      "value": [
+        {
+          "@value": "1800-1809,1790-1799",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Language",
+      "value": [
+        {
+          "@value": "English",
+          "@language": "en"
+        }
+      ]
+    }
+  ],
+  "license": "Public domain.",
+  "thumbnail": {
+    "@id": "https://iiif.library.cofc.edu/iiif/2/242790/full/thm/0/default.jpg",
+    "@type": "dctypes:Image",
+    "height": 101,
+    "width": 150,
+    "format": "image/jpeg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif.library.cofc.edu/iiif/2/242790",
+      "profile": "http://iiif.io/api/image/2/level1.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://rspace.library.cofc.edu/iiif/Fraser116jpg704/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Default order",
+      "canvases": [
+        {
+          "@id": "https://rspace.library.cofc.edu/iiif/Fraser116jpg704/canvas/0",
+          "@type": "sc:Canvas",
+          "label": "0",
+          "height": 1466,
+          "width": 2184,
+          "thumbnail": {
+            "@id": "https://iiif.library.cofc.edu/iiif/2/242790/full/thm/0/default.jpg",
+            "@type": "dctypes:Image",
+            "height": 101,
+            "width": 150,
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://iiif.library.cofc.edu/iiif/2/242790",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            }
+          },
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "https://rspace.library.cofc.edu/iiif/Fraser116jpg704/annotation/0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.library.cofc.edu/iiif/2/242790/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.library.cofc.edu/iiif/2/242790",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://rspace.library.cofc.edu/iiif/Fraser116jpg704/canvas/0",
+              "height": 1466,
+              "width": 2184
+            }
+          ],
+          "otherContent": [
+            {
+              "@context": "//iiif.io/api/presentation/2/context.json",
+              "@id": "https://lcdl.library.cofc.edu/lcdl/collections/annotation?iiif_identifier=Fraser116jpg704",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

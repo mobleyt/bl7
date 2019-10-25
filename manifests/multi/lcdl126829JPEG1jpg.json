@@ -1,0 +1,193 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://rspace.library.cofc.edu/iiif/lcdl126829JPEG1jpg/manifest",
+  "@type": "sc:Manifest",
+  "label": "Page 1, Photo 1",
+  "description": "View of Charleston from rooftop of the Calhoun Mansion, facing east. Page 1, Photo 1 of collection. 3.5\" x 3.5\" B/W photograph.",
+  "metadata": [
+    {
+      "label": "Description",
+      "value": "View of Charleston from rooftop of the Calhoun Mansion, facing east. Page 1, Photo 1 of collection. 3.5\" x 3.5\" B/W photograph."
+    },
+    {
+      "label": "Access Note",
+      "value": "For more information and reuse requirements contact The Charleston Archive at Charleston County Public Library, 68 Calhoun Street, Charleston, SC 29401"
+    },
+    {
+      "label": "Contributing Institution",
+      "value": [
+        {
+          "@value": "The Charleston Archive at CCPL",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Copyright Status Statement",
+      "value": "No known copyright restrictions."
+    },
+    {
+      "label": "Date Digital",
+      "value": "2011-06-08"
+    },
+    {
+      "label": "Digitization Specifications",
+      "value": "600 ppi, 24-bit depth, color, Epson Expression 10000XL scanner, Archival Master is a tiff."
+    },
+    {
+      "label": "Media Type",
+      "value": [
+        {
+          "@value": "Images",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Type",
+      "value": [
+        {
+          "@value": "StillImage",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "PID",
+      "value": "lcdl:126829"
+    },
+    {
+      "label": "Collection Identifier",
+      "value": "gwilliams"
+    },
+    {
+      "label": "Original filename",
+      "value": "lcdl126829-JPEG1.jpg"
+    },
+    {
+      "label": "Collection Title",
+      "value": "George W. Williams Photograph Collection"
+    },
+    {
+      "label": "Type IMT",
+      "value": "image/jpeg"
+    },
+    {
+      "label": "iiif",
+      "value": "lcdl126829JPEG1jpg"
+    },
+    {
+      "label": "Compound Identifier",
+      "value": "gwilliams"
+    },
+    {
+      "label": "Subject - Temporal",
+      "value": [
+        {
+          "@value": "StillImage,Charleston County (S.C.),The Charleston Archive at CCPL,Charleston (S.C.)--Buildings, structures, etc.,Images,Buildings--South Carolina--Charleston",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Subject - Geographic County",
+      "value": [
+        {
+          "@value": "Charleston County (S.C.)",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Title",
+      "value": "Page 1, Photo 1"
+    },
+    {
+      "label": "Subject - Geographic",
+      "value": [
+        {
+          "@value": "Charleston (S.C.)--Buildings, structures, etc.",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Subject - Topical",
+      "value": [
+        {
+          "@value": "Buildings--South Carolina--Charleston",
+          "@language": "en"
+        }
+      ]
+    }
+  ],
+  "license": "No known copyright restrictions.",
+  "thumbnail": {
+    "@id": "https://iiif.library.cofc.edu/iiif/2/42942/full/thm/0/default.jpg",
+    "@type": "dctypes:Image",
+    "height": 149,
+    "width": 150,
+    "format": "image/jpeg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif.library.cofc.edu/iiif/2/42942",
+      "profile": "http://iiif.io/api/image/2/level1.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://rspace.library.cofc.edu/iiif/lcdl126829JPEG1jpg/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Default order",
+      "canvases": [
+        {
+          "@id": "https://rspace.library.cofc.edu/iiif/lcdl126829JPEG1jpg/canvas/0",
+          "@type": "sc:Canvas",
+          "label": "0",
+          "height": 1969,
+          "width": 1977,
+          "thumbnail": {
+            "@id": "https://iiif.library.cofc.edu/iiif/2/42942/full/thm/0/default.jpg",
+            "@type": "dctypes:Image",
+            "height": 149,
+            "width": 150,
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://iiif.library.cofc.edu/iiif/2/42942",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            }
+          },
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "https://rspace.library.cofc.edu/iiif/lcdl126829JPEG1jpg/annotation/0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.library.cofc.edu/iiif/2/42942/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.library.cofc.edu/iiif/2/42942",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://rspace.library.cofc.edu/iiif/lcdl126829JPEG1jpg/canvas/0",
+              "height": 1969,
+              "width": 1977
+            }
+          ],
+          "otherContent": [
+            {
+              "@context": "//iiif.io/api/presentation/2/context.json",
+              "@id": "https://lcdl.library.cofc.edu/lcdl/collections/annotation?iiif_identifier=lcdl126829JPEG1jpg",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

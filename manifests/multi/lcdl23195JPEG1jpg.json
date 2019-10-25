@@ -1,0 +1,212 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://rspace.library.cofc.edu/iiif/lcdl23195JPEG1jpg/manifest",
+  "@type": "sc:Manifest",
+  "label": "Joe Engel in soccer uniform, DP camp Zeilsheim, 1946",
+  "description": "Individual photograph of Joe Engel in soccer uniform, DP camp Zeilsheim, 1946.",
+  "metadata": [
+    {
+      "label": "Description",
+      "value": "Individual photograph of Joe Engel in soccer uniform, DP camp Zeilsheim, 1946."
+    },
+    {
+      "label": "Contributing Institution",
+      "value": [
+        {
+          "@value": "College of Charleston Libraries",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Copyright Status Statement",
+      "value": "Digital image copyright 2007, The College of Charleston Libraries.  All rights reserved.  For more information contact The College of Charleston Library, Charleston, SC, 29424."
+    },
+    {
+      "label": "Date Digital",
+      "value": "2007-10"
+    },
+    {
+      "label": "Media Type",
+      "value": [
+        {
+          "@value": "Images",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Type",
+      "value": [
+        {
+          "@value": "StillImage",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "PID",
+      "value": "lcdl:23195"
+    },
+    {
+      "label": "Collection Identifier",
+      "value": "HAP3"
+    },
+    {
+      "label": "Original filename",
+      "value": "lcdl23195-JPEG1.jpg"
+    },
+    {
+      "label": "Collection Title",
+      "value": "Joe Engel Papers, 1938-2006"
+    },
+    {
+      "label": "Type IMT",
+      "value": "image/jpeg"
+    },
+    {
+      "label": "iiif",
+      "value": "lcdl23195JPEG1jpg"
+    },
+    {
+      "label": "Compound Identifier",
+      "value": "HAP3"
+    },
+    {
+      "label": "Subject - Temporal",
+      "value": [
+        {
+          "@value": "StillImage,English,College of Charleston Libraries,1946,Images,Holocaust, Jewish (1939-1945)--Personal narratives,Holocaust survivors--Poland,Engel, Joe, 1927-,Engel, Joe, 1927-,Zeilsheim (Displaced persons camp)--Pictorial works,Refugee camps--Germany--Pictorial works,Death marches--Poland,Zeilsheim (Frankfurt, Germany)",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Title",
+      "value": "Joe Engel in soccer uniform, DP camp Zeilsheim, 1946"
+    },
+    {
+      "label": "Subject - Geographic",
+      "value": [
+        {
+          "@value": "Zeilsheim (Frankfurt, Germany)",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Subject - Topical",
+      "value": [
+        {
+          "@value": "Holocaust, Jewish (1939-1945)--Personal narratives,Holocaust survivors--Poland,Zeilsheim (Displaced persons camp)--Pictorial works,Refugee camps--Germany--Pictorial works,Death marches--Poland",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Subject - Name",
+      "value": [
+        {
+          "@value": "Engel, Joe, 1927-",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Creator Name (Personal)",
+      "value": [
+        {
+          "@value": "Engel, Joe, 1927-",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Date",
+      "value": [
+        {
+          "@value": "1946",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Language",
+      "value": [
+        {
+          "@value": "English",
+          "@language": "en"
+        }
+      ]
+    }
+  ],
+  "license": "Digital image copyright 2007, The College of Charleston Libraries.  All rights reserved.  For more information contact The College of Charleston Library, Charleston, SC, 29424.",
+  "thumbnail": {
+    "@id": "https://iiif.library.cofc.edu/iiif/2/60561/full/thm/0/default.jpg",
+    "@type": "dctypes:Image",
+    "height": 150,
+    "width": 103,
+    "format": "image/jpeg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif.library.cofc.edu/iiif/2/60561",
+      "profile": "http://iiif.io/api/image/2/level1.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://rspace.library.cofc.edu/iiif/lcdl23195JPEG1jpg/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Default order",
+      "canvases": [
+        {
+          "@id": "https://rspace.library.cofc.edu/iiif/lcdl23195JPEG1jpg/canvas/0",
+          "@type": "sc:Canvas",
+          "label": "0",
+          "height": 3616,
+          "width": 2475,
+          "thumbnail": {
+            "@id": "https://iiif.library.cofc.edu/iiif/2/60561/full/thm/0/default.jpg",
+            "@type": "dctypes:Image",
+            "height": 150,
+            "width": 103,
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://iiif.library.cofc.edu/iiif/2/60561",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            }
+          },
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "https://rspace.library.cofc.edu/iiif/lcdl23195JPEG1jpg/annotation/0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.library.cofc.edu/iiif/2/60561/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.library.cofc.edu/iiif/2/60561",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://rspace.library.cofc.edu/iiif/lcdl23195JPEG1jpg/canvas/0",
+              "height": 3616,
+              "width": 2475
+            }
+          ],
+          "otherContent": [
+            {
+              "@context": "//iiif.io/api/presentation/2/context.json",
+              "@id": "https://lcdl.library.cofc.edu/lcdl/collections/annotation?iiif_identifier=lcdl23195JPEG1jpg",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

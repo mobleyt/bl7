@@ -1,0 +1,210 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://rspace.library.cofc.edu/iiif/lcdl65842JPEG1jpg/manifest",
+  "@type": "sc:Manifest",
+  "label": "La Circoncision des Juifs Portugais / The Circumcision of the Portuguese Jews - Le Rachat du Premier Né / The Redemption of the First Born",
+  "description": "Black-and-white engravings depicting a circumcision performed by a Portuguese Jewish family in Amsterdam, above, and pidyon haben (redemption of the first-born son), below. Engraving by Claude Du Bosc after Bernard Picart. From The Ceremonies and Religious Customs of the Various Nations of the Known World : together with historical annotations and several curious discourses... Written originally in French, and illustrated with a large number of folio copper plates designed by Mr. Bernard Picart, and curiously engraved by most of the best hands in Europe..., Volume 1, published London: William Jackson and Claude Dubosc, 1733-1739.",
+  "metadata": [
+    {
+      "label": "Description",
+      "value": "Black-and-white engravings depicting a circumcision performed by a Portuguese Jewish family in Amsterdam, above, and pidyon haben (redemption of the first-born son), below. Engraving by Claude Du Bosc after Bernard Picart. From The Ceremonies and Religious Customs of the Various Nations of the Known World : together with historical annotations and several curious discourses... Written originally in French, and illustrated with a large number of folio copper plates designed by Mr. Bernard Picart, and curiously engraved by most of the best hands in Europe..., Volume 1, published London: William Jackson and Claude Dubosc, 1733-1739."
+    },
+    {
+      "label": "Access Note",
+      "value": "For more information contact Special Collections at the College of Charleston Libraries, Charleston, SC 29424."
+    },
+    {
+      "label": "Contributing Institution",
+      "value": [
+        {
+          "@value": "College of Charleston Libraries",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Copyright Status Statement",
+      "value": "Public domain."
+    },
+    {
+      "label": "Date Digital",
+      "value": "2011-08-11"
+    },
+    {
+      "label": "Digitization Specifications",
+      "value": "Scanned with Epson Expression 10000 XL, 250 ppi, 24-bit color. Archival tiff image available."
+    },
+    {
+      "label": "Media Type",
+      "value": [
+        {
+          "@value": "Images",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Resource Locator",
+      "value": "Print Portfolio 09,cofc-war-print09-023"
+    },
+    {
+      "label": "Type",
+      "value": [
+        {
+          "@value": "StillImage",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "PID",
+      "value": "lcdl:65842"
+    },
+    {
+      "label": "Collection Identifier",
+      "value": "ROS"
+    },
+    {
+      "label": "Original filename",
+      "value": "lcdl65842-JPEG1.jpg"
+    },
+    {
+      "label": "Collection Title",
+      "value": "William A. Rosenthall Judaica Collection - Prints and Photographs"
+    },
+    {
+      "label": "Type IMT",
+      "value": "image/jpeg"
+    },
+    {
+      "label": "iiif",
+      "value": "lcdl65842JPEG1jpg"
+    },
+    {
+      "label": "Compound Identifier",
+      "value": "ROS"
+    },
+    {
+      "label": "Subject - Temporal",
+      "value": [
+        {
+          "@value": "StillImage,College of Charleston Libraries,Amsterdam (Netherlands),Jews--Social life and customs,Judaism--Customs and practices,Picart,French,English,Circumcision--Religious aspects--Judaism,Berit milah,Images,Du Bosc,Redemption of the first-born",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Shelving Locator",
+      "value": "Print Portfolio 09,cofc-war-print09-023"
+    },
+    {
+      "label": "Title",
+      "value": "La Circoncision des Juifs Portugais / The Circumcision of the Portuguese Jews - Le Rachat du Premier Né / The Redemption of the First Born"
+    },
+    {
+      "label": "Subject - Geographic",
+      "value": [
+        {
+          "@value": "Amsterdam (Netherlands)",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Subject - Topical",
+      "value": [
+        {
+          "@value": "Jews--Social life and customs,Judaism--Customs and practices,Circumcision--Religious aspects--Judaism,Berit milah,Redemption of the first-born",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Creator Name (Personal)",
+      "value": [
+        {
+          "@value": "Picart,Du Bosc",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Language",
+      "value": [
+        {
+          "@value": "French,English",
+          "@language": "en"
+        }
+      ]
+    }
+  ],
+  "license": "Public domain.",
+  "thumbnail": {
+    "@id": "https://iiif.library.cofc.edu/iiif/2/39968/full/thm/0/default.jpg",
+    "@type": "dctypes:Image",
+    "height": 150,
+    "width": 100,
+    "format": "image/jpeg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif.library.cofc.edu/iiif/2/39968",
+      "profile": "http://iiif.io/api/image/2/level1.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://rspace.library.cofc.edu/iiif/lcdl65842JPEG1jpg/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Default order",
+      "canvases": [
+        {
+          "@id": "https://rspace.library.cofc.edu/iiif/lcdl65842JPEG1jpg/canvas/0",
+          "@type": "sc:Canvas",
+          "label": "0",
+          "height": 2989,
+          "width": 2000,
+          "thumbnail": {
+            "@id": "https://iiif.library.cofc.edu/iiif/2/39968/full/thm/0/default.jpg",
+            "@type": "dctypes:Image",
+            "height": 150,
+            "width": 100,
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://iiif.library.cofc.edu/iiif/2/39968",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            }
+          },
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "https://rspace.library.cofc.edu/iiif/lcdl65842JPEG1jpg/annotation/0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.library.cofc.edu/iiif/2/39968/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.library.cofc.edu/iiif/2/39968",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://rspace.library.cofc.edu/iiif/lcdl65842JPEG1jpg/canvas/0",
+              "height": 2989,
+              "width": 2000
+            }
+          ],
+          "otherContent": [
+            {
+              "@context": "//iiif.io/api/presentation/2/context.json",
+              "@id": "https://lcdl.library.cofc.edu/lcdl/collections/annotation?iiif_identifier=lcdl65842JPEG1jpg",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

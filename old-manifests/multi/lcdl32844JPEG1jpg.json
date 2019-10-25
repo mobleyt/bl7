@@ -1,0 +1,206 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://rspace.library.cofc.edu/iiif/lcdl32844JPEG1jpg/manifest",
+  "@type": "sc:Manifest",
+  "label": "Vote ticket for School Commissioner, including Gustave Pollitzer",
+  "description": "A ballot for the primary election of School Commissioner held November 3rd, 1903. G.M. Pollitzer and H.B. Brux are listed as candidates. Also recorded on the ballot are the results of the primary election, declaring G.M. Pollitzer the winner by a score of 253 votes to H.B. Brux's 130 votes.",
+  "metadata": [
+    {
+      "label": "Description",
+      "value": "A ballot for the primary election of School Commissioner held November 3rd, 1903. G.M. Pollitzer and H.B. Brux are listed as candidates. Also recorded on the ballot are the results of the primary election, declaring G.M. Pollitzer the winner by a score of 253 votes to H.B. Brux's 130 votes."
+    },
+    {
+      "label": "Contributing Institution",
+      "value": [
+        {
+          "@value": "South Carolina Historical Society",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Copyright Status Statement",
+      "value": "Digital image copyright 2013, South Carolina Historical Society. All rights reserved. For more information contact The South Carolina Historical Society, Charleston, SC 29401."
+    },
+    {
+      "label": "Date Digital",
+      "value": "2013-01-24"
+    },
+    {
+      "label": "Digitization Specifications",
+      "value": "600 dpi, 24-bit depth, color, Epson Expression 10000XL, Archival masters are tiffs."
+    },
+    {
+      "label": "Media Type",
+      "value": [
+        {
+          "@value": "Manuscripts",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Resource Locator",
+      "value": "MSS-24-32-05-01"
+    },
+    {
+      "label": "Type",
+      "value": [
+        {
+          "@value": "Text",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "PID",
+      "value": "lcdl:32844"
+    },
+    {
+      "label": "Collection Identifier",
+      "value": "POL"
+    },
+    {
+      "label": "Original filename",
+      "value": "lcdl32844-JPEG1.jpg"
+    },
+    {
+      "label": "Collection Title",
+      "value": "Anita Pollitzer Family Papers"
+    },
+    {
+      "label": "Type IMT",
+      "value": "image/jpeg"
+    },
+    {
+      "label": "iiif",
+      "value": "lcdl32844JPEG1jpg"
+    },
+    {
+      "label": "Compound Identifier",
+      "value": "POL"
+    },
+    {
+      "label": "Subject - Temporal",
+      "value": [
+        {
+          "@value": "Text,Charleston County (S.C.),South Carolina Historical Society,Manuscripts,1903-11-03,South Carolina. Office of School District Accreditation and Assessment,Voting--United States",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Shelving Locator",
+      "value": "MSS-24-32-05-01"
+    },
+    {
+      "label": "Subject - Geographic County",
+      "value": [
+        {
+          "@value": "Charleston County (S.C.)",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Title",
+      "value": "Vote ticket for School Commissioner, including Gustave Pollitzer"
+    },
+    {
+      "label": "Subject - Topical",
+      "value": [
+        {
+          "@value": "Voting--United States",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Subject - Name",
+      "value": [
+        {
+          "@value": "South Carolina. Office of School District Accreditation and Assessment",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Date",
+      "value": [
+        {
+          "@value": "1903-11-03",
+          "@language": "en"
+        }
+      ]
+    }
+  ],
+  "license": "Digital image copyright 2013, South Carolina Historical Society. All rights reserved. For more information contact The South Carolina Historical Society, Charleston, SC 29401.",
+  "thumbnail": {
+    "@id": "https://iiif.library.cofc.edu/iiif/2/50300/full/thm/0/default.jpg",
+    "@type": "dctypes:Image",
+    "height": 150,
+    "width": 77,
+    "format": "image/jpeg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif.library.cofc.edu/iiif/2/50300",
+      "profile": "http://iiif.io/api/image/2/level1.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://rspace.library.cofc.edu/iiif/lcdl32844JPEG1jpg/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Default order",
+      "canvases": [
+        {
+          "@id": "https://rspace.library.cofc.edu/iiif/lcdl32844JPEG1jpg/canvas/0",
+          "@type": "sc:Canvas",
+          "label": "0",
+          "height": 2000,
+          "width": 1025,
+          "thumbnail": {
+            "@id": "https://iiif.library.cofc.edu/iiif/2/50300/full/thm/0/default.jpg",
+            "@type": "dctypes:Image",
+            "height": 150,
+            "width": 77,
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://iiif.library.cofc.edu/iiif/2/50300",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            }
+          },
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "https://rspace.library.cofc.edu/iiif/lcdl32844JPEG1jpg/annotation/0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.library.cofc.edu/iiif/2/50300/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.library.cofc.edu/iiif/2/50300",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://rspace.library.cofc.edu/iiif/lcdl32844JPEG1jpg/canvas/0",
+              "height": 2000,
+              "width": 1025
+            }
+          ],
+          "otherContent": [
+            {
+              "@context": "//iiif.io/api/presentation/2/context.json",
+              "@id": "https://beta.lcdl.library.cofc.edu/lcdl/collections/annotation?iiif_identifier=lcdl32844JPEG1jpg",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

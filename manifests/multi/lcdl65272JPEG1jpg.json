@@ -1,0 +1,210 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://rspace.library.cofc.edu/iiif/lcdl65272JPEG1jpg/manifest",
+  "@type": "sc:Manifest",
+  "label": "Ruth Alexandrovich, Soviet Jewish prisoner of conscience",
+  "description": "Postcard with a black-and-white photographic portrait of Ruth Alexandrovich. The postcard is pre-addressed to \"Procurator-General R. A. Rudenko\" and includes a printed message: \"24-year-old Ruth Alexandrovich was taken by the KGB on October 7, 1970--a week before her wedding date. Sensing impending arrest, she wrote, '...I shall never betray my much suffering people. I shall never betray my most cherished dream--to live, work and die in Israel.' Her fiance, Isay Averbuch, wrote, 'I am ready to testify that she has not committed a single violation of the laws.' Almost 40 other Jews, equally innocent of any violation of laws, are being kept in prison. Release the Jewish political prisoners.\"",
+  "metadata": [
+    {
+      "label": "Description",
+      "value": "Postcard with a black-and-white photographic portrait of Ruth Alexandrovich. The postcard is pre-addressed to \"Procurator-General R. A. Rudenko\" and includes a printed message: \"24-year-old Ruth Alexandrovich was taken by the KGB on October 7, 1970--a week before her wedding date. Sensing impending arrest, she wrote, '...I shall never betray my much suffering people. I shall never betray my most cherished dream--to live, work and die in Israel.' Her fiance, Isay Averbuch, wrote, 'I am ready to testify that she has not committed a single violation of the laws.' Almost 40 other Jews, equally innocent of any violation of laws, are being kept in prison. Release the Jewish political prisoners.\""
+    },
+    {
+      "label": "Access Note",
+      "value": "For more information contact Special Collections at the College of Charleston Libraries, Charleston, SC 29424."
+    },
+    {
+      "label": "Contributing Institution",
+      "value": [
+        {
+          "@value": "College of Charleston Libraries",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Copyright Status Statement",
+      "value": "Copyright status undetermined."
+    },
+    {
+      "label": "Date Digital",
+      "value": "2014-03-18"
+    },
+    {
+      "label": "Digitization Specifications",
+      "value": "Scanned with Epson Expression 10000 XL, 600 ppi, 24-bit color. Archival tiff image available."
+    },
+    {
+      "label": "Media Type",
+      "value": [
+        {
+          "@value": "Postcards",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Resource Locator",
+      "value": "Postcard Portfolio 13 v2,cofc-war-postcard13-v2-105"
+    },
+    {
+      "label": "Type",
+      "value": [
+        {
+          "@value": "StillImage",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "PID",
+      "value": "lcdl:65272"
+    },
+    {
+      "label": "Collection Identifier",
+      "value": "WRP-NEW3"
+    },
+    {
+      "label": "Original filename",
+      "value": "lcdl65272-JPEG1.jpg"
+    },
+    {
+      "label": "Collection Title",
+      "value": "William A. Rosenthall Judaica Collection - Postcards"
+    },
+    {
+      "label": "Type IMT",
+      "value": "image/jpeg"
+    },
+    {
+      "label": "iiif",
+      "value": "lcdl65272JPEG1jpg"
+    },
+    {
+      "label": "Compound Identifier",
+      "value": "WRP-NEW3"
+    },
+    {
+      "label": "Subject - Temporal",
+      "value": [
+        {
+          "@value": "StillImage,English,College of Charleston Libraries,Postcards,Alexandrovich, Ruth,Jews--Persecutions--Soviet Union,Soviet Union--Emigration and immigration--History--20th century",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Shelving Locator",
+      "value": "Postcard Portfolio 13 v2,cofc-war-postcard13-v2-105"
+    },
+    {
+      "label": "Title",
+      "value": "Ruth Alexandrovich, Soviet Jewish prisoner of conscience"
+    },
+    {
+      "label": "Subject - Geographic",
+      "value": [
+        {
+          "@value": "Soviet Union--Emigration and immigration--History--20th century",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Subject - Topical",
+      "value": [
+        {
+          "@value": "Jews--Persecutions--Soviet Union",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Subject - Name",
+      "value": [
+        {
+          "@value": "Alexandrovich, Ruth",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Language",
+      "value": [
+        {
+          "@value": "English",
+          "@language": "en"
+        }
+      ]
+    }
+  ],
+  "license": "Copyright status undetermined.",
+  "thumbnail": {
+    "@id": "https://iiif.library.cofc.edu/iiif/2/48289/full/thm/0/default.jpg",
+    "@type": "dctypes:Image",
+    "height": 102,
+    "width": 150,
+    "format": "image/jpeg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif.library.cofc.edu/iiif/2/48289",
+      "profile": "http://iiif.io/api/image/2/level1.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://rspace.library.cofc.edu/iiif/lcdl65272JPEG1jpg/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Default order",
+      "canvases": [
+        {
+          "@id": "https://rspace.library.cofc.edu/iiif/lcdl65272JPEG1jpg/canvas/0",
+          "@type": "sc:Canvas",
+          "label": "0",
+          "height": 1360,
+          "width": 2000,
+          "thumbnail": {
+            "@id": "https://iiif.library.cofc.edu/iiif/2/48289/full/thm/0/default.jpg",
+            "@type": "dctypes:Image",
+            "height": 102,
+            "width": 150,
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://iiif.library.cofc.edu/iiif/2/48289",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            }
+          },
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "https://rspace.library.cofc.edu/iiif/lcdl65272JPEG1jpg/annotation/0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.library.cofc.edu/iiif/2/48289/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.library.cofc.edu/iiif/2/48289",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://rspace.library.cofc.edu/iiif/lcdl65272JPEG1jpg/canvas/0",
+              "height": 1360,
+              "width": 2000
+            }
+          ],
+          "otherContent": [
+            {
+              "@context": "//iiif.io/api/presentation/2/context.json",
+              "@id": "https://lcdl.library.cofc.edu/lcdl/collections/annotation?iiif_identifier=lcdl65272JPEG1jpg",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

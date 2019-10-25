@@ -1,0 +1,228 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://rspace.library.cofc.edu/iiif/lcdl125378JPEG1jpg/manifest",
+  "@type": "sc:Manifest",
+  "label": "Parade Float at Opening of Cooper River Bridge",
+  "description": "A color photograph of a parade float sponsored by the Agricultural Society of South Carolina, Charleston County Department of Natural Resources, and the Charleston Agricultural and Industrial Fair (November 11-16, 1929).  The three are 'Partners Promoting Progress.'  The float participated in a parade celebrating the opening of the John P. Grace Memorial Bridge (also known as 'the old Cooper River Bridge').  Five girls dressed as field hands ride the float alongside a pyramid decorated with vegetables:  Julia Frampton, Annette Remington, Rosa Belle Blank, Louise Brown, and Isabel Frampton (one may not be pictured).  Special attention is paid to the iodine in vegetables and its health benefits.",
+  "metadata": [
+    {
+      "label": "Description",
+      "value": "A color photograph of a parade float sponsored by the Agricultural Society of South Carolina, Charleston County Department of Natural Resources, and the Charleston Agricultural and Industrial Fair (November 11-16, 1929).  The three are 'Partners Promoting Progress.'  The float participated in a parade celebrating the opening of the John P. Grace Memorial Bridge (also known as 'the old Cooper River Bridge').  Five girls dressed as field hands ride the float alongside a pyramid decorated with vegetables:  Julia Frampton, Annette Remington, Rosa Belle Blank, Louise Brown, and Isabel Frampton (one may not be pictured).  Special attention is paid to the iodine in vegetables and its health benefits."
+    },
+    {
+      "label": "Access Note",
+      "value": "For more information and re-use requirements contact the South Carolina Historical Society, Charleston, SC, 29401."
+    },
+    {
+      "label": "Contributing Institution",
+      "value": [
+        {
+          "@value": "South Carolina Historical Society",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Copyright Status Statement",
+      "value": "Copyright status undetermined."
+    },
+    {
+      "label": "Date Digital",
+      "value": "2008-07-22"
+    },
+    {
+      "label": "Digitization Specifications",
+      "value": "600 dpi, 24-bit depth, color, Epson Expression 12000XL, Archival masters are tiffs."
+    },
+    {
+      "label": "Media Type",
+      "value": [
+        {
+          "@value": "Images",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Resource Locator",
+      "value": "251"
+    },
+    {
+      "label": "Type",
+      "value": [
+        {
+          "@value": "StillImage",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "PID",
+      "value": "lcdl:125378"
+    },
+    {
+      "label": "Collection Identifier",
+      "value": "schsvis"
+    },
+    {
+      "label": "Original filename",
+      "value": "lcdl125378-JPEG1.jpg"
+    },
+    {
+      "label": "Collection Title",
+      "value": "Agricultural Society of South Carolina Visual Materials"
+    },
+    {
+      "label": "Type IMT",
+      "value": "image/jpeg"
+    },
+    {
+      "label": "iiif",
+      "value": "lcdl125378JPEG1jpg"
+    },
+    {
+      "label": "Compound Identifier",
+      "value": "schsvis"
+    },
+    {
+      "label": "Subject - Temporal",
+      "value": [
+        {
+          "@value": "StillImage,Charleston (S.C.),Charleston County (S.C.),Agriculture--South Carolina--Societies, etc.,Agriculture--South Carolina,English,South Carolina Historical Society,Agricultural Society of South Carolina,Images,1929-08-29,Iodine,Parade floats,Vegetables,John P. Grace Memorial Bridge (Charleston, S.C.)",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Shelving Locator",
+      "value": "251"
+    },
+    {
+      "label": "Subject - Geographic County",
+      "value": [
+        {
+          "@value": "Charleston County (S.C.)",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Title",
+      "value": "Parade Float at Opening of Cooper River Bridge"
+    },
+    {
+      "label": "Subject - Geographic",
+      "value": [
+        {
+          "@value": "Charleston (S.C.),John P. Grace Memorial Bridge (Charleston, S.C.)",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Subject - Topical",
+      "value": [
+        {
+          "@value": "Agriculture--South Carolina--Societies, etc.,Agriculture--South Carolina,Iodine,Parade floats,Vegetables",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Subject - Name",
+      "value": [
+        {
+          "@value": "Agricultural Society of South Carolina",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Date",
+      "value": [
+        {
+          "@value": "1929-08-29",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Language",
+      "value": [
+        {
+          "@value": "English",
+          "@language": "en"
+        }
+      ]
+    }
+  ],
+  "license": "Copyright status undetermined.",
+  "thumbnail": {
+    "@id": "https://iiif.library.cofc.edu/iiif/2/42803/full/thm/0/default.jpg",
+    "@type": "dctypes:Image",
+    "height": 117,
+    "width": 150,
+    "format": "image/jpeg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif.library.cofc.edu/iiif/2/42803",
+      "profile": "http://iiif.io/api/image/2/level1.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://rspace.library.cofc.edu/iiif/lcdl125378JPEG1jpg/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Default order",
+      "canvases": [
+        {
+          "@id": "https://rspace.library.cofc.edu/iiif/lcdl125378JPEG1jpg/canvas/0",
+          "@type": "sc:Canvas",
+          "label": "0",
+          "height": 1556,
+          "width": 2000,
+          "thumbnail": {
+            "@id": "https://iiif.library.cofc.edu/iiif/2/42803/full/thm/0/default.jpg",
+            "@type": "dctypes:Image",
+            "height": 117,
+            "width": 150,
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://iiif.library.cofc.edu/iiif/2/42803",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            }
+          },
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "https://rspace.library.cofc.edu/iiif/lcdl125378JPEG1jpg/annotation/0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.library.cofc.edu/iiif/2/42803/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.library.cofc.edu/iiif/2/42803",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://rspace.library.cofc.edu/iiif/lcdl125378JPEG1jpg/canvas/0",
+              "height": 1556,
+              "width": 2000
+            }
+          ],
+          "otherContent": [
+            {
+              "@context": "//iiif.io/api/presentation/2/context.json",
+              "@id": "https://lcdl.library.cofc.edu/lcdl/collections/annotation?iiif_identifier=lcdl125378JPEG1jpg",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

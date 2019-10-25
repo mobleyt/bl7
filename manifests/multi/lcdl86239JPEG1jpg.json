@@ -1,0 +1,201 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://rspace.library.cofc.edu/iiif/lcdl86239JPEG1jpg/manifest",
+  "@type": "sc:Manifest",
+  "label": "Charleston, Georgetown, and Flat Rock, Page 3 (front): Bluff by Pee Dee River / Beach Boardwalk",
+  "description": "Three photographs on page. Top left: View of bluff on a river, likely the Pee Dee River. Top right: Bluff and dwelling on Pee Dee River. Bottom: Boardwalk on unidentified beach.",
+  "metadata": [
+    {
+      "label": "Description",
+      "value": "Three photographs on page. Top left: View of bluff on a river, likely the Pee Dee River. Top right: Bluff and dwelling on Pee Dee River. Bottom: Boardwalk on unidentified beach."
+    },
+    {
+      "label": "Access Statement",
+      "value": "For attribution information contact Archivist/Librarian; Historic Charleston Foundation; P.O. Box 1120; Charleston, SC 29402."
+    },
+    {
+      "label": "Contributing Institution",
+      "value": [
+        {
+          "@value": "Margaretta Childs Archives at Historic Charleston Foundation",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Copyright Status Statement",
+      "value": "Public domain."
+    },
+    {
+      "label": "Date Digital",
+      "value": "2012-05-04"
+    },
+    {
+      "label": "Digitization Specifications",
+      "value": "600 dpi, 24-bit depth, color, Epson Perfection V600, Archival masters are tiffs."
+    },
+    {
+      "label": "Media Type",
+      "value": [
+        {
+          "@value": "Images",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Resource Locator",
+      "value": "2011.003.05"
+    },
+    {
+      "label": "Type",
+      "value": [
+        {
+          "@value": "StillImage",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "PID",
+      "value": "lcdl:86239"
+    },
+    {
+      "label": "Collection Identifier",
+      "value": "HCF-CGF"
+    },
+    {
+      "label": "Original filename",
+      "value": "lcdl86239-JPEG1.jpg"
+    },
+    {
+      "label": "Collection Title",
+      "value": "Scenes in Charleston, Georgetown, and Flat Rock, Late 19th Century"
+    },
+    {
+      "label": "Type IMT",
+      "value": "image/jpeg"
+    },
+    {
+      "label": "iiif",
+      "value": "lcdl86239JPEG1jpg"
+    },
+    {
+      "label": "Compound Identifier",
+      "value": "HCF-CGF"
+    },
+    {
+      "label": "Subject - Temporal",
+      "value": [
+        {
+          "@value": "StillImage,Margaretta Childs Archives at Historic Charleston Foundation,1890-1899,Images,Rivers--South Carolina,Boardwalks,Beaches-South Carolina,Pee Dee River (N.C. and S.C.)",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Shelving Locator",
+      "value": "2011.003.05"
+    },
+    {
+      "label": "Title",
+      "value": "Charleston, Georgetown, and Flat Rock, Page 3 (front): Bluff by Pee Dee River / Beach Boardwalk"
+    },
+    {
+      "label": "Subject - Geographic",
+      "value": [
+        {
+          "@value": "Pee Dee River (N.C. and S.C.)",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Subject - Topical",
+      "value": [
+        {
+          "@value": "Rivers--South Carolina,Boardwalks,Beaches-South Carolina",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Date",
+      "value": [
+        {
+          "@value": "1890-1899",
+          "@language": "en"
+        }
+      ]
+    }
+  ],
+  "license": "Public domain.",
+  "thumbnail": {
+    "@id": "https://iiif.library.cofc.edu/iiif/2/47840/full/thm/0/default.jpg",
+    "@type": "dctypes:Image",
+    "height": 104,
+    "width": 150,
+    "format": "image/jpeg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif.library.cofc.edu/iiif/2/47840",
+      "profile": "http://iiif.io/api/image/2/level1.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://rspace.library.cofc.edu/iiif/lcdl86239JPEG1jpg/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Default order",
+      "canvases": [
+        {
+          "@id": "https://rspace.library.cofc.edu/iiif/lcdl86239JPEG1jpg/canvas/0",
+          "@type": "sc:Canvas",
+          "label": "0",
+          "height": 1391,
+          "width": 2000,
+          "thumbnail": {
+            "@id": "https://iiif.library.cofc.edu/iiif/2/47840/full/thm/0/default.jpg",
+            "@type": "dctypes:Image",
+            "height": 104,
+            "width": 150,
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://iiif.library.cofc.edu/iiif/2/47840",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            }
+          },
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "https://rspace.library.cofc.edu/iiif/lcdl86239JPEG1jpg/annotation/0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.library.cofc.edu/iiif/2/47840/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.library.cofc.edu/iiif/2/47840",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://rspace.library.cofc.edu/iiif/lcdl86239JPEG1jpg/canvas/0",
+              "height": 1391,
+              "width": 2000
+            }
+          ],
+          "otherContent": [
+            {
+              "@context": "//iiif.io/api/presentation/2/context.json",
+              "@id": "https://lcdl.library.cofc.edu/lcdl/collections/annotation?iiif_identifier=lcdl86239JPEG1jpg",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,232 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://rspace.library.cofc.edu/iiif/lcdl86366JPEG1jpg/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter from W. A. Browning to Archbishop Spalding",
+  "description": "Letter from W. A. Browning, private secretary of President Andrew Johnson, to Archbishop Spalding of Baltimore, informing him of the pardon of Bishop P. N. Lynch of Charleston.",
+  "metadata": [
+    {
+      "label": "Description",
+      "value": "Letter from W. A. Browning, private secretary of President Andrew Johnson, to Archbishop Spalding of Baltimore, informing him of the pardon of Bishop P. N. Lynch of Charleston."
+    },
+    {
+      "label": "Access Note",
+      "value": "For more information contact The Catholic Diocese of Charleston Archives, Charleston, SC 29424."
+    },
+    {
+      "label": "Contributing Institution",
+      "value": [
+        {
+          "@value": "Catholic Diocese of Charleston Archives",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Copyright Status Statement",
+      "value": "Public domain."
+    },
+    {
+      "label": "Date Digital",
+      "value": "2014-11-24"
+    },
+    {
+      "label": "Digitization Specifications",
+      "value": "600 dpi, 24-bit depth, color, Epson Expression 10000XL, Archival masters are tiffs."
+    },
+    {
+      "label": "Transcript",
+      "value": "Executive Mansion\nWashington, D.C. Aug't 7 1865\n\nSir: \n\tBy direction of the President I \nhave the honor to enclose herewith a special \npardon for P. N. Lynch D.D. of South Carolina, \nthe receipt of which you will please do us \nthe favor to acknowledge.\n\t\tVery Respectfully\n\t\tYour Ob. Svt.\n\t\tW. A. Browning\n\t\tPrivate Secretary\n\nRt Rev Archbishop Spalding\nBaltimore, MD"
+    },
+    {
+      "label": "Media Type",
+      "value": [
+        {
+          "@value": "Manuscripts",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Resource Locator",
+      "value": "2009.028"
+    },
+    {
+      "label": "Type",
+      "value": [
+        {
+          "@value": "StillImage",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "PID",
+      "value": "lcdl:86366"
+    },
+    {
+      "label": "Collection Identifier",
+      "value": "BPL"
+    },
+    {
+      "label": "Original filename",
+      "value": "lcdl86366-JPEG1.jpg"
+    },
+    {
+      "label": "Collection Title",
+      "value": "Collection of Bishop Patrick Lynch Confederate Commissioner Papers, 1864-1865"
+    },
+    {
+      "label": "Type IMT",
+      "value": "image/jpeg"
+    },
+    {
+      "label": "iiif",
+      "value": "lcdl86366JPEG1jpg"
+    },
+    {
+      "label": "Compound Identifier",
+      "value": "BPL"
+    },
+    {
+      "label": "Subject - Temporal",
+      "value": [
+        {
+          "@value": "StillImage,Baltimore (Md.),English,Catholic Diocese of Charleston Archives,United States--History--Civil War, 1861-1865,Letters,Lynch, Patrick Neison, 1817-1882,Browning, W. A.,1865-08-07,Pardon,Manuscripts",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Shelving Locator",
+      "value": "2009.028"
+    },
+    {
+      "label": "Title",
+      "value": "Letter from W. A. Browning to Archbishop Spalding"
+    },
+    {
+      "label": "Subject - Geographic",
+      "value": [
+        {
+          "@value": "Baltimore (Md.),United States--History--Civil War, 1861-1865",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Subject - Topical",
+      "value": [
+        {
+          "@value": "Letters,Pardon",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Subject - Name",
+      "value": [
+        {
+          "@value": "Lynch, Patrick Neison, 1817-1882",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Creator Name (Personal)",
+      "value": [
+        {
+          "@value": "Browning, W. A.",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Date",
+      "value": [
+        {
+          "@value": "1865-08-07",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Language",
+      "value": [
+        {
+          "@value": "English",
+          "@language": "en"
+        }
+      ]
+    }
+  ],
+  "license": "Public domain.",
+  "thumbnail": {
+    "@id": "https://iiif.library.cofc.edu/iiif/2/27566/full/thm/0/default.jpg",
+    "@type": "dctypes:Image",
+    "height": 150,
+    "width": 121,
+    "format": "image/jpeg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif.library.cofc.edu/iiif/2/27566",
+      "profile": "http://iiif.io/api/image/2/level1.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://rspace.library.cofc.edu/iiif/lcdl86366JPEG1jpg/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Default order",
+      "canvases": [
+        {
+          "@id": "https://rspace.library.cofc.edu/iiif/lcdl86366JPEG1jpg/canvas/0",
+          "@type": "sc:Canvas",
+          "label": "0",
+          "height": 2482,
+          "width": 2000,
+          "thumbnail": {
+            "@id": "https://iiif.library.cofc.edu/iiif/2/27566/full/thm/0/default.jpg",
+            "@type": "dctypes:Image",
+            "height": 150,
+            "width": 121,
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://iiif.library.cofc.edu/iiif/2/27566",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            }
+          },
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "https://rspace.library.cofc.edu/iiif/lcdl86366JPEG1jpg/annotation/0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.library.cofc.edu/iiif/2/27566/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.library.cofc.edu/iiif/2/27566",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://rspace.library.cofc.edu/iiif/lcdl86366JPEG1jpg/canvas/0",
+              "height": 2482,
+              "width": 2000
+            }
+          ],
+          "otherContent": [
+            {
+              "@context": "//iiif.io/api/presentation/2/context.json",
+              "@id": "https://lcdl.library.cofc.edu/lcdl/collections/annotation?iiif_identifier=lcdl86366JPEG1jpg",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

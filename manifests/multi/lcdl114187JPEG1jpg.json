@@ -1,0 +1,245 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://rspace.library.cofc.edu/iiif/lcdl114187JPEG1jpg/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter from Fong Lee Wong to Laura M. Bragg, December 23, 1929",
+  "description": "Citadel Christmas card from Fong Lee Wong to Laura M. Bragg",
+  "metadata": [
+    {
+      "label": "Description",
+      "value": "Citadel Christmas card from Fong Lee Wong to Laura M. Bragg"
+    },
+    {
+      "label": "Access Note",
+      "value": "For more information contact The Citadel Archives and Museum at Daniel Library, The Citadel, 171 Moultrie Street, Charleston, SC 29409"
+    },
+    {
+      "label": "Access Statement",
+      "value": "All rights reserved."
+    },
+    {
+      "label": "Contributing Institution",
+      "value": [
+        {
+          "@value": "The Citadel Archives & Museum",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Copyright Status Statement",
+      "value": "© The Citadel Archives and Museum"
+    },
+    {
+      "label": "Date Digital",
+      "value": "2015-10-20"
+    },
+    {
+      "label": "Digitization Specifications",
+      "value": "600 dpi, 24-bit depth, color, Epson Expression 10000XL, Archival masters are tiffs."
+    },
+    {
+      "label": "Transcript",
+      "value": "May the Happiness of Christmas--tide lengthen throughout the New Year\n\t\n\tFong Lee\n\n[From:] F.L. Wong\nc/o 2645 Conn. Avenue, N.W.,\nWashington, D.C.\n\n[Addressed:] Miss Laura M. Bragg\n38 Chalmers Street\nCharleston, S.C."
+    },
+    {
+      "label": "Media Type",
+      "value": [
+        {
+          "@value": "Manuscripts",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Resource Locator",
+      "value": "Bragg Box 6 Folder 2-015"
+    },
+    {
+      "label": "Type",
+      "value": [
+        {
+          "@value": "StillImage",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "PID",
+      "value": "lcdl:114187"
+    },
+    {
+      "label": "Collection Identifier",
+      "value": "CIT-BRG"
+    },
+    {
+      "label": "Original filename",
+      "value": "lcdl114187-JPEG1.jpg"
+    },
+    {
+      "label": "Collection Title",
+      "value": "Laura Bragg Papers"
+    },
+    {
+      "label": "Type IMT",
+      "value": "image/jpeg"
+    },
+    {
+      "label": "iiif",
+      "value": "lcdl114187JPEG1jpg"
+    },
+    {
+      "label": "Compound Identifier",
+      "value": "CIT-BRG"
+    },
+    {
+      "label": "Subject - Temporal",
+      "value": [
+        {
+          "@value": "StillImage,Citadel, the Military College of South Carolina,Washington (D.C.),Charleston County (S.C.),English,The Citadel Archives & Museum,Bragg, Laura M. (Laura Mary), 1881-1978,Christmas cards,Manuscripts,Wong, Fong Lee,1929-12-23",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Shelving Locator",
+      "value": "Bragg Box 6 Folder 2-015"
+    },
+    {
+      "label": "Subject - Geographic County",
+      "value": [
+        {
+          "@value": "Charleston County (S.C.)",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Title",
+      "value": "Letter from Fong Lee Wong to Laura M. Bragg, December 23, 1929"
+    },
+    {
+      "label": "Subject - Geographic",
+      "value": [
+        {
+          "@value": "Washington (D.C.)",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Subject - Topical",
+      "value": [
+        {
+          "@value": "Christmas cards",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Subject - Name",
+      "value": [
+        {
+          "@value": "Citadel, the Military College of South Carolina,Bragg, Laura M. (Laura Mary), 1881-1978",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Creator Name (Personal)",
+      "value": [
+        {
+          "@value": "Wong, Fong Lee",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Date",
+      "value": [
+        {
+          "@value": "1929-12-23",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Language",
+      "value": [
+        {
+          "@value": "English",
+          "@language": "en"
+        }
+      ]
+    }
+  ],
+  "license": "© The Citadel Archives and Museum",
+  "thumbnail": {
+    "@id": "https://iiif.library.cofc.edu/iiif/2/38280/full/thm/0/default.jpg",
+    "@type": "dctypes:Image",
+    "height": 96,
+    "width": 150,
+    "format": "image/jpeg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif.library.cofc.edu/iiif/2/38280",
+      "profile": "http://iiif.io/api/image/2/level1.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://rspace.library.cofc.edu/iiif/lcdl114187JPEG1jpg/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Default order",
+      "canvases": [
+        {
+          "@id": "https://rspace.library.cofc.edu/iiif/lcdl114187JPEG1jpg/canvas/0",
+          "@type": "sc:Canvas",
+          "label": "0",
+          "height": 2000,
+          "width": 3113,
+          "thumbnail": {
+            "@id": "https://iiif.library.cofc.edu/iiif/2/38280/full/thm/0/default.jpg",
+            "@type": "dctypes:Image",
+            "height": 96,
+            "width": 150,
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://iiif.library.cofc.edu/iiif/2/38280",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            }
+          },
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "https://rspace.library.cofc.edu/iiif/lcdl114187JPEG1jpg/annotation/0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.library.cofc.edu/iiif/2/38280/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.library.cofc.edu/iiif/2/38280",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://rspace.library.cofc.edu/iiif/lcdl114187JPEG1jpg/canvas/0",
+              "height": 2000,
+              "width": 3113
+            }
+          ],
+          "otherContent": [
+            {
+              "@context": "//iiif.io/api/presentation/2/context.json",
+              "@id": "https://lcdl.library.cofc.edu/lcdl/collections/annotation?iiif_identifier=lcdl114187JPEG1jpg",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

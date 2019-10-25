@@ -1,0 +1,223 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://rspace.library.cofc.edu/iiif/lcdl117898JPEG1jpg/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter from F. Eugene Williams to Jerome Clemons, August 21, 1990",
+  "description": "Letter rom F. Eugene Williams, Executive Vice-President of Santee Cooper to Jerome Clemons of the Contributions Committee of the Charleston Branch of the NAACP, regarding Bronze sponsorship.",
+  "metadata": [
+    {
+      "label": "Description",
+      "value": "Letter rom F. Eugene Williams, Executive Vice-President of Santee Cooper to Jerome Clemons of the Contributions Committee of the Charleston Branch of the NAACP, regarding Bronze sponsorship."
+    },
+    {
+      "label": "Access Note",
+      "value": "For more information contact archivist at the Avery Research Center, 125 Bull Street, Charleston, SC 29424."
+    },
+    {
+      "label": "Access Statement",
+      "value": "All rights reserved."
+    },
+    {
+      "label": "Contributing Institution",
+      "value": [
+        {
+          "@value": "Avery Research Center at the College of Charleston",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Copyright Status Statement",
+      "value": "Copyright © F. Eugene Williams."
+    },
+    {
+      "label": "Date Digital",
+      "value": "2016-11"
+    },
+    {
+      "label": "Digitization Specifications",
+      "value": "300 dpi, 24-bit depth, color, Fujitsu fi-7160, Archival masters are tiffs."
+    },
+    {
+      "label": "Media Type",
+      "value": [
+        {
+          "@value": "Documents",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Resource Locator",
+      "value": "AMN 1117 Box 12 Folder 114"
+    },
+    {
+      "label": "Type",
+      "value": [
+        {
+          "@value": "Text",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "PID",
+      "value": "lcdl:117898"
+    },
+    {
+      "label": "Collection Identifier",
+      "value": "AMN1117"
+    },
+    {
+      "label": "Original filename",
+      "value": "lcdl117898-JPEG1.jpg"
+    },
+    {
+      "label": "Collection Title",
+      "value": "Charleston Branch of the National Association for the Advancement of Colored People Papers, 1920-1995"
+    },
+    {
+      "label": "Type IMT",
+      "value": "image/jpeg"
+    },
+    {
+      "label": "iiif",
+      "value": "lcdl117898JPEG1jpg"
+    },
+    {
+      "label": "Compound Identifier",
+      "value": "AMN1117"
+    },
+    {
+      "label": "Subject - Temporal",
+      "value": [
+        {
+          "@value": "Text,Charleston (S.C.),African Americans--Civil rights,African Americans--Political activity,Charleston (S.C.)--Race relations,National Association for the Advancement of Colored People,National Association for the Advancement of Colored People. Charleston Branch (Charleston, S.C.),Avery Research Center at the College of Charleston,English,African Americans--South Carolina,Documents,1990-08-21,Williams, F. Eugene",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Shelving Locator",
+      "value": "AMN 1117 Box 12 Folder 114"
+    },
+    {
+      "label": "Title",
+      "value": "Letter from F. Eugene Williams to Jerome Clemons, August 21, 1990"
+    },
+    {
+      "label": "Subject - Geographic",
+      "value": [
+        {
+          "@value": "Charleston (S.C.)",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Subject - Topical",
+      "value": [
+        {
+          "@value": "African Americans--Civil rights,African Americans--Political activity,Charleston (S.C.)--Race relations,National Association for the Advancement of Colored People,National Association for the Advancement of Colored People. Charleston Branch (Charleston, S.C.),African Americans--South Carolina",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Creator Name (Personal)",
+      "value": [
+        {
+          "@value": "Williams, F. Eugene",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Date",
+      "value": [
+        {
+          "@value": "1990-08-21",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Language",
+      "value": [
+        {
+          "@value": "English",
+          "@language": "en"
+        }
+      ]
+    }
+  ],
+  "license": "Copyright © F. Eugene Williams.",
+  "thumbnail": {
+    "@id": "https://iiif.library.cofc.edu/iiif/2/41730/full/thm/0/default.jpg",
+    "@type": "dctypes:Image",
+    "height": 150,
+    "width": 114,
+    "format": "image/jpeg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif.library.cofc.edu/iiif/2/41730",
+      "profile": "http://iiif.io/api/image/2/level1.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://rspace.library.cofc.edu/iiif/lcdl117898JPEG1jpg/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Default order",
+      "canvases": [
+        {
+          "@id": "https://rspace.library.cofc.edu/iiif/lcdl117898JPEG1jpg/canvas/0",
+          "@type": "sc:Canvas",
+          "label": "0",
+          "height": 2000,
+          "width": 1514,
+          "thumbnail": {
+            "@id": "https://iiif.library.cofc.edu/iiif/2/41730/full/thm/0/default.jpg",
+            "@type": "dctypes:Image",
+            "height": 150,
+            "width": 114,
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://iiif.library.cofc.edu/iiif/2/41730",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            }
+          },
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "https://rspace.library.cofc.edu/iiif/lcdl117898JPEG1jpg/annotation/0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.library.cofc.edu/iiif/2/41730/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.library.cofc.edu/iiif/2/41730",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://rspace.library.cofc.edu/iiif/lcdl117898JPEG1jpg/canvas/0",
+              "height": 2000,
+              "width": 1514
+            }
+          ],
+          "otherContent": [
+            {
+              "@context": "//iiif.io/api/presentation/2/context.json",
+              "@id": "https://lcdl.library.cofc.edu/lcdl/collections/annotation?iiif_identifier=lcdl117898JPEG1jpg",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

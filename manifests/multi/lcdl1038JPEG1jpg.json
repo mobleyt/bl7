@@ -1,0 +1,216 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://rspace.library.cofc.edu/iiif/lcdl1038JPEG1jpg/manifest",
+  "@type": "sc:Manifest",
+  "label": "Yard Cafeteria",
+  "description": "Writing on bottom states, \"1216-41 US Navy Yard, Charleston, SC August 10, 1941. Yard Cafeteria, bldg. 63, looking northeast. Contract NOy-4211. File 8857.\"",
+  "metadata": [
+    {
+      "label": "Description",
+      "value": "Writing on bottom states, \"1216-41 US Navy Yard, Charleston, SC August 10, 1941. Yard Cafeteria, bldg. 63, looking northeast. Contract NOy-4211. File 8857.\""
+    },
+    {
+      "label": "Contributing Institution",
+      "value": [
+        {
+          "@value": "Patriots Point Naval and Maritime Museum",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Copyright Status Statement",
+      "value": "Digital image copyright 2010, Patriots Point Naval and Maritime Museum. All rights reserved. For more information contact Patriots Point Naval and Maritime Museum, Mt. Pleasant, SC."
+    },
+    {
+      "label": "Date Digital",
+      "value": "2010-09"
+    },
+    {
+      "label": "Digitization Specifications",
+      "value": "600 ppi, 24-bit depth, color, Microtek ScanMaker i700, Archival Masters are jpegs."
+    },
+    {
+      "label": "Media Type",
+      "value": [
+        {
+          "@value": "Images",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Type",
+      "value": [
+        {
+          "@value": "StillImage",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "PID",
+      "value": "lcdl:1038"
+    },
+    {
+      "label": "Collection Identifier",
+      "value": "PAT"
+    },
+    {
+      "label": "Original filename",
+      "value": "lcdl1038-JPEG1.jpg"
+    },
+    {
+      "label": "Collection Title",
+      "value": "Charleston Naval Shipyard Photographs"
+    },
+    {
+      "label": "Type IMT",
+      "value": "image/jpeg"
+    },
+    {
+      "label": "iiif",
+      "value": "lcdl1038JPEG1jpg"
+    },
+    {
+      "label": "Compound Identifier",
+      "value": "PAT"
+    },
+    {
+      "label": "Subject - Temporal",
+      "value": [
+        {
+          "@value": "StillImage,Charleston County (S.C.),Low Country,Patriots Point Naval and Maritime Museum,World War II,Images,United States. Navy,Shipyards,United States Navy,1941-08-10",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Subject - Geographic County",
+      "value": [
+        {
+          "@value": "Charleston County (S.C.)",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Title",
+      "value": "Yard Cafeteria"
+    },
+    {
+      "label": "Subject - Geographic",
+      "value": [
+        {
+          "@value": "Low Country",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Subject - Topical",
+      "value": [
+        {
+          "@value": "World War II,Shipyards",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Subject - Name",
+      "value": [
+        {
+          "@value": "United States. Navy",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Creator Name (Corporate)",
+      "value": [
+        {
+          "@value": "United States Navy",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Date",
+      "value": [
+        {
+          "@value": "1941-08-10",
+          "@language": "en"
+        }
+      ]
+    }
+  ],
+  "license": "Digital image copyright 2010, Patriots Point Naval and Maritime Museum. All rights reserved. For more information contact Patriots Point Naval and Maritime Museum, Mt. Pleasant, SC.",
+  "thumbnail": {
+    "@id": "https://iiif.library.cofc.edu/iiif/2/59624/full/thm/0/default.jpg",
+    "@type": "dctypes:Image",
+    "height": 119,
+    "width": 150,
+    "format": "image/jpeg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif.library.cofc.edu/iiif/2/59624",
+      "profile": "http://iiif.io/api/image/2/level1.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://rspace.library.cofc.edu/iiif/lcdl1038JPEG1jpg/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Default order",
+      "canvases": [
+        {
+          "@id": "https://rspace.library.cofc.edu/iiif/lcdl1038JPEG1jpg/canvas/0",
+          "@type": "sc:Canvas",
+          "label": "0",
+          "height": 4612,
+          "width": 5793,
+          "thumbnail": {
+            "@id": "https://iiif.library.cofc.edu/iiif/2/59624/full/thm/0/default.jpg",
+            "@type": "dctypes:Image",
+            "height": 119,
+            "width": 150,
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://iiif.library.cofc.edu/iiif/2/59624",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            }
+          },
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "https://rspace.library.cofc.edu/iiif/lcdl1038JPEG1jpg/annotation/0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.library.cofc.edu/iiif/2/59624/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.library.cofc.edu/iiif/2/59624",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://rspace.library.cofc.edu/iiif/lcdl1038JPEG1jpg/canvas/0",
+              "height": 4612,
+              "width": 5793
+            }
+          ],
+          "otherContent": [
+            {
+              "@context": "//iiif.io/api/presentation/2/context.json",
+              "@id": "https://lcdl.library.cofc.edu/lcdl/collections/annotation?iiif_identifier=lcdl1038JPEG1jpg",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

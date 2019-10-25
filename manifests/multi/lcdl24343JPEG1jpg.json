@@ -1,0 +1,207 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://rspace.library.cofc.edu/iiif/lcdl24343JPEG1jpg/manifest",
+  "@type": "sc:Manifest",
+  "label": "Naomi White",
+  "description": "Naomi White (b. 1925) worked as a nurse at the Medical College of  Charleston hospital (now MUSC) for twenty-seven years before retiring in 1985.  She was among the leaders of 1969 hospital workers strike. Mass demonstrations  led to mass arrests and White was among the hundreds of African Americans to  be jailed for protest activities during the strike.",
+  "metadata": [
+    {
+      "label": "Description",
+      "value": "Naomi White (b. 1925) worked as a nurse at the Medical College of  Charleston hospital (now MUSC) for twenty-seven years before retiring in 1985.  She was among the leaders of 1969 hospital workers strike. Mass demonstrations  led to mass arrests and White was among the hundreds of African Americans to  be jailed for protest activities during the strike."
+    },
+    {
+      "label": "Contributing Institution",
+      "value": [
+        {
+          "@value": "The Citadel Archives & Museum",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Copyright Status Statement",
+      "value": "Digital image copyright 2011, The Citadel Archives "
+    },
+    {
+      "label": "Date Digital",
+      "value": "2011-11-21"
+    },
+    {
+      "label": "Digitization Specifications",
+      "value": "300dpi, 24-bit depth, 3000x2400 pixels, Canon EOS 60D"
+    },
+    {
+      "label": "Media Type",
+      "value": [
+        {
+          "@value": "Images",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Type",
+      "value": [
+        {
+          "@value": "StillImage",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "PID",
+      "value": "lcdl:24343"
+    },
+    {
+      "label": "Collection Identifier",
+      "value": "CPC"
+    },
+    {
+      "label": "Original filename",
+      "value": "lcdl24343-JPEG1.jpg"
+    },
+    {
+      "label": "Collection Title",
+      "value": "The Citadel Photograph Collection"
+    },
+    {
+      "label": "Series Title",
+      "value": [
+        {
+          "@value": "Capturing Character: Interviewees of the Oral History Program",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Type IMT",
+      "value": "image/jpeg"
+    },
+    {
+      "label": "iiif",
+      "value": "lcdl24343JPEG1jpg"
+    },
+    {
+      "label": "Compound Identifier",
+      "value": "CPC"
+    },
+    {
+      "label": "Subject - Temporal",
+      "value": [
+        {
+          "@value": "StillImage,Charleston County (S.C.),The Citadel Archives & Museum,Images,2011-10-23,White, Naomi, 1925-,Capturing Character: Interviewees of the Oral History Program,Citadel Photography Class with Tiffany Silverman and Alice Keeney, September 2011",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Subject - Geographic County",
+      "value": [
+        {
+          "@value": "Charleston County (S.C.)",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Title",
+      "value": "Naomi White"
+    },
+    {
+      "label": "Subject - Name",
+      "value": [
+        {
+          "@value": "White, Naomi, 1925-",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Creator Name (Corporate)",
+      "value": [
+        {
+          "@value": "Citadel Photography Class with Tiffany Silverman and Alice Keeney, September 2011",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Date",
+      "value": [
+        {
+          "@value": "2011-10-23",
+          "@language": "en"
+        }
+      ]
+    }
+  ],
+  "license": "Digital image copyright 2011, The Citadel Archives ",
+  "thumbnail": {
+    "@id": "https://iiif.library.cofc.edu/iiif/2/60128/full/thm/0/default.jpg",
+    "@type": "dctypes:Image",
+    "height": 120,
+    "width": 150,
+    "format": "image/jpeg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif.library.cofc.edu/iiif/2/60128",
+      "profile": "http://iiif.io/api/image/2/level1.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://rspace.library.cofc.edu/iiif/lcdl24343JPEG1jpg/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Default order",
+      "canvases": [
+        {
+          "@id": "https://rspace.library.cofc.edu/iiif/lcdl24343JPEG1jpg/canvas/0",
+          "@type": "sc:Canvas",
+          "label": "0",
+          "height": 2400,
+          "width": 3000,
+          "thumbnail": {
+            "@id": "https://iiif.library.cofc.edu/iiif/2/60128/full/thm/0/default.jpg",
+            "@type": "dctypes:Image",
+            "height": 120,
+            "width": 150,
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://iiif.library.cofc.edu/iiif/2/60128",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            }
+          },
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "https://rspace.library.cofc.edu/iiif/lcdl24343JPEG1jpg/annotation/0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.library.cofc.edu/iiif/2/60128/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.library.cofc.edu/iiif/2/60128",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://rspace.library.cofc.edu/iiif/lcdl24343JPEG1jpg/canvas/0",
+              "height": 2400,
+              "width": 3000
+            }
+          ],
+          "otherContent": [
+            {
+              "@context": "//iiif.io/api/presentation/2/context.json",
+              "@id": "https://lcdl.library.cofc.edu/lcdl/collections/annotation?iiif_identifier=lcdl24343JPEG1jpg",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

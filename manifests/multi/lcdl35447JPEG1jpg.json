@@ -1,0 +1,189 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://rspace.library.cofc.edu/iiif/lcdl35447JPEG1jpg/manifest",
+  "@type": "sc:Manifest",
+  "label": "Terra-Cotta Warrior",
+  "description": "Soldier from the Terracotta Army of emperor Qin Shi Huang near Xian, China.  Watercolor, 18x13 cm.",
+  "metadata": [
+    {
+      "label": "Description",
+      "value": "Soldier from the Terracotta Army of emperor Qin Shi Huang near Xian, China.  Watercolor, 18x13 cm."
+    },
+    {
+      "label": "Contributing Institution",
+      "value": [
+        {
+          "@value": "College of Charleston Libraries",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Copyright Status Statement",
+      "value": "Digital image copyright 2010, The College of Charleston Libraries. All rights reserved. For more information contact The College of Charleston Library, Charleston, SC 29424."
+    },
+    {
+      "label": "Media Type",
+      "value": [
+        {
+          "@value": "Images",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Resource Locator",
+      "value": "22_Chi_Terra_Cotta_Warrior.jpg,Mss 0169"
+    },
+    {
+      "label": "Type",
+      "value": [
+        {
+          "@value": "StillImage",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "PID",
+      "value": "lcdl:35447"
+    },
+    {
+      "label": "Collection Identifier",
+      "value": "AWK5_Pearlstine"
+    },
+    {
+      "label": "Original filename",
+      "value": "lcdl35447-JPEG1.jpg"
+    },
+    {
+      "label": "Collection Title",
+      "value": "Maynard Pearlstine Travel Albums and Sketches, 1936-2006"
+    },
+    {
+      "label": "Type IMT",
+      "value": "image/jpeg"
+    },
+    {
+      "label": "iiif",
+      "value": "lcdl35447JPEG1jpg"
+    },
+    {
+      "label": "Compound Identifier",
+      "value": "AWK5_Pearlstine"
+    },
+    {
+      "label": "Subject - Temporal",
+      "value": [
+        {
+          "@value": "StillImage,Watercolor painting,College of Charleston Libraries,Images,2004,Pearlstine, Maynard,Terra-cotta sculpture, Chinese--Qin-Han dynasties, 221 B.C.-220 A.D.--Pictorial works",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Shelving Locator",
+      "value": "22_Chi_Terra_Cotta_Warrior.jpg,Mss 0169"
+    },
+    {
+      "label": "Title",
+      "value": "Terra-Cotta Warrior"
+    },
+    {
+      "label": "Subject - Topical",
+      "value": [
+        {
+          "@value": "Watercolor painting,Terra-cotta sculpture, Chinese--Qin-Han dynasties, 221 B.C.-220 A.D.--Pictorial works",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Creator Name (Personal)",
+      "value": [
+        {
+          "@value": "Pearlstine, Maynard",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Date",
+      "value": [
+        {
+          "@value": "2004",
+          "@language": "en"
+        }
+      ]
+    }
+  ],
+  "license": "Digital image copyright 2010, The College of Charleston Libraries. All rights reserved. For more information contact The College of Charleston Library, Charleston, SC 29424.",
+  "thumbnail": {
+    "@id": "https://iiif.library.cofc.edu/iiif/2/56140/full/thm/0/default.jpg",
+    "@type": "dctypes:Image",
+    "height": 150,
+    "width": 107,
+    "format": "image/jpeg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif.library.cofc.edu/iiif/2/56140",
+      "profile": "http://iiif.io/api/image/2/level1.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://rspace.library.cofc.edu/iiif/lcdl35447JPEG1jpg/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Default order",
+      "canvases": [
+        {
+          "@id": "https://rspace.library.cofc.edu/iiif/lcdl35447JPEG1jpg/canvas/0",
+          "@type": "sc:Canvas",
+          "label": "0",
+          "height": 1250,
+          "width": 892,
+          "thumbnail": {
+            "@id": "https://iiif.library.cofc.edu/iiif/2/56140/full/thm/0/default.jpg",
+            "@type": "dctypes:Image",
+            "height": 150,
+            "width": 107,
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://iiif.library.cofc.edu/iiif/2/56140",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            }
+          },
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "https://rspace.library.cofc.edu/iiif/lcdl35447JPEG1jpg/annotation/0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.library.cofc.edu/iiif/2/56140/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.library.cofc.edu/iiif/2/56140",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://rspace.library.cofc.edu/iiif/lcdl35447JPEG1jpg/canvas/0",
+              "height": 1250,
+              "width": 892
+            }
+          ],
+          "otherContent": [
+            {
+              "@context": "//iiif.io/api/presentation/2/context.json",
+              "@id": "https://lcdl.library.cofc.edu/lcdl/collections/annotation?iiif_identifier=lcdl35447JPEG1jpg",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

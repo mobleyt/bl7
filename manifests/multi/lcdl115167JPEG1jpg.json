@@ -1,0 +1,219 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://rspace.library.cofc.edu/iiif/lcdl115167JPEG1jpg/manifest",
+  "@type": "sc:Manifest",
+  "label": "Interior of St. Helena Episcopal Church",
+  "description": "Hand-colored postcard of the interior of the St. Helena Episcopal Church in Beaufort, South Carolina.",
+  "metadata": [
+    {
+      "label": "Description",
+      "value": "Hand-colored postcard of the interior of the St. Helena Episcopal Church in Beaufort, South Carolina."
+    },
+    {
+      "label": "Access Note",
+      "value": "For more information contact Beaufort District Collection at the Beaufort County Library, Beaufort, S.C. 29902"
+    },
+    {
+      "label": "Contributing Institution",
+      "value": [
+        {
+          "@value": "Beaufort County Library",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Copyright Status Statement",
+      "value": "Public Domain"
+    },
+    {
+      "label": "Date Digital",
+      "value": "2016-01-25"
+    },
+    {
+      "label": "Digitization Specifications",
+      "value": "600ppi HP scanjet N6350"
+    },
+    {
+      "label": "Media Type",
+      "value": [
+        {
+          "@value": "Postcards",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Resource Locator",
+      "value": "0530010406946, Binder 1"
+    },
+    {
+      "label": "Type",
+      "value": [
+        {
+          "@value": "StillImage",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "PID",
+      "value": "lcdl:115167"
+    },
+    {
+      "label": "Collection Identifier",
+      "value": "BC-APC"
+    },
+    {
+      "label": "Original filename",
+      "value": "lcdl115167-JPEG1.jpg"
+    },
+    {
+      "label": "Collection Title",
+      "value": "Russell J. Arnsberger Postcard Collection"
+    },
+    {
+      "label": "Type IMT",
+      "value": "image/jpeg"
+    },
+    {
+      "label": "iiif",
+      "value": "lcdl115167JPEG1jpg"
+    },
+    {
+      "label": "Compound Identifier",
+      "value": "BC-APC"
+    },
+    {
+      "label": "Subject - Temporal",
+      "value": [
+        {
+          "@value": "StillImage,Beaufort County (S.C.),English,Beaufort (S.C.),Beaufort County Library,Postcards,Advertising postcards,Charles G. Luther (Beaufort, S.C.),Churches--Beaufort-South Carolina",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Shelving Locator",
+      "value": "0530010406946, Binder 1"
+    },
+    {
+      "label": "Subject - Geographic County",
+      "value": [
+        {
+          "@value": "Beaufort County (S.C.)",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Title",
+      "value": "Interior of St. Helena Episcopal Church"
+    },
+    {
+      "label": "Subject - Geographic",
+      "value": [
+        {
+          "@value": "Beaufort (S.C.)",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Subject - Topical",
+      "value": [
+        {
+          "@value": "Advertising postcards,Churches--Beaufort-South Carolina",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Creator Name (Corporate)",
+      "value": [
+        {
+          "@value": "Charles G. Luther (Beaufort, S.C.)",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "label": "Language",
+      "value": [
+        {
+          "@value": "English",
+          "@language": "en"
+        }
+      ]
+    }
+  ],
+  "license": "Public Domain",
+  "thumbnail": {
+    "@id": "https://iiif.library.cofc.edu/iiif/2/37987/full/thm/0/default.jpg",
+    "@type": "dctypes:Image",
+    "height": 98,
+    "width": 150,
+    "format": "image/jpeg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif.library.cofc.edu/iiif/2/37987",
+      "profile": "http://iiif.io/api/image/2/level1.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://rspace.library.cofc.edu/iiif/lcdl115167JPEG1jpg/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Default order",
+      "canvases": [
+        {
+          "@id": "https://rspace.library.cofc.edu/iiif/lcdl115167JPEG1jpg/canvas/0",
+          "@type": "sc:Canvas",
+          "label": "0",
+          "height": 1179,
+          "width": 1800,
+          "thumbnail": {
+            "@id": "https://iiif.library.cofc.edu/iiif/2/37987/full/thm/0/default.jpg",
+            "@type": "dctypes:Image",
+            "height": 98,
+            "width": 150,
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://iiif.library.cofc.edu/iiif/2/37987",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            }
+          },
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "https://rspace.library.cofc.edu/iiif/lcdl115167JPEG1jpg/annotation/0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.library.cofc.edu/iiif/2/37987/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.library.cofc.edu/iiif/2/37987",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://rspace.library.cofc.edu/iiif/lcdl115167JPEG1jpg/canvas/0",
+              "height": 1179,
+              "width": 1800
+            }
+          ],
+          "otherContent": [
+            {
+              "@context": "//iiif.io/api/presentation/2/context.json",
+              "@id": "https://lcdl.library.cofc.edu/lcdl/collections/annotation?iiif_identifier=lcdl115167JPEG1jpg",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
