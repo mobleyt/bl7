@@ -1,6 +1,20 @@
 <%= render :partial => 'show_tools' %>
 <br />  
   <div class="card">
+    <div class="card-header"><h2 class="mb-0 h6">Explore (Beta)</h2></div>
+    <ul class="list-group list-group-flush">
+	<% if document['resourcetype'] == '6' %>
+	<% parent = get_parent_document document['compoundidentifier'].to_s %>
+	<% collection = parent['collectiontitle'].gsub(' ','-').gsub(/[,.]/,'').downcase %>
+	<li class="list-group-item"><a href="https://lcdl.library.cofc.edu/content/<%= collection %>">View Collection Homepage</a></li>
+	<% else %>
+	<% collection = document['collectiontitle'].gsub(' ','-').gsub(/[,.]/,'').downcase %>
+	<li class="list-group-item"><a href="https://lcdl.library.cofc.edu/content/<%= collection %>">View Collection Homepage</a></li>
+	<% end %>
+    </ul>
+  </div>
+<br />
+  <div class="card">
     <div class="card-header"><h2 class="mb-0 h6">Share</h2></div>
     <div class="card-block center align-center" style="padding:15px;">
 	<!-- Go to www.addthis.com/dashboard to customize your tools --> <div class="addthis_inline_share_toolbox"></div>

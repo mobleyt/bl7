@@ -29,11 +29,13 @@ class CatalogController < ApplicationController
     ## Model that maps search index responses to the blacklight response model
     # config.response_model = Blacklight::Solr::Response
 
+
     ## Default parameters to send to solr for all search-like requests. See also SearchBuilder#processed_parameters
+
     config.default_solr_params = {
       rows: 10,
-      qt: 'select'
-#      fq: "{!tag=exclude}exclude-pages:Yes"
+      qt: '/select',
+      fq: '-resourcetype:6'
     }
 
     # solr path which will be added to solr base url before the other solr params.
@@ -48,7 +50,7 @@ class CatalogController < ApplicationController
     config.index.display_type_field = 'resourcetype'
     config.show.display_type_field = 'resourcetype'
     config.index.thumbnail_field = 'thumbnail'
-#    config.index.thumbnail_method = 'iiif_thumbnail'
+    config.index.thumbnail_method = 'iiif_thumbnail'
 #    config.add_results_document_tool(:bookmark, partial: 'bookmark_control', if: :render_bookmarks_control?)
 
     config.add_results_collection_tool(:sort_widget)
@@ -93,13 +95,15 @@ class CatalogController < ApplicationController
     #  (useful when user clicks "more" on a large facet and wants to navigate alphabetically across a large set of results)
     # :index_range can be an array or range of prefixes that will be used to create the navigation (note: It is case sensitive when searching values)
 
-    config.add_facet_field 'exclude-pages', label: 'Exclude Page Results'
+#    config.add_facet_field 'exclude-pages', label: 'Exclude Page Results'
     config.add_facet_field 'collection_titleInfo_title_facet', label: 'Collection', limit: 10
     config.add_facet_field 'contribinst_facet', label: 'Contributing Institution', limit: 10
     config.add_facet_field 'mediatype_facet', label: 'Media Type', limit: 10
     config.add_facet_field 'subject_topic_facet', label: 'Subject (Topic)', limit: 10
     config.add_facet_field 'subject_geographic_facet', label: 'Subject (Geographic)', limit: 10
     config.add_facet_field 'date_facet_facet', label: 'Date', limit: 10
+    config.add_facet_field 'seriesinfo_seriestitle_facet', label: 'Series', show: false
+#    config.add_facet_field 'seriesinfo_subseriestitle_facet', label: 'Subseries', show: false
     config.add_facet_field 'daterange', label: 'Date Range (beta)', range: true
 #    config.add_facet_field 'pub_date_ssim', label: 'Publication Year', single: true
 #    config.add_facet_field 'subject_ssim', label: 'Topic', limit: 20, index_range: 'A'..'Z'
@@ -196,14 +200,23 @@ class CatalogController < ApplicationController
     # solr request handler? The one set in config[:default_solr_parameters][:qt],
     # since we aren't specifying it otherwise.
 
-    config.add_search_field 'all_fields', label: 'All Fields'
+    #config.add_search_field 'all_fields', label: 'All Fields'
 
 
     # Now we see how to over-ride Solr request handler defaults, in this
     # case for a BL "search field", which is really a dismax aggregate
     # of Solr search fields.
 
-    config.add_search_field('title') do |field|
+
+    config.add_search_field 'all_fields', label: 'Simple Search'
+
+    config.add_search_field('PageContentSearch') do |field|
+      field.solr_parameters = {
+        fq: ''
+      }
+    end
+
+    config.add_search_field('Title Search') do |field|
       # solr_parameters hash are sent to Solr as ordinary url query params.
       field.solr_parameters = {
         qf: '${title_qf}',
@@ -211,7 +224,7 @@ class CatalogController < ApplicationController
       }
     end
 
-    config.add_search_field('creator') do |field|
+    config.add_search_field('Creator Search') do |field|
       field.solr_parameters = {
         qf: '${creator_qf}',
         pf: '${creator_pf}'
@@ -221,7 +234,7 @@ class CatalogController < ApplicationController
     # Specifying a :qt only to show it's possible, and so our internal automated
     # tests can test it. In this case it's the same as
     # config[:default_solr_parameters][:qt], so isn't actually neccesary.
-    config.add_search_field('subject') do |field|
+    config.add_search_field('Subject Search') do |field|
       field.solr_parameters = {
         qf: '${subject_qf}',
         pf: '${subject_pf}'

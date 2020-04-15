@@ -18,6 +18,14 @@ jQuery('body').on('contextmenu', 'img', function(e){ return false; });
 
   gtag('config', 'UA-142394330-1');
 </script>
+<script>
+$(document).on('contextmenu', 'img', function() {
+      return false;
+  })
+$(document).on('contextmenu', '.tify-scan', function() {
+      return false;
+  })
+</script>
 <script language="JavaScript">
   /**
     * Disable right-click of mouse, F12 key, and save key combinations on page
@@ -26,7 +34,7 @@ jQuery('body').on('contextmenu', 'img', function(e){ return false; });
     */
   window.onload = function() {
     document.addEventListener("contextmenu", function(e){
-      e.preventDefault();
+//      e.preventDefault();
     }, false);
     document.addEventListener("keydown", function(e) {
     //document.onkeydown = function(e) {
@@ -40,10 +48,6 @@ jQuery('body').on('contextmenu', 'img', function(e){ return false; });
       }
       // "S" key + macOS
       if (e.keyCode == 83 && (navigator.platform.match("Mac") ? e.metaKey : e.ctrlKey)) {
-        disabledEvent(e);
-      }
-      // "U" key
-      if (e.ctrlKey && e.keyCode == 85) {
         disabledEvent(e);
       }
       // "F12" key
@@ -65,3 +69,13 @@ jQuery('body').on('contextmenu', 'img', function(e){ return false; });
 <script>
 $('img').on('dragstart', function(event) { event.preventDefault(); });
 </script>
+
+
+<script>
+$(function(){
+  $("#pages").click(function(){
+    $.post('/lcdl/exclude');
+  })
+})
+</script>
+

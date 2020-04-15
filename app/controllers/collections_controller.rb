@@ -36,7 +36,7 @@ compound["metadata"].delete_if { |h| h["value"] == "" }
 compound["metadata"].delete_if { |h| h["value"] == [] }
 
 #Get page list from Solr query 
-page_list = "http://10.7.130.237:8983/solr/rspace/select?fl=iiif,pageorder&q=compoundidentifier:%22#{coll_identifier}%22%20AND%20resourcetype:6&rows=5000&wt=json"
+page_list = "http://10.7.130.237:8983/solr/rspace/pages?fl=iiif,pageorder&q=compoundidentifier:%22#{coll_identifier}%22%20AND%20resourcetype:6&rows=5000&wt=json"
 page_buffer = open(page_list).read
 pages = JSON.parse(page_buffer)
 pages = pages["response"]["docs"]
@@ -121,7 +121,7 @@ multi["metadata"].delete_if { |h| h["value"] == "" }
 multi["metadata"].delete_if { |h| h["value"] == [] }
 
 #get values for each filestore alt file url
-solr_alt_query = "http://10.7.130.237:8983/solr/rspace/select?fl=alternative-files&q=rspace-id:#{rspaceid}&rows=1"
+solr_alt_query = "http://10.7.130.237:8983/solr/rspace/pages?fl=alternative-files&q=rspace-id:#{rspaceid}&rows=1"
 alt_buffer = open(solr_alt_query).read
 alt_document = JSON.parse(alt_buffer)
 
@@ -211,7 +211,7 @@ def iiif_fulltext
 
 iiif_identifier = params[:iiif_identifier]
 
-page_metadata = "http://10.7.130.237:8983/solr/rspace/select?fl=transcript,title,description,pageorder,subject-topical,id,rspace-id&q=iiif:#{iiif_identifier}&wt=json"
+page_metadata = "http://10.7.130.237:8983/solr/rspace/pages?fl=transcript,title,description,pageorder,subject-topical,id,rspace-id&q=iiif:#{iiif_identifier}&wt=json"
 page = open(page_metadata).read
 page = JSON.parse(page)
 

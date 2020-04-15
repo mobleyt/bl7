@@ -11,8 +11,8 @@ Rails.application.routes.draw do
   resource :catalog, only: [:index], as: 'catalog', path: '/catalog', controller: 'catalog' do
     concerns :searchable
     concerns :range_searchable
-
   end
+
   devise_for :users, :skip => [:registrations] 
   as :user do
     get 'users/edit' => 'devise/registrations#edit', :as => 'edit_user_registration'
@@ -39,5 +39,7 @@ Rails.application.routes.draw do
   get 'collections/annotation', to: 'collections#other_manifest'
 
   get 'viewer', to: 'viewer#index'
+
+  post 'exclude', to: 'catalog#session_pages'
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end

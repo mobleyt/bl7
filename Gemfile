@@ -3,7 +3,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.4.0'
 gem 'mediaelement_rails'
-gem 'blacklight', '~>7.0.0'
+gem 'blacklight', '~>7.2.0'
 gem "blacklight_range_limit", :git => 'https://github.com/projectblacklight/blacklight_range_limit.git'
 gem 'blacklight_advanced_search', :git => 'https://github.com/projectblacklight/blacklight_advanced_search.git'
 

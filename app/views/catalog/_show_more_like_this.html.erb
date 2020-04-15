@@ -5,8 +5,8 @@
 <li class="more_like_this_document" style="margin:10px;">
 <div style="text-align:center;">
   <span class="mlt_thumb">
-  <% thumbtag = '<img style="border:1px solid #000;" src="' + document['thumbnail'] + '" />' %>
-  <%= link_to_document(document, thumbtag.html_safe) %>
+  <% thumbtag = '<img alt="' + document['title'] + '" style="border:1px solid #000;" src="' + document['thumbnail'] + '" />' %>
+  <%= thumbtag.html_safe %>
   </span>
   <span class="mlt_title"><%= link_to_document document, document_show_link_field(document) %></span>
 </div>
